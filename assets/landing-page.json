@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "resourceKey": "landing_page.nora",
+  "runtimeDataPolicy": "definitions_only",
+  "commitMessage": "Initial governed-banking landing page for Nora",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "theme": {
+        "palette": "ocean",
+        "fontFamily": "inter",
+        "primaryColor": "blue",
+        "secondaryColor": "indigo",
+        "accentColor": "teal"
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        { "label": "How it works", "target": "how-it-works" },
+        { "label": "FAQs", "target": "faq" },
+        { "label": "Contact", "target": "contact" }
+      ],
+      "ctaLabel": "Talk to Nora"
+    },
+    "badge": "Governed execution for banking AI",
+    "headline": "Banking AI that can act.",
+    "headlineAccent": "act.",
+    "subheadline": "Nora prepares and verifies complex banking work so teams can move faster — without giving up control, evidence, or accountability.",
+    "ctaLabel": "Talk to Nora",
+    "secondaryCtaLabel": "See how it works",
+    "featureTags": [
+      "Human approval gates",
+      "Scoped access",
+      "Audit-ready evidence"
+    ],
+    "demoConversation": [
+      { "role": "assistant", "text": "I've prepared the customer file and checked the required evidence." },
+      { "role": "user", "text": "What still needs my approval?" },
+      { "role": "assistant", "text": "One item — address proof needs your confirmation before I can move forward." }
+    ],
+    "heroChat": {
+      "statusLabel": "Ready for a controlled run",
+      "inputPlaceholder": "Ask Nora about a banking workflow…"
+    },
+    "features": [
+      {
+        "icon": "shield-check",
+        "title": "Customer onboarding",
+        "body": "Prepare KYC files, identify missing evidence, and route exceptions to the right owner."
+      },
+      {
+        "icon": "search",
+        "title": "Credit & lending",
+        "body": "Assemble credit packs, test policies, and keep decisions ready for review."
+      },
+      {
+        "icon": "lock",
+        "title": "Financial crime",
+        "body": "Investigate alerts with the evidence, rationale, and controls in one place."
+      },
+      {
+        "icon": "check",
+        "title": "Operations control",
+        "body": "Reconcile breaks, coordinate close tasks, and make every handoff traceable."
+      },
+      {
+        "icon": "chat",
+        "title": "Service & collections",
+        "body": "Prepare next-best actions while keeping customer treatment rules visible."
+      },
+      {
+        "icon": "calendar",
+        "title": "Treasury & trade",
+        "body": "Coordinate high-value workflows with the approvals that matter built in."
+      }
+    ],
+    "howItWorks": {
+      "icon": "shield-check",
+      "kicker": "A controlled path to action",
+      "heading": "Agents that act. Bankers stay in control.",
+      "headingAccent": "Bankers stay in control.",
+      "steps": [
+        { "icon": "envelope", "title": "Capture", "body": "Nora gathers the request, source documents, policy, and context." },
+        { "icon": "sparkles", "title": "Simulate", "body": "She prepares a safe, reviewable version of the workflow first." },
+        { "icon": "shield-check", "title": "Verify", "body": "Rules, evidence, and exceptions are checked before anything moves." },
+        { "icon": "check", "title": "Approve", "body": "The right banker sees exactly what will happen and why." },
+        { "icon": "star", "title": "Execute", "body": "Only approved actions run, with a trace ready for audit." }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Does Nora replace our core banking systems?",
+        "answer": "No. Nora works across the systems, documents, and policies your teams already use. She prepares and coordinates work; your systems remain the system of record."
+      },
+      {
+        "question": "Who approves an action?",
+        "answer": "You define the approval path. Nora makes the planned action, supporting evidence, and exceptions visible to the right banker before it can execute."
+      },
+      {
+        "question": "How are credentials and permissions handled?",
+        "answer": "Access is scoped to the workflow and kept separate from the agent's reasoning. Nora only receives the permissions required for an approved task."
+      },
+      {
+        "question": "What is available for audit and assurance?",
+        "answer": "Each run can preserve the request, evidence, checks, reviewer decisions, and confirmed system action as one traceable record."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Good questions",
+      "heading": "Before Nora\njoins your team."
+    },
+    "contact": {
+      "heading": "Works with your teams, systems, and controls.",
+      "body": "Nora fits behind the systems, documents, and policies your bank already uses — every approved action leaves a full audit trail. Talk to us about a pilot workflow.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "closing": {
+      "kicker": "Start with one important workflow",
+      "heading": "Make the next action\nthe safest one.",
+      "body": "Talk to Nora about a pilot in onboarding, controls, operations, or financial crime.",
+      "ctaLabel": "Talk to Nora"
+    }
+  }
+}
