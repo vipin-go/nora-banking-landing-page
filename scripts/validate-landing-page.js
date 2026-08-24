@@ -347,6 +347,21 @@ function validate(filePath) {
     });
   }
 
+  if (landingPage.footer !== undefined) {
+    const footer = landingPage.footer;
+    if (!footer || typeof footer !== 'object') fail('landingPage.footer must be an object');
+    if (!footer.tagline || !String(footer.tagline).trim()) fail('landingPage.footer.tagline is required');
+    for (const key of ['exploreLabel', 'useCasesLabel', 'getStartedLabel']) {
+      if (footer[key] !== undefined && typeof footer[key] !== 'string') fail(`landingPage.footer.${key} must be a string`);
+    }
+    if (footer.useCaseLinks !== undefined) {
+      if (!Array.isArray(footer.useCaseLinks)) fail('landingPage.footer.useCaseLinks must be an array');
+      footer.useCaseLinks.forEach((label, index) => {
+        if (typeof label !== 'string' || !label.trim()) fail(`landingPage.footer.useCaseLinks[${index}] must be a non-empty string`);
+      });
+    }
+  }
+
   if (landingPage.howItWorks !== undefined) {
     const howItWorks = landingPage.howItWorks;
     if (!howItWorks || typeof howItWorks !== 'object') fail('landingPage.howItWorks must be an object');

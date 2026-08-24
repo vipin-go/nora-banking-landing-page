@@ -681,6 +681,18 @@
         }
       ]
     },
+    "footer": {
+      "tagline": "A deployable banking AI persona built with Gabriel Operator.",
+      "exploreLabel": "Explore",
+      "useCasesLabel": "Use cases",
+      "getStartedLabel": "Get started",
+      "useCaseLinks": [
+        "KYC",
+        "Credit",
+        "Compliance",
+        "Operations"
+      ]
+    },
     "contact": {
       "email": "hello@nora.ai"
     },

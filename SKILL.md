@@ -166,6 +166,7 @@ button instead of two, a generic opening line in the hero mockup).
   - `selfLearning` (required, object with `learns` and `neverChanges`, both required strings) — what the workflow's self-learning loop adapts from, and what stays under human/policy control regardless.
 - `landingPage.platform` (optional, object) — multimodal surfaces shown as image cards. Requires `kicker`, `heading`, `body`, and non-empty `items` containing `image`, optional `alt`, `title`, and `body`.
 - `landingPage.trust` (optional, object) — operational governance evidence. Requires `kicker`, `heading`, `body`, `statusLabel`, `statusValue`, `statusDetail`, and non-empty `controls` (`title`, `body`).
+- `landingPage.footer` (optional, object) — authored footer copy for full-layout domain themes. Requires `tagline`; optional fields are `exploreLabel`, `useCasesLabel`, `getStartedLabel`, and `useCaseLinks` (short display labels that link back to the use-case section).
 - `landingPage.faqs` (optional, array) — rendered as an accordion. Add its header link explicitly through `landingPage.header.navItems`; omit the FAQ array to leave the section out. Each entry:
   - `question` (required, string)
   - `answer` (required, string)
