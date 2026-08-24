@@ -8,7 +8,10 @@ const ALLOWED_ICONS = new Set([
 const ALLOWED_ROLES = new Set(['user', 'assistant']);
 const ALLOWED_DESIGN_VARIANTS = new Set(['default', 'signature', 'banking']);
 const ALLOWED_BRAND_MARKS = new Set(['heart', 'image', 'initial']);
-const ALLOWED_NAV_TARGETS = new Set(['meet', 'about', 'how-it-works', 'stories', 'faq', 'contact']);
+const ALLOWED_NAV_TARGETS = new Set([
+  'meet', 'about', 'capabilities', 'use-cases', 'trust',
+  'how-it-works', 'stories', 'faq', 'contact',
+]);
 const ALLOWED_PALETTES = new Set(['coral', 'ocean', 'forest', 'purple', 'slate', 'research', 'maroon', 'stone', 'emerald', 'custom']);
 const ALLOWED_THEME_COLORS = new Set(['purple', 'indigo', 'blue', 'green', 'orange', 'pink', 'red', 'teal', 'gray', 'slate', 'maroon', 'stone', 'emerald']);
 
@@ -209,6 +212,47 @@ function validate(filePath) {
     }
   }
 
+  if (landingPage.statement !== undefined) {
+    const statement = landingPage.statement;
+    if (!statement || typeof statement !== 'object') fail('landingPage.statement must be an object');
+    if (!statement.kicker || !String(statement.kicker).trim()) fail('landingPage.statement.kicker is required');
+    if (!Array.isArray(statement.segments) || statement.segments.length === 0) {
+      fail('landingPage.statement.segments must be a non-empty array');
+    }
+    statement.segments.forEach((segment, index) => {
+      const label = `landingPage.statement.segments[${index}]`;
+      if (!segment || typeof segment !== 'object') fail(`${label} must be an object`);
+      if (!segment.text || !String(segment.text).trim()) fail(`${label}.text is required`);
+      if (segment.tone !== undefined && !['strong', 'muted', 'iris', 'accent'].includes(segment.tone)) {
+        fail(`${label}.tone must be one of: strong, muted, iris, accent`);
+      }
+    });
+  }
+
+  if (landingPage.deployment !== undefined) {
+    const deployment = landingPage.deployment;
+    if (!deployment || typeof deployment !== 'object') fail('landingPage.deployment must be an object');
+    for (const key of ['kicker', 'heading', 'body', 'personaLabel', 'platformLabel', 'note']) {
+      if (!deployment[key] || !String(deployment[key]).trim()) fail(`landingPage.deployment.${key} is required`);
+    }
+    if (!Array.isArray(deployment.items) || deployment.items.length === 0) {
+      fail('landingPage.deployment.items must be a non-empty array');
+    }
+    deployment.items.forEach((item, index) => {
+      const label = `landingPage.deployment.items[${index}]`;
+      if (!item || typeof item !== 'object') fail(`${label} must be an object`);
+      for (const key of ['code', 'title', 'body']) {
+        if (!item[key] || !String(item[key]).trim()) fail(`${label}.${key} is required`);
+      }
+    });
+    if (!Array.isArray(deployment.boundaryItems) || deployment.boundaryItems.length === 0) {
+      fail('landingPage.deployment.boundaryItems must be a non-empty array');
+    }
+    deployment.boundaryItems.forEach((item, index) => {
+      if (typeof item !== 'string' || !item.trim()) fail(`landingPage.deployment.boundaryItems[${index}] must be a non-empty string`);
+    });
+  }
+
   if (landingPage.useCases !== undefined) {
     const useCases = landingPage.useCases;
     if (!useCases || typeof useCases !== 'object') fail('landingPage.useCases must be an object');
@@ -227,6 +271,9 @@ function validate(filePath) {
       const label = `landingPage.useCases.items[${index}]`;
       if (!item || typeof item !== 'object') fail(`${label} must be an object`);
       if (!item.label || !String(item.label).trim()) fail(`${label}.label is required`);
+      for (const key of ['number', 'mode', 'outcome', 'summary', 'inputSummary', 'outputSummary']) {
+        if (item[key] !== undefined && typeof item[key] !== 'string') fail(`${label}.${key} must be a string`);
+      }
 
       if (!Array.isArray(item.inputs) || item.inputs.length === 0) fail(`${label}.inputs must be a non-empty array`);
       item.inputs.forEach((input, i) => {
@@ -263,6 +310,39 @@ function validate(filePath) {
       if (!item.selfLearning || typeof item.selfLearning !== 'object') fail(`${label}.selfLearning must be an object`);
       for (const key of ['learns', 'neverChanges']) {
         if (!item.selfLearning[key] || !String(item.selfLearning[key]).trim()) fail(`${label}.selfLearning.${key} is required`);
+      }
+    });
+  }
+
+  if (landingPage.platform !== undefined) {
+    const platform = landingPage.platform;
+    if (!platform || typeof platform !== 'object') fail('landingPage.platform must be an object');
+    for (const key of ['kicker', 'heading', 'body']) {
+      if (!platform[key] || !String(platform[key]).trim()) fail(`landingPage.platform.${key} is required`);
+    }
+    if (!Array.isArray(platform.items) || platform.items.length === 0) fail('landingPage.platform.items must be a non-empty array');
+    platform.items.forEach((item, index) => {
+      const label = `landingPage.platform.items[${index}]`;
+      if (!item || typeof item !== 'object') fail(`${label} must be an object`);
+      for (const key of ['image', 'title', 'body']) {
+        if (!item[key] || !String(item[key]).trim()) fail(`${label}.${key} is required`);
+      }
+      if (item.alt !== undefined && typeof item.alt !== 'string') fail(`${label}.alt must be a string`);
+    });
+  }
+
+  if (landingPage.trust !== undefined) {
+    const trust = landingPage.trust;
+    if (!trust || typeof trust !== 'object') fail('landingPage.trust must be an object');
+    for (const key of ['kicker', 'heading', 'body', 'statusLabel', 'statusValue', 'statusDetail']) {
+      if (!trust[key] || !String(trust[key]).trim()) fail(`landingPage.trust.${key} is required`);
+    }
+    if (!Array.isArray(trust.controls) || trust.controls.length === 0) fail('landingPage.trust.controls must be a non-empty array');
+    trust.controls.forEach((control, index) => {
+      const label = `landingPage.trust.controls[${index}]`;
+      if (!control || typeof control !== 'object') fail(`${label} must be an object`);
+      for (const key of ['title', 'body']) {
+        if (!control[key] || !String(control[key]).trim()) fail(`${label}.${key} is required`);
       }
     });
   }

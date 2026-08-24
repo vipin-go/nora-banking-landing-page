@@ -136,7 +136,7 @@ button instead of two, a generic opening line in the hero mockup).
   - `theme` (optional, theme object) — authored `palette`, required `primaryColor`, and optional `secondaryColor`/`accentColor` used by the landing page.
 - `landingPage.header` (optional, object) — authored header content. When present, only configured items render; no menu labels are generated from persona-specific code.
   - `brandMark` (optional, `heart`, `image`, or `initial`).
-  - `navItems` (optional, array of `{ label, target }`) — `target` is one of `meet`, `about`, `how-it-works`, `stories`, `faq`, or `contact`. Items whose target section is absent are hidden automatically. `about` targets the gallery/introduction section.
+  - `navItems` (optional, array of `{ label, target }`) — `target` is one of `meet`, `about`, `capabilities`, `use-cases`, `trust`, `how-it-works`, `stories`, `faq`, or `contact`. Items whose target section is absent are hidden automatically.
   - `ctaLabel` (optional, string) — separate right-side meet CTA. Omit when the nav already contains a meet item.
 - `landingPage.headline` (required, string) — the hero headline (first line).
 - `landingPage.headlineAccent` (optional, string) — a substring of `headline`, rendered in the persona's accent color. Must exactly match a substring of `headline` or it's ignored.
@@ -154,6 +154,18 @@ button instead of two, a generic opening line in the hero mockup).
   - `icon` (optional) — a supported icon-library key. The full set is `heart`, `shield-check`, `sparkles`, `chat`, `users`, `lock`, `check`, `star`, `search`, `lightbulb`, `user-plus`, `calendar`, `question-mark`, and `envelope`.
 - `landingPage.gallery.icon` (optional) and each `landingPage.bento.*Card.icon` (required when the bento section is present) use the same icon-library keys. Decorative emoji fields are not supported.
 - `landingPage.howItWorks` (optional, object) — renders the numbered process section and enables the `how-it-works` header target. Requires `kicker`, `heading`, and a non-empty `steps` array; each step requires `icon`, `title`, and `body`. Optional `icon` adds an icon beside the kicker and optional `headingAccent` highlights an exact substring of the heading.
+- `landingPage.statement` (optional, object) — an editorial domain statement with a required `kicker` and non-empty `segments`. Each segment has `text` and an optional `tone`: `strong`, `muted`, `iris`, or `accent`.
+- `landingPage.deployment` (optional, object) — describes supported delivery modes and the governed platform/bank boundary. Requires `kicker`, `heading`, `body`, non-empty `items` (`code`, `title`, `body`), `personaLabel`, `platformLabel`, non-empty `boundaryItems`, and `note`.
+- `landingPage.useCases` (optional, object) — a tabbed section with one vertical tab per workflow domain (best for personas that cover several distinct business functions, e.g. one per department or vertical). Requires `heading` and a non-empty `items` array. Optional `icon`/`kicker` add an eyebrow above the heading; optional `headingAccent` highlights an exact substring of the heading; optional `subheading` adds supporting copy. Each `items[]` entry requires:
+  - `label` (required, string) — the tab's short name, e.g. "KYC & Onboarding".
+  - `number`, `mode`, `outcome`, `summary`, `inputSummary`, `outputSummary` (optional strings) — compact presentation copy used by structured domain themes.
+  - `inputs` (required, non-empty array of `{ code, description }`) — the read-scoped data this workflow draws on, e.g. `{ "code": "BUREAU_READ", "description": "Credit bureau score, tradelines, and repayment history." }`.
+  - `capabilities` (required, non-empty array of `{ modality, description }`) — which multimodal capabilities are used and how, e.g. `{ "modality": "Vision", "description": "Reads payslips and bank statements." }`. Modality is free text (typically Vision, Camera, Voice, Chat, or System).
+  - `outputs` (required, non-empty array of strings) — the artifacts this workflow prepares for review.
+  - `workflow` (required, non-empty array of `{ stage, description }`) — the ordered approval pipeline, e.g. `{ "stage": "REVIEW", "description": "Show mismatches and the proposed record." }`. `stage` is typically one of START, RUN (may repeat), REVIEW, APPROVE, EXECUTE, MONITOR.
+  - `selfLearning` (required, object with `learns` and `neverChanges`, both required strings) — what the workflow's self-learning loop adapts from, and what stays under human/policy control regardless.
+- `landingPage.platform` (optional, object) — multimodal surfaces shown as image cards. Requires `kicker`, `heading`, `body`, and non-empty `items` containing `image`, optional `alt`, `title`, and `body`.
+- `landingPage.trust` (optional, object) — operational governance evidence. Requires `kicker`, `heading`, `body`, `statusLabel`, `statusValue`, `statusDetail`, and non-empty `controls` (`title`, `body`).
 - `landingPage.faqs` (optional, array) — rendered as an accordion. Add its header link explicitly through `landingPage.header.navItems`; omit the FAQ array to leave the section out. Each entry:
   - `question` (required, string)
   - `answer` (required, string)
