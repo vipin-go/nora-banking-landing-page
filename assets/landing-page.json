@@ -5,6 +5,7 @@
   "landingPage": {
     "design": {
       "variant": "banking",
+      "defaultThemeMode": "dark",
       "theme": {
         "palette": "emerald",
         "primaryColor": "emerald",
