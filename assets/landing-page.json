@@ -17,9 +17,18 @@
     "header": {
       "brandMark": "initial",
       "navItems": [
-        { "label": "How it works", "target": "how-it-works" },
-        { "label": "FAQs", "target": "faq" },
-        { "label": "Contact", "target": "contact" }
+        {
+          "label": "How it works",
+          "target": "how-it-works"
+        },
+        {
+          "label": "FAQs",
+          "target": "faq"
+        },
+        {
+          "label": "Contact",
+          "target": "contact"
+        }
       ],
       "ctaLabel": "Talk to Nora"
     },
@@ -35,9 +44,18 @@
       "Audit-ready evidence"
     ],
     "demoConversation": [
-      { "role": "assistant", "text": "I've prepared the customer file and checked the required evidence." },
-      { "role": "user", "text": "What still needs my approval?" },
-      { "role": "assistant", "text": "One item — address proof needs your confirmation before I can move forward." }
+      {
+        "role": "assistant",
+        "text": "I've prepared the customer file and checked the required evidence."
+      },
+      {
+        "role": "user",
+        "text": "What still needs my approval?"
+      },
+      {
+        "role": "assistant",
+        "text": "One item — address proof needs your confirmation before I can move forward."
+      }
     ],
     "heroChat": {
       "statusLabel": "Ready for a controlled run",
@@ -75,17 +93,814 @@
         "body": "Coordinate high-value workflows with the approvals that matter built in."
       }
     ],
+    "useCases": {
+      "kicker": "Use cases",
+      "heading": "One persona. Eight regulated workflows.",
+      "headingAccent": "Eight regulated workflows.",
+      "subheading": "Pick a function and see exactly what Nora reads, how she processes it, what she hands back, and what always stays behind human approval.",
+      "items": [
+        {
+          "label": "KYC & Onboarding",
+          "inputs": [
+            {
+              "code": "APPLICATION_READ",
+              "description": "Customer / application data and onboarding details from intake channels."
+            },
+            {
+              "code": "CKYC_READ",
+              "description": "Existing KYC profile, identifiers, and prior KYC context."
+            },
+            {
+              "code": "IDENTITY_DOCS_READ",
+              "description": "Aadhaar / PAN / passport / address proof, photos, signatures, and scanned forms."
+            },
+            {
+              "code": "CBS_CUSTOMER_READ",
+              "description": "Existing customer records in the core banking system."
+            },
+            {
+              "code": "KYC_POLICY_READ",
+              "description": "Mandatory-field and onboarding rules."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision",
+              "description": "Reads uploaded and scanned IDs, photos, signatures, and forms; detects fields and document completeness."
+            },
+            {
+              "modality": "Camera",
+              "description": "Branch officer can capture a document or live customer photo where appropriate."
+            },
+            {
+              "modality": "Voice",
+              "description": "Officer can say \"onboard this customer\" or explain an exception."
+            },
+            {
+              "modality": "Chat",
+              "description": "Nora asks for missing information and explains mismatches."
+            },
+            {
+              "modality": "System",
+              "description": "Compares extracted identity data against CKYC/CBS and prepares a proposed customer record — never creates it silently."
+            }
+          ],
+          "outputs": [
+            "Customer profile",
+            "CKYC match result",
+            "Missing-field list",
+            "Identity/document exceptions",
+            "CBS proposed customer creation preview",
+            "Audit evidence pack"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Officer asks to onboard a customer"
+            },
+            {
+              "stage": "RUN",
+              "description": "Ingest application and documents"
+            },
+            {
+              "stage": "RUN",
+              "description": "Extract identity fields and retrieve CKYC"
+            },
+            {
+              "stage": "RUN",
+              "description": "Compare records and run completeness checks"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Show mismatches and the proposed CBS record"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Maker/checker or officer approves customer creation"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Create or update the approved CBS record"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Onboarding completion and exceptions"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Officer-corrected names and addresses, OCR corrections, common document formats, recurring missing fields, and exception routing — improving extraction, fuzzy matching, and confidence thresholds.",
+            "neverChanges": "KYC policy, identity-verification rules, mandatory fields, or approval authority — never without governance."
+          }
+        },
+        {
+          "label": "Loans & Credit Ops",
+          "inputs": [
+            {
+              "code": "APPLICATION_READ",
+              "description": "Loan application data, borrower profile, requested facility, and current application context."
+            },
+            {
+              "code": "BUREAU_READ",
+              "description": "Credit bureau score, tradelines, repayment history, and exposure context."
+            },
+            {
+              "code": "FINANCIALS_READ",
+              "description": "Bank statements, income documents, collateral/loan documents, and supporting financial records."
+            },
+            {
+              "code": "DEVIATION_POLICY_READ",
+              "description": "Policy deviation thresholds and approval routing rules."
+            },
+            {
+              "code": "LOAN_STATE_READ",
+              "description": "Current LOS/DMS application state."
+            },
+            {
+              "code": "DISBURSAL_READ",
+              "description": "Disbursal terms, schedule, and prior entries."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision",
+              "description": "Reads payslips, statements, collateral/loan documents, and existing sanction formats."
+            },
+            {
+              "modality": "Voice",
+              "description": "RM or credit officer can ask Nora to \"prepare the deviation memo for this case.\""
+            },
+            {
+              "modality": "Chat",
+              "description": "Nora explains bureau issues, missing documents, deviations, and proposed terms."
+            },
+            {
+              "modality": "System",
+              "description": "Retrieves bureau/LOS/DMS data and computes policy checks — prepares the file for the authority, never grants credit authority itself."
+            }
+          ],
+          "outputs": [
+            "Borrower dossier",
+            "Bureau summary",
+            "Deviation memo",
+            "Sanction-letter draft",
+            "Disbursal preparation pack",
+            "DMS filing pack",
+            "Authority-review preview"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Process a loan application"
+            },
+            {
+              "stage": "RUN",
+              "description": "Gather application, financials, and bureau data"
+            },
+            {
+              "stage": "RUN",
+              "description": "Normalize figures and identify deviations"
+            },
+            {
+              "stage": "RUN",
+              "description": "Assemble the borrower and deviation dossier"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Simulate sanction/disbursal changes"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Named credit authority approves, rejects, or edits"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Write approved sanction/disbursal and file to DMS"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Status, turnaround, and downstream exceptions"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Credit-officer edits, recurring document deficiencies, accepted/rejected deviation explanations, bureau-summary corrections, and workflow bottlenecks — improving retrieval, summaries, prioritization, and draft quality.",
+            "neverChanges": "Lending policy, score cut-offs, LTV/DTI limits, pricing authority, or sanction powers — never autonomously rewritten."
+          }
+        },
+        {
+          "label": "Compliance, AML & Reporting",
+          "inputs": [
+            {
+              "code": "TRANSACTIONS_READ",
+              "description": "Transaction history and account activity."
+            },
+            {
+              "code": "CUSTOMER_KYC_READ",
+              "description": "Customer KYC / CKYC records and regulatory profile."
+            },
+            {
+              "code": "AML_ALERTS_READ",
+              "description": "Triggered AML scenarios, alert context, and prior analyst notes."
+            },
+            {
+              "code": "WATCHLIST_READ",
+              "description": "Sanctions and watchlist context."
+            },
+            {
+              "code": "REGULATORY_RULES_READ",
+              "description": "Regulatory filing rules and thresholds."
+            },
+            {
+              "code": "CKYC_BATCH_READ",
+              "description": "CKYC batch upload context."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision",
+              "description": "Inspects supporting documents, scanned evidence, existing filing forms, and screenshots."
+            },
+            {
+              "modality": "Voice",
+              "description": "Compliance officer can ask Nora to explain an alert or prepare a filing."
+            },
+            {
+              "modality": "Chat",
+              "description": "Nora summarizes why an alert fired, asks for evidence, and explains uncertainties."
+            },
+            {
+              "modality": "System",
+              "description": "Collates transactional, KYC, and watchlist context — assembly and first-pass triage, never autonomous regulatory judgment."
+            }
+          ],
+          "outputs": [
+            "Regulatory return draft",
+            "AML alert triage pack",
+            "CKYC batch preview",
+            "Evidence bundle",
+            "Suspicious-activity narrative draft",
+            "Outstanding-question list",
+            "Submission preview"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Prepare a compliance filing or investigate an alert"
+            },
+            {
+              "stage": "RUN",
+              "description": "Collect customer, transaction, and regulatory evidence"
+            },
+            {
+              "stage": "RUN",
+              "description": "Normalize data and apply fixed compliance rules"
+            },
+            {
+              "stage": "RUN",
+              "description": "Assemble the alert narrative, return, or CKYC batch"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Show exactly what's proposed for submission plus unresolved uncertainties"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Compliance officer approves or edits"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Submit or stage only after approval"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Acknowledgements, rejects, filing status, and audit trail"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analyst dispositions of alerts, false-positive reasons, narrative edits, regulator rejections, and missing-evidence patterns — improving triage ranking, evidence retrieval, and draft narratives.",
+            "neverChanges": "AML scenarios required by policy, sanctions lists, regulatory thresholds, mandatory filing rules, or compliance authority — never self-changed."
+          }
+        },
+        {
+          "label": "Reconciliation & Finance",
+          "inputs": [
+            {
+              "code": "SWITCH_TXNS_READ",
+              "description": "Switch transactions file / feed from payment networks and aggregators."
+            },
+            {
+              "code": "CBS_LEDGER_READ",
+              "description": "Core banking ledger entries and account balances."
+            },
+            {
+              "code": "GL_READ",
+              "description": "General ledger data, chart of accounts, and journal entries."
+            },
+            {
+              "code": "BANK_STATEMENT_READ",
+              "description": "Bank statements (PDF/CSV) with debits, credits, and closing balances."
+            },
+            {
+              "code": "SETTLEMENT_FILES_READ",
+              "description": "Settlement / clearing files and counterparty statements."
+            },
+            {
+              "code": "RECON_RULES_READ",
+              "description": "Reconciliation rules, matching logic, tolerances, and accounting policies."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision",
+              "description": "Reads CSV/PDF statements, screenshots, and legacy-system tables when structured feeds aren't available."
+            },
+            {
+              "modality": "Chat",
+              "description": "Finance user asks Nora to \"explain the unreconciled ₹7,315 item\" — Nora explains match logic and evidence."
+            },
+            {
+              "modality": "Voice",
+              "description": "Useful for quick investigation and approval commands, not mandatory."
+            },
+            {
+              "modality": "System",
+              "description": "Bulk matching across transactions, switch files, CBS, and GL."
+            }
+          ],
+          "outputs": [
+            "Matched transaction set",
+            "Exception queue",
+            "Match-confidence and evidence",
+            "GL proof pack",
+            "Proposed journal/adjustment preview",
+            "Reconciliation summary"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Nightly reconciliation trigger"
+            },
+            {
+              "stage": "RUN",
+              "description": "Ingest switch, CBS, GL, and settlement files"
+            },
+            {
+              "stage": "RUN",
+              "description": "Exact and rule-based matching"
+            },
+            {
+              "stage": "RUN",
+              "description": "Similarity/relationship matching on residual items"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Explain unmatched or ambiguous transactions"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Finance approver clears any posting or adjustment"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Post only the approved adjustment"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Breaks, ageing, and next-day recurrence"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Accepted/rejected match suggestions, recurring merchant/reference patterns, timing differences, and reviewer explanations — improving matching and exception ranking.",
+            "neverChanges": "Accounting policy, posting authority, materiality limits, or GL-control rules — never self-modified."
+          }
+        },
+        {
+          "label": "Customer Service & Collections",
+          "inputs": [
+            {
+              "code": "CUSTOMER_360_READ",
+              "description": "Complete customer profile, contact details, and lifecycle interactions."
+            },
+            {
+              "code": "ACCOUNT_READ",
+              "description": "Account details, balances, limits, and payment history."
+            },
+            {
+              "code": "CASE_HISTORY_READ",
+              "description": "Open/closed cases, prior interactions, resolutions, and escalations."
+            },
+            {
+              "code": "PRODUCT_POLICY_READ",
+              "description": "Product terms, charges, eligibility rules, and service policies."
+            },
+            {
+              "code": "DELINQUENCY_READ",
+              "description": "Delinquency status, bucket, overdue details, and risk flags."
+            },
+            {
+              "code": "PTP_READ",
+              "description": "Promise-to-pay history, commitments, amounts, and outcomes."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Voice",
+              "description": "Strongest modality here — customer or agent speaks naturally; Nora transcribes intent and responds conversationally."
+            },
+            {
+              "modality": "Chat",
+              "description": "Service conversations, clarifications, draft responses, and human handoff."
+            },
+            {
+              "modality": "Vision",
+              "description": "Customer can show a statement, letter, screenshot, or document."
+            },
+            {
+              "modality": "Camera",
+              "description": "Optional for showing documents or screens during assistance."
+            },
+            {
+              "modality": "System",
+              "description": "Pulls account/case/payment context — consequential account changes or settlements stay gated."
+            }
+          ],
+          "outputs": [
+            "Case summary",
+            "Suggested response",
+            "Status answer with evidence",
+            "Next-best routing",
+            "Dunning list",
+            "PTP record draft",
+            "Settlement-letter draft",
+            "Proposed account action",
+            "Conversation summary"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Customer or contact arrives"
+            },
+            {
+              "stage": "RUN",
+              "description": "Identify intent and authenticate / resolve context"
+            },
+            {
+              "stage": "RUN",
+              "description": "Retrieve account and case evidence"
+            },
+            {
+              "stage": "RUN",
+              "description": "Prepare an answer or collection proposal"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Check policy and customer-impact rules"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Human approval where an outbound action, settlement, or account change crosses threshold"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Send, update, or log the approved action"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Resolution, promise kept/broken, reopen/escalation"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Corrected intent classifications, agent edits, successful resolutions, repeated follow-up questions, PTP kept/broken outcomes, and escalation reasons — improving routing, wording, retrieval, and suggested next action.",
+            "neverChanges": "Consent rules, collection conduct policy, settlement authority, customer-protection requirements, or financial limits — never learned around."
+          }
+        },
+        {
+          "label": "HR & Internal Ops",
+          "inputs": [
+            {
+              "code": "EMPLOYEE_READ",
+              "description": "Employee master data, role, department, manager, and location."
+            },
+            {
+              "code": "HRMS_READ",
+              "description": "Employment status, compensation, attendance, documents, and workflow history."
+            },
+            {
+              "code": "IDENTITY_ACCESS_READ",
+              "description": "Identity and access data, roles, groups, entitlements, and SOD rules."
+            },
+            {
+              "code": "EMAIL_DIRECTORY_READ",
+              "description": "Email accounts, distribution lists, and mailbox permissions."
+            },
+            {
+              "code": "ITSM_READ",
+              "description": "IT service requests, provisioning tickets, incidents, and change history."
+            },
+            {
+              "code": "HR_POLICY_READ",
+              "description": "HR policies, role catalogs, access policies, and compliance guidelines."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat",
+              "description": "Employee or manager asks for onboarding, offboarding, letters, or policy info."
+            },
+            {
+              "modality": "Voice",
+              "description": "Manager can dictate a joiner/leaver instruction, or an employee asks HR questions by voice."
+            },
+            {
+              "modality": "Vision",
+              "description": "Parses signed forms, certificates, IDs, or screenshots."
+            },
+            {
+              "modality": "System",
+              "description": "Compares HRMS, directory, email, and access entitlements."
+            }
+          ],
+          "outputs": [
+            "Joiner/leaver checklist",
+            "HRMS change preview",
+            "Email/account provisioning preview",
+            "Exact permission diff",
+            "Attendance reconciliation",
+            "Letter/certificate draft",
+            "Unresolved-access exceptions"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Joiner, leaver, or internal request"
+            },
+            {
+              "stage": "RUN",
+              "description": "Gather employee and role context"
+            },
+            {
+              "stage": "RUN",
+              "description": "Prepare HRMS, email, identity, and access changes"
+            },
+            {
+              "stage": "RUN",
+              "description": "Verify entitlement policy and completeness"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Show the exact permission/account diff"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Manager and HR/IT approval"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Provision or revoke approved resources"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Completion, failed tasks, and lingering access"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Common role bundles, manager corrections, provisioning failures, frequently missing joiner data, and ticket-resolution paths — improving checklists, routing, and draft correspondence.",
+            "neverChanges": "Access permissions, segregation-of-duties policy, privileged-role definitions, or approval hierarchy — never self-changed."
+          }
+        },
+        {
+          "label": "Treasury & Trade Ops",
+          "inputs": [
+            {
+              "code": "DEALS_READ",
+              "description": "Trade deals, instructions, terms, amounts, and counterparty details."
+            },
+            {
+              "code": "CONFIRMATIONS_READ",
+              "description": "Counterparty confirmations, contract notes, and SWIFT/email confirmations."
+            },
+            {
+              "code": "RATES_READ",
+              "description": "Market rates, reference rates, FX/IR curves, and pricing sources."
+            },
+            {
+              "code": "BLOTTER_READ",
+              "description": "Dealing blotter entries, positions, trades, and amendments."
+            },
+            {
+              "code": "NOSTRO_READ",
+              "description": "Nostro accounts, balances, settlements, and breaks."
+            },
+            {
+              "code": "TRADE_DOCS_READ",
+              "description": "Invoices, shipping docs, LC docs, and trade-finance correspondence."
+            },
+            {
+              "code": "LIMITS_READ",
+              "description": "Counterparty and position/risk limits."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision",
+              "description": "Reads confirmations, invoices, trade documents, and scanned correspondence."
+            },
+            {
+              "modality": "Chat",
+              "description": "Dealer asks Nora to reconcile a confirmation, prepare a rate upload, or explain a nostro break."
+            },
+            {
+              "modality": "Voice",
+              "description": "Particularly useful on a trading desk for hands-free requests while the dealer watches the market."
+            },
+            {
+              "modality": "System",
+              "description": "Retrieves deal, blotter, nostro, and rate context — money-moving actions stay behind named/dual approval."
+            }
+          ],
+          "outputs": [
+            "Confirmation tracker",
+            "Discrepancy list",
+            "Rate-upload preview",
+            "Blotter update draft",
+            "Nostro proof",
+            "Trade-document draft",
+            "Exposure summary",
+            "Execution instruction preview"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Deal or trade instruction arrives"
+            },
+            {
+              "stage": "RUN",
+              "description": "Collect deal, confirmation, and market/reference data"
+            },
+            {
+              "stage": "RUN",
+              "description": "Extract and compare key terms"
+            },
+            {
+              "stage": "RUN",
+              "description": "Prepare the confirmation, rate, blotter, or nostro action"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Verify limits, counterparty, amount, and cut-off state"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Named or dual treasury authority"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Approved upload, posting, or instruction"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Confirmation status, settlement, breaks, and cut-offs"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Confirmation discrepancies, document edits, nostro-break resolutions, operational cut-off misses, and recurring counterparty formatting — improving extraction, matching, and operational prioritization.",
+            "neverChanges": "Dealing limits, FX/risk limits, payment authority, sanctions policy, or dual-control requirements — never self-changed."
+          }
+        },
+        {
+          "label": "Microbanking & EEB",
+          "inputs": [
+            {
+              "code": "MEETING_DATA_READ",
+              "description": "Self-help-group meeting data, attendance, collection amounts, and notes."
+            },
+            {
+              "code": "GROUP_LOAN_READ",
+              "description": "Group loan accounts, member details, loan status, and instalments."
+            },
+            {
+              "code": "COLLECTIONS_READ",
+              "description": "Daily collections, receipts, overdues, payment mode, and PTP history."
+            },
+            {
+              "code": "CUSTOMER_KYC_READ",
+              "description": "Customer KYC / CKYC identifiers, addresses, photos, and supporting docs."
+            },
+            {
+              "code": "SCHEME_FORMS_READ",
+              "description": "Scheme enrollment, claim forms, and portal templates."
+            },
+            {
+              "code": "CLAIM_DOCS_READ",
+              "description": "Claim documents, invoices, photos, and supporting evidence."
+            },
+            {
+              "code": "FIELD_POLICY_READ",
+              "description": "Branch/field policies, eligibility rules, and collection norms."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Camera",
+              "description": "Strongest differentiator here — field officer can show meeting sheets, forms, claim documents, or physical records from the field."
+            },
+            {
+              "modality": "Vision",
+              "description": "Extracts handwritten/printed form values and verifies document completeness."
+            },
+            {
+              "modality": "Voice",
+              "description": "Officer can dictate collection or meeting data in local language instead of typing."
+            },
+            {
+              "modality": "Chat",
+              "description": "Nora asks \"Is this the collection amount for Group 14?\" and resolves uncertainties before creating the batch."
+            },
+            {
+              "modality": "System",
+              "description": "Checks customer, group, and scheme records and prepares multi-system updates."
+            }
+          ],
+          "outputs": [
+            "Structured meeting batch",
+            "Group-loan batch preview",
+            "Collections upload package",
+            "Scheme-form pack",
+            "Claim-document package",
+            "Exceptions/missing-data list",
+            "Multi-system write preview"
+          ],
+          "workflow": [
+            {
+              "stage": "START",
+              "description": "Officer uploads or speaks meeting data"
+            },
+            {
+              "stage": "RUN",
+              "description": "Transcribe/extract forms and collection data"
+            },
+            {
+              "stage": "RUN",
+              "description": "Match members, accounts, and scheme context"
+            },
+            {
+              "stage": "RUN",
+              "description": "Assemble the multi-system batch"
+            },
+            {
+              "stage": "REVIEW",
+              "description": "Show anomalies, expected values, and every proposed write"
+            },
+            {
+              "stage": "APPROVE",
+              "description": "Field or branch officer approves the scoped batch"
+            },
+            {
+              "stage": "EXECUTE",
+              "description": "Post the approved batch"
+            },
+            {
+              "stage": "MONITOR",
+              "description": "Rejected rows, scheme acknowledgements, corrections, and completion"
+            }
+          ],
+          "selfLearning": {
+            "learns": "Corrected handwriting/OCR, local-language wording, common field-form structures, rejected batch rows, and scheme-portal errors — improving extraction, mapping, data-quality checks, and clarification prompts.",
+            "neverChanges": "Product eligibility, credit rules, scheme requirements, collection authority, or branch approval controls — never self-changed."
+          }
+        }
+      ]
+    },
     "howItWorks": {
       "icon": "shield-check",
       "kicker": "A controlled path to action",
       "heading": "Agents that act. Bankers stay in control.",
       "headingAccent": "Bankers stay in control.",
       "steps": [
-        { "icon": "envelope", "title": "Capture", "body": "Nora gathers the request, source documents, policy, and context." },
-        { "icon": "sparkles", "title": "Simulate", "body": "She prepares a safe, reviewable version of the workflow first." },
-        { "icon": "shield-check", "title": "Verify", "body": "Rules, evidence, and exceptions are checked before anything moves." },
-        { "icon": "check", "title": "Approve", "body": "The right banker sees exactly what will happen and why." },
-        { "icon": "star", "title": "Execute", "body": "Only approved actions run, with a trace ready for audit." }
+        {
+          "icon": "envelope",
+          "title": "Capture",
+          "body": "Nora gathers the request, source documents, policy, and context."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simulate",
+          "body": "She prepares a safe, reviewable version of the workflow first."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Verify",
+          "body": "Rules, evidence, and exceptions are checked before anything moves."
+        },
+        {
+          "icon": "check",
+          "title": "Approve",
+          "body": "The right banker sees exactly what will happen and why."
+        },
+        {
+          "icon": "star",
+          "title": "Execute",
+          "body": "Only approved actions run, with a trace ready for audit."
+        }
       ]
     },
     "faqs": [

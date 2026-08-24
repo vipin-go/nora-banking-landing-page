@@ -209,6 +209,64 @@ function validate(filePath) {
     }
   }
 
+  if (landingPage.useCases !== undefined) {
+    const useCases = landingPage.useCases;
+    if (!useCases || typeof useCases !== 'object') fail('landingPage.useCases must be an object');
+    validateIcon(useCases.icon, 'landingPage.useCases.icon');
+    if (!useCases.heading || !String(useCases.heading).trim()) fail('landingPage.useCases.heading is required');
+    if (useCases.headingAccent !== undefined && typeof useCases.headingAccent !== 'string') {
+      fail('landingPage.useCases.headingAccent must be a string');
+    }
+    if (useCases.headingAccent && !useCases.heading.includes(useCases.headingAccent)) {
+      fail('landingPage.useCases.headingAccent must be a substring of landingPage.useCases.heading');
+    }
+    if (!Array.isArray(useCases.items) || useCases.items.length === 0) {
+      fail('landingPage.useCases.items must be a non-empty array');
+    }
+    useCases.items.forEach((item, index) => {
+      const label = `landingPage.useCases.items[${index}]`;
+      if (!item || typeof item !== 'object') fail(`${label} must be an object`);
+      if (!item.label || !String(item.label).trim()) fail(`${label}.label is required`);
+
+      if (!Array.isArray(item.inputs) || item.inputs.length === 0) fail(`${label}.inputs must be a non-empty array`);
+      item.inputs.forEach((input, i) => {
+        const l = `${label}.inputs[${i}]`;
+        if (!input || typeof input !== 'object') fail(`${l} must be an object`);
+        for (const key of ['code', 'description']) {
+          if (!input[key] || !String(input[key]).trim()) fail(`${l}.${key} is required`);
+        }
+      });
+
+      if (!Array.isArray(item.capabilities) || item.capabilities.length === 0) fail(`${label}.capabilities must be a non-empty array`);
+      item.capabilities.forEach((capability, i) => {
+        const l = `${label}.capabilities[${i}]`;
+        if (!capability || typeof capability !== 'object') fail(`${l} must be an object`);
+        for (const key of ['modality', 'description']) {
+          if (!capability[key] || !String(capability[key]).trim()) fail(`${l}.${key} is required`);
+        }
+      });
+
+      if (!Array.isArray(item.outputs) || item.outputs.length === 0) fail(`${label}.outputs must be a non-empty array`);
+      item.outputs.forEach((output, i) => {
+        if (typeof output !== 'string' || !output.trim()) fail(`${label}.outputs[${i}] must be a non-empty string`);
+      });
+
+      if (!Array.isArray(item.workflow) || item.workflow.length === 0) fail(`${label}.workflow must be a non-empty array`);
+      item.workflow.forEach((step, i) => {
+        const l = `${label}.workflow[${i}]`;
+        if (!step || typeof step !== 'object') fail(`${l} must be an object`);
+        for (const key of ['stage', 'description']) {
+          if (!step[key] || !String(step[key]).trim()) fail(`${l}.${key} is required`);
+        }
+      });
+
+      if (!item.selfLearning || typeof item.selfLearning !== 'object') fail(`${label}.selfLearning must be an object`);
+      for (const key of ['learns', 'neverChanges']) {
+        if (!item.selfLearning[key] || !String(item.selfLearning[key]).trim()) fail(`${label}.selfLearning.${key} is required`);
+      }
+    });
+  }
+
   if (landingPage.howItWorks !== undefined) {
     const howItWorks = landingPage.howItWorks;
     if (!howItWorks || typeof howItWorks !== 'object') fail('landingPage.howItWorks must be an object');
