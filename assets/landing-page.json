@@ -33,12 +33,12 @@
           "target": "about"
         }
       ],
-      "ctaLabel": "Request a demo"
+      "ctaLabel": "Meet Nora"
     },
     "badge": "BANKING AI OPERATIONS",
     "headline": "Make the bank AI-native",
     "subheadline": "Nora is a banking AI persona built with Gabriel Operator—delivered through embedded chat, SDK, API or the bank’s orchestration layer.",
-    "ctaLabel": "Request a demo",
+    "ctaLabel": "Talk to Nora",
     "demoConversation": [
       {
         "role": "assistant",
@@ -700,8 +700,8 @@
       "kicker": "THE NEXT RUN",
       "heading": "Deploy Nora in one\nbanking domain.",
       "body": "Choose the workflow, the interface and the authority boundary. Put the first governed run in front of your operations team.",
-      "ctaLabel": "Request a demo"
+      "ctaLabel": "Talk to Nora"
     }
   },
-  "commitMessage": "Migrate Nora Banking AI Operations landing page from Sites"
+  "commitMessage": "Update Nora landing page calls to action"
 }
