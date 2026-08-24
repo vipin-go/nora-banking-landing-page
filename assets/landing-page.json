@@ -701,7 +701,8 @@
       "heading": "Deploy Nora in one\nbanking domain.",
       "body": "Choose the workflow, the interface and the authority boundary. Put the first governed run in front of your operations team.",
       "ctaLabel": "Talk to Nora"
-    }
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
   },
-  "commitMessage": "Update Nora landing page calls to action"
+  "commitMessage": "Add Nora winged character closing section"
 }
