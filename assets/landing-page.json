@@ -12,6 +12,32 @@
         "secondaryColor": "indigo",
         "accentColor": "teal",
         "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": { "source": "google", "family": "Inter" },
+          "display": { "source": "google", "family": "TASA Orbiter" },
+          "label": { "source": "google", "family": "Martian Mono" }
+        }
       }
     },
     "header": {
