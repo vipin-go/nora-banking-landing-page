@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "lv",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Iespējas",
+          "target": "capabilities"
+        },
+        {
+          "label": "Lietošanas gadījumi",
+          "target": "use-cases"
+        },
+        {
+          "label": "Uzticēšanās",
+          "target": "trust"
+        },
+        {
+          "label": "Par",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Iepazīstieties ar Noru"
+    },
+    "badge": "BANKU AI OPERĀCIJAS",
+    "headline": "Padariet banku par AI-native",
+    "subheadline": "Nora ir banku AI personība, kas veidota ar Gabriel Operator - piegādāta caur iegultu tērpkomunikāciju, SDK, API vai bankas orķestrācijas slāni.",
+    "ctaLabel": "Runā ar Noru",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Sveiki. Jautājiet, kā es varētu atbalstīt banku darbplūsmu vai pielāgoties jūsu darbības stekam."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "PERSONAS PRIEKŠSKATS",
+      "inputPlaceholder": "Jautājiet Norai par darbplūsmu...",
+      "suggestedPrompts": [
+        "KYC darbplūsma",
+        "Integrācija"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — VADENĪGS CEĻŠ UZ DARBĪBU",
+      "heading": "Aģenti, kas rīkojas.\nBanku darbinieki saglabā kontroli.",
+      "headingAccent": "Banku darbinieki saglabā kontroli.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Iegūšana",
+          "body": "Nora apkopo pieprasījumu, avota dokumentus, politiku un kontekstu."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simulācija",
+          "body": "Vispirms sagatavo drošu, pārskatāmu darbplūsmas versiju."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Verifikācija",
+          "body": "Noteikumi, pierādījumi un izņēmumi tiek pārbaudīti pirms jebkādas darbības."
+        },
+        {
+          "icon": "check",
+          "title": "Apstiprināt",
+          "body": "Pareizais banku darbinieks redz tieši to, kas notiks un kāpēc."
+        },
+        {
+          "icon": "star",
+          "title": "Izpildīt",
+          "body": "Tiek izpildītas tikai apstiprinātās darbības, ar audita gatavu pierakstu."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — KAS IR NORA?",
+      "segments": [
+        {
+          "text": "Nora ir viena AI personība, kas veidota ar Gabriel Operator",
+          "tone": "strong"
+        },
+        {
+          "text": " pārvaldītām banku operācijām. Izvietojiet to ",
+          "tone": "muted"
+        },
+        {
+          "text": " vienu domēnu ar noteiktu zināšanām, rīkiem un pilnvarām",
+          "tone": "iris"
+        },
+        {
+          "text": "—tad izveidojiet vairāk personu citām komandām, katrai ar savu ",
+          "tone": "muted"
+        },
+        {
+          "text": " politiku un piekļuves ierobežojumiem",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — IZVIETOŠANA",
+      "heading": "Iepazīstieties ar banku, kur darbs jau notiek.",
+      "body": "Sāciet ar iegultu pieredzi vai pievienojiet Noru tieši bankas darbības stekam.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Iegulta tērzēšana",
+          "body": "Novietojiet Noru banku darbinieku jau izmantotajos portālos un darbvietās."
+        },
+        {
+          "code": "SDK",
+          "title": "Bankas pieredze",
+          "body": "Izmantojiet SDK, lai Nora veidotu bankas interfeisā un darbplūsmā."
+        },
+        {
+          "code": "API",
+          "title": "Persona kā pakalpojums",
+          "body": "Izsauciet Noru no produktiem, operāciju rīkiem, mobilajām lietotnēm vai notikumu virzītām plūsmām."
+        },
+        {
+          "code": "ORCH",
+          "title": "Orķestrācijas slānis",
+          "body": "Pievienojiet Noru kā pārvaldītu aģenti esošajā bankas automatizācijas stekā."
+        }
+      ],
+      "personaLabel": "NORA · BANKU AI PERSONĪBA",
+      "platformLabel": "UZBŪVĒTS + VADENOTS AR GABRIEL OPERATOR",
+      "boundaryItems": [
+        "BANKAS APSTIPRINĀTĀS ZINĀŠANAS",
+        "IEROBEŽOTI RĪKI",
+        "FIKSĒTA POLITIKA",
+        "NOTEIKTI APSTIPRINĀJUMI"
+      ],
+      "note": "Viena banka var izvietot daudz domēna personu—Nora KYC, Nora kredītiem, Nora operācijām—vienlaikus saglabājot katras personas datus, rīkus un pilnvaras skaidri ierobežotas."
+    },
+    "useCases": {
+      "kicker": "04 — LIETOŠANAS GADĪJUMI",
+      "heading": "Viens personu modelis\n8 vietas, kur sākt.",
+      "subheading": "Izvēlieties vienu domēnu Noras pirmajai izvietošanai; paplašinieties tikai tad, kad operacionālais modelis ir pierādīts.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC un pieteikšanās",
+          "mode": "VISION + CHAT",
+          "outcome": "No dokumentiem līdz apstiprinātam CBS ierakstam.",
+          "summary": "Nora nolasa personas dokumentus un veidlapas, pārbauda CKYC un CBS, skaidro neatbilstības, pēc tam sagatavo precīzu klienta ierakstu izpildītāja/pārbaudītāja apstiprinājumam.",
+          "inputSummary": "Pieteikumi · CKYC · personas dokumenti · CBS · KYC politika",
+          "outputSummary": "CKYC atbilsme · trūkstošie lauki · CBS izveides priekšskatījums · pierādījumu komplekts",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Pieteikumi, CKYC, personas dokumenti, CBS un KYC politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "REDZĒJUMS + TĒRZĒŠANA",
+              "description": "Lasa identitātes pierādījumus, atrisina neatbilstības un skaidro ierosināto ierakstu."
+            }
+          ],
+          "outputs": [
+            "CKYC atbilsme",
+            "Trūkstošie lauki",
+            "CBS izveides priekšskatījums",
+            "Pierādījumu komplekts"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Ierēdnisks augšupielādē pieteikumu un personas dokumentus vai lūdz Noru ieviest klientu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Izņemiet identitātes laukus, salīdziniet CKYC un CBS un modelējiet trūkstošos datus vai neatbilstības."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Izveidojiet piedāvāto CBS ierakstu un atskaņojiet pilnīguma un dublikātu pārbaudes."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Parādiet pierādījumus un precīzu ierakstu amatpersonas un izpildītāja/pārbaudītāja apstiprinājumam."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Izveidojiet vai atjauniniet tikai apstiprinātos CBS laukus un arhivējiet pierādījumu komplektu."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet pabeigšanu, noraidījumus, izņēmumus un amatpersonas labojumus nākamajai izpildei."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Amatpersonas labojumi uzlabo OCR, vārdu/adrešu normalizāciju un neskaidru atbilstību.",
+            "neverChanges": "KYC politika, obligātie lauki un apstiprinājuma pilnvaras paliek pārvaldītas."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Aizdevumi un kredītu operācijas",
+          "mode": "VISION + VOICE",
+          "outcome": "Pilna kredīta lieta, gatava autoritātei.",
+          "summary": "Nora apkopo kredītņēmēja lietu, novirzes memorandu un sankciju melnrakstu, nepieņemot kredīta pilnvaras.",
+          "inputSummary": "Pieteikums · birojs · finanses · novirzes politika · LOS / DMS",
+          "outputSummary": "Kredītņēmēja lieta · novirzes memorandums · sankciju melnraksts · izmaksu priekšskatījums",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Pieteikums, birojs, finanses, novirzes politika, LOS un DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "REDZĒJUMS + BALSS",
+              "description": "Lasa kredīta lietu un atbalsta amatpersonas pārskatu naturālvalodā."
+            }
+          ],
+          "outputs": [
+            "Kredītņēmēja lieta",
+            "Novirzes memorandums",
+            "Sankciju melnraksts",
+            "Izmaksu priekšskatījums"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Iegūstiet pieteikumu, finanšu dokumentus, biroja datus un amatpersonas pieprasījumu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Normalizējiet ciparus, apkopoiet biroja vēsturi un modelējiet katru politikas novirzi."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Sastādiet lietu, sankciju melnrakstu un izmaksu priekšskatījumu; vēlreiz palaidiet politikas pārbaudes."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Iesniedziet nosacījumus, novirzes un pierādījumus norādītajai kredīta iestādei."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Rakstiet apstiprināto sankciju vai izmaksu stāvokli un arhivējiet paketi DMS."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet statusu, apgrozījumu, tālākos izņēmumus un autoritātes labojumus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Kredīta ierēdņa labojumi uzlabo kopsavilkumus, dokumentu pārbaudes un prioritāšu noteikšanu.",
+            "neverChanges": "Punktu robežas, LTV/DTI, cenu noteikšana un sankciju pilnvaras nevar pašas mainīties."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Atbilstība, AML un ziņošana",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Katra iesnieguma sākums ir ar tā pierādījumiem.",
+          "summary": "Nora apkopo transakcijas, KYC, uzraudzības sarakstus un noteikumus pirmā līmeņa brīdinājumu triāžai, atgriešanas melnrakstiem un iesnieguma priekšskatījumiem atbilstības pārskatīšanai.",
+          "inputSummary": "Transakcijas · klienta KYC · brīdinājumi · uzraudzības saraksti · regulatīvie noteikumi",
+          "outputSummary": "Brīdinājumu triāža · atgriešanas melnraksts · naratīvs · CKYC partija · pierādījumu komplekts",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transakcijas, klienta KYC, brīdinājumi, uzraudzības saraksti un regulatīvie noteikumi."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "TĒRZĒŠANA + SISTĒMA",
+              "description": "Apvieno sarunu ar pārvaldītu piekļuvi atbilstības sistēmām."
+            }
+          ],
+          "outputs": [
+            "Brīdinājumu triāža",
+            "Atgriešanas melnraksts",
+            "Naratīvs",
+            "CKYC partija",
+            "Pierādījumu komplekts"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Iegūstiet iesnieguma vai brīdinājuma pieprasījumu ar klienta, transakcijas un uzraudzības saraksta kontekstu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Pielietojiet fiksētus atbilstības noteikumus un modelējiet brīdinājumu, atgriešanu vai CKYC partiju."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Sastādiet naratīvu un pierādījumu komplektu; pārbaudiet pilnīgumu un konsekvenci."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Parādiet katru piedāvāto lauku un neatrisināto neskaidrību atbilstības amatpersonai."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Iestatiet vai iesniedziet tikai amatpersonas apstiprinātu atgriešanu, naratīvu vai CKYC partiju."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet apstiprinājumus, noraidījumus, iesnieguma statusu un pilnu audita ceļu."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analītiķa novietojums uzlabo pierādījumu iegūšanu, ранжирование un melnrakstu naratīvus.",
+            "neverChanges": "AML scenāriji, sankciju saraksti, sliekšņi un iesniegumu noteikumi paliek fiksēti."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Salīdzināšana un finanses",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Nakts salīdzināšana, kas izskaidro katru pārtraukumu.",
+          "summary": "Nora salīdzina slēdža, CBS, norēķinu un GL ierakstus, ranžē reziduālus un precīzi izskaidro, kāpēc vienums paliek nesalīdzināts.",
+          "inputSummary": "Slēdža transakcijas · CBS galvenā grāmata · GL · izraksti · norēķinu faili",
+          "outputSummary": "Salīdzinātais komplekts · izņēmumu rinda · GL pierādījums · žurnāla priekšskatījums · kopsavilkums",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Slēdža transakcijas, CBS galvenā grāmata, GL, izraksti un norēķinu faili."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "SISTĒMA + TĒRZĒŠANA",
+              "description": "Salīdzina sistēmas ierakstus un izskaidro katru reziduālu finansēm."
+            }
+          ],
+          "outputs": [
+            "Salīdzinātais komplekts",
+            "Izņēmumu rinda",
+            "GL pierādījums",
+            "Žurnāla priekšskatījums",
+            "Kopsavilkums"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Sāciet ar nakts aktivizētāju un iegūstiet slēdža, CBS, GL un norēķinu ierakstus."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Izpildiet precīzu, noteikumu un attiecību salīdzināšanu; modelējiet laika un atsauces atšķirības."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Pārbaudiet reziduālu atbilstības ieteikumus un sagatavojiet žurnāla vai korekcijas priekšskatījumu."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Izskaidrojiet katru neskaidro vienību un parādiet finanšu piedāvāto ierakstu."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Dzēsiet vai ierakstiet tikai finanšu iestādes apstiprināto korekciju."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet pārtraukumus, novecošanos, nākamās dienas atkārtošanos un pieņemtos vai noraidītos ieteikumus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Pieņemtie ieteikumi uzlabo atsauces salīdzināšanu un izņēmumu ранжирование.",
+            "neverChanges": "Grāmatvedības politika, būtiskums un grāmatošanas kontroles paliek regulētas."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Klientu apkalpošana un piedziņa",
+          "mode": "VOICE + CHAT",
+          "outcome": "Atrisiniet sarunu ar redzamo kontu.",
+          "summary": "Nora saprot dabisku sarunu, izgūst klienta kontekstu un sagatavo atbildes, maksājumu solījumus un norēķinus ar sliekšņa nodošanu.",
+          "inputSummary": "Klients 360 · konti · lietu vēsture · politika · parādnieki · PTP",
+          "outputSummary": "Lietas kopsavilkums · statusa atbilde · PTP melnraksts · norēķinu vēstule · maršrutēšana",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Klients 360, konti, lietu vēsture, politika, parādnieki un PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "BALSA + tērzēšana",
+              "description": "Saprot klienta sarunu ar redzamā konta kontekstu."
+            }
+          ],
+          "outputs": [
+            "Lietas kopsavilkums",
+            "Statusa atbilde",
+            "PTP melnraksts",
+            "Norēķinu vēstule",
+            "Maršrutēšana"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Ierakstiet zvanu, tērzēšanu, dokumentu vai lietas notikumu un identificējiet klienta nodomu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Apstipriniet identitāti un izgūstiet konta, lietas, parādu un politikas kontekstu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Sagatavojiet atbildi, PTP ceļu vai norēķinu ceļu un pārbaudiet to pret klienta ietekmes noteikumiem."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Rādiet piedāvāto atbildi vai konta darbību aģentam pareizajā slieksnī."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Sūtiet, atjauniniet vai reģistrējiet tikai apstiprināto komunikāciju vai konta darbību."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet atrisinājumu, solījumu izpildi vai neizpildi, atkārtotas atvēršanas un eskalācijas."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Aģenta labojumi un rezultāti uzlabo nodomu, maršrutēšanu un nākamo labāko darbību.",
+            "neverChanges": "Piekrīšana, piedziņas izturēšanās un norēķinu pilnvarojums paliek spēkā."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR un iekšējās operācijas",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Katrs jaunpievienotais gatavs. Katrs aizejošais pilnībā slēgts.",
+          "summary": "Nora sagatavo HRMS, e-pastu, identitāti un piekļuves izmaiņas, pēc tam parāda precīzu konta un atļauju starpību pirms vadītāja, HR un IT apstiprinājuma.",
+          "inputSummary": "Darbinieks · HRMS · identitāte/piekļuve · direktorijs · ITSM · HR politika",
+          "outputSummary": "Jaunpievienotā/aizejošā kontrolsaraksts · atļauju starpība · vēstules · izņēmumi",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Darbinieks, HRMS, identitāte un piekļuve, direktorijs, ITSM un HR politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "TĒRZĒŠANA + SISTĒMA",
+              "description": "Koordinē sistēmas izmaiņas caur pārbaudāmu sarunu darbplūsmu."
+            }
+          ],
+          "outputs": [
+            "Jaunpievienotā/aizejošā kontrolsaraksts",
+            "Atļauju starpība",
+            "Vēstules",
+            "Izņēmumi"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Ierakstiet jaunpievienotā, aizejošā vai iekšējā pieprasījumu ar darbinieka un vadītāja kontekstu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Modelējiet nepieciešamās HRMS, direktorijas, e-pasta, identitātes un piekļuves izmaiņas."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Pārbaudiet konta un atļauju starpību pret tiesību un pilnīguma noteikumiem."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Parādiet precīzu starpību vadītāja, HR un IT apstiprinājumam."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Nodrošiniet vai atsauciet tikai apstiprinātos kontus, lomas un resursus."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet pabeigšanu, neizdevušos uzdevumus, atlikušo piekļuvi un vadītāja labojumus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Labojumi uzlabo lomu komplektus, kontrolsarakstus un izņēmumu maršrutēšanu.",
+            "neverChanges": "Privileģētās lomas, pienākumu nošķiršana un apstiprinājuma hierarhija paliek nemainīga."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Kase un tirdzniecības operācijas",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Mazāk pārtraukumu starp darījumu, apstiprinājumu un norēķinu.",
+          "summary": "Nora salīdzina tirdzniecības nosacījumus, izseko apstiprinājumus un sagatavo kursa, reģistra un nostro darbības aiz nosaukta vai dubulta kases apstiprinājuma.",
+          "inputSummary": "Darījumi · apstiprinājumi · kursi · reģistrs · nostro · ierobežojumi · tirdzniecības dokumenti",
+          "outputSummary": "Apstiprinājuma izsekotājs · neatbilstības · kursa priekšskatījums · nostro pierādījums",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Darījumi, apstiprinājumi, kursi, reģistrs, nostro, ierobežojumi un tirdzniecības dokumenti."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "BALSA + sistēma",
+              "description": "Salīdzina tirdzniecības datus un atbalsta apstiprinātu galda instrukciju."
+            }
+          ],
+          "outputs": [
+            "Apstiprinājuma izsekotājs",
+            "Neatbilstības",
+            "Kursa priekšskatījums",
+            "Nostro pierādījums"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Ierakstiet darījumu, apstiprinājumu vai galda instrukciju ar pretējās puses kontekstu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Izgūstiet un salīdziniet nosacījumus starp darījumiem, apstiprinājumiem, kursiem, reģistru un nostro."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Sagatavojiet darbību un pārbaudiet ierobežojumus, summas, termiņus un pašreizo sistēmas stāvokli."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Iesniedziet precīzu instrukciju nosauktajai vai dubultajai kases iestādei."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Sūtiet tikai apstiprināto kursa, reģistra, apstiprinājuma vai nostro instrukciju."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet apstiprinājumu, norēķinus, pārtraukumus, termiņus un pretējās puses labojumus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Atrisinātās neatbilstības uzlabo izvilkšanu, salīdzināšanu un termiņa prioritāti.",
+            "neverChanges": "Tirdzniecības, FX, riska, maksājumu un sankciju ierobežojumi nevar paši sevi mainīt."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikrobanku pakalpojumi un EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Laua dati kļūst par tīru, apstiprinātu partiju.",
+          "summary": "Nora lasa sapulces lapas un veidlapas, saprot vietējā valodā diktētus datus un atrisina neskaidrības pirms daudz-sistēmu partiju izveides.",
+          "inputSummary": "Sapulces dati · grupu aizdevumi · piedziņa · KYC · shēmas veidlapas · prasības",
+          "outputSummary": "Sapulces partija · piedziņas augšupielāde · shēmas pakete · noraidīto rindu rindā",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Sapulces dati, grupu aizdevumi, piedziņa, KYC, shēmas veidlapas un prasības."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Kamera + balss",
+              "description": "Lasa lauka dokumentus un saprot vietējā valodā diktētus datus."
+            }
+          ],
+          "outputs": [
+            "Sapulces partija",
+            "Piedziņas augšupielāde",
+            "Shēmas pakete",
+            "Noraidīto rindu rinda"
+          ],
+          "workflow": [
+            {
+              "stage": "SĀKUMS",
+              "description": "Lauka darbinieks augšupielādē sapulces lapas vai diktē piedziņas datus vietējā valodā."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Transkribējiet un izgūstiet veidlapas, pēc tam salīdziniet dalībniekus, kontus un shēmas kontekstu."
+            },
+            {
+              "stage": "IZPILDE",
+              "description": "Izveidojiet daudz-sistēmu partiju un pārbaudiet anomālijas, sagaidāmās vērtības un trūkstošos datus."
+            },
+            {
+              "stage": "PĀRSKATĪŠANA",
+              "description": "Parādiet katru rindu un piedāvāto ierakstu lauka vai filiāles darbinieka apstiprinājumam."
+            },
+            {
+              "stage": "IZPILDĪŠANA",
+              "description": "Sūtiet tikai apstiprināto grupu aizdevuma, piedziņas vai shēmas partiju."
+            },
+            {
+              "stage": "UZRAUDZĪBA",
+              "description": "Izsekojiet noraidītās rindas, apstiprinājumus, labojumus un pabeigšanu."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Labojumi uzlabo rokrakstu, vietējās valodas kartēšanu un datu pārbaudes.",
+            "neverChanges": "Atbilstība, kredīts, shēma un piedziņas pilnvarojums paliek regulēti."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — DAUDZVEIDOLĀ PERSONA",
+      "heading": "Nora satiekas ar darbu katrā formā.",
+      "body": "Runājiet, rakstiet, rādiet vai savienojiet — tā pati persona un kontroles modelis paliek vietā.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Redze, kas nolasa failu",
+          "body": "Identitātes dokumenti, izraksti, parakstītas veidlapas, rokraksts un ekrānattēli kļūst par strukturētiem pierādījumiem."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Balss operatīvajam brīdim",
+          "body": "Darbinieki var izskaidrot izņēmumu, diktēt lauka datus vai vaicāt statusu, neatstājot darbu."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Sistēmas, kas paliek novērojamas",
+          "body": "Nora lasa apstiprināto kontekstu un sagatavo ierobežotus ierakstus ar katru lauku redzamu pirms izpildes."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "Pilnvarojums, kas paliek cilvēcīgs",
+          "body": "Nosauktie apstiprinājumi, dubultā kontrole un fiksētās politikas vārti ir daļa no izpildes — ne piezīme blakus."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — UZTICĪBA",
+      "heading": "Rādiet izpildi, nevis mierinājumu.",
+      "body": "Pierādījumi, ko vaicās jūsu risku, drošības un revīzijas komandas.",
+      "statusLabel": "Pārvaldības statuss",
+      "statusValue": "REDZAMS",
+      "statusDetail": "Visi kontroles slāņi operatīvi",
+      "controls": [
+        {
+          "title": "DUĀLĀ KONTROLE",
+          "body": "Nosaukts veidotājs/pārbaudītājs būtiskās darbībās"
+        },
+        {
+          "title": "POLITIKAS SLĒDZENES",
+          "body": "AI nevar pārrakstīt banku vai regulatoro politiku"
+        },
+        {
+          "title": "AUDITA ŽURNĀLS",
+          "body": "Nemainīgs ieejas, spriešanas, apstiprinājuma un darbības maršruts"
+        },
+        {
+          "title": "IERobežota piekļuve",
+          "body": "Lasīšanas un rakstīšanas atļaujas rīku un lauka līmenī"
+        },
+        {
+          "title": "DATU ATRAŠANĀS VIETA",
+          "body": "Izvietojiet bankas apstiprinātajā robežā"
+        },
+        {
+          "title": "ŠIFRĒŠANA",
+          "body": "Aizsargāts transitā un atpūtā"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Izvietojama banku AI persona, veidota ar Gabriel Operator.",
+      "exploreLabel": "Izpētiet",
+      "useCasesLabel": "Lietošanas gadījumi",
+      "getStartedLabel": "Sāciet",
+      "useCaseLinks": [
+        "KYC",
+        "Kredīts",
+        "Atbilstība",
+        "Operācijas"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "NĀKAIS PALAIŠANA",
+      "heading": "Izvietojiet Noru vienā banku domēnā.",
+      "body": "Izvēlieties darbplūsmu, saskarni un pilnvarojuma robežu. Novietojiet pirmo pārvaldīto izpildi pret savu operāciju komandu.",
+      "ctaLabel": "Runā ar Noru"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

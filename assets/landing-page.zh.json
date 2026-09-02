@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "zh",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "能力",
+          "target": "capabilities"
+        },
+        {
+          "label": "用例",
+          "target": "use-cases"
+        },
+        {
+          "label": "相信",
+          "target": "trust"
+        },
+        {
+          "label": "关于",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "认识诺拉"
+    },
+    "badge": "银行人工智能运营",
+    "headline": "使银行原生",
+    "subheadline": "Nora 是一个由 Gabriel Operator 构建的银行 AI 角色——通过嵌入式聊天、SDK、API 或银行的编排层提供。",
+    "ctaLabel": "和诺拉谈谈",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "你好。 问我如何支持银行工作流程或适合您的操作堆栈。"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "角色预览",
+      "inputPlaceholder": "向 Nora 询问工作流程……",
+      "suggestedPrompts": [
+        "KYC 工作流程",
+        "积分"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — 受控的行动路径",
+      "heading": "行动的代理人。 银行家保持控制。",
+      "headingAccent": "银行家保持控制。",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "捕获",
+          "body": "NORA 收集请求、源文档、策略和上下文。"
+        },
+        {
+          "icon": "sparkles",
+          "title": "模拟",
+          "body": "她首先准备了一个安全的、可审查的工作流版本。"
+        },
+        {
+          "icon": "shield-check",
+          "title": "校验",
+          "body": "规则、证据和例外在任何事情移动之前都会被检查。"
+        },
+        {
+          "icon": "check",
+          "title": "批准",
+          "body": "正确的银行家会确切地看到会发生什么以及为什么会发生什么。"
+        },
+        {
+          "icon": "star",
+          "title": "执行",
+          "body": "仅运行批准的操作，并准备好进行审核的跟踪。"
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — 什么是诺拉？",
+      "segments": [
+        {
+          "text": "Nora是与Gabriel Operator打造的一种AI角色",
+          "tone": "strong"
+        },
+        {
+          "text": "适用于受管制的银行业务。 将她部署到",
+          "tone": "muted"
+        },
+        {
+          "text": "一领域具有明确的知识、工具和权威",
+          "tone": "iris"
+        },
+        {
+          "text": "——然后为其他团队创建更多角色，每个团队都有自己的",
+          "tone": "muted"
+        },
+        {
+          "text": "政策和访问边界",
+          "tone": "accent"
+        },
+        {
+          "text": "。",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — 部署",
+      "heading": "会见已经完成工作的银行。",
+      "body": "从嵌入式体验开始，或将 Nora 直接连接到银行的运营堆栈。",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "嵌入式聊天",
+          "body": "将 Nora 放在已经使用的门户和工作空间中。"
+        },
+        {
+          "code": "SDK",
+          "title": "银行拥有的经验",
+          "body": "使用 SDK 将 Nora 塑造成银行自己的界面和工作流程。"
+        },
+        {
+          "code": "API",
+          "title": "角色即服务",
+          "body": "从产品、运营工具、移动应用程序或事件驱动流中调用 Nora。"
+        },
+        {
+          "code": "ORCH",
+          "title": "编排层",
+          "body": "在银行现有的自动化堆栈中连接 NORA 作为受管制代理人。"
+        }
+      ],
+      "personaLabel": "Nora · 银行 AI 角色",
+      "platformLabel": "内置+加布里埃尔运营商管理",
+      "boundaryItems": [
+        "银行批准的知识",
+        "范围工具",
+        "固定政策",
+        "命名批准"
+      ],
+      "note": "一家银行可以部署许多领域角色——NORA 代表 KYC、NORA 信用、NORA 运营——同时明确限制每个角色的数据、工具和权威。"
+    },
+    "useCases": {
+      "kicker": "04 — 用例",
+      "heading": "1 Persona Model 8 个地方开始。",
+      "subheading": "选择一个域进行 Nora 的第一次部署； 仅在验证运行模式时展开。",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC 和入职",
+          "mode": "VISION + CHAT",
+          "outcome": "从文件到批准的 CBS 记录。",
+          "summary": "Nora 读取 ID 和表格，检查 CKYC 和 CBS，解释不匹配，然后为 Maker 准备确切的客户记录/checker 批准。",
+          "inputSummary": "申请 · CKYC · 身份证件 · CBS · KYC 政策",
+          "outputSummary": "CKYC 匹配 · 缺少字段 · CBS 创建预览 · 证据包",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "申请、CKYC、身份证件、CBS 和 KYC 政策。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "愿景+聊天",
+              "description": "读取身份证据，解决不匹配，并解释拟议的记录。"
+            }
+          ],
+          "outputs": [
+            "CKYC 比赛",
+            "缺少字段",
+            "CBS 创建预览",
+            "证据包"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "官员上传应用程序和身份证件，或要求 Nora 登上客户。"
+            },
+            {
+              "stage": "运行",
+              "description": "提取身份字段，比较 CKYC 和 CBS，并对缺失数据或不匹配进行建模。"
+            },
+            {
+              "stage": "运行",
+              "description": "建立拟议的 CBS 记录并重播完整性和重复检查。"
+            },
+            {
+              "stage": "评论",
+              "description": "显示官员和制造商的证据和确切记录/checker 批准。"
+            },
+            {
+              "stage": "执行",
+              "description": "仅创建或更新批准的 CBS 字段并归档证据包。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪下一次运行的完成、拒绝、例外和军官更正。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "军官更正改进 OCR，名称 /address 标准化和模糊匹配。",
+            "neverChanges": "KYC 政策、强制性字段和审批权限仍然受管辖。"
+          }
+        },
+        {
+          "number": "02",
+          "label": "贷款和信贷运营",
+          "mode": "VISION + VOICE",
+          "outcome": "完整的信用档案，准备就绪。",
+          "summary": "NORA 将局、应用程序和财务背景汇编为借款人档案、偏差备忘录和制裁草案——而不承担信贷授权。",
+          "inputSummary": "应用 · 局 · 财务 · 偏差政策 · LOS / DMS",
+          "outputSummary": "借款人档案 · 偏差备忘录 · 制裁草案 · 支付预览",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "应用程序、局、财务、偏差政策、LOS 和 DMS。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "视觉+声音",
+              "description": "读取信用文件并支持自然语言官员审查。"
+            }
+          ],
+          "outputs": [
+            "借款人档案",
+            "偏差备忘录",
+            "制裁草案",
+            "支付预览"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "捕获申请、财务文件、局数据和官员请求。"
+            },
+            {
+              "stage": "运行",
+              "description": "将数字归一化，总结局历史并模拟每一个政策偏差。"
+            },
+            {
+              "stage": "运行",
+              "description": "组装档案、制裁草案和支付预览； 重新运行策略检查。"
+            },
+            {
+              "stage": "评论",
+              "description": "向指定的信贷机构出示条款、偏差和证据。"
+            },
+            {
+              "stage": "执行",
+              "description": "写下经批准的制裁或支付状态，并在 DMS 中提交包裹。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪状态、周转、下游异常和权限编辑。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "信用官编辑改进摘要、文件检查和优先级。",
+            "neverChanges": "分数、LTV/DTI、定价和制裁权不能自我改变。"
+          }
+        },
+        {
+          "number": "03",
+          "label": "合规性、AML 和报告",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "每份文件都从附上的证据开始。",
+          "summary": "Nora 将交易、KYC、观察名单和规则组装为首过警报分类、退货和提交预览，以供合规审查。",
+          "inputSummary": "交易 · 客户 KYC · 警报 · 观察名单 · 监管规则",
+          "outputSummary": "警报分类 · 回归草稿 · 叙述 · CKYC 批次 · 证据包",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "交易、客户 KYC、警报、观察名单和监管规则。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "聊天+系统",
+              "description": "将对话与受管制的合规性系统访问相结合。"
+            }
+          ],
+          "outputs": [
+            "警报分类",
+            "退货草稿",
+            "叙述",
+            "CKYC 批次",
+            "证据包"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "捕获客户、交易和观察列表上下文的备案请求或警报。"
+            },
+            {
+              "stage": "运行",
+              "description": "应用固定的合规性规则并对警报、退货或 CKYC 批次进行建模。"
+            },
+            {
+              "stage": "运行",
+              "description": "组装叙事和证据包； 测试完整性和一致性。"
+            },
+            {
+              "stage": "评论",
+              "description": "向合规官员展示每个拟议的领域和未解决的不确定性。"
+            },
+            {
+              "stage": "执行",
+              "description": "仅提交或提交官员批准的退货、叙述或 CKYC 批次。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪确认、拒绝、归档状态和完整的审计跟踪。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "分析师的处置改善了证据检索、排名和草案叙述。",
+            "neverChanges": "AML 方案、制裁列表、阈值和备案规则保持固定。"
+          }
+        },
+        {
+          "number": "04",
+          "label": "和解与金融",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "每晚匹配解释每个休息时间。",
+          "summary": "Nora 匹配 Switch、CBS、Settlement 和 GL 记录，对残差进行排名，并准确解释了为什么一个项目仍未得到协调。",
+          "inputSummary": "交换交易 · CBS 分类帐 · GL · 报表 · 结算文件",
+          "outputSummary": "匹配集 · 例外队列 · GL 证明 · 期刊预览 · 摘要",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "交换交易、CBS 分类帐、GL、报表和结算文件。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "系统+聊天",
+              "description": "匹配系统记录并向财务解释每个残差。"
+            }
+          ],
+          "outputs": [
+            "匹配集",
+            "异常队列",
+            "GL 证明",
+            "期刊预览",
+            "概要"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "开始夜间触发器和摄取交换机、CBS、GL 和结算记录。"
+            },
+            {
+              "stage": "运行",
+              "description": "运行精确、规则和关系匹配； 模型时序和参考差异。"
+            },
+            {
+              "stage": "运行",
+              "description": "测试剩余匹配建议并准备日记帐或调整预览。"
+            },
+            {
+              "stage": "评论",
+              "description": "解释每一个模棱两可的项目，并向财务展示拟议的帖子。"
+            },
+            {
+              "stage": "执行",
+              "description": "清除或仅发布财政当局批准的调整。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪中断、老化、次日复发和接受或拒绝的建议。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "接受的建议改进了参考匹配和异常排名。",
+            "neverChanges": "会计政策、重要性和过帐控制仍然受到管辖。"
+          }
+        },
+        {
+          "number": "05",
+          "label": "客户服务和收藏",
+          "mode": "VOICE + CHAT",
+          "outcome": "使用视图中的帐户解决对话。",
+          "summary": "Nora 了解自然对话、检索客户上下文并准备响应、承诺支付和使用阈值切换的结算。",
+          "inputSummary": "客户 360 · 账户 · 案例历史 · 政策 · 犯罪 · PTP",
+          "outputSummary": "案例汇总 · 状态答案 · PTP 草案 · 结算信 · 路由",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "客户 360、账户、案例历史、政策、拖欠和 PTP。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "语音+聊天",
+              "description": "在视图中使用帐户上下文了解客户对话。"
+            }
+          ],
+          "outputs": [
+            "案例摘要",
+            "状态答案",
+            "PTP 草稿",
+            "结算信",
+            "路由"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "捕获呼叫、聊天、文档或案例事件并确定客户意图。"
+            },
+            {
+              "stage": "运行",
+              "description": "解决身份并检索帐户、案例、拖欠和政策上下文。"
+            },
+            {
+              "stage": "运行",
+              "description": "起草答案、PTP 或结算路径并根据客户影响规则对其进行测试。"
+            },
+            {
+              "stage": "评论",
+              "description": "以正确的阈值向代理显示建议的响应或帐户操作。"
+            },
+            {
+              "stage": "执行",
+              "description": "仅发送、更新或记录批准的通信或帐户操作。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪解决方案、保留或损坏的承诺、重新开放和升级。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "代理编辑和结果改进了意图、路由和下一个最佳操作。",
+            "neverChanges": "同意、收款行为和结算当局被强制执行。"
+          }
+        },
+        {
+          "number": "06",
+          "label": "人力资源和内部运营",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "每个细木工都准备好了。 每个离开者完全关闭。",
+          "summary": "Nora 准备人力资源管理、电子邮件、身份和访问权限更改，然后在经理、人力资源和 IT 批准之前显示确切的帐户和权限差异。",
+          "inputSummary": "员工 · 人力资源管理 · 身份/访问 · 目录 · ITSM · 人力资源政策",
+          "outputSummary": "细木工/离开者清单 · 权限差异 · 字母 · 例外",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "员工、人力资源管理、身份和访问、目录、ITSM 和人力资源政策。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "聊天+系统",
+              "description": "通过可检查的会话工作流程进行坐标系统更改。"
+            }
+          ],
+          "outputs": [
+            "细木工/离开者清单",
+            "许可差异",
+            "信件",
+            "例外"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "使用员工和经理上下文捕获 Joiner、离开者或内部请求。"
+            },
+            {
+              "stage": "运行",
+              "description": "模型所需的人力资源管理、目录、电子邮件、身份和访问权限更改。"
+            },
+            {
+              "stage": "运行",
+              "description": "根据权利和完整性规则排练帐户和许可差异。"
+            },
+            {
+              "stage": "评论",
+              "description": "显示经理、人力资源和 IT 批准的确切差异。"
+            },
+            {
+              "stage": "执行",
+              "description": "仅提供或撤销批准的帐户、角色和资源。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪完成、失败的任务、挥之不去的访问和经理更正。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "更正改进角色包、检查表和异常路由。",
+            "neverChanges": "特权角色、职责隔离和批准层次结构保持固定。"
+          }
+        },
+        {
+          "number": "07",
+          "label": "财政和贸易行动",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "交易、确认和结算之间的中断更少。",
+          "summary": "Nora 比较了交易条款、跟踪确认并准备了指定或双重国库批准后的费率、吸墨纸和 Nostro 行动。",
+          "inputSummary": "交易 · 确认 · 费率 · 吸墨纸 · 诺斯特罗 · 限制 · 贸易文档",
+          "outputSummary": "确认跟踪 · 差异 · 费率预览 · Nostro 证明",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "交易、确认、费率、吸墨纸、Nostro、限制和贸易文件。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "语音+系统",
+              "description": "比较交易数据并支持经批准的桌面说明。"
+            }
+          ],
+          "outputs": [
+            "确认跟踪器",
+            "差异",
+            "率预览",
+            "诺斯特罗证明"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "用对手语境捕获交易、确认或办公桌说明。"
+            },
+            {
+              "stage": "运行",
+              "description": "提取和比较交易、确认、费率、吸墨纸和 Nostro 中的术语。"
+            },
+            {
+              "stage": "运行",
+              "description": "准备动作和测试限制、数量、截止值和当前系统状态。"
+            },
+            {
+              "stage": "评论",
+              "description": "向指定或双重国库当局出示确切的指示。"
+            },
+            {
+              "stage": "执行",
+              "description": "仅发送批准的费率、吸墨纸、确认或 Nostro 指令。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪确认、结算、中断、截止和交易对手更正。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "解决的差异改善了提取、匹配和截止优先级。",
+            "neverChanges": "交易、外汇、风险、付款和制裁限制不能自我改变。"
+          }
+        },
+        {
+          "number": "08",
+          "label": "微银行和 EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "现场数据成为一个干净的、经过批准的批次。",
+          "summary": "Nora 阅读会议表和表单，了解指定的本地语言数据并在创建多系统批次之前解决不确定性。",
+          "inputSummary": "会议数据 · 团体贷款 · 收款 · KYC · 计划形式 · 索赔",
+          "outputSummary": "会议批次 · 集合上传 · 方案包 · 拒绝行队列",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "满足数据、团体贷款、收款、KYC、计划表格和索赔。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "相机+语音",
+              "description": "读取现场文档并理解指定的本地语言数据。"
+            }
+          ],
+          "outputs": [
+            "会议批次",
+            "收藏上传",
+            "方案包",
+            "拒绝行队列"
+          ],
+          "workflow": [
+            {
+              "stage": "开始",
+              "description": "现场官员以当地语言上传会议表或规定收集数据。"
+            },
+            {
+              "stage": "运行",
+              "description": "转录和提取表单，然后匹配成员、帐户和方案上下文。"
+            },
+            {
+              "stage": "运行",
+              "description": "构建多系统批处理和测试异常、预期值和缺失数据。"
+            },
+            {
+              "stage": "评论",
+              "description": "显示每一行并建议写入现场或分支官员批准。"
+            },
+            {
+              "stage": "执行",
+              "description": "仅发布批准的团体贷款、收款或计划批次。"
+            },
+            {
+              "stage": "监控",
+              "description": "跟踪被拒绝的行、确认、更正和完成。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "校正改进了手写、本地语言映射和数据检查。",
+            "neverChanges": "资格、信贷、计划和收款权限仍受管辖。"
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — 多模式角色",
+      "heading": "诺拉以各种形式满足工作。",
+      "body": "谈话、打字、显示或连接——同一个角色和控制模型保持原位。",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "读取文件的愿景",
+          "body": "身份证件、声明、签名的表格、笔迹和截图成为结构化的证据。"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "为运营时刻发声",
+          "body": "官员可以在不离开工作的情况下解释例外情况、规定现场数据或要求地位。"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "保持可观察的系统",
+          "body": "Nora 读取已批准的上下文并在执行前为每个可见的字段准备范围写入。"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "保持人类的权威",
+          "body": "命名批准、双重控制和固定策略门是运行的一部分，而不是它旁边的一个注释。"
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — 信任",
+      "heading": "显示跑步，而不是安慰。",
+      "body": "您的风险、安全和审计团队将要求提供的证据。",
+      "statusLabel": "治理状态",
+      "statusValue": "可见",
+      "statusDetail": "所有控制层可操作",
+      "controls": [
+        {
+          "title": "双控制",
+          "body": "命名为 maker / 检查器的后果性行动"
+        },
+        {
+          "title": "政策锁",
+          "body": "人工智能不能改写银行或监管政策"
+        },
+        {
+          "title": "审计日志",
+          "body": "不可变的输入、推理、批准和行动跟踪"
+        },
+        {
+          "title": "范围访问",
+          "body": "工具和字段级别的读写权限"
+        },
+        {
+          "title": "数据驻留",
+          "body": "部署到银行批准的边界"
+        },
+        {
+          "title": "加密",
+          "body": "在运输和休息中受保护"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "与 Gabriel 运营商一起构建的可部署银行 AI 角色。",
+      "exploreLabel": "探索",
+      "useCasesLabel": "用例",
+      "getStartedLabel": "开始",
+      "useCaseLinks": [
+        "凯克",
+        "信用",
+        "顺应性",
+        "操作"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "下一次运行",
+      "heading": "在一个银行领域部署 Nora。",
+      "body": "选择工作流、接口和权限边界。 将第一个受管制的运行放在您的运营团队面前。",
+      "ctaLabel": "和诺拉谈谈"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

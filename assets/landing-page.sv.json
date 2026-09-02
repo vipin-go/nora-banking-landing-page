@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "förmågor",
+          "target": "capabilities"
+        },
+        {
+          "label": "användningsfall",
+          "target": "use-cases"
+        },
+        {
+          "label": "Förtroende",
+          "target": "trust"
+        },
+        {
+          "label": "Om",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Möt Nora"
+    },
+    "badge": "bankverksamhet",
+    "headline": "Gör banken ai-native",
+    "subheadline": "Nora är en bank-AI-persona byggd med Gabriel-operatör – levererad genom inbäddad chatt, SDK, API eller bankens orkestreringslager.",
+    "ctaLabel": "Prata med Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hej. Fråga mig hur jag kan stödja ett bankarbetsflöde eller passa in i din driftstack."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Persona förhandsvisning",
+      "inputPlaceholder": "Fråga Nora om ett arbetsflöde...",
+      "suggestedPrompts": [
+        "KYC arbetsflöde",
+        "Integration"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — En kontrollerad väg till handling",
+      "heading": "agenter som agerar. Bankirer behåller kontrollen.",
+      "headingAccent": "Bankirer behåller kontrollen.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Ta till fånga",
+          "body": "Nora samlar in begäran, källdokument, policy och sammanhang."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simulera",
+          "body": "Hon förbereder en säker, granskningsbar version av arbetsflödet först."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Kontrollera",
+          "body": "Regler, bevis och undantag kontrolleras innan något rör sig."
+        },
+        {
+          "icon": "check",
+          "title": "Godkänna",
+          "body": "Högerbankiren ser exakt vad som kommer att hända och varför."
+        },
+        {
+          "icon": "star",
+          "title": "Utföra",
+          "body": "Endast godkända åtgärder körs, med ett spår redo för revision."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Vad är Nora?",
+      "segments": [
+        {
+          "text": "Nora är en AI-persona byggd med Gabriel-operatör",
+          "tone": "strong"
+        },
+        {
+          "text": "För styrd bankverksamhet. distribuera henne till",
+          "tone": "muted"
+        },
+        {
+          "text": "en domän med definierad kunskap, verktyg och auktoritet",
+          "tone": "iris"
+        },
+        {
+          "text": "— Skapa sedan fler personas för andra lag, var och en med sina egna",
+          "tone": "muted"
+        },
+        {
+          "text": "Policy och tillgångsgränser",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Utplacering",
+      "heading": "Möt banken där arbetet redan sker.",
+      "body": "Börja med en inbäddad upplevelse eller koppla Nora direkt till bankens driftstack.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Inbäddad chatt",
+          "body": "Placera Nora i de portaler och arbetsytor som bankirer redan använder."
+        },
+        {
+          "code": "SDK",
+          "title": "Bankägd erfarenhet",
+          "body": "Använd SDK för att forma Nora till bankens eget gränssnitt och arbetsflöde."
+        },
+        {
+          "code": "API",
+          "title": "Persona som tjänst",
+          "body": "Ring Nora från produkter, driftverktyg, mobilappar eller händelsedrivna flöden."
+        },
+        {
+          "code": "ORCH",
+          "title": "orkestreringslager",
+          "body": "Anslut Nora som en styrd agent i bankens befintliga automationsstack."
+        }
+      ],
+      "personaLabel": "Nora · Banking AI Persona",
+      "platformLabel": "Byggd + styrd med Gabriel Operator",
+      "boundaryItems": [
+        "Bankgodkänd kunskap",
+        "scoped verktyg",
+        "fast politik",
+        "Namngivna godkännanden"
+      ],
+      "note": "En bank kan distribuera många domänpersonas – NORA för KYC, Nora for Credit, Nora for Operations – samtidigt som den behåller varje personas data, verktyg och auktoritet uttryckligen avgränsade."
+    },
+    "useCases": {
+      "kicker": "04 — Användningsfall",
+      "heading": "One Persona Model 8 platser att börja.",
+      "subheading": "Välj en domän för Noras första distribution; expandera först när driftmodellen är bevisad.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC & Onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "Från dokument till en godkänd CBS-post.",
+          "summary": "Nora läser ID:n och formulär, kontrollerar CKYC och CBS, förklarar felmatchningar och förbereder sedan den exakta kundposten för Maker/Checker-godkännande.",
+          "inputSummary": "Ansökningar · CKYC · Identitetshandlingar · CBS · KYC-policy",
+          "outputSummary": "CKYC-matchning · Saknade fält · CBS Creation Preview · Evidence Pack",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Ansökningar, CKYC, Identity Documents, CBS och KYC Policy."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + Chatt",
+              "description": "Läser identitetsbevis, löser felmatchningar och förklarar den föreslagna posten."
+            }
+          ],
+          "outputs": [
+            "CKYC-match",
+            "Saknar fält",
+            "CBS Creation Preview",
+            "bevispaket"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Officer laddar upp applikationen och ID:n, eller ber Nora att gå ombord på kunden."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Extrahera identitetsfält, jämför CKYC och CBS och modellera saknade data eller felmatchningar."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Bygg den föreslagna CBS-posten och replay-fullständigheten och dubbletter av kontroller."
+            },
+            {
+              "stage": "Recension",
+              "description": "Visa bevis och exakta uppgifter för tjänsteman och tillverkare/checkers godkännande."
+            },
+            {
+              "stage": "Utföra",
+              "description": "Skapa eller uppdatera endast de godkända CBS-fälten och lämna in bevispaketet."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåravslutning, avslag, undantag och officerskorrigeringar för nästa körning."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Officerskorrigeringar förbättrar OCR, normalisering av namn/adress och luddig matchning.",
+            "neverChanges": "KYC:s policy, obligatoriska fält och godkännandemyndigheten förblir styrda."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Lån och kreditoperationer",
+          "mode": "VISION + VOICE",
+          "outcome": "En komplett kreditfil, redo för myndigheten.",
+          "summary": "Nora samlar byrå-, tillämpnings- och finansiellt sammanhang till ett lånarunderlag, avvikelsememo och sanktionsutkast – utan att ta på sig kreditbefogenheter.",
+          "inputSummary": "Ansökan · Bureau · Ekonomi · Avvikelsepolicy · LOS / DMS",
+          "outputSummary": "Låntagare · Avvikelse Memo · Sanktionsutkast · Utbetalningsförhandsgranskning",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Ansökan, byrå, ekonomi, avvikelsepolicy, LOS och DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + röst",
+              "description": "Läser kreditfilen och stöder en granskning av naturligt språk."
+            }
+          ],
+          "outputs": [
+            "låntagare",
+            "avvikelsenota",
+            "Sanction draft",
+            "förhandsgranskning"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Fånga ansökan, finansiella dokument, byrådata och tjänstemansbegäran."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Normalisera siffror, sammanfatta byråns historia och modellera varje policyavvikelse."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Sätt ihop ärendet, sanktionsutkast och förhandsgranskning av utbetalning; Kör om policykontroller igen."
+            },
+            {
+              "stage": "Recension",
+              "description": "Nuvarande villkor, avvikelser och bevis till den namngivna kreditmyndigheten."
+            },
+            {
+              "stage": "Utföra",
+              "description": "Skriv den godkända sanktionen eller utbetalningstillståndet och arkivera paketet i DMS."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spårstatus, vändning, undantag nedströms och auktoritetsredigeringar."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Redigering av kreditansvariga förbättrar sammanfattningar, dokumentkontroller och prioritering.",
+            "neverChanges": "Score cut-offs, LTV/DTI, prissättning och sanktionsbefogenheter kan inte självförändras."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Efterlevnad, AML och rapportering",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Varje anmälan börjar med dess bevis bifogade.",
+          "summary": "Nora samlar transaktioner, KYC, bevakningslistor och regler i first-pass alert-triage, returutkast och förhandsgranskningar av inlämning för efterlevnadsgranskning.",
+          "inputSummary": "Transaktioner · Kund KYC · Varningar · Bevakningslistor · Regulatoriska regler",
+          "outputSummary": "Alert Triage · Return Draft · Narrative · CKYC Batch · Evidence Bundle",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transaktioner, kund-KYC, varningar, bevakningslistor och reglerande regler."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chatt + system",
+              "description": "Kombinerar konversation med styrd tillgång till efterlevnadssystem."
+            }
+          ],
+          "outputs": [
+            "larmtriage",
+            "returutkast",
+            "Berättande",
+            "CKYC batch",
+            "Evidence Bunt"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Fånga en arkiveringsförfrågan eller varning med kund-, transaktions- och bevakningssammanhang."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Tillämpa fasta efterlevnadsregler och modellera varningen, returen eller CKYC-batchen."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Sätt ihop narrativ- och bevispaketet; Testets fullständighet och konsekvens."
+            },
+            {
+              "stage": "Recension",
+              "description": "Visa varje föreslaget fält och olöst osäkerhet för efterlevnadsansvarig."
+            },
+            {
+              "stage": "Utföra",
+              "description": "iscensätta eller skicka endast in den officersgodkända returen, berättelsen eller CKYC-batchen."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåra bekräftelser, avslag, arkiveringsstatus och det fullständiga revisionsspåret."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analytikers dispositioner förbättrar bevishämtning, rankning och utkastberättelser.",
+            "neverChanges": "AML-scenarier, sanktionslistor, trösklar och arkiveringsregler förblir fasta."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Avstämning & Finans",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Nattlig matchning som förklarar varje paus.",
+          "summary": "Nora matchar Switch, CBS, Settlement och GL Records, rangordnar rester och förklarar exakt varför en vara förblir oavstämd.",
+          "inputSummary": "Byt transaktioner · CBS Ledger · GL · Uttalanden · Avvecklingsfiler",
+          "outputSummary": "Matchad uppsättning · Undantagskö · GL-bevis · Journalförhandsgranskning · Sammanfattning",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Byt transaktioner, CBS Ledger, GL, uttalanden och avvecklingsfiler."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "System + Chatt",
+              "description": "Matchar systemet registrerar och förklarar varje rest till ekonomi."
+            }
+          ],
+          "outputs": [
+            "matchade set",
+            "undantagskö",
+            "gl proof",
+            "förhandsvisning",
+            "Sammanfattning"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Börja på den nattliga trigger- och intagsväxeln, CBS, GL och avvecklingsposter."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Kör exakt, regel och relationsmatchning; modelltid och referensskillnader."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Testa restmatchförslag och förbered journalen eller justeringsförhandsgranskningen."
+            },
+            {
+              "stage": "Recension",
+              "description": "Förklara varje tvetydig punkt och visa det föreslagna inlägget för finans."
+            },
+            {
+              "stage": "Utföra",
+              "description": "Rensa eller bokför endast den justering som godkänts av finansmyndigheten."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåra pauser, åldrande, upprepning nästa dag och accepterade eller avvisade förslag."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Godkända förslag förbättrar referensmatchning och undantagsrankning.",
+            "neverChanges": "Redovisningspolicy, väsentlighet och bokföringskontroller förblir reglerade."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Kundtjänst och insamlingar",
+          "mode": "VOICE + CHAT",
+          "outcome": "Lös konversationen med kontot i sikte.",
+          "summary": "Nora förstår naturliga samtal, hämtar kundsammanhang och förbereder svar, löften att betala och avvecklingar med tröskelövergångsöverlåtelse.",
+          "inputSummary": "Kund 360 · Konton · Fallhistorik · Policy · Brottslighet · PTP",
+          "outputSummary": "Fallsammanfattning · Statussvar · PTP-utkast · Förlikningsbrev · Routing",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Kund 360, Konton, ärendehistorik, policy, brottslighet och PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "röst + chatt",
+              "description": "Förstår kundkonversationen med kontosammanhang i sikte."
+            }
+          ],
+          "outputs": [
+            "fallsammandrag",
+            "statussvar",
+            "PTP-utkast",
+            "förlikningsbrev",
+            "routing"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Fånga samtalet, chatten, dokumentet eller ärendehändelsen och identifiera kundens avsikt."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Lös identitet och hämta konto, ärende, brottslighet och policykontext."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Utarbeta svaret, PTP eller avvecklingsvägen och testa det mot regler för kundpåverkan."
+            },
+            {
+              "stage": "Recension",
+              "description": "Visa det föreslagna svaret eller kontoåtgärden för agenten vid rätt tröskel."
+            },
+            {
+              "stage": "Utföra",
+              "description": "Skicka, uppdatera eller logga endast den godkända kommunikationen eller kontoåtgärden."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåra upplösning, löften som hålls eller brutna, återöppningar och upptrappningar."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Agentredigeringar och resultat förbättrar avsikt, routing och näst bästa åtgärder.",
+            "neverChanges": "samtycke, uppehållstillstånd och förlikningsmyndighetsvistelse verkställs."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR & intern ops",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Varje snickare redo. Varje Leaver helt stängd.",
+          "summary": "Nora förbereder HRMS, e-post, identitets- och åtkomständringar och visar sedan det exakta kontot och behörighetsskillnaden innan chef, HR och IT-godkännande.",
+          "inputSummary": "Anställd · HRMS · Identitet/tillgång · Katalog · ITSM · HR-policy",
+          "outputSummary": "Joiner/Leaver Checklista · Behörighetsdiff · Brev · Undantag",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Anställd, HRMS, identitet och åtkomst, katalog, ITSM och HR-policy."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chatt + system",
+              "description": "Koordinerar systemförändringar genom ett besiktningsbart konversationsarbetsflöde."
+            }
+          ],
+          "outputs": [
+            "Checklista för snickare/överlämnande",
+            "tillståndsskillnad",
+            "bokstäver",
+            "undantagsfall"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Fånga snickaren, lämnar eller intern begäran med anställd och chefskontext."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Modell krävs HRMS, katalog, e-post, identitet och åtkomständringar."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Repetera konto- och tillståndsskillnaden mot regler för rättighet och fullständighet."
+            },
+            {
+              "stage": "Recension",
+              "description": "Visa den exakta skillnaden för chef, HR och IT-godkännande."
+            },
+            {
+              "stage": "Utföra",
+              "description": "tillhandahålla eller återkalla endast godkända konton, roller och resurser."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåra slutförande, misslyckade uppgifter, kvardröjande åtkomst och chefskorrigeringar."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Korrigeringar förbättrar rollbuntar, checklistor och undantagsrouting.",
+            "neverChanges": "Privilegerade roller, segregering av uppgifter och godkännandehierarki förblir fast."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Treasury & Trade Ops",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Färre pauser mellan affär, bekräftelse och förlikning.",
+          "summary": "Nora jämför handelsvillkor, spårar bekräftelser och förbereder taxor, blotter och nostro-åtgärder bakom namngivna eller dubbelt treasury-godkännande.",
+          "inputSummary": "erbjudanden · bekräftelser · priser · blotter · nostro · gränser · handelsdokument",
+          "outputSummary": "Bekräftelsespårare · Avvikelser · Rate Preview · Nostro Proof",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "erbjudanden, bekräftelser, priser, blotter, nostro, gränser och handelsdokument."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "röst + system",
+              "description": "Jämför handelsdata och stöder en godkänd skrivbordsinstruktion."
+            }
+          ],
+          "outputs": [
+            "Konfirmationsspårare",
+            "avvikelser",
+            "Betygsätt förhandsvisning",
+            "Nostro proof"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Fånga affären, bekräftelsen eller skrivbordsinstruktionen med motpartssammanhang."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Extrahera och jämför termer över erbjudanden, bekräftelser, priser, blotter och nostro."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Förbered åtgärds- och testgränserna, belopp, cut-offs och nuvarande systemtillstånd."
+            },
+            {
+              "stage": "Recension",
+              "description": "Presentera den exakta instruktionen för den namngivna eller dubbla finansmyndigheten."
+            },
+            {
+              "stage": "Utföra",
+              "description": "Skicka endast den godkända taxan, blotter, bekräftelse eller nostro-instruktioner."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåra bekräftelse, avveckling, pauser, cut-offs och motpartskorrigeringar."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Lösta avvikelser förbättrar extraktion, matchning och gränsprioritet.",
+            "neverChanges": "Handling, valuta, risk, betalning och sanktionsgränser kan inte ändra sig själv."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbanking & EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Fältdata blir en ren, godkänd batch.",
+          "summary": "Nora läser mötesblad och formulär, förstår dikterade lokalspråkiga data och löser osäkerheter innan de skapar multisystembatcher.",
+          "inputSummary": "Mötesdata · Grupplån · Insamlingar · KYC · Schemaformulär · Anspråk",
+          "outputSummary": "Meeting Batch · Samlingar Ladda upp · Schemapaket · Avvisad radkö",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Mötesdata, grupplån, insamlingar, KYC, Scheme Forms och Claims."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Kamera + röst",
+              "description": "Läser fältdokument och förstår dikterade lokalspråksdata."
+            }
+          ],
+          "outputs": [
+            "Mötessats",
+            "Samlingar uppladdning",
+            "Schema Pack",
+            "kö"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Fältofficer laddar upp mötesblad eller dikterar insamlingsdata på lokalt språk."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Transkribera och extrahera formulär, matcha sedan medlemmar, konton och schemakontext."
+            },
+            {
+              "stage": "Sikt",
+              "description": "Bygg multisystembatchen och testa anomalier, förväntade värden och saknade data."
+            },
+            {
+              "stage": "Recension",
+              "description": "Visa varje rad och föreslagen skriv för godkännande av fält- eller filialofficer."
+            },
+            {
+              "stage": "Utföra",
+              "description": "Lägg endast upp det godkända grupplånet, insamlingen eller schemat."
+            },
+            {
+              "stage": "Övervaka",
+              "description": "Spåra avvisade rader, bekräftelser, korrigeringar och slutförande."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Korrigeringar förbättrar handstil, kartläggning av lokalspråk och datakontroller.",
+            "neverChanges": "Behörighet, kredit, system och inkassomyndighet förblir reglerad."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Multimodal persona",
+      "heading": "Nora möter arbetet i alla former.",
+      "body": "Prata, skriv, visa eller anslut – samma persona och kontrollmodell stannar på plats.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "vision som läser filen",
+          "body": "Identitetshandlingar, uttalanden, undertecknade formulär, handstil och skärmdumpar blir strukturerade bevis."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Röst för det operativa ögonblicket",
+          "body": "Tjänstemän kan förklara ett undantag, diktera fältdata eller be om status utan att lämna arbetet."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "System som förblir observerbara",
+          "body": "Nora läser godkänt sammanhang och förbereder scoped skrivningar med varje fält synligt före exekvering."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "auktoritet som förblir mänsklig",
+          "body": "Namngivna godkännanden, dubbel kontroll och fasta policyportar är en del av körningen – inte en anteckning bredvid den."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Förtroende",
+      "heading": "Visa löpningen, inte en försäkran.",
+      "body": "Bevisen som dina risk-, säkerhets- och revisionsteam kommer att be om.",
+      "statusLabel": "styrningsstatus",
+      "statusValue": "Synlig",
+      "statusDetail": "Alla kontrolllager fungerar",
+      "controls": [
+        {
+          "title": "dubbelkontroll",
+          "body": "Namngiven maker / checker om följdåtgärder"
+        },
+        {
+          "title": "policylås",
+          "body": "AI kan inte skriva om bank- eller regleringspolicy"
+        },
+        {
+          "title": "granskningslogg",
+          "body": "oföränderlig input, resonemang, godkännande och handlingsspår"
+        },
+        {
+          "title": "Scoped Access",
+          "body": "Läs- och skrivbehörigheter på verktygs- och fältnivå"
+        },
+        {
+          "title": "residensitet",
+          "body": "distribuera till bankens godkända gräns"
+        },
+        {
+          "title": "kryptering",
+          "body": "skyddad i transit och i vila"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "En utplacerbar bank-AI-persona byggd med Gabriel-operatör.",
+      "exploreLabel": "Utforska",
+      "useCasesLabel": "användningsfall",
+      "getStartedLabel": "Starta",
+      "useCaseLinks": [
+        "kyc",
+        "Kreditera",
+        "efterlevnad",
+        "Operationer"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Nästa körning",
+      "heading": "Distribuera Nora i en bankdomän.",
+      "body": "Välj arbetsflöde, gränssnitt och auktoritetsgräns. Sätt den första styrda körningen framför ditt operationsteam.",
+      "ctaLabel": "Prata med Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

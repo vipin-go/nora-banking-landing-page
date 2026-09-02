@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "et",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Võimalused",
+          "target": "capabilities"
+        },
+        {
+          "label": "Kasutusjuhud",
+          "target": "use-cases"
+        },
+        {
+          "label": "Usaldus",
+          "target": "trust"
+        },
+        {
+          "label": "Teave",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": " Tutvuge Noraga"
+    },
+    "badge": "PANGANDUS AI TOIMINGUD",
+    "headline": "Muutke pank AI-naatiivseks",
+    "subheadline": "Nora on pangandus AI isiksus, mis on ehitatud Gabriel Operatoriga - tarnitakse sisseehitatud vestluse, SDK, API või panga orkestreerimiskihi kaudu.",
+    "ctaLabel": "Rääkige Noraga",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Tere. Küsige, kuidas saaksin toetada panganduse töövoogu või sobida teie operatsioonide virna."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": " ISIKU EELVAADE",
+      "inputPlaceholder": "Küsige Noralt töövoo kohta...",
+      "suggestedPrompts": [
+        "KYC töövoog",
+        "Integratsioon"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — KONTROLLITUD TEE TEGEVUSELE",
+      "heading": " agendid, kes tegutsevad.\nPangandus spetsialistid hoiavad kontrolli.",
+      "headingAccent": "Pangandus spetsialistid hoiavad kontrolli.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Püüdmine",
+          "body": "Nora kogub päringu, lähtedokumendid, poliitika ja konteksti."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simuleerimine",
+          "body": "Kõigepealt valmistab ette töövoo ohutu, läbivaadatava versiooni."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Kinnitamine",
+          "body": "Reegleid, tõendeid ja erandeid kontrollitakse enne midagi, mis liigub."
+        },
+        {
+          "icon": "check",
+          "title": "Kinnita",
+          "body": " õige pangandus spetsialist näeb täpselt, mis juhtub ja miks."
+        },
+        {
+          "icon": "star",
+          "title": "Käivita",
+          "body": "Käivitatakse ainult kinnitatud toimingud, koos auditeerimiseks valmis jäljega."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — KES ON NORA?",
+      "segments": [
+        {
+          "text": "Nora on üks AI isiksus, mis on ehitatud Gabriel Operatoriga",
+          "tone": "strong"
+        },
+        {
+          "text": " reguleeritud panganduse jaoks. Juurutage ta ",
+          "tone": "muted"
+        },
+        {
+          "text": " üks domeen määratletud teadmiste, tööriistade ja volitustega",
+          "tone": "iris"
+        },
+        {
+          "text": "—seejärel looge rohkem isikuid teistele meeskondadele, kõigil oma ",
+          "tone": "muted"
+        },
+        {
+          "text": " poliitika ja juurdepääs piirangutega",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — JUURUTAMINE",
+      "heading": " Tutvuge pangaga, kus töö juba toimub.",
+      "body": "Alustage sisseehitatud kogemusega või ühendage Nora otse panga operatsioonide virna.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Sisseehitatud vestlus",
+          "body": "Paigutage Nora pankurite juba kasutatavatesse portaalidesse ja tööruumidesse."
+        },
+        {
+          "code": "SDK",
+          "title": "Panga oma kogemus",
+          "body": "Kasutage SDK-d, et kujundada Nora panga wanni kasutajaliideseks ja töövooks."
+        },
+        {
+          "code": "API",
+          "title": "Isik kui teenus",
+          "body": "Kutsuge Nora toodetest, operatsioonide tööriistadest, mobiilirakendustest või sündmusepõhistest voogudest."
+        },
+        {
+          "code": "ORCH",
+          "title": "Orkestreerimise kiht",
+          "body": "Ühendage Nora juhitud agendina olemasolevasse panga automatiseerimise virna."
+        }
+      ],
+      "personaLabel": "NORA · PANGANDUSE AI ISIK",
+      "platformLabel": "EHITATUD + PÄRASTATUD GABRIEL OPERATORI KAUPOOLT",
+      "boundaryItems": [
+        "PANKA HEKSKIITUD TEADMISED",
+        "PIRATUD TÖÖRIISTAD",
+        "KINNITATUD POLIITIKA",
+        "NIMETATUD HEASKIIDUD"
+      ],
+      "note": "Üks pank saab juurutada mitu domeeni isikut—Nora KYC jaoks, Nora krediidi jaoks, Nora operatsioonide jaoks—hoides iga isiku andmeid, tööriistu ja volitusi selgesõnaliselt piiratuna."
+    },
+    "useCases": {
+      "kicker": "04 — KASUTUSJUHUD",
+      "heading": "Üks isiku mudel\n8 kohta, kust alustada.",
+      "subheading": "Valige üks domeen Norri esimeseks juurutamiseks; laienege ainult siis, kui operatsioonimudel on tõestatud.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC ja usaldusisikute sisseviimine",
+          "mode": "VISION + CHAT",
+          "outcome": "Dokumentidest kinnitatud CBS kirjeni.",
+          "summary": "Nora loeb isikut tõendavaid dokumente ja vorme, kontrollib CKYC-d ja CBS-i, selgitab lahknevusi, seejärel valmistab ette täpse kliendi kirje kontrollija kinnitamiseks.",
+          "inputSummary": "Taotlused · CKYC · isikut tõendavad dokumendid · CBS · KYC poliitika",
+          "outputSummary": "CKYC vaste · puuduvad väljad · CBS loomise eelvaade · tõendite kogum",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Taotlused, CKYC, isikut tõendavad dokumendid, CBS ja KYC poliitika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": " NÄGEMINE + VESTLUS",
+              "description": "Loeb identiteeditõendeid, lahendab lahknevusi ja selgitab pakutud kirjet."
+            }
+          ],
+          "outputs": [
+            "CKYC vaste",
+            "Puuduvad väljad",
+            "CBS loomise eelvaade",
+            "Tõendite kogum"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Ametnik laadib üles taotluse ja isikut tõendavad dokumendid või palub Noral kliendi sisse viia."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Eraldage identiteediväljad, võrrelge CKYC-d ja CBS-i ning modelleerige puuduvaid andmeid või lahknevusi."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Koostage pakutud CBS kirje ja taasesitage täielikkuse ning duplikaatide kontroll."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Näidake tõendeid ja täpset kirjet ametniku ja kontrollija kinnitamiseks."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Looge või värskendage ainult kinnitatud CBS välju ja arhiveerige tõendite kogum."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige täitmist, tagasilükkamisi, erandeid ja ametniku parandusi järgmiseks käivitamiseks."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Ametniku parandused parandavad OCR-i, nime/aadressi normaliseerimist ja hägust vastavust.",
+            "neverChanges": "KYC poliitika, kohustuslikud väljad ja kinnitamise volitused jäävad reguleerituks."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Laenud ja krediiditoimingud",
+          "mode": "VISION + VOICE",
+          "outcome": " täielik krediiditoimik, valmis volitusteks.",
+          "summary": "Nora koostab laenuvõtja toimiku, kõrvalekalde märkuse ja sanktsiooni eelnõu - ilma krediidivolitusi eeldamata.",
+          "inputSummary": "Taotlus · büroo · finantsid · kõrvalekalde poliitika · LOS / DMS",
+          "outputSummary": "Laenuvõtja toimik · kõrvalekalde märkus · sanktsiooni eelnõu · väljamakse eelvaade",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Taotlus, büroo, finantsid, kõrvalekalde poliitika, LOS ja DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": " NÄGEMINE + HÄÄL",
+              "description": "Loeb krediiditoimikut ja toetab loomuliku keele ametniku ülevaadet."
+            }
+          ],
+          "outputs": [
+            "Laenuvõtja toimik",
+            "Kõrvalekalde märkus",
+            "Sanktsiooni eelnõu",
+            "Väljamakse eelvaade"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Püüa taotlus, finantsdokumendid, büroo andmed ja ametniku päring."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Normaliseerige numbrid, võtke kokku büroo ajalugu ja modelleerige iga poliitikast kõrvalekallet."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Koostage toimik, sanktsiooni eelnõu ja väljamakse eelvaade; käivitage poliitika kontrollid uuesti."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Esitage tingimused, kõrvalekalded ja tõendid nimetatud krediidivolitustele."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Kirjutage kinnitatud sanktsiooni või väljamakse olek ja arhiveerige toimik DMS-is."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige staatust, käibeaega, allavoolu erandeid ja volituste muudatusi."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Krediidiametniku parandused parandavad kokkuvõtteid, dokumentide kontrolli ja prioritiseerimist.",
+            "neverChanges": "Skoorilõigud, LTV/DTI, hinnakujundus ja sanktsiooni volitused ei saa iseenesest muutuda."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Vastavus, AML ja aruandlus",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Iga esildus algab selle tõenditega.",
+          "summary": "Nora koostab tehingud, KYC, jälgimisnimekirjad ja reeglid esimese taseme hoiatuste triage'iks, tagastuse mustanditeks ja esitamise eelvaadeteks vastavuse ülevaatuseks.",
+          "inputSummary": "Tehingud · kliendi KYC · hoiatused · jälgimisnimekirjad · regulatiivsed reeglid",
+          "outputSummary": "Hoiatuste triage · tagastuse mustand · narratiiv · CKYC partii · tõendite kogum",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Tehingud, kliendi KYC, hoiatused, jälgimisnimekirjad ja regulatiivsed reeglid."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "VESTLUS + SÜSTEEM",
+              "description": "Kombineerib vestluse reguleeritud juurdepääsuga vastavuse süsteemidele."
+            }
+          ],
+          "outputs": [
+            "Hoiatuste triage",
+            "Tagastuse mustand",
+            "Narratiiv",
+            "CKYC partii",
+            "Tõendite kogum"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Püüa esilduse või hoiatuse päring koos kliendi, tehingu ja jälgimisnimekirja kontekstiga."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Rakendage fikseeritud vastavuse reegleid ja modelleerige hoiatust, tagastust või CKYC partiid."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Koostage narratiiv ja tõendite kogum; testige täielikkust ja järjepidevust."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Näidake iga pakutud välja ja lahendamata ebakindlust vastavuse ametnikule."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Lavastage või esitage ainult ametniku kinnitatud tagastus, narratiiv või CKYC partii."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige kinnitusi, tagasilükkamisi, esilduse staatust ja täielikku auditi jälge."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analüüti paigutus parandab tõendite hankimist, järjestamist ja mustandnarratiive.",
+            "neverChanges": "AML stsenaariumid, sanktsioonide nimekirjad, läved ja esildusereeglid jäävad fikseerituks."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Vastavusse viimine ja finantsid",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Ig öine vastavusse viimine, mis selgitab iga katkestust.",
+          "summary": "Nora vastandab lüliti, CBS, tasakaalustus- ja GL-kirjeid, järjestab jääke ja selgitab täpselt, miks üksus jääb kokkusobimatuks.",
+          "inputSummary": "Lüliti tehingud · CBS pearaamat · GL · väljavõtted · tasakaalustusfailid",
+          "outputSummary": "Vastavuses olev komplekt · erandijärjekord · GL tõend · marginaali eelvaade · kokkuvõte",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Lüliti tehingud, CBS pearaamat, GL, väljavõtted ja tasakaalustusfailid."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "SÜSTEEM + VESTLUS",
+              "description": "Vastandab süsteemi kirjeid ja selgitab igat jääki finantsidele."
+            }
+          ],
+          "outputs": [
+            "Vastavuses olev komplekt",
+            "Erandijärjekord",
+            "GL tõend",
+            "Marginaali eelvaade",
+            "Kokkuvõte"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Alustage öisest päästikust ja neelake lüliti, CBS, GL ja tasakaalustuskirjed."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Käivitage täpne, reeglitel ja seostepõhine vastavusse viimine; modelleerige ajastuse ja viite erinevusi."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Testige jäägi vaste soovitusi ja valmistage ette marginaali või korrigeerimise eelvaade."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Selgitage iga mitmet mingit üksust ja näidake finantsidele pakutud sisestust."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Kustutage või sisestage ainult finantsvolituste kinnitatud korrigeerimine."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige katkestusi, vananemist, järgmise päeva kordumist ja vastuvõetud või tagasi lükatud soovitusi."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Vastuvõetud soovitused parandavad viite vastavusse viimist ja erandite järjestamist.",
+            "neverChanges": "Raamatupidamispõhimõtted, olulisus ja postituskontrollid jäävad reguleerituks."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Klienditeenindus ja sissenõuded",
+          "mode": "VOICE + CHAT",
+          "outcome": "Lahendage vestlus vaadatava kontoga.",
+          "summary": "Nora mõistab loomulikku vestlust, hangib kliendi konteksti ja valmistab ette vastused, maksekohustused ja tasumised koos lävipõhise üleandmisega.",
+          "inputSummary": "Klient 360 · kontod · juhtumi ajalugu · poliitika · makseraskused · PTP",
+          "outputSummary": "Juhtumi kokkuvõte · staatuse vastus · PTP mustand · tasumiskiri · marsruutimine",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Klient 360, kontod, juhtumi ajalugu, poliitika, makseraskused ja PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "HÄÄL + vestlus",
+              "description": "Mõistab kliendi vestlust kontoga seotud kontekstis."
+            }
+          ],
+          "outputs": [
+            "Juhtumi kokkuvõte",
+            "Staatuse vastus",
+            "PTP mustand",
+            "Tasumiskiri",
+            "Marsruutimine"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Salvestage kõne, vestlus, dokument või juhtumi sündmus ja tuvastage kliendi kavatsus."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Kinnitage identiteet ja hangige konto, juhtumi, makseraskuste ja poliitika kontekst."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Koostage vastus, PTP tee või tasumise tee ja testige seda kliendi mõju reeglite vastu."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Kuvage pakutud vastus või konto toiming agendile õigel lävel."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Saatke, värskendage või logige ainult heakskiidetud suhtlust või konto toimingut."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige lahendust, täidetud või rikutud lubadusi, taasavamisi ja eskalatsioone."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Agendi redaktsioonid ja tulemused parandavad kavatsust, marsruutimist ja järgmist parimat toimingut.",
+            "neverChanges": "Nõusolek, sissenõudmise käitumine ja tasumise volitus jäävad jõustunuks."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR ja sisemised operatsioonid",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Iga liituja valmis. Iga lahkuja täielikult suletud.",
+          "summary": "Nora valmistab ette HRMS-i, e-posti, identiteedi ja juurdepääsmuutused ning seejärel näitab täpset kontode ja õiguste erinevust enne juhi, personali ja IT heakskiitu.",
+          "inputSummary": "Töötaja · HRMS · identiteet/juurdepääs · kataloog · ITSM · HR poliitika",
+          "outputSummary": "Liituja/lahkuja kontrollnimekiri · õiguste erinevus · kirjad · erandid",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Töötaja, HRMS, identiteet ja juurdepääs, kataloog, ITSM ja HR poliitika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "VESTLUS + SÜSTEEM",
+              "description": "Koordineerib süsteemimuutusi läbi kontrollitava vestluspõhise töövoo."
+            }
+          ],
+          "outputs": [
+            "Liituja/lahkuja kontrollnimekiri",
+            "Õiguste erinevus",
+            "Kirjad",
+            "Erandid"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Salvestage liituja, lahkuja või sisemise taotluse töötaja ja juhi kontekst."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Mudelõige nõutavad HRMS, kataloogi, e-posti, identiteedi ja juurdepääsu muutused."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Testige kontode ja õiguste erinevust õiguste ja täielikkuse reeglite vastu."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Kuvage täpne erinevus juhi, personali ja IT heakskiiduks."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Tagage või tühistage ainult heakskiidetud kontod, rollid ja ressursid."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige lõpetamist, ebaõnnestunud ülesandeid, järelejäänud juurdepääsu ja juhi parandusi."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Parandused parandavad rolle, kontrollnimekirju ja erandite marsruutimist.",
+            "neverChanges": "Eriotstarbelised rollid, kohustuste lahutamine ja kinnituse hierarhia jäävad fikseerituks."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Kassa ja kauplemise operatsioonid",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Vähem pause tehingu, kinnituse ja tasumise vahel.",
+          "summary": "Nora võrdleb kaubandustingimusi, jälgib kinnitusi ja valmistab ette kursside, registri ja nostro toiminguid nimetatud või topeltkassa heakskiidu taga.",
+          "inputSummary": "Tehingud · kinnitused · kursid · register · nostro · piirangud · kaubandusdokumendid",
+          "outputSummary": "Kinnituse jälgja · lahknevused · kurssi eelvaade · nostro tõestus",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Tehingud, kinnitused, kursid, register, nostro, piirangud ja kaubandusdokumendid."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "HÄÄL + süsteem",
+              "description": "Võrdleb kaubandusandmeid ja toetab heakskiidetud lauajuhist."
+            }
+          ],
+          "outputs": [
+            "Kinnituse jälgja",
+            "Lahknevused",
+            "Kurssi eelvaade",
+            "Nostro tõestus"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Salvestage tehing, kinnitus või lauajuhis vastaspool kontekstis."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Eraldage ja võrrelge tingimusi üle tehingute, kinnituste, kursside, registri ja nostro."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Valmistage toiming ette ja testige piiranguid, summasid, tähtaegu ja süsteemi praegust olekut."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Esitage täpne juhis nimetatud või topeltkassa asutusele."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Saatke ainult heakskiidetud kursside, registri, kinnituse või nostro juhis."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige kinnitust, tasumist, pause, tähtaegu ja vastaspoolte parandusi."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Lahendatud lahknevused parandavad eraldamist, sobitamist ja tähtaja prioriteeti.",
+            "neverChanges": "Kauplemise, FX, riski, maksete ja sanktsioonide piiranguid ei saa ise muuta."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikropangandus ja EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Väljadel kogutud andmed muutuvad puhtaks, heakskiidetuks partiiks.",
+          "summary": "Nora loeb koosolekulehti ja vorme, mõistab kohalikus keeles dikteeritud andmeid ja lahendab ebaselgused enne mitme süsteemi loomist.",
+          "inputSummary": "Koosoleku andmed · rühmalaenud · sissenõuded · KYC · skeemi vormid · nõuded",
+          "outputSummary": "Koosoleku partii · sissenõuete üleslaadimine · skeemi pakett · tagasilükatud ridade järjekord",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Koosoleku andmed, rühmalaenud, sissenõuded, KYC, skeemi vormid ja nõuded."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Kaamera + hääl",
+              "description": "Loeb väljade dokumente ja mõistab kohalikus keeles dikteeritud andmeid."
+            }
+          ],
+          "outputs": [
+            "Koosoleku partii",
+            "Sissenõuete üleslaadimine",
+            "Skeemi pakett",
+            "Tagasilükatud ridade järjekord"
+          ],
+          "workflow": [
+            {
+              "stage": "ALGUS",
+              "description": "Välitöötaja laadib koosolekulehed üles või dikteerib sissenõudeanded kohalikus keeles."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Transkribeerige ja eraldage vormid, seejärel sobitage liikmed, kontod ja skeemi kontekst."
+            },
+            {
+              "stage": "KÄIVITAMINE",
+              "description": "Koostage mitme süsteemi partii ja testige anomaaliaid, eeldatavaid väärtusi ja puuduvaid andmeid."
+            },
+            {
+              "stage": "ÜLEVAATUS",
+              "description": "Kuvage iga rida ja pakutud kirje välia või filiaali töötaja heakskiiduks."
+            },
+            {
+              "stage": "TEOSTUS",
+              "description": "Saatke ainult heakskiidetud rühmalaenu, sissenõude või skeemi partii."
+            },
+            {
+              "stage": "JÄRELEVALVE",
+              "description": "Jälgige tagasilükatud ridu, kinnitusi, parandusi ja lõpetamist."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Parandused parandavad käsitsikirjutust, kohaliku keele vastendust ja andmekontrolli.",
+            "neverChanges": "Abikõlblikkus, krediit, skeem ja sissenõude volitus jäävad reguleerituks."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — MITMEMOODALNE ISIK",
+      "heading": "Nora kohtub tööga igas vormis.",
+      "body": "Rääkige, tippige, näidake või ühendage — sama isik ja juhtmudel jäävad paigale.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Nägemine, mis loeb faili",
+          "body": "Isikut tõendavad dokumendid, väljavõtted, allkirjastatud vormid, käsitsikirjutus ja kuvatõmmised muutuvad struktureeritud tõenditeks."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Hääl operatiivseks hetkeks",
+          "body": "Töötajad saavad erandit selgitada, väljaandmeid dikteerida või staatust küsida töö maha jätmata."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Süsteemid, mis jäävad jälgitavaks",
+          "body": "Nora loeb heakskiidetud konteksti ja valmistab skopeeritud kirjed koos kõigi väljadega nähtavalt enne täitmist."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "Volitus, mis jääb inimlikuks",
+          "body": "Nimetatud kinnitused, topeltkontroll ja fikseeritud poliitika väravad on osa käivitamisest — mitte märkus kõrval."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — USALDUS",
+      "heading": "Näidake käivitamist, mitte veendumust.",
+      "body": "Tõendid, mida teie riski-, turvalisus- ja auditi meeskonnad küsivad.",
+      "statusLabel": "Juhtimise staatus",
+      "statusValue": "NÄHTAV",
+      "statusDetail": "Kõik kontrollikihid operatsionaalsed",
+      "controls": [
+        {
+          "title": "TOPELTKONTROLL",
+          "body": "Nimetatud looja/kontrollija olulistel toimingutel"
+        },
+        {
+          "title": "POLIITIKA LUKUD",
+          "body": "AI ei saa ümber kirjutada pangandus- või regulatiivpoliitikat"
+        },
+        {
+          "title": "AUDITI LOGI",
+          "body": "Muutmatu sisendi, põhjenduse, heakskiidu ja toimingu rada"
+        },
+        {
+          "title": "SKOPEERITUD LIGIPÄÄS",
+          "body": "Lugemis- ja kirjutamisõigused tööriista ja välja tasandil"
+        },
+        {
+          "title": "ANDMEASUKOHT",
+          "body": "Juurutage panga heakskiidetud piiril"
+        },
+        {
+          "title": "KRÜPTIMINE",
+          "body": "Kaitstud transiidis ja paigal"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Juurutatav panganduse AI isik, ehitatud Gabriel Operator-iga.",
+      "exploreLabel": "Uurige",
+      "useCasesLabel": "Kasutusjuhud",
+      "getStartedLabel": "Alustage",
+      "useCaseLinks": [
+        "KYC",
+        "Krediit",
+        "Vastavus",
+        "Operatsioonid"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "JÄRGMINE KÄIVITAMINE",
+      "heading": "Juurutage Nora ühes panganduse domeenis.",
+      "body": "Valige töövoog, liides ja volituste piir. Paigutage esimene reguleeritud käivitamine oma operatsioonimeeskonna ette.",
+      "ctaLabel": "Rääkige Noraga"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

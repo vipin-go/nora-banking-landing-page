@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "tr",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "yetenekler",
+          "target": "capabilities"
+        },
+        {
+          "label": "Kullanım durumları",
+          "target": "use-cases"
+        },
+        {
+          "label": "Güven",
+          "target": "trust"
+        },
+        {
+          "label": "Hakkında",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Nora ile tanışın"
+    },
+    "badge": "Bankacılık AI Operasyonları",
+    "headline": "Bankayı AI-yerel yapın",
+    "subheadline": "Nora, yerleşik sohbet, SDK, API veya bankanın düzenleme katmanı aracılığıyla sağlanan Gabriel operatörü ile oluşturulmuş bir bankacılık AI kişiliğidir.",
+    "ctaLabel": "Nora ile konuş",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "merhaba. Bana bir bankacılık iş akışını nasıl destekleyebileceğimi veya işletim yığınınıza nasıl sığabileceğimi sorun."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "kişilik ön izlemesi",
+      "inputPlaceholder": "Nora'ya bir iş akışı hakkında soru sorun…",
+      "suggestedPrompts": [
+        "KYC iş akışı",
+        "Bütünleşme"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 - Kontrollü Bir Harekete Giden Yol",
+      "heading": "hareket eden ajanlar. Bankacılar kontrolü elinde tutuyor.",
+      "headingAccent": "Bankacılar kontrolü elinde tutuyor.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Yakalamak, zaptetmek",
+          "body": "Nora, isteği, kaynak belgeleri, politikayı ve bağlamı toplar."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Benzetmek",
+          "body": "Önce iş akışının güvenli, gözden geçirilebilir bir versiyonunu hazırlar."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Doğrulamak",
+          "body": "Herhangi bir şey hareket etmeden önce kurallar, kanıtlar ve istisnalar kontrol edilir."
+        },
+        {
+          "icon": "check",
+          "title": "Onaylamak",
+          "body": "Doğru bankacı tam olarak ne olacağını ve neden olacağını görür."
+        },
+        {
+          "icon": "star",
+          "title": "Gerçekleştirmek",
+          "body": "Yalnızca onaylanmış eylemler, denetime hazır bir iz ile çalışır."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 - Nora nedir?",
+      "segments": [
+        {
+          "text": "Nora, Gabriel operatörü ile inşa edilmiş bir AI kişiliğidir.",
+          "tone": "strong"
+        },
+        {
+          "text": "yönetilen bankacılık işlemleri için. onu içine dağıt",
+          "tone": "muted"
+        },
+        {
+          "text": "Tanımlanmış bilgi, araçlar ve yetkiye sahip bir alan",
+          "tone": "iris"
+        },
+        {
+          "text": "—Daha sonra her biri kendi başına olan diğer ekipler için daha fazla kişi yaratın",
+          "tone": "muted"
+        },
+        {
+          "text": "Politika ve erişim sınırları",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Dağıtım",
+      "heading": "işin zaten gerçekleştiği bankayla tanışın.",
+      "body": "Gömülü bir deneyimle başlayın veya Nora'yı doğrudan bankanın çalışma yığınına bağlayın.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "gömülü sohbet",
+          "body": "Nora'yı bankacıların zaten kullandığı portalların ve çalışma alanlarının içine yerleştirin."
+        },
+        {
+          "code": "SDK",
+          "title": "Bankaya ait deneyim",
+          "body": "Nora'yı bankanın kendi arayüzüne ve iş akışına dönüştürmek için SDK'yı kullanın."
+        },
+        {
+          "code": "API",
+          "title": "Hizmet Olarak Kişilik",
+          "body": "Ürünlerden, işlem araçlarından, mobil uygulamalardan veya olaya dayalı akışlardan Nora'yı arayın."
+        },
+        {
+          "code": "ORCH",
+          "title": "orkestrasyon tabakası",
+          "body": "Nora'yı bankanın mevcut otomasyon yığını içinde yönetilen bir aracı olarak bağlayın."
+        }
+      ],
+      "personaLabel": "Nora · Bankacılık AI Kişiliği",
+      "platformLabel": "Gabriel Operatörü ile Yönetilen +",
+      "boundaryItems": [
+        "Banka onaylı bilgi",
+        "Kapsamlı araçlar",
+        "sabit poliçe",
+        "Adlandırılmış Onaylar"
+      ],
+      "note": "Bir banka, her bir kişinin verilerini, araçlarını ve yetkisini açıkça sınırlandırılmış halde tutarken, KYC için Nora, kredi için Nora, operasyonlar için birçok etki alanı kişisi kullanabilir."
+    },
+    "useCases": {
+      "kicker": "04 — Kullanım Vakaları",
+      "heading": "Bir Persona Model 8 başlangıç için yer.",
+      "subheading": "Nora'nın ilk dağıtımı için bir etki alanı seçin; Yalnızca işletim modeli kanıtlandığında genişletin.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC ve Onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "belgelerden onaylanmış bir CBS kaydına.",
+          "summary": "Nora, kimlikleri ve formları okur, CKYC ve CBS'yi kontrol eder, uyumsuzlukları açıklar, ardından maker/checker onayı için tam müşteri kaydını hazırlar.",
+          "inputSummary": "Başvurular · CKYC · Kimlik Belgeleri · CBS · KYC Politikası",
+          "outputSummary": "CKYC Match · Eksik Alanlar · CBS Oluşturma Önizlemesi · Kanıt Paketi",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Başvurular, CKYC, Kimlik Belgeleri, CBS ve KYC Politikası."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vizyon + Sohbet",
+              "description": "Kimlik kanıtlarını okur, uyumsuzlukları çözer ve önerilen kaydı açıklar."
+            }
+          ],
+          "outputs": [
+            "CKYC maçı",
+            "Eksik Alanlar",
+            "CBS oluşturma önizlemesi",
+            "delil paketi"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Görevli, başvuruyu ve kimlikleri yükler veya Nora'dan müşteriye katılmasını ister."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Kimlik alanlarını ayıklayın, CKYC ve CBS'yi karşılaştırın ve eksik verileri veya uyumsuzlukları modelleyin."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Önerilen CBS kaydını oluşturun ve eksiksizliği ve yinelenen kontrolleri tekrar oynatın."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Memur ve Maker/checker onayı için kanıtları ve kesin kaydı gösterin."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "Yalnızca onaylanmış CBS alanlarını oluşturun veya güncelleyin ve kanıt paketini dosyalayın."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Bir sonraki çalıştırma için tamamlama, reddetme, istisna ve görevli düzeltmelerini izleyin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Memur düzeltmeleri OCR'yi iyileştirir, name/address Normalleştirme ve bulanık eşleşme.",
+            "neverChanges": "KYC politikası, Zorunlu Alanlar ve Onay Yetkisi yönetilmeye devam etmektedir."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Krediler ve Kredi Operasyonları",
+          "mode": "VISION + VOICE",
+          "outcome": "Otorite için hazır tam bir kredi dosyası.",
+          "summary": "Nora, kredi yetkisini üstlenmeden bir borçlu dosyası, sapma notu ve yaptırım taslağına büro, başvuru ve mali bağlamı bir araya getirir.",
+          "inputSummary": "Başvuru · Büro · Mali · Sapma politikası · LOS / DMS",
+          "outputSummary": "Borçlu Dosyası · Sapma Notu · Yaptırım Taslağı · Ödeme Önizlemesi",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Uygulama, Büro, Mali, Sapma Politikası, LOS ve DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Görme + Ses",
+              "description": "Kredi dosyasını okur ve doğal dil memuru incelemesini destekler."
+            }
+          ],
+          "outputs": [
+            "borçlu dosyası",
+            "sapma notu",
+            "yaptırım tasarısı",
+            "ödeme önizlemesi"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Başvuruyu, mali belgeleri, büro verilerini ve görevli talebini yakalayın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Rakamları normalleştirin, büro geçmişini özetleyin ve her politika sapmasını modelleyin."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Dosyayı, yaptırım taslağını ve ödeme önizlemesini bir araya getirin; Politika kontrollerini yeniden çalıştırın."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Adı geçen kredi makamına terimler, sapmalar ve kanıtlar sunun."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "Onaylanmış yaptırım veya ödeme durumunu yazın ve paketi DMS'ye dosyalayın."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Durumu, geri dönüşü, aşağı akış istisnalarını ve yetki düzenlemelerini izleyin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Kredi memuru düzenlemeleri, özetleri, belge kontrollerini ve önceliklendirmeyi iyileştirir.",
+            "neverChanges": "Puan kesintileri, LTV/DTI, fiyatlandırma ve yaptırım yetkileri kendi kendine değişemez."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Uyum, AML ve Raporlama",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Her dosyalama, ekli kanıtlarıyla başlar.",
+          "summary": "Nora, uyumluluk incelemesi için işlemleri, KYC'yi, izleme listelerini ve kuralları ilk geçiş uyarı triyajı, iade taslakları ve gönderim önizlemelerini bir araya getirir.",
+          "inputSummary": "İşlemler · Müşteri KYC · Uyarılar · İzleme Listeleri · Düzenleyici Kurallar",
+          "outputSummary": "Uyarı Triyajı · İade Taslağı · Anlatı · CKYC Toplu · Kanıt Paketi",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "işlemler, müşteri KYC, uyarılar, izleme listeleri ve düzenleyici kurallar."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "sohbet + sistem",
+              "description": "Uyumluluk sistemlerine yönetilen erişimle konuşmayı birleştirir."
+            }
+          ],
+          "outputs": [
+            "Uyarı Triyajı",
+            "iade etmek",
+            "Öykü",
+            "CKYC partisi",
+            "delil paketi"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Müşteri, İşlem ve İzleme Listesi bağlamıyla bir dosyalama isteği veya uyarı yakalayın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Sabit uyumluluk kurallarını uygulayın ve Uyarı, İade veya CKYC toplu işini modelleyin."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "anlatı ve kanıt paketini bir araya getirin; Tamlığı ve tutarlılığı test edin."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Önerilen her alanı ve çözülmemiş belirsizliği uyum görevlisine gösterin."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "sadece memur onaylı iade, anlatı veya ckyc partisini aşamalı olarak gönderin veya gönderin."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Onayları, reddetmeleri, dosyalama durumunu ve tüm denetim izini takip edin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analist eğilimleri, kanıt alma, sıralama ve taslak anlatıları iyileştirir.",
+            "neverChanges": "AML senaryoları, yaptırım listeleri, eşikler ve dosyalama kuralları sabit kalır."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Uzlaşma ve Finans",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Her molayı açıklayan gece eşleşmesi.",
+          "summary": "Nora, Switch, CBS, Settlement ve GL kayıtlarını eşleştirir, artıkları sıralar ve bir öğenin neden uzlaşmaz kaldığını tam olarak açıklar.",
+          "inputSummary": "Switch işlemleri · CBS Ledger · GL · Beyanlar · Yerleşim dosyaları",
+          "outputSummary": "Eşleşen set · İstisna kuyruğu · GL kanıtı · Dergi önizlemesi · Özet",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "İşlemleri, CBS Defteri, GL, Beyanları ve Yerleşim Dosyalarını Değiştirin."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Sistem + Sohbet",
+              "description": "Sistem kayıtlarını eşleştirir ve her türlü finansmanı açıklar."
+            }
+          ],
+          "outputs": [
+            "eşleşen takım",
+            "istisna kuyruğu",
+            "GL Kanıtı",
+            "günlük ön izlemesi",
+            "Özet"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Nightly Trigger ve Ingest Switch, CBS, GL ve Settlement Records'tan başlayın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Kesin, kural ve ilişki eşleştirmesini çalıştırın; Model zamanlaması ve referans farklılıkları."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Artık eşleşme önerilerini test edin ve günlük veya ayarlama önizlemesini hazırlayın."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Her belirsiz öğeyi açıklayın ve önerilen gönderiyi finanse etmek için gösterin."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "Finansman Otoritesi tarafından onaylanan ayarlamayı temizleyin veya gönderin."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Molaları, yaşlanmayı, ertesi gün tekrarı ve kabul edilen veya reddedilen önerileri takip edin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Kabul edilen öneriler, referans eşleştirmeyi ve istisna sıralamasını iyileştirir.",
+            "neverChanges": "Muhasebe politikası, önemlilik ve kayıt kontrolleri yönetilmeye devam etmektedir."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Müşteri Hizmetleri ve Koleksiyonlar",
+          "mode": "VOICE + CHAT",
+          "outcome": "Görüşmedeki hesapla görüşmeyi çözün.",
+          "summary": "Nora, doğal konuşmayı anlar, müşteri bağlamını alır ve yanıtları, ödeme vaatlerini ve eşikli geçişle anlaşmaları hazırlar.",
+          "inputSummary": "Müşteri 360 · Hesaplar · Vaka geçmişi · Politika · Suçluluk · PTP",
+          "outputSummary": "Vaka Özeti · Durum Cevap · PTP Taslağı · Uzlaşma Mektubu · Yönlendirme",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Müşteri 360, Hesaplar, Vaka Geçmişi, Politika, Suçluluk ve PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Ses + Sohbet",
+              "description": "Hesap bağlamı görünümünde müşteri görüşmesini anlar."
+            }
+          ],
+          "outputs": [
+            "Vaka özeti",
+            "durum cevabı",
+            "PtP Taslağı",
+            "uzlaşma mektubu",
+            "frezeleme"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Çağrı, sohbet, belge veya vaka olayını yakalayın ve müşteri amacını belirleyin."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Kimliği çözün ve hesap, dava, suçluluk ve politika bağlamını alın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Cevap, PTP veya uzlaşma yolunu hazırlayın ve müşteri etkisi kurallarına göre test edin."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Önerilen yanıtı veya hesap eylemini aracıya doğru eşikte gösterin."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "Yalnızca onaylanmış iletişim veya hesap eylemini gönderin, güncelleyin veya günlüğe kaydedin."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Çözünürlüğü, tutulan veya bozulan sözleri, yeniden açılışları ve tırmanışları takip edin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Temsilci düzenlemeleri ve sonuçları, amacı, yönlendirmeyi ve bir sonraki en iyi eylemi iyileştirir.",
+            "neverChanges": "rıza, tahsilat davranışı ve uzlaşma yetkisinin uygulanması."
+          }
+        },
+        {
+          "number": "06",
+          "label": "İK ve Dahili Operasyonlar",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Her marangoz hazır. Her ayrılan tamamen kapalı.",
+          "summary": "Nora, HRMS, e-posta, kimlik ve erişim değişikliklerini hazırlar, ardından yönetici, İK ve BT onayından önce tam hesap ve izin farkını gösterir.",
+          "inputSummary": "Çalışan · HRMS · Kimlik/Erişim · Rehber · ITSM · İK Politikası",
+          "outputSummary": "Joiner/Aleaver Kontrol Listesi · İzin Farkı · Mektuplar · İstisnalar",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Çalışan, HRMS, Kimlik ve Erişim, Dizin, ITSM ve İK Politikası."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "sohbet + sistem",
+              "description": "İncelenebilir bir konuşma iş akışı aracılığıyla sistem değişikliklerini koordine eder."
+            }
+          ],
+          "outputs": [
+            "Marangoz/Sıradan Kontrol Listesi",
+            "İzin Farkı",
+            "Harfler",
+            "istisnalar"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Çalışan ve yönetici bağlamıyla birleştirici, ayrılan veya dahili isteği yakalayın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Model gerekli HRMS, dizin, e-posta, kimlik ve erişim değişiklikleri."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Hesabı prova edin ve yetkilendirme ve eksiksizlik kurallarına karşı izin farkı."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Yönetici, İK ve BT onayı için tam farkı gösterin."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "yalnızca onaylanmış hesapları, rolleri ve kaynakları sağlama veya iptal etme."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Tamamlama, başarısız görevler, kalıcı erişim ve yönetici düzeltmelerini izleyin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Düzeltmeler, rol paketlerini, kontrol listelerini ve istisna yönlendirmeyi iyileştirir.",
+            "neverChanges": "ayrıcalıklı roller, görevlerin ayrılması ve onay hiyerarşisi sabit kalır."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Hazine ve Ticaret Operasyonları",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Anlaşma, onay ve uzlaşma arasında daha az mola.",
+          "summary": "Nora, ticari terimleri karşılaştırır, onayları takip eder ve isimli veya ikili hazine onayının ardından oran, kurutma ve nostro eylemlerini hazırlar.",
+          "inputSummary": "Fırsatlar · Onaylar · Oranlar · Blotter · Nostro · Limitler",
+          "outputSummary": "Onay İzleyici · Tutarsızlıklar · Oran Önizleme · Nostro Proof",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Fırsatlar, onaylar, oranlar, leke, nostro, limitler ve ticaret belgeleri."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Ses + sistem",
+              "description": "Ticaret verilerini karşılaştırır ve onaylı bir masa talimatını destekler."
+            }
+          ],
+          "outputs": [
+            "Onay İzleyici",
+            "tutarsızlık",
+            "ücret önizlemesi",
+            "burun akıntısı"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Karşı taraf bağlamıyla anlaşma, onay veya masa talimatını yakalayın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Anlaşmalar, onaylar, oranlar, blotter ve nostro arasındaki terimleri ayıklayın ve karşılaştırın."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Eylem ve test limitlerini, miktarları, kesmeleri ve mevcut sistem durumunu hazırlayın."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Tam talimatı, adı geçen veya ikili Hazine makamına sunun."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "Yalnızca onaylanmış ücret, blotter, onay veya nostro talimatını gönderin."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Onay, uzlaşma, kesintiler, kesintiler ve karşı taraf düzeltmeleri izleyin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Çözülmüş tutarsızlıklar, çıkarma, eşleştirme ve kesme önceliğini iyileştirir.",
+            "neverChanges": "İşlem, Döviz, Risk, Ödeme ve Yaptırım limitleri kendi kendine değişemez."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikro Bankacılık ve EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Saha verileri temiz, onaylanmış bir parti haline gelir.",
+          "summary": "Nora, toplantı sayfalarını ve formları okur, dikte edilen yerel dil verilerini anlar ve çoklu sistem partileri oluşturmadan önce belirsizlikleri çözer.",
+          "inputSummary": "Toplantı verileri · Grup kredileri · Koleksiyonlar · KYC · Şema formları · Talepler",
+          "outputSummary": "Toplantı Partisi · Koleksiyonlar Yükleme · Şema Paketi",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Toplantı verileri, grup kredileri, tahsilatlar, KYC, şema formları ve talepler."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Kamera + Ses",
+              "description": "Alan belgelerini okur ve dikte edilen yerel dil verilerini anlar."
+            }
+          ],
+          "outputs": [
+            "toplantı grubu",
+            "koleksiyon yükleme",
+            "şema paketi",
+            "Reddedilen Sıra Sırası"
+          ],
+          "workflow": [
+            {
+              "stage": "Başlangıç",
+              "description": "Saha Görevlisi, toplantı sayfalarını yükler veya yerel dilde toplama verilerini dikte eder."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Formları yazıya geçirin ve ayıklayın, ardından üyeleri, hesapları ve şema bağlamını eşleştirin."
+            },
+            {
+              "stage": "Çalıştırmak",
+              "description": "Çoklu sistem toplu işini oluşturun ve anormallikleri, beklenen değerleri ve eksik verileri test edin."
+            },
+            {
+              "stage": "Eleştiri",
+              "description": "Alan veya şube görevlisi onayı için her satırı ve önerilen yazıyı gösterin."
+            },
+            {
+              "stage": "Gerçekleştirmek",
+              "description": "Yalnızca onaylanmış grup kredisi, tahsilat veya şema partisini yayınlayın."
+            },
+            {
+              "stage": "İzlemek",
+              "description": "Reddedilen satırları, onayları, düzeltmeleri ve tamamlamaları izleyin."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Düzeltmeler el yazısı, yerel dil eşleme ve veri kontrollerini iyileştirir.",
+            "neverChanges": "Uygunluk, kredi, plan ve tahsilat yetkisi yönetilir."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Çok Modlu Kişilik",
+      "heading": "Nora her biçimde işi karşılar.",
+      "body": "Konuş, yazın, göster veya bağlan - aynı kişi ve kontrol modeli yerinde kalır.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Dosyayı okuyan vizyon",
+          "body": "Kimlik belgeleri, ifadeler, imzalı formlar, el yazısı ve ekran görüntüleri yapılandırılmış kanıtlar haline gelir."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Operasyon anı için ses",
+          "body": "Memurlar bir istisnayı açıklayabilir, saha verilerini dikte edebilir veya işten ayrılmadan bir durum isteyebilir."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Gözlemlenebilen sistemler",
+          "body": "NORA, onaylanmış bağlamı okur ve yürütmeden önce görünür her alanla kapsamlı yazmalar hazırlar."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "İnsan Kalan Otorite",
+          "body": "Adlandırılmış onaylar, ikili kontrol ve sabit politika kapıları, yanında bir not değil, çalıştırmanın bir parçasıdır."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Güven",
+      "heading": "Bir güvence değil, koşuyu göster.",
+      "body": "Risk, güvenlik ve denetim ekiplerinizin isteyeceği kanıtlar.",
+      "statusLabel": "yönetim durumu",
+      "statusValue": "Görünür",
+      "statusDetail": "Tüm kontrol katmanları çalışır durumda",
+      "controls": [
+        {
+          "title": "iki kontrollü de",
+          "body": "Aday Oluşturucu / Denetleyici, sonuçsal eylemlerde"
+        },
+        {
+          "title": "Politika kilitleri",
+          "body": "AI, bankacılık veya düzenleyici politikayı yeniden yazamaz"
+        },
+        {
+          "title": "Denetim Günlüğü",
+          "body": "Değişmez girdi, akıl yürütme, onay ve eylem izi"
+        },
+        {
+          "title": "Kapsamlı Erişim",
+          "body": "Araç ve alan düzeyinde okuma ve yazma izinleri"
+        },
+        {
+          "title": "veri ikametgahı",
+          "body": "Bankanın onaylı sınırına konuşlandırın"
+        },
+        {
+          "title": "şifreleme",
+          "body": "transit ve istirahatte korunan"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Gabriel operatörü ile oluşturulmuş bir dağıtılabilir bankacılık AI kişiliği.",
+      "exploreLabel": "Keşfetmek",
+      "useCasesLabel": "Kullanım durumları",
+      "getStartedLabel": "Başlamak",
+      "useCaseLinks": [
+        "KYC",
+        "Kredi",
+        "Uyma",
+        "işlem"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Sonraki Koşu",
+      "heading": "Nora'yı bir bankacılık etki alanında dağıtın.",
+      "body": "İş akışını, arayüzü ve yetki sınırını seçin. İlk yönetilen koşuyu operasyon ekibinizin önüne koyun.",
+      "ctaLabel": "Nora ile konuş"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

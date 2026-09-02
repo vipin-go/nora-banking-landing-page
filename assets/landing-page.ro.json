@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "ro",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Capabilitati",
+          "target": "capabilities"
+        },
+        {
+          "label": "cazuri de utilizare",
+          "target": "use-cases"
+        },
+        {
+          "label": "Încredere",
+          "target": "trust"
+        },
+        {
+          "label": "Despre",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Faceți cunoștință cu Nora"
+    },
+    "badge": "Operațiuni bancare AI",
+    "headline": "Faceți banca AI-nativă",
+    "subheadline": "Nora este o persoană bancară AI construită cu operatorul Gabriel - livrat prin chat încorporat, SDK, API sau stratul de orchestrare al băncii.",
+    "ctaLabel": "Vorbește cu Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Salut. Întrebați-mă cum aș putea sprijini un flux de lucru bancar sau cum aș putea să mă potrivesc în stiva dvs. operațională."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Previzualizare Persona",
+      "inputPlaceholder": "Întrebați-o pe Nora despre un flux de lucru...",
+      "suggestedPrompts": [
+        "Flux de lucru KYC",
+        "Integrare"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — O cale controlată către acțiune",
+      "heading": "agenții care acționează. Bancherii păstrează controlul.",
+      "headingAccent": "Bancherii păstrează controlul.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Capta",
+          "body": "NORA adună cererea, documentele sursă, politica și contextul."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simula",
+          "body": "Ea pregătește mai întâi o versiune sigură, revizuibilă a fluxului de lucru."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Verifica",
+          "body": "Regulile, dovezile și excepțiile sunt verificate înainte ca ceva să se miște."
+        },
+        {
+          "icon": "check",
+          "title": "Aproba",
+          "body": "Bancherul potrivit vede exact ce se va întâmpla și de ce."
+        },
+        {
+          "icon": "star",
+          "title": "Executa",
+          "body": "Se desfășoară doar acțiunile aprobate, cu o urmă gata de audit."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Ce este Nora?",
+      "segments": [
+        {
+          "text": "NORA este o persoană AI construită cu operatorul Gabriel",
+          "tone": "strong"
+        },
+        {
+          "text": "Pentru operațiunile bancare guvernate. Desfășoară-o în",
+          "tone": "muted"
+        },
+        {
+          "text": "Un domeniu cu cunoștințe, instrumente și autoritate definite",
+          "tone": "iris"
+        },
+        {
+          "text": "— Apoi creați mai multe persoane pentru alte echipe, fiecare cu propriile sale",
+          "tone": "muted"
+        },
+        {
+          "text": "Politica și limitele de acces",
+          "tone": "accent"
+        },
+        {
+          "text": ";",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Desfășurare",
+      "heading": "Faceți cunoștință cu banca unde se întâmplă deja munca.",
+      "body": "Începeți cu o experiență încorporată sau conectați Nora direct la stiva operațională a băncii.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Chat încorporat",
+          "body": "Plasați NORA în interiorul portalurilor și spațiilor de lucru pe care le folosesc deja bancherii."
+        },
+        {
+          "code": "SDK",
+          "title": "Experiență deținută de bancă",
+          "body": "Utilizați SDK-ul pentru a modela Nora în interfața și fluxul de lucru al băncii."
+        },
+        {
+          "code": "API",
+          "title": "Persona ca serviciu",
+          "body": "Sunați la Nora de la produse, instrumente de operațiuni, aplicații mobile sau fluxuri bazate pe evenimente."
+        },
+        {
+          "code": "ORCH",
+          "title": "Stratul de orchestrare",
+          "body": "Conectați NORA ca agent guvernat în stiva de automatizare existentă a băncii."
+        }
+      ],
+      "personaLabel": "NORA · Banca AI Persona",
+      "platformLabel": "Construit + guvernat cu operatorul Gabriel",
+      "boundaryItems": [
+        "Cunoștințe aprobate de bancă",
+        "Instrumente cu scop",
+        "Politică fixă",
+        "Aprobari numite"
+      ],
+      "note": "O bancă poate implementa multe persoane de domeniu - NORA pentru KYC, NORA pentru credit, NORA pentru operațiuni - păstrând în același timp datele, instrumentele și autoritatea fiecărei persoane limitate în mod explicit."
+    },
+    "useCases": {
+      "kicker": "04 — Cazuri de utilizare",
+      "heading": "O persoană model 8 locuri de început.",
+      "subheading": "Alegeți un domeniu pentru prima implementare a NORA; Extindeți numai atunci când modelul de operare este dovedit.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC și onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "de la documente la o înregistrare CBS aprobată.",
+          "summary": "Nora citește ID-uri și formulare, verifică CKYC și CBS, explică nepotrivirile, apoi pregătește înregistrarea exactă a clientului pentru aprobarea producătorului/verificatorului.",
+          "inputSummary": "Aplicații · CKYC · Documente de identitate · CBS · Politica KYC",
+          "outputSummary": "Potrivire CKYC · Câmpuri lipsă · Previzualizare CBS Creation · Evidence Pack",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Aplicații, CKYC, documente de identitate, CBS și politica KYC."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Viziune + chat",
+              "description": "citește dovezi de identitate, rezolvă nepotrivirile și explică înregistrarea propusă."
+            }
+          ],
+          "outputs": [
+            "Meciul CKYC",
+            "câmpuri lipsă",
+            "CBS Creation Preview",
+            "Pachet de dovezi"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Ofițerul încarcă aplicația și ID-urile sau îi cere Norei să integreze clientul."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Extrageți câmpuri de identitate, comparați CKYC și CBS și modelați datele lipsă sau nepotrivirile."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Construiți înregistrarea CBS propusă și repetați completitatea și verificările duplicate."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Afișați dovezile și înregistrarea exactă pentru aprobarea ofițerului și a producătorului/verificatorului."
+            },
+            {
+              "stage": "Executa",
+              "description": "Creați sau actualizați numai câmpurile CBS aprobate și depuneți pachetul de dovezi."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "Urmăriți finalizarea, respingerile, excepțiile și corecțiile ofițerilor pentru următoarea rulare."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Corecțiile ofițerilor îmbunătățesc OCR, normalizarea numelui/adresei și potrivirea neclară.",
+            "neverChanges": "Politica KYC, domeniile obligatorii și autoritatea de aprobare rămân guvernate."
+          }
+        },
+        {
+          "number": "02",
+          "label": "împrumuturi și operațiuni de credit",
+          "mode": "VISION + VOICE",
+          "outcome": "Un fișier de credit complet, gata pentru autoritate.",
+          "summary": "NORA adună biroul, aplicația și contextul financiar într-un dosar al împrumutatului, un memoriu de abatere și un proiect de sancțiune – fără a-și asuma autoritatea de credit.",
+          "inputSummary": "Aplicație · Birou · Financiare · Politică de abatere · LOS / DMS",
+          "outputSummary": "Dosar împrumutat · Notă de abatere · Proiect de sancțiune · Previzualizare de plăți",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Aplicație, Birou, Financiare, Politică de abatere, LOS și DM."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Viziune + Voce",
+              "description": "citește fișierul de credit și sprijină o revizuire a ofițerului de limbi naturale."
+            }
+          ],
+          "outputs": [
+            "Dosarul împrumutatului",
+            "Notă de abatere",
+            "Proiect de sancțiune",
+            "Previzualizarea plăților"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Capturați cererea, documentele financiare, datele biroului și cererea ofițerului."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Normalizați cifrele, rezumați istoria biroului și modelați fiecare abatere a politicii."
+            },
+            {
+              "stage": "Alerga",
+              "description": "adunați dosarul, proiectul de sancțiune și previzualizarea plății; Reluați verificările politicii."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Prezentați termenii, abaterile și dovezile către autoritatea de credit numită."
+            },
+            {
+              "stage": "Executa",
+              "description": "Scrieți starea de sancțiune sau debursare aprobată și depuneți pachetul în DMS."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "Starea piesei, execuții, excepții în aval și editări de autoritate."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Editările ofițerilor de credit îmbunătățesc rezumatele, verificările documentelor și prioritizarea.",
+            "neverChanges": "Limitele de scor, LTV/DTI, puterile de stabilire a prețurilor și de sancțiune nu se pot schimba de sine."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Conformitate, AML și raportare",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Fiecare depunere începe cu dovezile atașate.",
+          "summary": "NORA adună tranzacțiile, KYC, listele de urmărire și regulile în triajul de alertă de primă trecere, schițele de returnare și previzualizările de trimitere pentru examinarea conformității.",
+          "inputSummary": "Tranzacții · Client KYC · Alerte · Liste de urmărire · Reguli de reglementare",
+          "outputSummary": "Triaj de alerte · Return Draft · Narațiune · CKYC Batch · Evidence Bundle",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Tranzacții, KYC pentru clienți, Alerte, liste de urmărire și reguli de reglementare."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + Sistem",
+              "description": "Combină conversația cu accesul guvernat la sistemele de conformitate."
+            }
+          ],
+          "outputs": [
+            "Triaj de alertă",
+            "Draft de întoarcere",
+            "Narativ",
+            "CKYC Batch",
+            "Pachet de dovezi"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Capturați o solicitare de depunere sau o alertă cu clientul, tranzacția și contextul listei de urmărire."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Aplicați reguli de conformitate fixe și modelați lotul Alertă, Retur sau CKYC."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Adunați pachetul de narațiuni și dovezi; Testați completitatea și consistența."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Afișați ofițerului de conformitate fiecare câmp propus și incertitudine nerezolvată."
+            },
+            {
+              "stage": "Executa",
+              "description": "Etați sau trimiteți numai returul aprobat de ofițer, narațiunea sau lotul CKYC."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "Urmăriți confirmările, respingerile, starea de depunere și traseul de audit complet."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Dispozițiile analiștilor îmbunătățesc regăsirea dovezilor, clasamentul și proiectele de narațiuni.",
+            "neverChanges": "Scenariile AML, listele de sancțiuni, pragurile și regulile de depunere rămân fixe."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Reconciliere și finanțe",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Potrivirea nocturnă care explică fiecare pauză.",
+          "summary": "Nora se potrivește cu înregistrările Switch, CBS, Settlement și GL, clasifică reziduurile și explică exact de ce un articol rămâne nereconciliat.",
+          "inputSummary": "Tranzacții cu comutare · CBS Ledger · GL · Declarații · Fișiere de decontare",
+          "outputSummary": "Set potrivit · Coadă de excepții · GL Proof · Previzualizare jurnal · Rezumat",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Schimbați tranzacțiile, CBS Ledger, GL, declarații și fișiere de decontare."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Sistem + Chat",
+              "description": "Potrivește înregistrările de sistem și explică fiecare reziduu pentru finanțare."
+            }
+          ],
+          "outputs": [
+            "Set potrivit",
+            "Coada de excepție",
+            "GL Dovada",
+            "Previzualizare jurnal",
+            "Rezumat"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Începeți cu declanșatorul de noapte și comutatorul de ingerare, CBS, GL și înregistrările de decontare."
+            },
+            {
+              "stage": "Alerga",
+              "description": "rulați exact, potrivirea regulilor și a relațiilor; Timpul modelului și diferențele de referință."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Testați sugestiile de potrivire reziduală și pregătiți jurnalul sau previzualizarea ajustării."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Explicați fiecare articol ambiguu și afișați postarea propusă pentru finanțare."
+            },
+            {
+              "stage": "Executa",
+              "description": "Ștergeți sau postați numai ajustarea aprobată de autoritatea financiară."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "pauze de urmărire, îmbătrânire, recurență în ziua următoare și sugestii acceptate sau respinse."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Sugestiile acceptate îmbunătățesc potrivirea referințelor și clasarea excepțiilor.",
+            "neverChanges": "Politica contabilă, materialitatea și controalele de înregistrare rămân guvernate."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Serviciu Clienți și Colecții",
+          "mode": "VOICE + CHAT",
+          "outcome": "Rezolvați conversația cu contul în vedere.",
+          "summary": "Nora înțelege conversația naturală, preia contextul clientului și pregătește răspunsuri, promisiuni de plată și decontări cu transferul cu prag.",
+          "inputSummary": "Client 360 · Conturi · Istoric de cazuri · Politică · Delincvență · PTP",
+          "outputSummary": "Rezumatul cazului · Răspuns de stare · schiță PTP · scrisoare de decontare · rutare",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Client 360, Conturi, Istoric de caz, Politică, Delincvență și PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Voce + Chat",
+              "description": "Înțelege conversația clientului cu contextul contului în vedere."
+            }
+          ],
+          "outputs": [
+            "Rezumatul cazului",
+            "Răspuns de stare",
+            "PTP DRAFT",
+            "scrisoare de decontare",
+            "rutare"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Capturați apelul, chatul, documentul sau evenimentul de caz și identificați intenția clientului."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Rezolvați identitatea și preluați contul, cazul, delincvența și contextul politicii."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Redactați răspunsul, PTP sau calea de decontare și testați-l în raport cu regulile de impact asupra clienților."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Afișați răspunsul propus sau acțiunea de cont către agent la pragul din dreapta."
+            },
+            {
+              "stage": "Executa",
+              "description": "Trimiteți, actualizați sau înregistrați numai acțiunea de comunicare sau cont aprobată."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "rezoluția piesei, promisiunile respectate sau încălcate, redeschideri și escaladări."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Editările și rezultatele agenților îmbunătățesc intenția, rutarea și cea mai bună acțiune.",
+            "neverChanges": "Consimțământul, comportamentul de colectare și autoritatea de soluționare rămân impuse."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR și operațiuni interne",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Fiecare tâmplar gata. Fiecare plecat complet închis.",
+          "summary": "NORA pregătește HRMS, e-mail, identitate și modificări de acces, apoi arată contul exact și diferența de permis înainte de aprobarea managerului, HR și IT.",
+          "inputSummary": "Angajat · HRMS · Identitate/Acces · Director · ITSM · Politică de resurse umane",
+          "outputSummary": "Lista de verificare Joiner/Leaver · Diferență de permisiune · Litere · Excepții",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Angajat, HRMS, Identitate și Acces, Director, ITSM și Politică de resurse umane."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + Sistem",
+              "description": "Coordonează modificările sistemului printr-un flux de lucru conversațional inspectabil."
+            }
+          ],
+          "outputs": [
+            "Lista de verificare Joiner/Leaver",
+            "Diferență de permisiune",
+            "litere",
+            "excepții"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Capturați cererea de tâmplar, de plecare sau de intern în contextul angajatului și al managerului."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Modelul necesar HRMS, director, e-mail, identitate și modificări de acces."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Repetați contul și diferența de permisiune împotriva regulilor de îndreptățire și de completitudine."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Afișați diferența exactă pentru manager, HR și aprobarea IT."
+            },
+            {
+              "stage": "Executa",
+              "description": "furnizarea sau revocarea numai a conturilor, rolurilor și resurselor aprobate."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "Urmărirea urmăririi, sarcinile eșuate, accesul persistent și corecțiile managerului."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Corecțiile îmbunătățesc pachetele de roluri, listele de verificare și rutarea excepțiilor.",
+            "neverChanges": "Rolurile privilegiate, separarea sarcinilor și ierarhia de aprobare rămân fixe."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Operațiuni de trezorerie și comerț",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Mai puține pauze între tranzacție, confirmare și decontare.",
+          "summary": "NORA compară condițiile comerciale, urmărește confirmările și pregătește acțiunile de rată, blotter și nostro în spatele aprobării denumite sau duale ale Trezoreriei.",
+          "inputSummary": "Oferte · Confirmări · Tarife · Blotter · Nostro · Limite · Documente comerciale",
+          "outputSummary": "Tracker de confirmare · Discrepanțe · Previzualizare a ratei · Dovada nostro",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "oferte, confirmări, tarife, blotter, nostro, limite și documente comerciale."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Voce + Sistem",
+              "description": "Compară datele comerciale și acceptă o instrucțiune de birou aprobată."
+            }
+          ],
+          "outputs": [
+            "TRACKER DE CONFIRMARE",
+            "discrepanțe",
+            "Previzualizarea ratei",
+            "Nostro Proof"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Capturați afacerea, confirmarea sau instrucțiunea de birou în contextul contrapărții."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Extrageți și comparați termenii din oferte, confirmări, tarife, blotter și nostro."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Pregătiți limitele de acțiune și de testare, sume, limite și starea curentă a sistemului."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Prezentați instrucțiunea exactă autorității de trezorerie numite sau duble."
+            },
+            {
+              "stage": "Executa",
+              "description": "Trimiteți doar instrucțiunea de tarif aprobat, blotter, confirmare sau nostro."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "Urmăriți confirmarea, decontarea, pauzele, limitele și corecțiile contrapărții."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Discrepanțele rezolvate îmbunătățesc prioritatea de extracție, potrivire și limită.",
+            "neverChanges": "Limitele de tranzacționare, FX, risc, plăți și sancțiuni nu se pot schimba singur."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbanking și EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Datele de teren devin un lot curat, aprobat.",
+          "summary": "Nora citește foile și formularele de întâlnire, înțelege datele dictate în limba locală și rezolvă incertitudinile înainte de a crea loturi cu mai multe sisteme.",
+          "inputSummary": "Date întâlniri · Împrumuturi de grup · Colectări · KYC · Formulare de schemă · Revendicări",
+          "outputSummary": "Lot de întâlnire · Încărcarea colecțiilor · Pachetul de scheme · Coada de rânduri respinse",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "date de întâlnire, împrumuturi de grup, colecții, KYC, formulare de schemă și creanțe."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Cameră + voce",
+              "description": "citește documentele de teren și înțelege datele dictate în limba locală."
+            }
+          ],
+          "outputs": [
+            "Lotul de întâlnire",
+            "Încărcarea colecțiilor",
+            "Pachet de schemă",
+            "Coada de rând respinsă"
+          ],
+          "workflow": [
+            {
+              "stage": "A porni",
+              "description": "Ofițerul de teren încarcă foile de întâlnire sau dictează datele de colectare în limba locală."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Transcrieți și extrageți formulare, apoi potriviți membrii, conturile și contextul schemei."
+            },
+            {
+              "stage": "Alerga",
+              "description": "Construiți lotul cu mai multe sisteme și testați anomaliile, valorile așteptate și datele lipsă."
+            },
+            {
+              "stage": "Revizuire",
+              "description": "Afișați fiecare rând și scrieți propus pentru aprobarea ofițerului de teren sau de sucursală."
+            },
+            {
+              "stage": "Executa",
+              "description": "Postați numai împrumutul de grup aprobat, lotul de colectare sau de schemă."
+            },
+            {
+              "stage": "Sfătuitor",
+              "description": "Urmăriți rândurile respinse, confirmările, corecțiile și finalizarea."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Corecțiile îmbunătățesc scrisul de mână, cartografierea în limba locală și verificările datelor.",
+            "neverChanges": "Eligibilitatea, creditul, schema și autoritatea de colectare rămân guvernate."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Persona multimodală",
+      "heading": "Nora întâlnește lucrarea sub toate formele.",
+      "body": "Vorbește, tastați, afișați sau conectați - aceeași persoană și modelul de control rămân pe loc.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "viziune care citește fișierul",
+          "body": "Documentele de identitate, declarațiile, formularele semnate, scrisul de mână și capturile de ecran devin dovezi structurate."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "voce pentru momentul operațional",
+          "body": "Ofițerii pot explica o excepție, pot dicta datele de teren sau pot cere un statut fără a părăsi lucrarea."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Sisteme care rămân observabile",
+          "body": "NORA citește contextul aprobat și pregătește scrierile cu scop cu fiecare câmp vizibil înainte de execuție."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "autoritate care rămâne umană",
+          "body": "Aprobarile numite, controlul dublu și porțile de politică fixe fac parte din rulare, nu o notă în afară de aceasta."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Încredere",
+      "heading": "Arată alergarea, nu o asigurare.",
+      "body": "Dovezile pe care le vor solicita echipele dvs. de risc, securitate și audit.",
+      "statusLabel": "Statutul de guvernare",
+      "statusValue": "Vizibil",
+      "statusDetail": "Toate straturile de control operaționale",
+      "controls": [
+        {
+          "title": "Control dublu",
+          "body": "Creator numit / Checker cu privire la acțiunile consecutive"
+        },
+        {
+          "title": "Blocări de politică",
+          "body": "AI nu poate rescrie politica bancară sau de reglementare"
+        },
+        {
+          "title": "Jurnal de audit",
+          "body": "Intrare imuabilă, raționament, aprobare și pistă de acțiune"
+        },
+        {
+          "title": "Acces cu scop",
+          "body": "Permisiuni de citire și scriere la nivel de instrument și câmp"
+        },
+        {
+          "title": "Reședința de date",
+          "body": "desfășurați la limita aprobată a băncii"
+        },
+        {
+          "title": "Criptare",
+          "body": "protejate în tranzit și în repaus"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "O persoană bancară AI implementabilă, construită cu operatorul Gabriel.",
+      "exploreLabel": "Explora",
+      "useCasesLabel": "cazuri de utilizare",
+      "getStartedLabel": "Sa incepem",
+      "useCaseLinks": [
+        "KYC",
+        "Credit",
+        "Conformitate",
+        "operațiuni"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Următoarea cursă",
+      "heading": "Implementați NORA într-un singur domeniu bancar.",
+      "body": "Alegeți fluxul de lucru, interfața și limita autorității. Pune prima cursă guvernată în fața echipei tale de operațiuni.",
+      "ctaLabel": "Vorbește cu Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

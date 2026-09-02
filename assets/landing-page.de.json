@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "de",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Fähigkeiten",
+          "target": "capabilities"
+        },
+        {
+          "label": "Anwendungsfälle",
+          "target": "use-cases"
+        },
+        {
+          "label": "Vertrauen",
+          "target": "trust"
+        },
+        {
+          "label": "Über",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Treffen Sie Nora"
+    },
+    "badge": "Bankgeschäfte KI-Operationen",
+    "headline": "Machen Sie die Bank ai-native",
+    "subheadline": "Nora ist eine Banking-AI-Persona, die mit Gabriel-Operator erstellt wurde und über den eingebetteten Chat, das SDK, die API oder die Orchestrierungsschicht der Bank bereitgestellt wird.",
+    "ctaLabel": "Sprich mit Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hallo. Fragen Sie mich, wie ich einen Bankarbeitsworkflow unterstützen oder in Ihren Betriebsstapel passen könnte."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Persona-Vorschau",
+      "inputPlaceholder": "Fragen Sie Nora nach einem Workflow…",
+      "suggestedPrompts": [
+        "KYC-Workflow",
+        "Integration"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 - Ein kontrollierter Weg zum Handeln",
+      "heading": "Agenten, die handeln. Banker behalten die Kontrolle.",
+      "headingAccent": "Banker behalten die Kontrolle.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Erfassen",
+          "body": "Nora sammelt die Anfrage, Quelldokumente, Richtlinien und Kontext."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simulieren",
+          "body": "Sie bereitet zuerst eine sichere, überprüfbare Version des Workflows vor."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Überprüfen",
+          "body": "Regeln, Beweise und Ausnahmen werden überprüft, bevor sich etwas bewegt."
+        },
+        {
+          "icon": "check",
+          "title": "Genehmigen",
+          "body": "Der richtige Banker sieht genau, was passieren wird und warum."
+        },
+        {
+          "icon": "star",
+          "title": "Ausführen",
+          "body": "Es werden nur genehmigte Aktionen ausgeführt, mit einem Trace, das für die Prüfung bereit ist."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 - Was ist Nora?",
+      "segments": [
+        {
+          "text": "Nora ist eine Ai-Persona mit Gabriel-Betreiber",
+          "tone": "strong"
+        },
+        {
+          "text": "für geregelte Bankgeschäfte. Setzen Sie sie ein in",
+          "tone": "muted"
+        },
+        {
+          "text": "Eine Domäne mit definiertem Wissen, Werkzeugen und Autorität",
+          "tone": "iris"
+        },
+        {
+          "text": "- Erstellen Sie dann mehr Personas für andere Teams, jedes mit eigenen",
+          "tone": "muted"
+        },
+        {
+          "text": "Richtlinien und Zugriffsgrenzen",
+          "tone": "accent"
+        },
+        {
+          "text": "ein",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 - Bereitstellung",
+      "heading": "Treffen Sie die Bank, wo die Arbeit bereits stattfindet.",
+      "body": "Beginnen Sie mit einer eingebetteten Erfahrung oder verbinden Sie Nora direkt mit dem Operating Stack der Bank.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Eingebetteter Chat",
+          "body": "Platzieren Sie Nora in den Portalen und Arbeitsbereichen, die Banker bereits nutzen."
+        },
+        {
+          "code": "SDK",
+          "title": "Bank-eigene Erfahrung",
+          "body": "Verwenden Sie das SDK, um Nora in die eigene Benutzeroberfläche und den Workflow der Bank zu formen."
+        },
+        {
+          "code": "API",
+          "title": "Persona als Dienstleistung",
+          "body": "Rufen Sie Nora aus Produkten, Operationstools, mobilen Apps oder ereignisgesteuerten Flows an."
+        },
+        {
+          "code": "ORCH",
+          "title": "Orchestrierungsschicht",
+          "body": "Verbinden Sie Nora als geleiteter Agent im vorhandenen Automatisierungs-Stack der Bank."
+        }
+      ],
+      "personaLabel": "Nora · Banking Ai Persona",
+      "platformLabel": "Gebaut + mit Gabriel-Operator",
+      "boundaryItems": [
+        "Bank-genehmigtes Wissen",
+        "Werkzeuge",
+        "Feste Richtlinie",
+        "Benannte Genehmigungen"
+      ],
+      "note": "Eine Bank kann viele Domain-Personas einsetzen - Nora für KYC, Nora für Kredit, Nora für Operationen - und gleichzeitig die Daten, Tools und Autoritäten der einzelnen Persona explizit begrenzt."
+    },
+    "useCases": {
+      "kicker": "04 - Anwendungsfälle",
+      "heading": "Eine Persona-Modell 8 Orte zu beginnen.",
+      "subheading": "Wählen Sie eine Domain für die erste Bereitstellung von Nora. nur erweitern, wenn das Betriebsmodell nachgewiesen ist.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC & Onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "Von Dokumenten zu einem genehmigten CBS-Datensatz.",
+          "summary": "Nora liest IDs und Formulare, prüft CKYC und CBS, erklärt Fehlanpassungen und erstellt dann den genauen Kundendatensatz für die Genehmigung durch den Hersteller / Checker.",
+          "inputSummary": "Anträge · CKYC · Ausweisdokumente · CBS · KYC-Richtlinie",
+          "outputSummary": "CKYC-Match · Fehlende Felder · CBS-Erstellungsvorschau · Evidence Pack",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Anträge, CKYC, Identitätsdokumente, CBS und KYC-Richtlinien."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + Chat",
+              "description": "Liest Identitätsnachweise, behebt Fehlanpassungen und erklärt die vorgeschlagene Aufzeichnung."
+            }
+          ],
+          "outputs": [
+            "CKYC-Match",
+            "fehlende Felder",
+            "CBS-Erstellungsvorschau",
+            "Beweispaket"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Der Beamte lädt die Bewerbung und die IDs hoch oder bittet Nora, den Kunden an Bord des Kunden zu laden."
+            },
+            {
+              "stage": "Run",
+              "description": "Extrahieren Sie Identitätsfelder, vergleichen Sie CKYC und CBS und modellieren Sie fehlende Daten oder Fehlpaarungen."
+            },
+            {
+              "stage": "Run",
+              "description": "Erstellen Sie die vorgeschlagenen CBS-Datensätze und die Vollständigkeit der Wiedergabe sowie doppelte Überprüfungen."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Zeigen Sie die Beweise und genauen Aufzeichnungen für die Genehmigung von Beamten und Herstellern / Schecks an."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Erstellen oder aktualisieren Sie nur die genehmigten CBS-Felder und reichen Sie das Evidence Pack ein."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie die Fertigstellung, die Ablehnung, die Ausnahmen und Korrekturen der Beamten für den nächsten Lauf."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Offizierskorrekturen verbessern OCR, Namen / Adressennormalisierung und Fuzzy-Matching.",
+            "neverChanges": "Die KYC-Richtlinie, die Pflichtfelder und die Genehmigungsbehörde bleiben geregelt."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Kredite & Kredit-Ops",
+          "mode": "VISION + VOICE",
+          "outcome": "Eine vollständige Kreditakte, die für die Behörde bereit ist.",
+          "summary": "Nora fasst Büro-, Anwendungs- und finanziellen Kontext in ein Kreditnehmer-Dossier, einen Abweichungs-Memo und einen Sanktionsentwurf zusammen - ohne die Kreditbehörde anzunehmen.",
+          "inputSummary": "Anwendung · Büro · Finanzen · Abweichungspolitik · LOS / DMS",
+          "outputSummary": "Kreditnehmer-Dossier · Abweichungsnotiz · Sanktionsentwurf · Auszahlungsvorschau",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Anwendung, Büro, Finanzen, Abweichungspolitik, LOS und DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + Stimme",
+              "description": "Liest die Kreditakte und unterstützt eine natürliche Offiziersprüfung."
+            }
+          ],
+          "outputs": [
+            "Kreditnehmer-Dossier",
+            "Abweichung Memo",
+            "Sanktionsentwurf",
+            "Auszahlungsvorschau"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Erfassen Sie den Antrag, die Finanzdokumente, die Daten des Büros und die Anfrage von Beamten."
+            },
+            {
+              "stage": "Run",
+              "description": "Normalisieren Sie die Zahlen, fassen Sie die Geschichte des Büros zusammen und modellieren Sie jede politische Abweichung."
+            },
+            {
+              "stage": "Run",
+              "description": "Stellen Sie das Dossier, den Sanktionsentwurf und die Auszahlungsvorschau zusammen; Richtlinienprüfungen erneut ausführen."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Gegenwärtige Bedingungen, Abweichungen und Beweise gegenüber der genannten Kreditbehörde."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Schreiben Sie den genehmigten Sanktions- oder Auszahlungsstatus und reichen Sie das Paket in DMS ein."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie Status, Turnaround, Downstream-Ausnahmen und Autoritätsbearbeitungen."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Die Bearbeitungen des Kreditoffiziers verbessern die Zusammenfassungen, Dokumentenprüfungen und Priorisierungen.",
+            "neverChanges": "Score Cut-offs, LTV / DTI, Preis- und Sanktionsbefugnisse können sich nicht selbst ändern."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Compliance, AML & Reporting",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Jede Einreichung beginnt mit den beigefügten Beweisen.",
+          "summary": "NORA fasst Transaktionen, KYC, Watchlists und Regeln in die Warn-Triage für First-Pass-Warnungen zusammen, gibt Entwürfe zurück und die Einreichungsvorschau für die Compliance-Überprüfung.",
+          "inputSummary": "Transaktionen · Kunden-KYC · Warnungen · Watchlists · Regulierungsregeln",
+          "outputSummary": "Alert-Triage · Return Draft · Narrative · CKYC Batch · Evidence Bundle",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transaktionen, Kunden-KYC, Warnungen, Überwachungslisten und Regulierungsregeln."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + System",
+              "description": "Kombiniert die Konversation mit dem gesteuerten Zugriff auf Compliance-Systeme."
+            }
+          ],
+          "outputs": [
+            "Alarm-Triage",
+            "Entwurf zurückgeben",
+            "Erzählung",
+            "CKYC-Batch",
+            "Beweisbündel"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Erfassen Sie eine Ablageanfrage oder einen Alarm mit dem Kontext des Kunden, der Transaktion und der Beobachtungsliste."
+            },
+            {
+              "stage": "Run",
+              "description": "Apply fixed compliance rules and model the alert, return or CKYC batch."
+            },
+            {
+              "stage": "Run",
+              "description": "Zusammenstellen des Erzähl- und Beweisbündels; Vollständigkeit und Konsistenz testen."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Zeigen Sie dem Compliance-Beauftragten alle vorgeschlagenen Bereiche und ungelösten Unsicherheiten an."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Inszenieren oder reichen Sie nur die vom Offizier genehmigte Rückgabe, Erzählung oder CKYC-Batch ein."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie Bestätigungen, Ablehnungen, Ablagestatus und den vollständigen Audit-Trail."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analysten-Dispositionen verbessern das Abrufen von Beweisen, das Ranking und die Entwürfe von Erzählungen.",
+            "neverChanges": "AML-Szenarien, Sanktionslisten, Schwellenwerte und Ablageregeln bleiben fest."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Versöhnung & Finanzen",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Nächtliches Matching, das jede Pause erklärt.",
+          "summary": "Nora stimmt über Switch-, CBS-, Settlement- und GL-Aufzeichnungen überein, rankt Residuen und erklärt genau, warum ein Gegenstand nicht in Einklang bleibt.",
+          "inputSummary": "Transaktionen wechseln · CBS-Ledger · GL · Aussagen · Abrechnungsdateien",
+          "outputSummary": "Abgestimmter Satz · Ausnahmewarteschlange · GL-Proof · Journalvorschau · Zusammenfassung",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Wechseln Sie Transaktionen, CBS-Ledger, GL, Anweisungen und Abrechnungsdateien."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "System + Chat",
+              "description": "Entspricht Systemaufzeichnungen und erklärt jede Residue der Finanzierung."
+            }
+          ],
+          "outputs": [
+            "Abgestimmter Satz",
+            "Ausnahmewarteschlange",
+            "GL-Beweis",
+            "Journalvorschau",
+            "Zusammenfassung"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Beginnen Sie mit den nächtlichen Trigger- und Aufnahme-Switch-, CBS-, GL- und Abwicklungsaufzeichnungen."
+            },
+            {
+              "stage": "Run",
+              "description": "Führen Sie genau, Regel- und Beziehungsabgleich aus. Modell-Timing und Referenzunterschiede."
+            },
+            {
+              "stage": "Run",
+              "description": "Testen Sie die Vorschläge für Restübereinstimmungen und bereiten Sie die Journal- oder Anpassungsvorschau vor."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Erklären Sie jeden mehrdeutigen Punkt und zeigen Sie die vorgeschlagene Buchung in die Finanzierung."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Löschen oder buchen Sie nur die von der Finanzbehörde genehmigte Anpassung."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie Pausen, Alterung, Wiederholung am nächsten Tag und akzeptierte oder abgelehnte Vorschläge."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Akzeptierte Vorschläge verbessern das Referenz-Matching und das Ausnahme-Ranking.",
+            "neverChanges": "Die Rechnungslegungs-, Materialitäts- und Buchungskontrollen bleiben weiterhin geregelt."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Kundenservice & Sammlungen",
+          "mode": "VOICE + CHAT",
+          "outcome": "Lösen Sie die Konversation mit dem Konto in der Ansicht.",
+          "summary": "Nora versteht natürliche Konversation, ruft den Kundenkontext ab und bereitet Antworten, Versprechen und Vergleiche mit Schwellenwertübergabe vor.",
+          "inputSummary": "Kunde 360 · Konten · Verlauf · Policy · Delinquenz · PTP",
+          "outputSummary": "Fallzusammenfassung · Statusantwort · PTP-Entwurf · Abrechnungsschreiben · Routing",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Kunden 360, Konten, Fallverlauf, Policy, Delinquency und PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Stimme + Chat",
+              "description": "Versteht die Kundenkonversation mit dem Kontokontext in der Ansicht."
+            }
+          ],
+          "outputs": [
+            "Fallübersicht",
+            "Statusantwort",
+            "PTP-Entwurf",
+            "Abrechnungsschreiben",
+            "Leitung"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Erfassen Sie den Anruf, Chat, Dokument oder Fallereignis und identifizieren Sie die Kundenabsicht."
+            },
+            {
+              "stage": "Run",
+              "description": "Auflösen von Identität und Abrufen von Konto, Fall, Kriminalität und Richtlinienkontext."
+            },
+            {
+              "stage": "Run",
+              "description": "Entwerfen Sie den Antwort-, PTP- oder Abrechnungspfad und testen Sie ihn anhand von Kunden-Impact-Regeln."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Zeigen Sie dem Agenten die vorgeschlagene Antwort- oder Kontoaktion am richtigen Schwellenwert an."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Senden, aktualisieren oder protokollieren Sie nur die genehmigte Kommunikations- oder Kontoaktion."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie die Auflösung, eingehaltene oder gebrochene Versprechen, Wiedereröffnungen und Eskalationen."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Agentenbearbeitungen und -ergebnisse verbessern die Absicht, das Routing und die nächstbeste Aktion.",
+            "neverChanges": "Zustimmung, Sammlungsverhalten und Vergleichsbehörde bleiben durchgesetzt."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR- und interne Operationen",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Jeder Tischler bereit. Jeder Abgänger vollständig geschlossen.",
+          "summary": "Nora bereitet HRMS-, E-Mail-, Identitäts- und Zugriffsänderungen vor und zeigt dann den genauen Konto- und Berechtigungsunterschied vor Manager, Personal und IT-Zulassung an.",
+          "inputSummary": "Mitarbeiter · HRMS · Identität/access · Verzeichnis · ITSM · Personalrichtlinie",
+          "outputSummary": "Schreiner/leaver Checkliste · Berechtigungsunterschiede · Buchstaben · Ausnahmen",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Mitarbeiter, HRMS, Identität und Zugriff, Verzeichnis, ITSM und Personalrichtlinie."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + System",
+              "description": "Koordiniert Systemänderungen durch einen inspizierbaren Konversations-Workflow."
+            }
+          ],
+          "outputs": [
+            "Schreiner/leaver Checkliste",
+            "Erlaubnis diff",
+            "Buchstaben",
+            "Ausnahmen"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Erfassen Sie den Joiner, Leaver oder die interne Anfrage mit dem Kontext des Mitarbeiters und des Managers."
+            },
+            {
+              "stage": "Run",
+              "description": "Modell erforderlich HRMS, Verzeichnis, E-Mail, Identität und Zugriffsänderungen."
+            },
+            {
+              "stage": "Run",
+              "description": "Probe des Kontos und der Genehmigungsunterschiede gegen Anspruchs- und Vollständigkeitsregeln."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Zeigen Sie den genauen Unterschied für Manager, Personal und IT-Zulassung."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Stellen Sie nur die genehmigten Konten, Rollen und Ressourcen bereit oder widerrufen Sie sie."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie die Fertigstellung, fehlgeschlagene Aufgaben, den anhaltenden Zugriff und die Managerkorrekturen."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Korrekturen verbessern Rollenbündel, Checklisten und Ausnahmerouting.",
+            "neverChanges": "Privilegierte Rollen, Aufgabentrennung und Genehmigungshierarchie bleiben fest."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Treasury & Trade Ops",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Weniger Pausen zwischen Deal, Bestätigung und Abwicklung.",
+          "summary": "Nora vergleicht Handelsbedingungen, verfolgt Bestätigungen und bereitet Rate-, Blotter- und Nostro-Aktionen hinter der benannten oder doppelten Treasury-Zulassung vor.",
+          "inputSummary": "Angebote · Bestätigungen · Tarife · Blotter · Nostro · Limits · Trade Docs",
+          "outputSummary": "Bestätigungs-Tracker · Unstimmigkeiten · Vorschau der Rate · Nostro-Proof",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Deals, Bestätigungen, Tarife, Blotter, Nostro, Limits und Handelsdokumente."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Stimme + System",
+              "description": "Vergleicht Handelsdaten und unterstützt eine genehmigte Desk-Anweisung."
+            }
+          ],
+          "outputs": [
+            "Bestätigungs-Tracker",
+            "Abweichungen",
+            "Rate Vorschau",
+            "Nostro-Proof"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Erfassen Sie den Deal, die Bestätigung oder den Schreibtisch mit Kontrahentenkontext."
+            },
+            {
+              "stage": "Run",
+              "description": "Extrahieren und vergleichen Sie Begriffe über Deals, Bestätigungen, Tarife, Blotter und Nostro."
+            },
+            {
+              "stage": "Run",
+              "description": "Bereiten Sie die Aktions- und Testgrenzen, Beträge, Cut-offs und den aktuellen Systemzustand vor."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Präsentieren Sie die genaue Anweisung der benannten oder dualen Schatzbehörde."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Senden Sie nur den genehmigten Tarif, Blotter, Bestätigung oder Nostro-Anweisung."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Spurbestätigung, Abwicklung, Pausen, Cut-offs und Gegenparteikorrekturen."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Gelöste Diskrepanzen verbessern die Extraktions-, Abgleich- und Cut-off-Priorität.",
+            "neverChanges": "Dealing-, FX-, Risiko-, Zahlungs- und Sanktionslimits können sich nicht selbst ändern."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbanking & EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Felddaten werden zu einer sauberen, zugelassenen Charge.",
+          "summary": "Nora liest Besprechungsblätter und Formulare, versteht diktierte lokalsprachige Daten und löst Unsicherheiten vor dem Erstellen von Multisystem-Batches.",
+          "inputSummary": "Besprechungsdaten · Gruppendarlehen · Sammlungen · KYC · Schemaformulare · Ansprüche",
+          "outputSummary": "Meeting Batch · Sammlungen Upload · Schema-Pack · Warteschlange abgelehnt",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Besprechungsdaten, Gruppendarlehen, Sammlungen, KYC, Schemaformulare und Ansprüche."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Kamera + Stimme",
+              "description": "Liest Felddokumente und versteht diktierte lokalsprachige Daten."
+            }
+          ],
+          "outputs": [
+            "Batch-Besprechung",
+            "Sammlungen hochladen",
+            "Schema Pack",
+            "Warteschlange mit abgelehnter Zeile"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Der Field Officer lädt Besprechungsblätter hoch oder diktiert Sammlungsdaten in der Landessprache."
+            },
+            {
+              "stage": "Run",
+              "description": "Formulare transkribieren und extrahieren, dann Mitglieder, Konten und Schemakontext abgleichen."
+            },
+            {
+              "stage": "Run",
+              "description": "Erstellen Sie die Multisystem-Batch- und Testanomalien, erwartete Werte und fehlende Daten."
+            },
+            {
+              "stage": "Überprüfen",
+              "description": "Zeigen Sie jede Zeile und vorgeschlagene Schreiben für die Genehmigung von Feld- oder Zweigstellenleitern an."
+            },
+            {
+              "stage": "Ausführen",
+              "description": "Veröffentlichen Sie nur das genehmigte Gruppendarlehen, die Sammlung oder das Schema-Batch."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Verfolgen Sie abgelehnte Zeilen, Bestätigungen, Korrekturen und Beendigung."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Korrekturen verbessern die Handschrift, die lokalsprachige Zuordnung und Datenprüfungen.",
+            "neverChanges": "Die Berechtigung, Kredit-, Schema- und Inkassobehörde bleiben geregelt."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Multimodale Persona",
+      "heading": "Nora trifft die Arbeit in jeder Form.",
+      "body": "Sprechen, tippen, zeigen oder verbinden - das gleiche Persona- und Kontrollmodell bleiben an Ort und Stelle.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Vision, die die Datei liest",
+          "body": "Ausweisdokumente, Aussagen, signierte Formulare, Handschriften und Screenshots werden zu strukturierten Beweisen."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Stimme für den operativen Moment",
+          "body": "Die Beamten können eine Ausnahme erklären, Felddaten diktieren oder um einen Status bitten, ohne die Arbeit zu verlassen."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Systeme, die beobachtbar bleiben",
+          "body": "Nora liest den genehmigten Kontext und bereitet Schreibvorgänge mit jedem Feld vor, der vor der Ausführung sichtbar ist."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "Autorität, die menschlich bleibt",
+          "body": "Benannte Genehmigungen, doppelte Kontrolle und feste Richtlinien sind Teil des Laufs - keine Notiz daneben."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 - Vertrauen",
+      "heading": "Zeigen Sie den Lauf, keine Beruhigung.",
+      "body": "Die Beweise, nach denen Ihr Risiko, Sicherheits- und Auditteam fragen wird.",
+      "statusLabel": "Governance-Status",
+      "statusValue": "Sichtbar",
+      "statusDetail": "Alle Kontrollschichten betriebsbereit",
+      "controls": [
+        {
+          "title": "Doppelsteuerung",
+          "body": "Benannter Maker / Checker für Folgeaktionen"
+        },
+        {
+          "title": "Richtliniensperren",
+          "body": "KI kann die Bank- oder Regulierungspolitik nicht umschreiben"
+        },
+        {
+          "title": "Audit-Log",
+          "body": "Unveränderliche Eingabe, Argumentation, Genehmigung und Action-Trail"
+        },
+        {
+          "title": "Bereichszugriff",
+          "body": "Lese- und Schreibrechte auf Werkzeug- und Feldebene"
+        },
+        {
+          "title": "Datenaufenthalt",
+          "body": "An der genehmigten Grenze der Bank einsetzen"
+        },
+        {
+          "title": "Verschlüsselung",
+          "body": "während des Transports und in Ruhe geschützt"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Eine implementierbare Banking-KI-Persona mit Gabriel-Operator.",
+      "exploreLabel": "Erkunden",
+      "useCasesLabel": "Anwendungsfälle",
+      "getStartedLabel": "Sich aufmachen",
+      "useCaseLinks": [
+        "KYC",
+        "Kredit",
+        "Beachtung",
+        "Geschäftstätigkeit"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Der nächste Lauf",
+      "heading": "Stellen Sie Nora in einer Bankdomäne bereit.",
+      "body": "Wählen Sie den Workflow, die Schnittstelle und die Autoritätsgrenze. Stellen Sie den ersten regierten Lauf vor Ihr Einsatzteam.",
+      "ctaLabel": "Sprich mit Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

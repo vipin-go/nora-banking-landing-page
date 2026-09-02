@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "lt",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Galimybės",
+          "target": "capabilities"
+        },
+        {
+          "label": "Naudojimo atvejai",
+          "target": "use-cases"
+        },
+        {
+          "label": "Pasitikėti",
+          "target": "trust"
+        },
+        {
+          "label": "Apie",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Susipažink su Nora"
+    },
+    "badge": "Bankininkystės AI operacijos",
+    "headline": "Padarykite banką vietinį",
+    "subheadline": "Nora yra bankininkystės AI asmenybė, sukurta naudojant Gabriel operatorių, teikiama per įterptąjį pokalbį, SDK, API arba banko orkestravimo sluoksnį.",
+    "ctaLabel": "Pasikalbėk su Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Sveiki. Paklauskite manęs, kaip galėčiau palaikyti banko darbo eigą arba tilpti į jūsų veiklos krūvą."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Asmens peržiūra",
+      "inputPlaceholder": "Paklauskite Noros apie darbo eigą…",
+      "suggestedPrompts": [
+        "KYC darbo eiga",
+        "Integracija"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 – kontroliuojamas kelias į veiksmą",
+      "heading": "agentai, kurie veikia. Bankininkai kontroliuoja.",
+      "headingAccent": "Bankininkai kontroliuoja.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Užfiksuoti",
+          "body": "Nora renka užklausą, pirminius dokumentus, politiką ir kontekstą."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Imituoti",
+          "body": "Pirmiausia ji parengia saugią, peržiūrimą darbo eigos versiją."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Patikrinti",
+          "body": "Taisyklės, įrodymai ir išimtys tikrinamos prieš ką nors judant."
+        },
+        {
+          "icon": "check",
+          "title": "Patvirtinti",
+          "body": "Dešinysis bankininkas tiksliai mato, kas bus ir kodėl."
+        },
+        {
+          "icon": "star",
+          "title": "Vykdyti",
+          "body": "Vykdomi tik patvirtinti veiksmai, o auditui paruoštas pėdsakas."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 – Kas yra Nora?",
+      "segments": [
+        {
+          "text": "Nora yra viena AI asmenybė, sukurta kartu su Gabriel operatoriumi",
+          "tone": "strong"
+        },
+        {
+          "text": "Valdomoms bankinėms operacijoms. dislokuoti ją į",
+          "tone": "muted"
+        },
+        {
+          "text": "Viena sritis su apibrėžtomis žiniomis, įrankiais ir autoritetu",
+          "tone": "iris"
+        },
+        {
+          "text": "– tada sukurkite daugiau asmenybių kitoms komandoms, kurių kiekviena turi savo",
+          "tone": "muted"
+        },
+        {
+          "text": "Politikos ir prieigos ribos",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 – Diegimas",
+      "heading": "Susipažinkite su banku, kuriame jau vyksta darbai.",
+      "body": "Pradėkite nuo įterptosios patirties arba prijunkite Norą tiesiai prie banko veiklos krūvos.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Įterptasis pokalbis",
+          "body": "Įdėkite Norą į portalus ir jau naudojasi darbo vietovių bankininkai."
+        },
+        {
+          "code": "SDK",
+          "title": "Bankui priklausanti patirtis",
+          "body": "Naudokite SDK, kad suformuotumėte Norą į paties banko sąsają ir darbo eigą."
+        },
+        {
+          "code": "API",
+          "title": "Persona kaip paslauga",
+          "body": "Skambinkite Norai iš produktų, operacijų įrankių, mobiliųjų programėlių ar įvykių pagrįstų srautų."
+        },
+        {
+          "code": "ORCH",
+          "title": "Orkestravimo sluoksnis",
+          "body": "Prijunkite Norą kaip valdomą agentą esamame banko automatizavimo pakete."
+        }
+      ],
+      "personaLabel": "Nora · Banking AI Persona",
+      "platformLabel": "Sukurta + valdoma su Gabrielio operatoriumi",
+      "boundaryItems": [
+        "Banko patvirtintos žinios",
+        "Apimtieji įrankiai",
+        "Fiksuota politika",
+        "Pavadinti patvirtinimai"
+      ],
+      "note": "Vienas bankas gali diegti daug domeno asmenybių – „Nora for KYC“, „Nora for Credit“, „Nora“ – operacijoms – ir kiekvieno asmens duomenys, įrankiai ir įgaliojimai yra aiškiai apriboti."
+    },
+    "useCases": {
+      "kicker": "04 — Naudojimo atvejai",
+      "heading": "„One Persona Model 8“ vietos pradėti.",
+      "subheading": "Pasirinkite vieną domeną pirmajam Noros diegimui; Išplėsti tik tada, kai veiklos modelis yra įrodytas.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC ir įlaipinimas",
+          "mode": "VISION + CHAT",
+          "outcome": "Nuo dokumentų iki patvirtinto CBS įrašo.",
+          "summary": "Nora nuskaito ID ir formas, patikrina CKYC ir CBS, paaiškina neatitikimus, tada parengia tikslų kliento įrašą, kad būtų patvirtintas Maker /checker.",
+          "inputSummary": "Paraiškos · CKYC · Tapatybės dokumentai · CBS · KYC politika",
+          "outputSummary": "CKYC atitiktis · Trūksta laukų · CBS kūrimo peržiūra · Įrodymų paketas",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Paraiškos, CKYC, tapatybės dokumentai, CBS ir KYC politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vizija + pokalbis",
+              "description": "Nuskaito tapatybės įrodymus, išsprendžia neatitikimus ir paaiškina siūlomą įrašą."
+            }
+          ],
+          "outputs": [
+            "CKYC rungtynės",
+            "Trūksta laukų",
+            "CBS kūrimo peržiūra",
+            "Įrodymų paketas"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Pareigūnas įkelia programą ir ID arba prašo Noros prisijungti prie kliento."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Išskleiskite tapatybės laukus, palyginkite CKYC ir CBS ir modeliuokite trūkstamus duomenis arba neatitikimus."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Sukurkite siūlomą CBS įrašą ir pakartokite išsamumą bei pasikartojančius patikrinimus."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Parodykite pareigūno ir gamintojo įrodymus ir tikslius įrašus /checker patvirtinimo."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Sukurkite arba atnaujinkite tik patvirtintus CBS laukus ir pateikite įrodymų paketą."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėkite užbaigimą, atmetimus, išimtis ir pareigūnų pataisymus kitam bėgimui."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Pareigūnų pataisymai pagerina OCR, vardas /address normalizavimas ir neryškus atitikimas.",
+            "neverChanges": "KYC politika, privalomi laukai ir patvirtinimo institucija išlieka valdoma."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Paskolos ir kredito operacijos",
+          "mode": "VISION + VOICE",
+          "outcome": "Visas kredito failas, paruoštas institucijai.",
+          "summary": "Nora surenka biuro, prašymo ir finansinį kontekstą į skolininko dokumentaciją, nukrypimo atmintį ir sankcijų projektą – neprisiimdama kredito įgaliojimų.",
+          "inputSummary": "Paraiška · Biuras · Finansai · Nukrypimų politika · LOS / DMS",
+          "outputSummary": "skolininko dokumentacija · Nukrypimo atmintinė · Sankcijų projektas · Išmokėjimo peržiūra",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Paraiška, biuras, finansai, nukrypimų politika, LOS ir DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vizija + balsas",
+              "description": "perskaito kredito bylą ir palaiko natūralios kalbos pareigūno peržiūrą."
+            }
+          ],
+          "outputs": [
+            "skolininko dokumentas",
+            "Nukrypimo atmintis",
+            "Sankcijos projektas",
+            "Apmokėjimo peržiūra"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Užfiksuokite paraišką, finansinius dokumentus, biuro duomenis ir pareigūno prašymą."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Normalizuokite skaičius, apibendrinkite biuro istoriją ir modeliuokite kiekvieną politikos nukrypimą."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "surinkti dokumentų, sankcijų projektą ir išmokėjimo peržiūrą; Pakartokite politikos patikrinimus."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Pateikite nurodytą kredito institucijai sąlygas, nukrypimus ir įrodymus."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Parašykite patvirtintą sankciją arba išmokėjimo būseną ir pateikite paketą DMS."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėkite būseną, apyvartą, pasroviui taikomas išimtis ir autoritetų redagavimą."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Kredito pareigūnų redagavimas pagerina suvestines, dokumentų patikrinimus ir prioritetų nustatymą.",
+            "neverChanges": "Balų ribiniai rodikliai, LTV/DTI, kainodaros ir sankcijų įgaliojimai negali pasikeisti savaime."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Atitiktis, AML ir ataskaitų teikimas",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Kiekvienas pareiškimas prasideda nuo pridedamų įrodymų.",
+          "summary": "Nora surenka operacijas, KYC, stebėjimo sąrašus ir taisykles į įspėjimo rūšiavimą, grąžinimo juodraščius ir pateikimo peržiūras, kad būtų galima peržiūrėti atitiktį.",
+          "inputSummary": "Sandoriai · Klientas KYC · Įspėjimai · Stebėjimo sąrašai · Reguliavimo taisyklės",
+          "outputSummary": "Įspėjimo skirstymas · Grąžinimo juodraštis · Pasakojimas · CKYC paketas · Įrodymų paketas",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Sandoriai, klientų KYC, įspėjimai, stebėjimo sąrašai ir reguliavimo taisyklės."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Pokalbis + sistema",
+              "description": "Sujungia pokalbį su valdoma prieiga prie atitikties sistemų."
+            }
+          ],
+          "outputs": [
+            "Įspėjimo skirstymas",
+            "Grąžinimo juodraštis",
+            "Pasakojimo",
+            "CKYC partija",
+            "Įrodymų rinkinys"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Užfiksuokite padavimo užklausą arba įspėjimą kliento, operacijų ir stebėjimo sąrašo kontekstu."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Taikykite fiksuotas atitikties taisykles ir modeliuokite įspėjimo, grąžinimo arba CKYC paketą."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Surinkite pasakojimo ir įrodymų rinkinį; Išbandykite išsamumą ir nuoseklumą."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Atitikties pareigūnui parodykite kiekvieną siūlomą sritį ir neišspręstą netikrumą."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Sukurkite arba pateikite tik pareigūno patvirtintą deklaraciją, pasakojimą arba CKYC partiją."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėkite patvirtinimus, atmetimus, padavimo būseną ir visą audito seką."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analitikų nuostatos pagerina įrodymų gavimą, reitingavimą ir pasakojimų projektus.",
+            "neverChanges": "AML scenarijai, sankcijų sąrašai, slenksčiai ir padavimo taisyklės išlieka fiksuotos."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Sutaikymas ir finansai",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Naktinis atitikimas, paaiškinantis kiekvieną pertrauką.",
+          "summary": "Nora atitinka Switch, CBS, Settlement ir GL Records, reitinguoja likučius ir tiksliai paaiškina, kodėl elementas lieka nesuderinamas.",
+          "inputSummary": "Switch Transactions · CBS Ledger · GL · Ataskaitos · Atsiskaitymo failai",
+          "outputSummary": "Suderintas rinkinys · Išimčių eilė · GL įrodymas · Žurnalo peržiūra · Santrauka",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Perjungti operacijas, CBS knygą, GL, pareiškimus ir atsiskaitymų failus."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Sistema + pokalbis",
+              "description": "Suderina sistemos įrašus ir paaiškina kiekvieną likutį finansams."
+            }
+          ],
+          "outputs": [
+            "Suderintas rinkinys",
+            "Išimčių eilė",
+            "GL įrodymas",
+            "Žurnalo peržiūra",
+            "Suvestinė"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Pradėkite nuo naktinio paleidimo ir pertraukimo jungiklio, CBS, GL ir atsiskaitymo įrašų."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Vykdykite tikslią, taisyklių ir santykių atitikimą; Modelio laikas ir atskaitos skirtumai."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Išbandykite likutinių rungtynių pasiūlymus ir paruoškite žurnalo arba koregavimo peržiūrą."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Paaiškinkite kiekvieną dviprasmišką elementą ir parodykite siūlomą įrašą finansams."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Išvalyti arba paskelbti tik finansų institucijos patvirtintą koregavimą."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Track pertraukos, senėjimas, pasikartojimas kitą dieną ir priimti arba atmesti pasiūlymai."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Priimti pasiūlymai pagerina nuorodų atitikimą ir išimčių reitingą.",
+            "neverChanges": "Apskaitos politika, reikšmingumo ir komandiruotės kontrolė išlieka valdoma."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Klientų aptarnavimas ir kolekcijos",
+          "mode": "VOICE + CHAT",
+          "outcome": "Išspręskite pokalbį su matoma paskyra.",
+          "summary": "Nora supranta natūralų pokalbį, atpažįsta klientų kontekstą ir parengia atsakymus, pažadus mokėti ir atsiskaitymus su slenksčiu.",
+          "inputSummary": "Klientas 360 · Sąskaitos · Atvejų istorija · Politika · Nusikalstamumas · PTP",
+          "outputSummary": "Bylos santrauka · Būsenos atsakymas · PTP projektas · Atsiskaitymo laiškas · Maršrutas",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Klientas 360, sąskaitos, atvejų istorija, politika, nusikalstamumas ir PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Balsas + pokalbis",
+              "description": "Supranta kliento pokalbį, atsižvelgiant į paskyros kontekstą."
+            }
+          ],
+          "outputs": [
+            "Bylos santrauka",
+            "Būsenos atsakymas",
+            "PTP juodraštis",
+            "Atsiskaitymo laiškas",
+            "Maršrutas"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Užfiksuokite skambutį, pokalbį, dokumentą ar atvejo įvykį ir nurodykite kliento ketinimą."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Išspręskite tapatybę ir nustatykite paskyros, atvejo, nusikalstamumo ir politikos kontekstą."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Parengkite atsakymo, PTP arba atsiskaitymo kelią ir patikrinkite jį pagal poveikio klientui taisykles."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Parodykite siūlomą atsakymą arba paskyros veiksmą agentui ties dešiniuoju slenksčiu."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Siųsti, atnaujinti arba registruoti tik patvirtintą ryšio arba paskyros veiksmą."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėkite skiriamąją gebą, pažadus arba sulaužytus pažadus, atidarymus ir eskalavimus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Agento redagavimas ir rezultatai pagerina ketinimą, maršrutą ir kitą geriausią veiksmą.",
+            "neverChanges": "Sutikimas, surinkimo elgesys ir atsiskaitymo įgaliojimai lieka priverstinai."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR ir vidinės operacijos",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Kiekvienas stalius pasiruošęs. Kiekvienas palikėjas visiškai uždarytas.",
+          "summary": "Nora parengia HRMS, el. paštą, tapatybės ir prieigos pakeitimus, tada parodo tikslų paskyros ir leidimo skirtumą prieš valdytojo, HR ir IT patvirtinimą.",
+          "inputSummary": "Darbuotojas · HRMS · Identity /access · katalogas · ITSM · HR politika",
+          "outputSummary": "Joiner /leaver kontrolinis sąrašas · leidimų skirtumas · raidės · išimtys",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Darbuotojas, HRMS, tapatybė ir prieiga, katalogas, ITSM ir personalo politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Pokalbis + sistema",
+              "description": "Koordinuoja sistemos pokyčius per tikrinamą pokalbio darbo eigą."
+            }
+          ],
+          "outputs": [
+            "Joiner /leaver kontrolinis sąrašas",
+            "Leidimo skirtumas",
+            "Literatūra",
+            "Išimtys"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Užfiksuokite stalių, palikėjo ar vidinį prašymą su darbuotojo ir vadovo kontekstu."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Modeliui reikalingi HRMS, katalogas, el. paštas, tapatybės ir prieigos pakeitimai."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Repetuokite paskyrą ir leidimų skirtumą pagal teisių ir išsamumo taisykles."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Parodykite tikslų vadovo, HR ir IT patvirtinimo skirtumą."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "teikti arba atšaukti tik patvirtintas sąskaitas, vaidmenis ir išteklius."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėti užbaigimą, nesėkmingas užduotis, ilgalaikę prieigą ir tvarkyklės pataisymus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Pataisymai pagerina vaidmenų paketus, kontrolinius sąrašus ir išimčių maršrutą.",
+            "neverChanges": "Privilegijuoti vaidmenys, pareigų atskyrimas ir patvirtinimo hierarchija išlieka fiksuotos."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Iždo ir prekybos operacijos",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Mažiau pertraukų tarp sandorio, patvirtinimo ir atsiskaitymo.",
+          "summary": "Nora lygina prekybos sąlygas, seka patvirtinimus ir parengia palūkanų normą, blotter ir nostro veiksmus už įvardyto arba dvigubo iždo patvirtinimo.",
+          "inputSummary": "Pasiūlymai · Patvirtinimai · Kainos · Blotter · Nostro · Limitai · Prekybos dokumentai",
+          "outputSummary": "Patvirtinimo stebėjimo priemonė · Neatitikimai · Įvertinimo peržiūra · Nostro įrodymas",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Pasiūlymai, patvirtinimai, tarifai, blotter, nostro, limitai ir prekybos dokumentai."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Balsas + sistema",
+              "description": "Lygina prekybos duomenis ir palaiko patvirtintą stalo instrukcijas."
+            }
+          ],
+          "outputs": [
+            "Patvirtinimo stebėjimo priemonė",
+            "Neatitikimai",
+            "Įvertinimo peržiūra",
+            "Nostro įrodymas"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Užfiksuokite sandorio, patvirtinimo ar stalo instrukcijas su sandorio šalies kontekstu."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Išskleiskite ir palyginkite terminus tarp sandorių, patvirtinimų, tarifų, blotter ir nostro."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Paruoškite veiksmų ir bandymo ribas, sumas, ribas ir esamą sistemos būseną."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Pateikite tikslią nurodymą nurodytai arba dvigubai iždo institucijai."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Siųskite tik patvirtintą tarifą, blotter, patvirtinimą arba nostro instrukcijas."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėkite patvirtinimą, atsiskaitymą, pertraukas, ribas ir sandorio šalies pataisymus."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Išspręsti neatitikimai pagerina išgavimo, atitikimo ir ribojimo prioritetą.",
+            "neverChanges": "Prekybos, valiutos, rizikos, mokėjimo ir sankcijų ribos negali pasikeisti."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikrobankininkystė ir EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Lauko duomenys tampa švaria, patvirtinta partija.",
+          "summary": "Nora skaito susitikimų lapus ir formas, supranta padiktuotus vietinės kalbos duomenis ir išsprendžia neaiškumus prieš kurdama kelių sistemų paketus.",
+          "inputSummary": "Susitikimo duomenys · Grupinės paskolos · Kolekcijos · KYC · Schemos formos · Pretenzijos",
+          "outputSummary": "Susitikimo paketas · Kolekcijos įkėlimas · schemų paketas · atmestų eilučių eilė",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Susitikimo duomenys, grupinės paskolos, surinkimai, KYC, schemos formos ir pretenzijos."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Fotoaparatas + balsas",
+              "description": "Skaito lauko dokumentus ir supranta padiktuotus vietinės kalbos duomenis."
+            }
+          ],
+          "outputs": [
+            "Susitikimo partija",
+            "Kolekcijos įkėlimas",
+            "Schemos paketas",
+            "Atmestų eilučių eilė"
+          ],
+          "workflow": [
+            {
+              "stage": "Pradėti",
+              "description": "Lauko pareigūnas įkelia posėdžių lapus arba diktuoja rinkimo duomenis vietine kalba."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Transkribuoti ir išskleisti formas, tada suderinti narius, paskyras ir schemos kontekstą."
+            },
+            {
+              "stage": "Paleisti",
+              "description": "Sukurkite kelių sistemų paketą ir patikrinkite anomalijas, numatomas reikšmes ir trūkstamus duomenis."
+            },
+            {
+              "stage": "Apžvalga",
+              "description": "Rodyti kiekvieną eilutę ir siūlomą rašymą lauko arba filialo pareigūno patvirtinimui."
+            },
+            {
+              "stage": "Vykdyti",
+              "description": "Paskelbkite tik patvirtintą grupės paskolos, surinkimo ar schemos partiją."
+            },
+            {
+              "stage": "Monitorius",
+              "description": "Stebėkite atmestas eilutes, patvirtinimus, pataisymus ir užbaigimą."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Taisymai pagerina rašyseną, vietinių kalbų atvaizdavimą ir duomenų patikrinimą.",
+            "neverChanges": "Tinkamumas, kreditas, schema ir inkasavimo institucija lieka valdoma."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Multimodalinė asmenybė",
+      "heading": "Nora sutinka darbą visomis formomis.",
+      "body": "Kalbėkite, įveskite, rodykite arba prisijunkite – ta pati asmenybė ir valdymo modelis lieka vietoje.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Vizija, kuri nuskaito failą",
+          "body": "Tapatybės dokumentai, pareiškimai, pasirašytos formos, rašysena ir ekrano kopijos tampa struktūriniais įrodymais."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Balsas veikimo momentui",
+          "body": "Pareigūnai gali paaiškinti išimtį, padiktuoti lauko duomenis arba paprašyti statuso neišeidami iš darbo."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Sistemos, kurios lieka stebimos",
+          "body": "Nora perskaito patvirtintą kontekstą ir parengia apimties raštus, kurių kiekvienas matomas laukas prieš vykdymą."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "autoritetas, kuris lieka žmogumi",
+          "body": "Pavadinti patvirtinimai, dvigubas valdymas ir fiksuotos politikos vartai yra paleidimo dalis, o ne užrašas šalia jo."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Pasitikėjimas",
+      "heading": "Parodykite bėgimą, o ne patikinimą.",
+      "body": "Įrodymai, kurių paprašys jūsų rizikos, saugumo ir audito komandos.",
+      "statusLabel": "Valdymo statusas",
+      "statusValue": "Matomas",
+      "statusDetail": "Visi valdymo sluoksniai veikia",
+      "controls": [
+        {
+          "title": "Dvigubas valdymas",
+          "body": "Pavadintas kūrėjas / tikrintuvas dėl pasekmių veiksmų"
+        },
+        {
+          "title": "Politikos užraktai",
+          "body": "AI negali perrašyti bankininkystės ar reguliavimo politikos"
+        },
+        {
+          "title": "Audito žurnalas",
+          "body": "Nekintamas įvestis, samprotavimas, patvirtinimas ir veiksmų seka"
+        },
+        {
+          "title": "Apimties prieiga",
+          "body": "Skaitymo ir rašymo leidimai įrankių ir lauko lygiu"
+        },
+        {
+          "title": "Duomenų gyvenamoji vieta",
+          "body": "dislokuoti prie banko patvirtintos ribos"
+        },
+        {
+          "title": "Šifravimas",
+          "body": "apsaugotas gabenant ir ilsintis"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Dislokuojama bankininkystės AI asmenybė, sukurta kartu su Gabriel operatoriumi.",
+      "exploreLabel": "Ištirti",
+      "useCasesLabel": "Naudojimo atvejai",
+      "getStartedLabel": "Pradėti",
+      "useCaseLinks": [
+        "KYC",
+        "Kredituoti",
+        "Laikymasis",
+        "Operacijos"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Kitas bėgimas",
+      "heading": "Įdiekite Norą viename bankininkystės domene.",
+      "body": "Pasirinkite darbo eigą, sąsają ir autoriteto ribą. Pateikite pirmąjį valdomą bėgimą prieš savo operacijų komandą.",
+      "ctaLabel": "Pasikalbėk su Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

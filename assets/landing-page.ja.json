@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "機能",
+          "target": "capabilities"
+        },
+        {
+          "label": "ユースケース",
+          "target": "use-cases"
+        },
+        {
+          "label": "信頼",
+          "target": "trust"
+        },
+        {
+          "label": "約",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "ノラに会います"
+    },
+    "badge": "銀行の AI オペレーション",
+    "headline": "銀行をネイティブにします",
+    "subheadline": "NORA は、Gabriel オペレーターによって構築された銀行の AI ペルソナであり、埋め込みチャット、SDK、API、または銀行のオーケストレーション レイヤーを通じて提供されます。",
+    "ctaLabel": "ノラと話してください",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hello. 銀行のワークフローをどのようにサポートするか、またはあなたのオペレーティング スタックに適合させることができるかお尋ねください。"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "ペルソナ プレビュー",
+      "inputPlaceholder": "ノラにワークフローについて尋ねる…",
+      "suggestedPrompts": [
+        "KYC ワークフロー",
+        "統合"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — 制御されたアクションへのパス",
+      "heading": "行動するエージェント。 銀行家は支配権を握っています。",
+      "headingAccent": "銀行家は支配権を握っています。",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "捕捉",
+          "body": "NORA は、リクエスト、ソース ドキュメント、ポリシー、およびコンテキストを収集します。"
+        },
+        {
+          "icon": "sparkles",
+          "title": "シミュレート",
+          "body": "彼女は、最初に安全でレビュー可能なワークフローのバージョンを準備します。"
+        },
+        {
+          "icon": "shield-check",
+          "title": "検証する",
+          "body": "ルール、証拠、および例外は、何かが動く前にチェックされます。"
+        },
+        {
+          "icon": "check",
+          "title": "我意を得る",
+          "body": "適切な銀行家は、何が起こるか、そしてその理由を正確に理解しています。"
+        },
+        {
+          "icon": "star",
+          "title": "死刑する",
+          "body": "承認されたアクションのみが実行され、トレースは監査の準備ができています。"
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — ノラとは?",
+      "segments": [
+        {
+          "text": "Nora は、Gabriel Operator で構築された AI ペルソナの 1 つです",
+          "tone": "strong"
+        },
+        {
+          "text": "管理された銀行業務のため。 彼女を に展開します",
+          "tone": "muted"
+        },
+        {
+          "text": "定義された知識、ツール、権限を持つ 1 つのドメイン",
+          "tone": "iris"
+        },
+        {
+          "text": "—それから、それぞれ独自のチームを持つ他のチームのために、より多くのペルソナを作成します",
+          "tone": "muted"
+        },
+        {
+          "text": "ポリシーとアクセスの境界",
+          "tone": "accent"
+        },
+        {
+          "text": "。",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — 展開",
+      "heading": "仕事がすでに行われている銀行に会いましょう。",
+      "body": "組み込みエクスペリエンスから始めるか、Nora を銀行の運用スタックに直接接続します。",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "埋め込みチャット",
+          "body": "Nora は、銀行員が既に使用しているポータルとワークスペース内に配置します。"
+        },
+        {
+          "code": "SDK",
+          "title": "銀行所有の経験",
+          "body": "SDK を使用して、Nora を銀行独自のインターフェースとワークフローに組み込みます。"
+        },
+        {
+          "code": "API",
+          "title": "サービスとしてのペルソナ",
+          "body": "製品、操作ツール、モバイル アプリ、またはイベント駆動型フローから NORA を呼び出します。"
+        },
+        {
+          "code": "ORCH",
+          "title": "オーケストレーション レイヤー",
+          "body": "銀行の既存のオートメーション スタック内で、NORA を管理対象エージェントとして接続します。"
+        }
+      ],
+      "personaLabel": "ノラ・バンキング AI ペルソナ",
+      "platformLabel": "ガブリエル オペレーターを使用してビルド + 管理されています",
+      "boundaryItems": [
+        "銀行承認の知識",
+        "スコープ付きツール",
+        "固定ポリシー",
+        "名前付き承認"
+      ],
+      "note": "1 つの銀行は、各ペルソナのデータ、ツール、および権限を明示的に限定したまま、多数のドメイン ペルソナ (KYC は NORA、クレジットは NORA、オペレーションは NORA) を展開できます。"
+    },
+    "useCases": {
+      "kicker": "04 — ユースケース",
+      "heading": "1 つのペルソナ モデル 8 の場所を開始します。",
+      "subheading": "Nora の最初の展開では、1 つのドメインを選択します。 オペレーティング モデルが証明された場合にのみ展開します。",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC とオンボーディング",
+          "mode": "VISION + CHAT",
+          "outcome": "ドキュメントから承認された CBS レコードまで。",
+          "summary": "NORA は ID とフォームを読み取り、CKYC と CBS をチェックし、不一致について説明し、メーカー/チェッカーの承認のために正確な顧客レコードを準備します。",
+          "inputSummary": "アプリケーション · CKYC · ID ドキュメント · CBS · KYC ポリシー",
+          "outputSummary": "CKYC マッチ · フィールドが見つからない · CBS 作成プレビュー · エビデンス パック",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "アプリケーション、CKYC、ID ドキュメント、CBS、および KYC ポリシー。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "ビジョン + チャット",
+              "description": "アイデンティティの証拠を読み取り、不一致を解決し、提案されたレコードを説明します。"
+            }
+          ],
+          "outputs": [
+            "CKYC マッチ",
+            "フィールドがありません",
+            "CBS 作成のプレビュー",
+            "証拠パック"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "オフィサーは、アプリケーションと ID をアップロードするか、Nora に顧客のオンボードを依頼します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "アイデンティティ フィールドを抽出し、CKYC と CBS を比較して、欠落データまたは不一致をモデル化します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "提案された CBS レコードを作成し、完全性と再確認を複製します。"
+            },
+            {
+              "stage": "見直し",
+              "description": "役員およびメーカー/チェッカーの承認に関する証拠と正確な記録を示します。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "承認された CBS フィールドのみを作成または更新し、エビデンス パックを提出します。"
+            },
+            {
+              "stage": "モニター",
+              "description": "次の実行の完了、拒否、例外、および役員の訂正を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "オフィサーの修正により、OCR、名前/住所の正規化、ファジー マッチングが改善されます。",
+            "neverChanges": "KYC ポリシー、必須フィールド、および承認権限は引き続き管理されます。"
+          }
+        },
+        {
+          "number": "02",
+          "label": "ローンと信用調査",
+          "mode": "VISION + VOICE",
+          "outcome": "権威の準備ができている完全な信用ファイル。",
+          "summary": "ノラは、信用権限を引き受けることなく、局、アプリケーション、および財務状況を借り手の書類、逸脱メモ、制裁案にまとめています。",
+          "inputSummary": "アプリケーション · 局 · 財務 · 逸脱ポリシー · LOS / DMS",
+          "outputSummary": "借り手の書類 · 逸脱メモ · 制裁案 · 支払わなかのプレビュー",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "アプリケーション、局、財務、逸脱ポリシー、LOS、および DMS。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "ビジョン + 声",
+              "description": "クレジット ファイルを読み取り、自然言語担当官のレビューをサポートします。"
+            }
+          ],
+          "outputs": [
+            "借り手の書類",
+            "逸脱メモ",
+            "制裁草案",
+            "支払いのプレビュー"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "アプリケーション、財務文書、局のデータ、および役員の要求を取得します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "数値を正規化し、局の歴史を要約し、すべての政策の逸脱をモデル化します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "文書を作成し、ドラフトを制裁し、プレビューを出金します。 ポリシー チェックを再実行します。"
+            },
+            {
+              "stage": "見直し",
+              "description": "指名された信用機関に条件、逸脱、証拠を提示します。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "承認された制裁または支出の状態を記述し、パッケージを DMS に提出します。"
+            },
+            {
+              "stage": "モニター",
+              "description": "ステータス、ターンアラウンド、ダウンストリームの例外、および権限の編集を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "信用担当者の編集により、要約、ドキュメント チェック、および優先順位付けが改善されます。",
+            "neverChanges": "スコアのカットオフ、LTV/DTI、価格設定、制裁権限は自己変更できません。"
+          }
+        },
+        {
+          "number": "03",
+          "label": "コンプライアンス、AML およびレポート",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "すべてのファイリングは、証拠を添付して開始します。",
+          "summary": "Nora は、トランザクション、KYC、ウォッチリスト、およびルールをファーストパス アラート トリアージに組み立て、コンプライアンス レビュー用のドラフトと提出物のプレビューを最初に通過させます。",
+          "inputSummary": "取引 · 顧客 KYC · アラート · ウォッチリスト · 規制規則",
+          "outputSummary": "アラート トリアージ · リターン ドラフト · ナラティブ · CKYC バッチ · エビデンス バンドル",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "トランザクション、顧客 KYC、アラート、ウォッチリスト、および規制規則。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "チャット + システム",
+              "description": "コンプライアンス システムへの管理されたアクセスと会話を組み合わせます。"
+            }
+          ],
+          "outputs": [
+            "アラートトリアージ",
+            "ドラフトを返します",
+            "説話",
+            "CKYC バッチ",
+            "証拠バンドル"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "顧客、トランザクション、ウォッチリストのコンテキストでファイリング リクエストまたはアラートをキャプチャします。"
+            },
+            {
+              "stage": "ラン",
+              "description": "固定コンプライアンス ルールを適用し、アラート、リターン、または CKYC バッチをモデル化します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "物語と証拠のバンドルを組み立てます。 完全性と一貫性をテストします。"
+            },
+            {
+              "stage": "見直し",
+              "description": "提案されたすべての分野と未解決の不確実性をコンプライアンス オフィサーに示します。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "役員が承認したリターン、ナラティブ、または CKYC バッチのみをステージまたは提出してください。"
+            },
+            {
+              "stage": "モニター",
+              "description": "承認、拒否、ファイリング ステータス、および完全な監査証跡を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "アナリストの気質により、証拠の検索、ランキング、およびドラフトの説明が改善されます。",
+            "neverChanges": "AML のシナリオ、制裁リスト、しきい値、およびファイリング ルールは固定されたままです。"
+          }
+        },
+        {
+          "number": "04",
+          "label": "和解と財務",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "すべての休憩を説明する夜間のマッチング。",
+          "summary": "NORA は、Switch、CBS、決済、GL レコードを照合し、残差をランク付けし、アイテムが調整されていない理由を正確に説明します。",
+          "inputSummary": "トランザクションの切り替え · CBS 元帳 · GL · ステートメント · 決済ファイル",
+          "outputSummary": "一致したセット · 例外キュー · GL 証明 · ジャーナル プレビュー · サマリー",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "トランザクション、CBS 元帳、GL、ステートメント、および決済ファイルを切り替えます。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "システム + チャット",
+              "description": "システム レコードと一致し、残りの残余をすべて説明します。"
+            }
+          ],
+          "outputs": [
+            "一致したセット",
+            "例外キュー",
+            "GL証明",
+            "ジャーナル プレビュー",
+            "概要"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "Nightly Trigger と Ingest Switch、CBS、GL、および決済記録から始めます。"
+            },
+            {
+              "stage": "ラン",
+              "description": "正確、ルール、および関係の一致を実行します。 モデルのタイミングと参照の違い。"
+            },
+            {
+              "stage": "ラン",
+              "description": "残りの一致の提案をテストし、ジャーナルまたは調整のプレビューを準備します。"
+            },
+            {
+              "stage": "見直し",
+              "description": "すべてのあいまいな項目を説明し、提案された投稿を財務に見せます。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "財務当局によって承認された調整のみを明確にするか投稿してください。"
+            },
+            {
+              "stage": "モニター",
+              "description": "休憩、老化、翌日の再発、および承認または拒否された提案を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "承認された提案により、参照照合と例外ランキングが改善されます。",
+            "neverChanges": "会計方針、重要性、および転記管理は引き続き管理されています。"
+          }
+        },
+        {
+          "number": "05",
+          "label": "カスタマー サービスとコレクション",
+          "mode": "VOICE + CHAT",
+          "outcome": "ビューでアカウントとの会話を解決します。",
+          "summary": "NORA は、自然な会話を理解し、顧客の状況を取得し、応答、支払いの約束、およびしきい値のハンドオフを使用して決済を準備します。",
+          "inputSummary": "顧客 360 · アカウント · ケース履歴 · ポリシー · 延滞 · PTP",
+          "outputSummary": "ケースの概要 · ステータス 回答 · PTP ドラフト · 決済レター · ルーティング",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "顧客 360、アカウント、ケース履歴、ポリシー、延滞、および PTP。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "ボイス + チャット",
+              "description": "アカウント コンテキストを表示する顧客の会話を理解します。"
+            }
+          ],
+          "outputs": [
+            "ケースの概要",
+            "ステータスの回答",
+            "PTP ドラフト",
+            "決済レター",
+            "ルーティング"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "通話、チャット、ドキュメント、またはケースのイベントをキャプチャし、顧客の意図を特定します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "アイデンティティを解決し、アカウント、ケース、延滞、およびポリシー コンテキストを取得します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "回答、PTP、または決済パスの草案を作成し、顧客への影響のルールに照らしてテストします。"
+            },
+            {
+              "stage": "見直し",
+              "description": "適切なしきい値で、提案された応答またはアカウント アクションをエージェントに表示します。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "承認された通信またはアカウント アクションのみを送信、更新、またはログに記録します。"
+            },
+            {
+              "stage": "モニター",
+              "description": "解決策、約束が守られているか破られないか、再開とエスカレーションを追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "エージェントの編集と結果により、インテント、ルーティング、次善のアクションが改善されます。",
+            "neverChanges": "同意、収集行為、決済の権限は引き続き実施されます。"
+          }
+        },
+        {
+          "number": "06",
+          "label": "人事および内部運用",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "すべてのジョイナーの準備ができました。 すべての脱出者は完全に閉じています。",
+          "summary": "NORA は、人事管理、電子メール、アイデンティティ、アクセスの変更を準備し、マネージャー、人事、IT の承認前に、正確なアカウントと権限の違いを表示します。",
+          "inputSummary": "従業員 · hrms · identity/access · ディレクトリ · ITSM · 人事ポリシー",
+          "outputSummary": "joiner/leaver チェックリスト · 権限の違い · 文字 · 例外",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "従業員、人事、アイデンティティとアクセス、ディレクトリ、ITSM、および人事ポリシー。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "チャット + システム",
+              "description": "検査可能な会話ワークフローを介してシステムを調整します。"
+            }
+          ],
+          "outputs": [
+            "joiner/leaver チェックリスト",
+            "許可の違い",
+            "手紙",
+            "例外"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "ジョイナー、リーバー、または社内のリクエストを従業員とマネージャーのコンテキストでキャプチャします。"
+            },
+            {
+              "stage": "ラン",
+              "description": "モデルに必要な人事、ディレクトリ、電子メール、ID、およびアクセスの変更。"
+            },
+            {
+              "stage": "ラン",
+              "description": "アカウントのリハーサルと許可の違いと、資格と完全性のルールに反します。"
+            },
+            {
+              "stage": "見直し",
+              "description": "マネージャー、人事および IT 承認の正確な差分を表示します。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "承認されたアカウント、役割、およびリソースのみをプロビジョニングまたは取り消します。"
+            },
+            {
+              "stage": "モニター",
+              "description": "完了、失敗したタスク、長引くアクセスとマネージャーの修正を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "修正により、役割バンドル、チェックリスト、例外ルーティングが改善されます。",
+            "neverChanges": "特権的な役割、職務の分離、承認階層は固定されたままです。"
+          }
+        },
+        {
+          "number": "07",
+          "label": "財務省と貿易作戦",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "取引、確認、決済の間の休憩が減ります。",
+          "summary": "NORA は、取引条件を比較し、確認を追跡し、指名または二重国庫の承認の背後にあるレート、ブロッター、ノストロ アクションを準備します。",
+          "inputSummary": "お得な情報 · 確認 · 料金 · ブロッター · ノストロ · 制限 · トレード ドキュメント",
+          "outputSummary": "確認トラッカー · 不一致 · レート プレビュー · ノストロ プルーフ",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "取引、確認、料金、ブロッター、ノストロ、制限、取引文書。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "音声+システム",
+              "description": "取引データを比較し、承認されたデスクの指示をサポートします。"
+            }
+          ],
+          "outputs": [
+            "確認トラッカー",
+            "不一致",
+            "レート プレビュー",
+            "ノストロプルーフ"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "取引、確認、またはデスクの指示を相手の状況で把握します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "取引、確認、料金、ブロッター、ノストロ全体で条件を抽出して比較します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "アクションとテストの制限、量、カットオフ、現在のシステム状態を準備します。"
+            },
+            {
+              "stage": "見直し",
+              "description": "指定された、または二重国庫当局に正確な指示を提示してください。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "承認されたレート、ブロッター、確認、またはノストロの指示のみを送信してください。"
+            },
+            {
+              "stage": "モニター",
+              "description": "確認、決済、休憩、カットオフ、カウンターパーティの修正を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "不一致を解決すると、抽出、マッチング、カットオフの優先順位が改善されます。",
+            "neverChanges": "取引、FX、リスク、支払い、制裁の制限は、自己変更することはできません。"
+          }
+        },
+        {
+          "number": "08",
+          "label": "マイクロバンキングと EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "フィールド データは、クリーンで承認されたバッチになります。",
+          "summary": "NORA は、ミーティング シートとフォームを読み取り、ローカル言語のデータを理解し、複数のシステム バッチを作成する前に不確実性を解決します。",
+          "inputSummary": "会議データ · グループ ローン · コレクション · KYC · スキーム フォーム · クレーム",
+          "outputSummary": "ミーティング バッチ · コレクションのアップロード · スキーム パック · 拒否された行キュー",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "会議のデータ、グループ ローン、コレクション、KYC、スキーム フォーム、およびクレーム。"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "カメラ + ボイス",
+              "description": "フィールド ドキュメントを読み取り、指示されたローカル言語データを理解します。"
+            }
+          ],
+          "outputs": [
+            "会議のバッチ",
+            "コレクションのアップロード",
+            "スキームパック",
+            "拒否された行のキュー"
+          ],
+          "workflow": [
+            {
+              "stage": "開始",
+              "description": "フィールド オフィサーは、ミーティング シートをアップロードするか、ローカルの言語で収集データを指示します。"
+            },
+            {
+              "stage": "ラン",
+              "description": "フォームを転写して抽出し、メンバー、アカウント、スキームのコンテキストを一致させます。"
+            },
+            {
+              "stage": "ラン",
+              "description": "複数システムのバッチを構築し、異常、期待値、欠損データをテストします。"
+            },
+            {
+              "stage": "見直し",
+              "description": "すべての行と、フィールドまたは支店の承認のために提案された書き込みを表示します。"
+            },
+            {
+              "stage": "死刑する",
+              "description": "承認されたグループ ローン、コレクション、またはスキーム バッチのみを投稿してください。"
+            },
+            {
+              "stage": "モニター",
+              "description": "拒否された行、承認、修正、および完了を追跡します。"
+            }
+          ],
+          "selfLearning": {
+            "learns": "修正により、手書き、ローカル言語マッピング、データ チェックが改善されます。",
+            "neverChanges": "資格、信用、スキーム、および回収権限は引き続き管理されます。"
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — マルチモーダル ペルソナ",
+      "heading": "ノラはあらゆる形で仕事に出会います。",
+      "body": "トーク、タイプ、ショー、または接続 — 同じペルソナとコントロール モデルは、そのままです。",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "ファイルを読み取るビジョン",
+          "body": "身分証明書、明細書、署名済みフォーム、手書き、スクリーンショットは構造化された証拠になります。"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "操作の瞬間の声",
+          "body": "警官は、例外を説明したり、現場のデータを口述したり、仕事を離れずにステータスを要求したりすることができます。"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "観察可能なシステム",
+          "body": "NORA は、承認されたコンテキストを読み取り、実行前にすべてのフィールドを表示してスコープ付きの書き込みを準備します。"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "人間のままの権威",
+          "body": "名前付き承認、デュアル コントロール、および固定ポリシー ゲートは実行の一部であり、それに付随するメモではありません。"
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — 信頼",
+      "heading": "安心ではなく、実行を表示します。",
+      "body": "あなたのリスク、セキュリティ、監査チームが求める証拠。",
+      "statusLabel": "ガバナンス ステータス",
+      "statusValue": "目に見える",
+      "statusDetail": "すべての制御層が動作します",
+      "controls": [
+        {
+          "title": "デュアル コントロール",
+          "body": "結果的なアクションに関する名前のメーカー/チェッカー"
+        },
+        {
+          "title": "ポリシー ロック",
+          "body": "AI は、銀行や規制に関する方針を書き換えることはできません"
+        },
+        {
+          "title": "監査ログ",
+          "body": "不変のインプット、推論、承認、アクション トレイル"
+        },
+        {
+          "title": "スコープ付きアクセス",
+          "body": "ツールとフィールド レベルでの読み取りおよび書き込みのアクセス許可"
+        },
+        {
+          "title": "データの居住地",
+          "body": "銀行の承認された境界に展開します"
+        },
+        {
+          "title": "暗号化",
+          "body": "輸送中および安静時に保護されています"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Gabriel Operator で構築された展開可能なバンキング AI ペルソナ。",
+      "exploreLabel": "探る",
+      "useCasesLabel": "ユースケース",
+      "getStartedLabel": "始めましょう",
+      "useCaseLinks": [
+        "KYC",
+        "クレジット",
+        "コンプライアンス",
+        "オペレーションズ"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "次の実行",
+      "heading": "NORA を 1 つの銀行ドメインに展開します。",
+      "body": "ワークフロー、インターフェース、権限の境界を選択します。 運用チームの前に最初に管理されたランを配置します。",
+      "ctaLabel": "ノラと話してください"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

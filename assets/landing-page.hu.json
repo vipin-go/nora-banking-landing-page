@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "képességek",
+          "target": "capabilities"
+        },
+        {
+          "label": "használati esetek",
+          "target": "use-cases"
+        },
+        {
+          "label": "Bizalom",
+          "target": "trust"
+        },
+        {
+          "label": "Ról ről",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Ismerd meg Nórát"
+    },
+    "badge": "banki mesterséges intelligencia műveletek",
+    "headline": "Legyen a bank ai-natív",
+    "subheadline": "A Nora egy banki AI-személy, amelyet Gabriel operátorral építettek fel – beágyazott chaten, SDK-n, API-n vagy a bank hangszerelési rétegén keresztül.",
+    "ctaLabel": "Beszélj Nórával",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hello. Kérdezd meg, hogyan tudnék támogatni egy banki munkafolyamatot, vagy hogyan illeszkedhetnék a működési verembe."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Persona előzetes",
+      "inputPlaceholder": "Kérdezze meg Norát a munkafolyamatról…",
+      "suggestedPrompts": [
+        "KYC munkafolyamat",
+        "Integráció"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 – Ellenőrzött út a cselekvéshez",
+      "heading": "ügynökök, akik cselekszenek. A bankárok továbbra is irányítják.",
+      "headingAccent": "A bankárok továbbra is irányítják.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Elfog",
+          "body": "Nora összegyűjti a kérést, a forrásdokumentumokat, a szabályzatot és a kontextust."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Színlel",
+          "body": "Először elkészíti a munkafolyamat biztonságos, áttekinthető változatát."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Ellenőriz",
+          "body": "A szabályokat, a bizonyítékokat és a kivételeket ellenőrzik, mielőtt bármi elköltözne."
+        },
+        {
+          "icon": "check",
+          "title": "Jóváhagy",
+          "body": "A megfelelő bankár pontosan látja, mi fog történni és miért."
+        },
+        {
+          "icon": "star",
+          "title": "Végrehajt",
+          "body": "Csak a jóváhagyott műveletek futnak, a nyomkövetés készen áll az auditra."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 – Mi az a Nora?",
+      "segments": [
+        {
+          "text": "A Nora egy mesterséges intelligencia-személy, amelyet Gabriel kezelővel építettek",
+          "tone": "strong"
+        },
+        {
+          "text": "szabályozott banki műveletekhez. telepítse be",
+          "tone": "muted"
+        },
+        {
+          "text": "Egy tartomány meghatározott tudással, eszközökkel és tekintéllyel",
+          "tone": "iris"
+        },
+        {
+          "text": "– akkor hozzon létre több személyiséget más csapatok számára, mindegyiknek megvan a maga",
+          "tone": "muted"
+        },
+        {
+          "text": "szabályzat és hozzáférési határok",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 – Telepítés",
+      "heading": "Ismerje meg a bankot, ahol a munka már megtörténik.",
+      "body": "Kezdje beágyazott élménnyel, vagy csatlakoztassa a NORA-t közvetlenül a bank működési kötegéhez.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Embedded chat",
+          "body": "Helyezze el Norát a bankárok által már használt portálokon és munkaterületeken."
+        },
+        {
+          "code": "SDK",
+          "title": "banki tulajdonú tapasztalat",
+          "body": "Az SDK segítségével alakítsa a NORA-t a bank saját felületévé és munkafolyamatává."
+        },
+        {
+          "code": "API",
+          "title": "Persona mint szolgáltatás",
+          "body": "Hívja Norát termékekről, üzemeltetési eszközökről, mobilalkalmazásokról vagy eseményvezérelt folyamatokról."
+        },
+        {
+          "code": "ORCH",
+          "title": "hangszerelési réteg",
+          "body": "Csatlakoztassa a NORA-t szabályozott ügynökként a bank meglévő automatizálási veremében."
+        }
+      ],
+      "personaLabel": "Nora · Banking AI Persona",
+      "platformLabel": "Gabriel operátorral építették + irányítják",
+      "boundaryItems": [
+        "Bank által jóváhagyott tudás",
+        "kör alakú eszközök",
+        "állandó helyzetű politika",
+        "Megnevezett jóváhagyások"
+      ],
+      "note": "Egy bank számos domain személyt telepíthet – Nora a KYC-re, Nora a hitelre, Nora a műveletekre –, miközben minden egyes személy adatait, eszközeit és jogosultságát kifejezetten korlátozva tartja."
+    },
+    "useCases": {
+      "kicker": "04 — Felhasználási esetek",
+      "heading": "One Persona Model 8 kezdésnek.",
+      "subheading": "Válasszon egy tartományt Nora első telepítéséhez; csak akkor bővítse ki, ha a működési modell bevált.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC és beszállás",
+          "mode": "VISION + CHAT",
+          "outcome": "A dokumentumoktól a jóváhagyott CBS-nyilvántartásig.",
+          "summary": "Nora beolvassa az azonosítókat és űrlapokat, ellenőrzi a CKYC-t és a CBS-t, elmagyarázza az eltéréseket, majd elkészíti a pontos ügyfélrekordot a gyártó/ellenőrző jóváhagyáshoz.",
+          "inputSummary": "Alkalmazások · CKYC · személyazonossági dokumentumok · CBS · KYC szabályzat",
+          "outputSummary": "CKYC egyezés · Hiányzó mezők · CBS Creation Preview · Evidence Pack",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Alkalmazások, CKYC, személyazonossági dokumentumok, CBS és KYC szabályzat."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + Chat",
+              "description": "Beolvassa a személyazonossági bizonyítékokat, feloldja az eltéréseket, és elmagyarázza a javasolt rekordot."
+            }
+          ],
+          "outputs": [
+            "CKYC meccs",
+            "hiányzó mezők",
+            "CBS létrehozási előnézet",
+            "bizonyítékcsomag"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "A tiszt feltölti a kérelmet és az azonosítókat, vagy megkéri Norát, hogy vegye fel az ügyfelet."
+            },
+            {
+              "stage": "Fut",
+              "description": "Kivonja az identitásmezőket, hasonlítsa össze a CKYC-t és a CBS-t, és modellezze a hiányzó adatokat vagy eltéréseket."
+            },
+            {
+              "stage": "Fut",
+              "description": "Készítse el a javasolt CBS-rekordot, és újrajátssza a teljességet, és duplikált ellenőrzéseket."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Mutassa be a bizonyítékot és a pontos nyilvántartást a tiszt és a gyártó/ellenőrző jóváhagyásához."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "Csak a jóváhagyott CBS-mezőket hozza létre vagy frissítse, és nyújtsa be a bizonyítékcsomagot."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon a befejezést, az elutasításokat, a kivételeket és a tiszti javításokat a következő futáshoz."
+            }
+          ],
+          "selfLearning": {
+            "learns": "A tiszti korrekciók javítják az OCR-t, a név/cím normalizálását és a homályos egyezést.",
+            "neverChanges": "A KYC szabályzata, a kötelező mezők és a jóváhagyási jogosultság továbbra is az irányadó."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Hitelek és hitelműveletek",
+          "mode": "VISION + VOICE",
+          "outcome": "Teljes hitelfájl, készen áll a hatóságra.",
+          "summary": "A NORA az irodát, az alkalmazást és a pénzügyi kontextust hitelfelvevő dossziéjává, eltérési feljegyzéssé és szankciótervezetbe állítja össze – hitelfelvállalás nélkül.",
+          "inputSummary": "Alkalmazás · Iroda · Pénzügyek · Eltérési politika · LOS / DMS",
+          "outputSummary": "Hitelfelvevő dosszié · Eltérés feljegyzés · Szankciótervezet · Kifizetési előnézet",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Alkalmazás, Iroda, Pénzügyek, Eltérési politika, LOS és DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Látás + hang",
+              "description": "Beolvassa a hitelfájlt, és támogatja a természetes nyelvű tiszti felülvizsgálatot."
+            }
+          ],
+          "outputs": [
+            "hitelfelvevő dossziéja",
+            "eltérés feljegyzése",
+            "szankciótervezet",
+            "kifügesztési előnézet"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "Rögzítse az alkalmazást, a pénzügyi dokumentumokat, az iroda adatait és a tiszti kérést."
+            },
+            {
+              "stage": "Fut",
+              "description": "Normalizálja a számadatokat, foglalja össze az iroda történetét, és modellezzen minden politikai eltérést."
+            },
+            {
+              "stage": "Fut",
+              "description": "A dosszié, a szankciótervezet és a kifizetési előnézet összeállítása; Újrafuttassa a házirend-ellenőrzéseket."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Mutassa be a feltételeket, eltéréseket és bizonyítékokat a megnevezett hitelhatóságnak."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "Írja be a jóváhagyott szankciót vagy kifizetési állapotot, és nyújtsa be a csomagot DMS-be."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon az állapotot, az átállást, a downstream kivételeket és a jogosultságok szerkesztését."
+            }
+          ],
+          "selfLearning": {
+            "learns": "A hiteltisztviselői szerkesztések javítják az összefoglalókat, a dokumentumok ellenőrzését és a rangsorolást.",
+            "neverChanges": "A pontszám határértékei, az LTV/DTI, az árképzés és a szankciós jogosítványok nem változhatnak meg."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Megfelelőség, AML és jelentés",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Minden bejelentés a bizonyítékokkal kezdődik.",
+          "summary": "A NORA a tranzakciókat, a KYC-t, a figyelőlistákat és a szabályokat első lépéses riasztási osztályba állítja össze, visszaküldi a piszkozatokat és a benyújtási előnézeteket a megfelelőség felülvizsgálatához.",
+          "inputSummary": "Tranzakciók · Ügyfél KYC · Figyelmeztetések · Figyelőlisták · Szabályozási szabályok",
+          "outputSummary": "Alert Triage · Visszaküldés · Narratíva · CKYC köteg · Bizonyítékcsomag",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Tranzakciók, ügyfél KYC, figyelmeztetések, figyelőlisták és szabályozási szabályok."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + rendszer",
+              "description": "Egyesíti a beszélgetést a megfelelőségi rendszerekhez való szabályozott hozzáféréssel."
+            }
+          ],
+          "outputs": [
+            "riasztási osztály",
+            "visszaküldés",
+            "Elbeszélés",
+            "CKYC tétel",
+            "bizonyítékcsomag"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "Rögzítse a bejelentési kérelmet vagy figyelmeztetést az ügyfél, a tranzakció és a figyelőlista kontextusában."
+            },
+            {
+              "stage": "Fut",
+              "description": "Alkalmazza a rögzített megfelelőségi szabályokat, és modellezze a riasztást, visszaküldést vagy CKYC köteget."
+            },
+            {
+              "stage": "Fut",
+              "description": "Állítsa össze a narratívát és a bizonyítékcsomagot; Tesztelje a teljességet és a következetességet."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "mutasson meg minden javasolt mezőt és megoldatlan bizonytalanságot a megfelelőségi tisztviselőnek."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "csak a tiszt által jóváhagyott bevallást, narratívát vagy CKYC-csoportot küldjön be."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon a visszaigazolásokat, az elutasításokat, a bejelentési állapotot és a teljes ellenőrzési nyomvonalat."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Az elemzői beállítottság javítja a bizonyítékok visszakeresését, a rangsorolást és a narratívák tervezetét.",
+            "neverChanges": "Az AML-forgatókönyvek, a szankciós listák, a küszöbértékek és a bejelentési szabályok rögzítettek maradnak."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Megbékélés és pénzügy",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Éjszakai egyezés, amely minden szünetet megmagyaráz.",
+          "summary": "A Nora megfelel a Switch, a CBS, a Settlement és a GL rekordoknak, rangsorolja a maradékokat, és pontosan elmagyarázza, miért marad egy tétel összeegyeztethetetlen.",
+          "inputSummary": "Kapcsoló tranzakciók · CBS Ledger · GL · Nyilatkozatok · Elszámolási fájlok",
+          "outputSummary": "Matched Set · Exception Queue · GL Proof · Journal Preview · Summary",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Kapcsoló tranzakciók, CBS főkönyv, GL, kimutatások és elszámolási fájlok."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Rendszer + chat",
+              "description": "Megfelel a rendszerrekordoknak, és minden maradékot elmagyaráz a finanszírozásnak."
+            }
+          ],
+          "outputs": [
+            "egyező készlet",
+            "kivételek közötti sor",
+            "Gl bizonyíték",
+            "napló előnézete",
+            "Összefoglalás"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "Kezdje az éjszakai trigger- és ingest switch-en, a CBS-en, a GL-en és az elszámolási rekordokon."
+            },
+            {
+              "stage": "Fut",
+              "description": "Pontos, szabály- és kapcsolategyeztetés futtatása; A modell időzítése és referencia különbségei."
+            },
+            {
+              "stage": "Fut",
+              "description": "Tesztelje a maradék egyezési javaslatokat, és készítse el a naplót vagy a beállítási előnézetet."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Magyarázzon el minden kétértelmű tételt, és mutassa meg a javasolt kiküldetést a Finance számára."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "csak a pénzügyi hatóság által jóváhagyott korrekciót törölje vagy tegye közzé."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon a szüneteket, az öregedést, a másnapi ismétlődést és az elfogadott vagy elutasított javaslatokat."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Az elfogadott javaslatok javítják a referenciaegyeztetést és a kivételek rangsorolását.",
+            "neverChanges": "A számviteli politika, a lényegesség és a könyvelési ellenőrzések továbbra is az irányadók."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Ügyfélszolgálat és kollekciók",
+          "mode": "VOICE + CHAT",
+          "outcome": "Oldja meg a beszélgetést a megtekintett fiókkal.",
+          "summary": "Nora megérti a természetes beszélgetést, lekéri az ügyfelek kontextusát, és válaszokat, fizetési ígéreteket és elszámolásokat készít a küszöbértékes átadással.",
+          "inputSummary": "Ügyfél 360 · Számlák · Esettörténet · Szabályzat · Bűnözés · PTP",
+          "outputSummary": "Esetösszefoglaló · Állapot Válasz · PTP-tervezet · Elszámolási levél · Útválasztás",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Ügyfél 360, számlák, esettörténet, szabályzat, késedelem és PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Hang + chat",
+              "description": "Megérti a vásárlói beszélgetést a fiók kontextusával."
+            }
+          ],
+          "outputs": [
+            "esetösszefoglaló",
+            "Állapot Válasz",
+            "pontrajzi vázlat",
+            "elszámolási levél",
+            "Adásvonal vezetés"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "Rögzítse a hívást, csevegést, dokumentumot vagy eseteseményt, és azonosítsa az ügyfél szándékát."
+            },
+            {
+              "stage": "Fut",
+              "description": "feloldja az identitást, és lekéri a fiókot, az esetet, a bűnözést és a házirend-környezetet."
+            },
+            {
+              "stage": "Fut",
+              "description": "Készítse el a választ, a PTP-t vagy az elszámolási utat, és tesztelje az ügyfél-hatás szabályait."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Mutassa meg a javasolt választ vagy fiókműveletet az ügynöknek a megfelelő küszöbértéken."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "Csak a jóváhagyott kommunikációt vagy fiókműveletet küldje el, frissítse vagy naplózza."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse a felbontást, a betartott vagy megszegett ígéreteket, újranyitások és eszkalációk."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Az ügynök szerkesztései és eredményei javítják a szándékot, az útválasztást és a következő legjobb műveletet.",
+            "neverChanges": "A hozzájárulás, a behajtási magatartás és az elszámolási hatóság érvényesül."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR és belső műveletek",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Minden asztalos készen áll. Minden távozó teljesen bezárt.",
+          "summary": "A NORA elkészíti a HRMS-t, az e-mail-t, a személyazonosság- és hozzáférési változásokat, majd megmutatja a pontos fiókot és az engedélyt, mielőtt a menedzser, a HR és az informatikai jóváhagyás.",
+          "inputSummary": "Alkalmazott · HRMS · Identitás/hozzáférés · Könyvtár · ITSM · HR szabályzat",
+          "outputSummary": "Asztalos/levelező ellenőrzőlista · Engedélykülönbség · Betűk · Kivételek",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Alkalmazotti, HRM-ek, identitás és hozzáférés, címtár, ITSM és HR-politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + rendszer",
+              "description": "Koordinálja a rendszerváltozásokat egy ellenőrizhető társalgási munkafolyamat révén."
+            }
+          ],
+          "outputs": [
+            "Asztalos/levél ellenőrző lista",
+            "engedélykülönbség",
+            "Irodalomtudomány",
+            "kivételek"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "Rögzítse az asztalos, távozó vagy belső kérést az alkalmazotti és vezetői kontextussal."
+            },
+            {
+              "stage": "Fut",
+              "description": "Modellhez szükséges HRMS, könyvtár, e-mail, személyazonosság és hozzáférési változások."
+            },
+            {
+              "stage": "Fut",
+              "description": "Gyakorolja a fiókot és az engedélyt, és különbözik a jogosultsági és teljességi szabályoktól."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Mutassa meg a menedzser, a HR és az informatikai jóváhagyás pontos különbségét."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "csak a jóváhagyott számlákat, szerepköröket és erőforrásokat biztosítsa vagy vonja vissza."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon a befejezést, a sikertelen feladatokat, az elhúzódó hozzáférést és a menedzser korrekciókat."
+            }
+          ],
+          "selfLearning": {
+            "learns": "A javítások javítják a szerepcsomagokat, az ellenőrző listákat és a kivétel-útválasztást.",
+            "neverChanges": "A kiváltságos szerepek, a feladatok elkülönítése és a jóváhagyási hierarchia rögzített marad."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Treasury & Trade Ops",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Kevesebb szünet az ügylet, a megerősítés és az elszámolás között.",
+          "summary": "Nora összehasonlítja a kereskedelmi feltételeket, nyomon követi a megerősítéseket, és előkészíti az árfolyamot, a blotter és a nostro akciókat a megnevezett vagy kettős kincstári jóváhagyás mögött.",
+          "inputSummary": "Akciók · Megerősítések · Díjak · Blotter · Nostro · Limits · Kereskedelmi dokumentumok",
+          "outputSummary": "Megerősítő nyomkövető · Eltérések · Értékelő előnézet · Nostro bizonyíték",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Akciók, visszaigazolások, árfolyamok, blotter, Nostro, limitek és kereskedelmi dokumentumok."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "hang + rendszer",
+              "description": "Összehasonlítja a kereskedelmi adatokat, és támogat egy jóváhagyott asztali utasítást."
+            }
+          ],
+          "outputs": [
+            "konfirmulálási nyomkövető",
+            "eltérés",
+            "ár-előnézet",
+            "Nostro Proof"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "Rögzítse az ügyletet, a visszaigazolást vagy az asztali utasítást a partner kontextusával."
+            },
+            {
+              "stage": "Fut",
+              "description": "Bontsa ki és hasonlítsa össze a kifejezéseket az ügyletek, a visszaigazolások, az árak, a blotter és a nostro között."
+            },
+            {
+              "stage": "Fut",
+              "description": "Készítse elő a műveleti és tesztelési korlátokat, összegeket, határértékeket és az aktuális rendszerállapotot."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Mutassa be a pontos utasítást a megnevezett vagy kettős kincstári hatóságnak."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "Csak a jóváhagyott árfolyamot, blottert, visszaigazolást vagy nostro utasítást küldje el."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon a megerősítést, az elszámolást, a megszakításokat, a határértékeket és a partnerek korrekcióit."
+            }
+          ],
+          "selfLearning": {
+            "learns": "A feloldott eltérések javítják a kivonást, az egyeztetést és a határértéket.",
+            "neverChanges": "A kereskedési, deviza, kockázati, fizetési és szankciós limitek nem változhatnak meg maguktól."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbanking & EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "A terepi adatok tiszta, jóváhagyott köteggé válnak.",
+          "summary": "Nora beolvassa az értekezleti lapokat és űrlapokat, megérti a diktált helyi nyelvű adatokat, és feloldja a bizonytalanságokat, mielőtt többrendszerű kötegeket hozna létre.",
+          "inputSummary": "Találkozó adatai · Csoportos kölcsönök · Gyűjtemények · KYC · Rendszerűrlapok · Követelések",
+          "outputSummary": "Meeting Batch · Gyűjtemények feltöltése · Sémacsomag · Elutasított sor sor",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Találkozó adatok, csoportos kölcsönök, beszedések, KYC, rendszerűrlapok és követelések."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "kamera + hang",
+              "description": "Beolvassa a helyszíni dokumentumokat, és megérti a diktált helyi nyelvű adatokat."
+            }
+          ],
+          "outputs": [
+            "értekezés",
+            "gyűjtemények feltöltése",
+            "sémacsomag",
+            "elutasított sor sorbaállás"
+          ],
+          "workflow": [
+            {
+              "stage": "Indul",
+              "description": "A helyszíni tisztviselő feltölti az értekezleteket, vagy helyi nyelven diktálja a gyűjtési adatokat."
+            },
+            {
+              "stage": "Fut",
+              "description": "Az űrlapok átírása és kibontása, majd a tagok, a fiókok és a séma kontextusának egyeztetése."
+            },
+            {
+              "stage": "Fut",
+              "description": "Építse fel a többrendszerű köteget, és tesztelje az anomáliákat, a várható értékeket és a hiányzó adatokat."
+            },
+            {
+              "stage": "Felülvizsgálat",
+              "description": "Mutasson minden sort és javasolt írást a helyszíni vagy fióki tiszt jóváhagyására."
+            },
+            {
+              "stage": "Végrehajt",
+              "description": "Csak a jóváhagyott csoportos kölcsönt, beszedést vagy sématételt tegye közzé."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Kövesse nyomon az elutasított sorokat, a visszaigazolásokat, a javításokat és a befejezést."
+            }
+          ],
+          "selfLearning": {
+            "learns": "A korrekciók javítják a kézírást, a helyi nyelvű feltérképezést és az adatok ellenőrzését.",
+            "neverChanges": "A jogosultság, a hitel, a rendszer és a behajtási hatóság továbbra is az irányadó."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 – Multimodális személy",
+      "heading": "Nora minden formában megfelel a munkának.",
+      "body": "Beszéljen, gépeljen, mutasson vagy csatlakozzon – ugyanaz a személy és vezérlőmodell marad a helyén.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Vision, amely beolvassa a fájlt",
+          "body": "A személyazonossági dokumentumok, nyilatkozatok, aláírt nyomtatványok, kézírások és képernyőképek strukturált bizonyítékokká válnak."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Hang a működési pillanathoz",
+          "body": "A tisztek magyarázatot adhatnak, terepi adatokat diktálhatnak, vagy státuszt kérhetnek anélkül, hogy elhagynák a munkát."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Megfigyelhető rendszerek",
+          "body": "Nora beolvassa a jóváhagyott kontextust, és előkészíti a hatókörű írásokat, és minden látható mezőt a végrehajtás előtt látható."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "tekintély, amely ember marad",
+          "body": "A megnevezett jóváhagyások, a kettős vezérlés és a rögzített házirend-kapuk a futtatás részét képezik – nem mellette."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 – Bizalom",
+      "heading": "Mutasd meg a futást, ne megnyugtatást.",
+      "body": "Az Ön kockázati, biztonsági és audit csoportja által kért bizonyíték.",
+      "statusLabel": "kormány állapota",
+      "statusValue": "Látható",
+      "statusDetail": "Minden vezérlőréteg működőképes",
+      "controls": [
+        {
+          "title": "kettős irányítás",
+          "body": "Elnevezett készítő / ellenőrző a következményes műveleteknél"
+        },
+        {
+          "title": "szabályzati zárak",
+          "body": "Az AI nem tudja átírni a banki vagy szabályozási politikát"
+        },
+        {
+          "title": "audit napló",
+          "body": "megváltoztathatatlan bemeneti, érvelési, jóváhagyási és cselekvési nyomvonal"
+        },
+        {
+          "title": "körkörös hozzáférés",
+          "body": "Olvasási és írási engedélyek eszköz- és mezőszinten"
+        },
+        {
+          "title": "adat-rezisztencia",
+          "body": "telepítse a bank jóváhagyott határára"
+        },
+        {
+          "title": "titkosítás",
+          "body": "szállítás közben és nyugalomban védett"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Egy telepíthető banki mesterséges intelligencia személy, amelyet Gabriel operátorral építettek.",
+      "exploreLabel": "Felderít",
+      "useCasesLabel": "használati esetek",
+      "getStartedLabel": "Fogj neki",
+      "useCaseLinks": [
+        "kyc",
+        "Hitel",
+        "Teljesítés",
+        "Művelet"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "a következő futás",
+      "heading": "Telepítse a NORA-t egy banki tartományban.",
+      "body": "Válassza ki a munkafolyamatot, a felületet és a jogosultság határát. Tedd az első szabályozott futást a műveleti csapatod elé.",
+      "ctaLabel": "Beszélj Nórával"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

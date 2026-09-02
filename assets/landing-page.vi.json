@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "vi",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "khả năng",
+          "target": "capabilities"
+        },
+        {
+          "label": "Các trường hợp sử dụng",
+          "target": "use-cases"
+        },
+        {
+          "label": "Tín nhiệm",
+          "target": "trust"
+        },
+        {
+          "label": "Đây đó",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Gặp Nora"
+    },
+    "badge": "Hoạt động AI của Ngân hàng",
+    "headline": "Làm cho ngân hàng AI-Native",
+    "subheadline": "Nora là một nhân vật AI trong ngân hàng được xây dựng với nhà điều hành Gabriel — được cung cấp thông qua trò chuyện nhúng, SDK, API hoặc lớp điều phối của ngân hàng.",
+    "ctaLabel": "Nói chuyện với Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Xin chào. Hỏi tôi làm thế nào tôi có thể hỗ trợ quy trình làm việc ngân hàng hoặc phù hợp với ngăn xếp hoạt động của bạn."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Persona Preview",
+      "inputPlaceholder": "Hỏi Nora về quy trình làm việc…",
+      "suggestedPrompts": [
+        "Quy trình làm việc KYC",
+        "Hội nhập"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 - Một con đường hành động có kiểm soát",
+      "heading": "đại lý mà hành động. Các chủ ngân hàng luôn nắm quyền kiểm soát.",
+      "headingAccent": "Các chủ ngân hàng luôn nắm quyền kiểm soát.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Chụp",
+          "body": "Nora tập hợp yêu cầu, tài liệu nguồn, chính sách và bối cảnh."
+        },
+        {
+          "icon": "sparkles",
+          "title": "mô phỏng",
+          "body": "Cô ấy chuẩn bị một phiên bản an toàn, có thể xem xét của quy trình làm việc trước."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Xác nhận",
+          "body": "Các quy tắc, bằng chứng và ngoại lệ được kiểm tra trước khi bất cứ điều gì di chuyển."
+        },
+        {
+          "icon": "check",
+          "title": "chấp thuận",
+          "body": "Ngân hàng phù hợp nhìn thấy chính xác điều gì sẽ xảy ra và tại sao."
+        },
+        {
+          "icon": "star",
+          "title": "Thi hành",
+          "body": "Chỉ các hành động đã được phê duyệt mới chạy, với một dấu vết sẵn sàng để kiểm tra."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 - Nora là gì?",
+      "segments": [
+        {
+          "text": "Nora là một nhân vật AI được xây dựng với nhà điều hành Gabriel",
+          "tone": "strong"
+        },
+        {
+          "text": "đối với các hoạt động ngân hàng được điều chỉnh. triển khai cô ấy vào",
+          "tone": "muted"
+        },
+        {
+          "text": "Một miền với kiến thức, công cụ và thẩm quyền xác định",
+          "tone": "iris"
+        },
+        {
+          "text": "—Sau đó tạo ra nhiều cá tính hơn cho các đội khác, mỗi nhóm có",
+          "tone": "muted"
+        },
+        {
+          "text": "Chính sách và ranh giới truy cập",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 - Triển khai",
+      "heading": "Gặp gỡ ngân hàng nơi công việc đã xảy ra.",
+      "body": "Bắt đầu với trải nghiệm nhúng hoặc kết nối Nora trực tiếp với ngăn xếp hoạt động của ngân hàng.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "trò chuyện nhúng",
+          "body": "Đặt Nora bên trong các cổng thông tin và không gian làm việc mà các nhân viên ngân hàng đã sử dụng."
+        },
+        {
+          "code": "SDK",
+          "title": "Kinh nghiệm sở hữu ngân hàng",
+          "body": "Sử dụng SDK để định hình Nora vào giao diện và quy trình làm việc riêng của ngân hàng."
+        },
+        {
+          "code": "API",
+          "title": "Persona như một dịch vụ",
+          "body": "Gọi cho Nora từ các sản phẩm, công cụ hoạt động, ứng dụng di động hoặc luồng theo sự kiện."
+        },
+        {
+          "code": "ORCH",
+          "title": "Lớp điều phối",
+          "body": "Kết nối Nora với tư cách là đại lý được quản lý bên trong ngăn xếp tự động hóa hiện có của ngân hàng."
+        }
+      ],
+      "personaLabel": "Nora · Nhân vật ngân hàng",
+      "platformLabel": "Được xây dựng + quản lý với nhà điều hành Gabriel",
+      "boundaryItems": [
+        "Kiến thức được ngân hàng chấp thuận",
+        "Công cụ phạm vi",
+        "Chính sách cố định",
+        "phê duyệt được đặt tên"
+      ],
+      "note": "Một ngân hàng có thể triển khai nhiều cá nhân miền — Nora cho KYC, Nora cho tín dụng, Nora cho các hoạt động — đồng thời giữ cho dữ liệu, công cụ và thẩm quyền của mỗi người được ràng buộc một cách rõ ràng."
+    },
+    "useCases": {
+      "kicker": "04 - Các trường hợp sử dụng",
+      "heading": "One Persona Model 8 Nơi để bắt đầu.",
+      "subheading": "Chọn một miền để triển khai đầu tiên của Nora; Chỉ mở rộng khi mô hình hoạt động được chứng minh.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC & giới thiệu",
+          "mode": "VISION + CHAT",
+          "outcome": "Từ tài liệu đến hồ sơ CBS đã được phê duyệt.",
+          "summary": "Nora đọc ID và biểu mẫu, kiểm tra CKYC và CBS, giải thích sự không khớp, sau đó chuẩn bị hồ sơ khách hàng chính xác cho Maker/checker phê duyệt.",
+          "inputSummary": "Ứng dụng · CKYC · Tài liệu nhận dạng · CBS · Chính sách KYC",
+          "outputSummary": "Đối sánh CKYC · Các trường bị thiếu · Bản xem trước tạo CBS · Gói bằng chứng",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "ứng dụng, CKYC, tài liệu nhận dạng, CBS và chính sách KYC."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Tầm nhìn + Trò chuyện",
+              "description": "Đọc bằng chứng nhận dạng, giải quyết sự không phù hợp và giải thích hồ sơ được đề xuất."
+            }
+          ],
+          "outputs": [
+            "CKYC",
+            "Các trường bị thiếu",
+            "Bản xem trước tạo CBS",
+            "Gói chứng cứ"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Viên chức tải lên ứng dụng và IDS, hoặc yêu cầu Nora giới thiệu khách hàng."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Trích xuất các trường nhận dạng, so sánh CKYC và CBS và mô hình hóa dữ liệu bị thiếu hoặc không khớp."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Xây dựng hồ sơ CBS được đề xuất và tính hoàn chỉnh và kiểm tra trùng lặp."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Hiển thị bằng chứng và hồ sơ chính xác để được chấp thuận của Sĩ quan và Maker/checker."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "Chỉ tạo hoặc cập nhật các trường CBS đã được phê duyệt và nộp gói bằng chứng."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi việc hoàn thành, từ chối, ngoại lệ và chỉnh sửa sĩ quan cho lần chạy tiếp theo."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Các chỉnh sửa của viên chức cải thiện OCR, name/address chuẩn hóa và đối sánh mờ.",
+            "neverChanges": "Chính sách KYC, các lĩnh vực bắt buộc và thẩm quyền phê duyệt vẫn được điều chỉnh."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Các khoản vay & tín dụng",
+          "mode": "VISION + VOICE",
+          "outcome": "Một hồ sơ tín dụng hoàn chỉnh, sẵn sàng cho cơ quan có thẩm quyền.",
+          "summary": "Nora tập hợp văn phòng, ứng dụng và bối cảnh tài chính thành hồ sơ của người vay, bản ghi nhớ sai lệch và dự thảo xử phạt — mà không cần phải có cơ quan tín dụng.",
+          "inputSummary": "Ứng dụng · Cục · Tài chính · Chính sách sai lệch · LOS / DMS",
+          "outputSummary": "Hồ sơ người vay · Bản ghi nhớ sai lệch · Dự thảo xử phạt · Xem trước giải ngân",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "ứng dụng, văn phòng, tài chính, chính sách độ lệch, LOS và DM."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Tầm nhìn + Giọng nói",
+              "description": "Đọc hồ sơ tín dụng và hỗ trợ đánh giá nhân viên ngôn ngữ tự nhiên."
+            }
+          ],
+          "outputs": [
+            "Hồ sơ người vay",
+            "Bản ghi sai lệch",
+            "Dự thảo xử phạt",
+            "Xem trước giải ngân"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Nắm bắt đơn đăng ký, tài liệu tài chính, dữ liệu văn phòng và yêu cầu của viên chức."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "bình thường hóa các số liệu, tóm tắt lịch sử văn phòng và mô hình hóa mọi sai lệch chính sách."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "lắp ráp hồ sơ, dự thảo xử phạt và xem trước giải ngân; Chạy lại chính sách kiểm tra."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Trình bày các điều khoản, sai lệch và bằng chứng cho cơ quan tín dụng được nêu tên."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "Viết chế độ xử phạt hoặc trạng thái giải ngân đã được phê duyệt và nộp gói hàng vào DMS."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi trạng thái, quay vòng, ngoại lệ và chỉnh sửa quyền hạn."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Các chỉnh sửa của nhân viên tín dụng cải thiện các bản tóm tắt, kiểm tra tài liệu và ưu tiên.",
+            "neverChanges": "Điểm giới hạn, LTV / DTI, quyền hạn định giá và xử phạt không thể tự thay đổi."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Tuân thủ, AML & Báo cáo",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Mọi hồ sơ đều bắt đầu với bằng chứng đính kèm.",
+          "summary": "Nora tập hợp các giao dịch, KYC, danh sách theo dõi và các quy tắc vào bộ phân loại cảnh báo lần đầu tiên, trả lại bản nháp và xem trước gửi để xem xét tuân thủ.",
+          "inputSummary": "Giao dịch · KYC của khách hàng · Cảnh báo · Danh sách theo dõi · Quy tắc quy định",
+          "outputSummary": "Cảnh báo phân phối · Trả lại Bản nháp · Tường thuật · CKYC Batch · Bó bằng chứng",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "giao dịch, KYC của khách hàng, cảnh báo, danh sách theo dõi và các quy tắc quy định."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "trò chuyện + hệ thống",
+              "description": "Kết hợp cuộc trò chuyện với quyền truy cập được quản lý vào các hệ thống tuân thủ."
+            }
+          ],
+          "outputs": [
+            "Cảnh báo",
+            "trả lại bản nháp",
+            "tường thuật",
+            "CKYC lô",
+            "Gói bằng chứng"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Nắm bắt yêu cầu nộp đơn hoặc cảnh báo với bối cảnh khách hàng, giao dịch và danh sách theo dõi."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Áp dụng các quy tắc tuân thủ cố định và lập mô hình cảnh báo, trả về hoặc CKYC."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "tập hợp các câu chuyện và bằng chứng; kiểm tra tính đầy đủ và nhất quán."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Hiển thị mọi lĩnh vực được đề xuất và sự không chắc chắn chưa được giải quyết cho viên chức tuân thủ."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "giai đoạn hoặc chỉ gửi lô trả lại, tường thuật hoặc CKYC được viên chức phê duyệt."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi xác nhận, từ chối, tình trạng nộp đơn và lộ trình kiểm toán hoàn chỉnh."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Các quan điểm của nhà phân tích cải thiện việc truy xuất bằng chứng, xếp hạng và tường thuật dự thảo.",
+            "neverChanges": "Các kịch bản AML, danh sách trừng phạt, ngưỡng và quy tắc nộp đơn được cố định."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Hòa giải & Tài chính",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Kết hợp hàng đêm giải thích mọi thời gian nghỉ giải lao.",
+          "summary": "Nora Match Switch, CBS, Res bố trí và hồ sơ GL, xếp hạng phần còn lại và giải thích chính xác lý do tại sao một mục vẫn không được điều chỉnh.",
+          "inputSummary": "Chuyển đổi giao dịch · CBS sổ cái · GL · Tuyên bố · Tệp thanh toán",
+          "outputSummary": "Bộ phù hợp · Hàng đợi ngoại lệ · GL Proof · Xem trước tạp chí · Tóm tắt",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Chuyển đổi giao dịch, sổ cái CBS, GL, bảng sao kê và tệp thanh toán."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Hệ thống + Trò chuyện",
+              "description": "Khớp các bản ghi hệ thống và giải thích mọi phần còn lại để tài chính."
+            }
+          ],
+          "outputs": [
+            "bộ phù hợp",
+            "Hàng đợi ngoại lệ",
+            "Bằng chứng GL",
+            "Xem trước tạp chí",
+            "Tóm tắt"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Bắt đầu trên công tắc kích hoạt hàng đêm và chuyển đổi, CBS, GL và hồ sơ thanh toán."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "chạy chính xác, quy tắc và đối sánh mối quan hệ; thời gian mô hình và sự khác biệt tham chiếu."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Kiểm tra các đề xuất đối sánh còn lại và chuẩn bị nhật ký hoặc xem trước điều chỉnh."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Giải thích mọi mục không rõ ràng và hiển thị bài đăng được đề xuất để tài chính."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "rõ ràng hoặc chỉ đăng điều chỉnh đã được Cơ quan Tài chính phê duyệt."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi thời gian nghỉ, lão hóa, tái diễn vào ngày hôm sau và các đề xuất được chấp nhận hoặc từ chối."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Đề xuất được chấp nhận Cải thiện đối sánh tham chiếu và xếp hạng ngoại lệ.",
+            "neverChanges": "Chính sách kế toán, tính trọng yếu và các biện pháp kiểm soát đăng vẫn được điều chỉnh."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Dịch vụ khách hàng & Bộ sưu tập",
+          "mode": "VOICE + CHAT",
+          "outcome": "Giải quyết cuộc trò chuyện với tài khoản trong chế độ xem.",
+          "summary": "Nora hiểu cuộc trò chuyện tự nhiên, truy xuất bối cảnh của khách hàng và chuẩn bị các phản hồi, lời hứa trả tiền và các khoản thanh toán với việc chuyển giao có ngưỡng.",
+          "inputSummary": "Khách hàng 360 · Tài khoản · Lịch sử trường hợp · Chính sách · Vi phạm pháp luật · PTP",
+          "outputSummary": "Tóm tắt trường hợp · Trả lời trạng thái · PTP dự thảo · Thư thanh toán · Định tuyến",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Khách hàng 360, Tài khoản, Lịch sử hồ sơ, Chính sách, Hành vi phạm pháp và PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Giọng nói + Trò chuyện",
+              "description": "Hiểu cuộc trò chuyện của khách hàng với bối cảnh tài khoản trong chế độ xem."
+            }
+          ],
+          "outputs": [
+            "Tóm tắt trường hợp",
+            "Câu trả lời trạng thái",
+            "Dự thảo PTP",
+            "thư giải quyết",
+            "Định tuyến"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "nắm bắt cuộc gọi, trò chuyện, tài liệu hoặc sự kiện trường hợp và xác định ý định của khách hàng."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Giải quyết danh tính và truy xuất tài khoản, trường hợp, phạm vi phạm vi và bối cảnh chính sách."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Soạn thảo câu trả lời, PTP hoặc con đường thanh toán và kiểm tra nó theo các quy tắc tác động đến khách hàng."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "hiển thị phản hồi được đề xuất hoặc hành động tài khoản cho đại lý ở đúng ngưỡng."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "Chỉ gửi, cập nhật hoặc chỉ ghi lại thông tin liên lạc hoặc hành động tài khoản đã được phê duyệt."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi độ phân giải, lời hứa được giữ hoặc bị hỏng, mở lại và leo thang."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Các chỉnh sửa và kết quả của tác nhân cải thiện ý định, định tuyến và hành động tốt nhất tiếp theo.",
+            "neverChanges": "sự đồng ý, tiến hành thu thập và thẩm quyền giải quyết được thực thi."
+          }
+        },
+        {
+          "number": "06",
+          "label": "Nhân sự & Nội bộ",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Mọi người tham gia đã sẵn sàng. Mọi người bỏ lại hoàn toàn đóng cửa.",
+          "summary": "Nora chuẩn bị các thay đổi về HRM, email, danh tính và quyền truy cập, sau đó hiển thị tài khoản chính xác và sự khác biệt trước khi người quản lý, nhân sự và phê duyệt CNTT.",
+          "inputSummary": "Nhân viên · HRMS · Nhận dạng / Truy cập · Danh bạ · ITSM · Chính sách nhân sự",
+          "outputSummary": "joiner / leaver checklist · permission diff · letters · exceptions",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Nhân viên, HRMS, Identity and Access, Directory, ITSM và chính sách nhân sự."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "trò chuyện + hệ thống",
+              "description": "Điều phối hệ thống thay đổi thông qua một quy trình hội thoại có thể kiểm tra."
+            }
+          ],
+          "outputs": [
+            "joiner / danh sách kiểm tra bỏ đi",
+            "sự khác biệt cho phép",
+            "Bức thư",
+            "ngoại lệ"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Nắm bắt yêu cầu tham gia, rời khỏi hoặc nội bộ với bối cảnh nhân viên và người quản lý."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Mô hình yêu cầu HRMS, thư mục, email, danh tính và thay đổi truy cập."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Diễn tập tài khoản và sự khác biệt đối với các quy tắc về quyền và tính đầy đủ."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Hiển thị khác biệt chính xác cho người quản lý, nhân sự và phê duyệt CNTT."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "chỉ cung cấp hoặc thu hồi các tài khoản, vai trò và nguồn lực đã được phê duyệt."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi việc hoàn thành, nhiệm vụ không thành công, truy cập kéo dài và chỉnh sửa người quản lý."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Chỉnh sửa cải thiện các gói vai trò, danh sách kiểm tra và định tuyến ngoại lệ.",
+            "neverChanges": "Các vai trò đặc quyền, sự tách biệt của các nhiệm vụ và phân cấp phê duyệt vẫn cố định."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Kho bạc và hoạt động thương mại",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Ít nghỉ giữa thỏa thuận, xác nhận và thanh toán.",
+          "summary": "Nora so sánh các điều khoản thương mại, theo dõi xác nhận và chuẩn bị các hành động tỷ giá, blotter và nostro đứng sau sự chấp thuận của Kho bạc được đặt tên hoặc kép.",
+          "inputSummary": "Ưu đãi · Xác nhận · Tỷ giá · Blotter · Nostro · Giới hạn · Tài liệu thương mại",
+          "outputSummary": "Trình theo dõi xác nhận · Sự khác biệt · Xem trước tỷ lệ · Chứng minh Nostro",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Giao dịch, xác nhận, tỷ giá, blotter, nostro, giới hạn và tài liệu thương mại."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Hệ thống + Giọng nói",
+              "description": "So sánh dữ liệu thương mại và hỗ trợ hướng dẫn bàn đã được phê duyệt."
+            }
+          ],
+          "outputs": [
+            "Trình theo dõi xác nhận",
+            "Sự khác biệt",
+            "Xem trước tỷ lệ",
+            "Nostro Proof"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Nắm bắt thỏa thuận, xác nhận hoặc hướng dẫn bàn với bối cảnh đối tác."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Trích xuất và so sánh các điều khoản giữa các giao dịch, xác nhận, tỷ lệ, Blotter và Nostro."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Chuẩn bị các giới hạn hành động và kiểm tra, số tiền, giới hạn và trạng thái hệ thống hiện tại."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Trình bày hướng dẫn chính xác cho cơ quan Kho bạc được nêu tên hoặc Cơ quan Kho bạc kép."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "Chỉ gửi tỷ lệ đã được phê duyệt, blotter, xác nhận hoặc hướng dẫn nostro."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi xác nhận, giải quyết, phá vỡ, giới hạn và điều chỉnh đối tác."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Sự khác biệt đã được giải quyết cải thiện việc trích xuất, đối sánh và ưu tiên giới hạn.",
+            "neverChanges": "giới hạn giao dịch, FX, rủi ro, thanh toán và chế tài không thể tự thay đổi."
+          }
+        },
+        {
+          "number": "08",
+          "label": "MicroBanking & Eeb",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Dữ liệu hiện trường trở thành một lô sạch sẽ, được phê duyệt.",
+          "summary": "Nora đọc các trang và biểu mẫu cuộc họp, hiểu dữ liệu ngôn ngữ địa phương được chỉ định và giải quyết những điều không chắc chắn trước khi tạo các lô đa hệ thống.",
+          "inputSummary": "Dữ liệu cuộc họp · Khoản vay theo nhóm · Bộ sưu tập · KYC · Biểu mẫu chương trình · Yêu cầu bồi thường",
+          "outputSummary": "Hàng loạt cuộc họp · Tải lên bộ sưu tập · Gói sơ đồ · Hàng đợi hàng bị từ chối",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Dữ liệu cuộc họp, các khoản vay theo nhóm, bộ sưu tập, KYC, biểu mẫu chương trình và yêu cầu bồi thường."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Máy ảnh + giọng nói",
+              "description": "đọc các tài liệu hiện trường và hiểu dữ liệu ngôn ngữ địa phương được chỉ định."
+            }
+          ],
+          "outputs": [
+            "hàng loạt cuộc họp",
+            "Tải lên bộ sưu tập",
+            "Gói Đề án",
+            "Hàng đợi hàng bị từ chối"
+          ],
+          "workflow": [
+            {
+              "stage": "Khởi đầu",
+              "description": "Cán bộ hiện trường tải lên các trang tính cuộc họp hoặc đọc dữ liệu thu thập bằng ngôn ngữ địa phương."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Phiên âm và trích xuất các biểu mẫu, sau đó khớp các thành viên, tài khoản và bối cảnh kế hoạch."
+            },
+            {
+              "stage": "Bay màu",
+              "description": "Xây dựng lô đa hệ thống và kiểm tra các điểm bất thường, giá trị mong đợi và dữ liệu bị thiếu."
+            },
+            {
+              "stage": "Đánh giá",
+              "description": "Hiển thị mọi hàng và viết đề xuất để được chấp thuận hiện trường hoặc chi nhánh."
+            },
+            {
+              "stage": "Thi hành",
+              "description": "Chỉ đăng lô vay theo nhóm, thu thập hoặc chương trình đã được phê duyệt."
+            },
+            {
+              "stage": "giám sát",
+              "description": "Theo dõi các hàng bị từ chối, xác nhận, sửa chữa và hoàn thành."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Chỉnh sửa cải thiện chữ viết tay, lập bản đồ ngôn ngữ địa phương và kiểm tra dữ liệu.",
+            "neverChanges": "Tính đủ điều kiện, tín dụng, chương trình và cơ quan thu phí vẫn được điều chỉnh."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 - Tính cách đa phương thức",
+      "heading": "Nora đáp ứng công việc dưới mọi hình thức.",
+      "body": "Nói chuyện, gõ, hiển thị hoặc kết nối — cùng một tính cách và mô hình điều khiển giữ nguyên vị trí.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Tầm nhìn đọc tệp",
+          "body": "Tài liệu nhận dạng, bản sao kê, biểu mẫu đã ký, chữ viết tay và ảnh chụp màn hình trở thành bằng chứng có cấu trúc."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "giọng nói cho thời điểm hoạt động",
+          "body": "Các viên chức có thể giải thích một ngoại lệ, ra lệnh dữ liệu hiện trường hoặc yêu cầu một trạng thái mà không cần rời khỏi công việc."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Hệ thống có thể quan sát được",
+          "body": "Nora đọc ngữ cảnh đã được phê duyệt và chuẩn bị ghi phạm vi với mọi trường hiển thị trước khi thực thi."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "thẩm quyền vẫn là con người",
+          "body": "Các phê duyệt được đặt tên, kiểm soát kép và các cổng chính sách cố định là một phần của quá trình chạy — không phải là một lưu ý bên cạnh nó."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 - Niềm tin",
+      "heading": "Hiển thị chạy, không phải là một sự trấn an.",
+      "body": "Bằng chứng rủi ro, bảo mật và nhóm kiểm toán của bạn sẽ yêu cầu.",
+      "statusLabel": "Tình trạng quản trị",
+      "statusValue": "Có thể nhìn thấy",
+      "statusDetail": "Tất cả các lớp điều khiển hoạt động",
+      "controls": [
+        {
+          "title": "Điều khiển kép",
+          "body": "được đặt tên cho nhà sản xuất / người kiểm tra về các hành động do hậu quả"
+        },
+        {
+          "title": "Khóa chính sách",
+          "body": "AI không thể viết lại chính sách ngân hàng hoặc quy định"
+        },
+        {
+          "title": "Nhật ký kiểm toán",
+          "body": "Đầu vào bất biến, lý luận, phê duyệt và hành động"
+        },
+        {
+          "title": "Truy cập phạm vi",
+          "body": "Quyền đọc và ghi ở cấp công cụ và trường"
+        },
+        {
+          "title": "nơi cư trú dữ liệu",
+          "body": "Triển khai đến ranh giới đã được phê duyệt của Ngân hàng"
+        },
+        {
+          "title": "mã hóa",
+          "body": "được bảo vệ trong quá trình vận chuyển và nghỉ ngơi"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Một nhân vật ngân hàng có thể triển khai được xây dựng với nhà điều hành Gabriel.",
+      "exploreLabel": "Khám phá",
+      "useCasesLabel": "Các trường hợp sử dụng",
+      "getStartedLabel": "Bắt đầu",
+      "useCaseLinks": [
+        "KYC",
+        "Tín dụng",
+        "Tuân thủ",
+        "Hoạt động"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "lần chạy tiếp theo",
+      "heading": "Triển khai Nora trong một miền ngân hàng.",
+      "body": "Chọn quy trình làm việc, giao diện và ranh giới quyền hạn. Đặt lần chạy đầu tiên được quản lý trước nhóm hoạt động của bạn.",
+      "ctaLabel": "Nói chuyện với Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

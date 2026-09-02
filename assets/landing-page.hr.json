@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "hr",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "sposobnosti",
+          "target": "capabilities"
+        },
+        {
+          "label": "slučajevi korištenja",
+          "target": "use-cases"
+        },
+        {
+          "label": "Povjerenje",
+          "target": "trust"
+        },
+        {
+          "label": "Oko",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Upoznajte Noru"
+    },
+    "badge": "Bankarska AI",
+    "headline": "Učinite banku AI-Native",
+    "subheadline": "Nora je bankarska umjetna inteligencija izgrađena s Gabrielovim operaterom—isporučuje se putem ugrađenog chata, SDK-a, API-ja ili sloja orkestracije banke.",
+    "ctaLabel": "Razgovaraj s Norom",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Zdravo. Pitajte me kako bih mogao podržati tijek rada bankarstva ili se uklopiti u vaš operativni stog."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "osobna pretpregled",
+      "inputPlaceholder": "Pitajte Noru o tijeku rada…",
+      "suggestedPrompts": [
+        "KYC tijek rada",
+        "Integracija"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — Kontrolirani put do akcije",
+      "heading": "agenti koji djeluju. Bankari ostaju pod kontrolom.",
+      "headingAccent": "Bankari ostaju pod kontrolom.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Hvatanje",
+          "body": "Nora prikuplja zahtjev, izvorne dokumente, politiku i kontekst."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simulirati",
+          "body": "Ona prvo priprema sigurnu verziju tijeka rada koja se može recenzirati."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Provjeriti",
+          "body": "Pravila, dokazi i iznimke provjeravaju se prije nego što se bilo što pomakne."
+        },
+        {
+          "icon": "check",
+          "title": "Odobriti",
+          "body": "Desni bankar vidi što će se točno dogoditi i zašto."
+        },
+        {
+          "icon": "star",
+          "title": "Izvršiti",
+          "body": "Pokreću se samo odobrene radnje, a trag je spreman za reviziju."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Što je Nora?",
+      "segments": [
+        {
+          "text": "Nora je jedna AI persona izgrađena s Gabrielovim operaterom",
+          "tone": "strong"
+        },
+        {
+          "text": "Za upravljane bankarske operacije. rasporediti je u",
+          "tone": "muted"
+        },
+        {
+          "text": "jedna domena s definiranim znanjem, alatima i autoritetom",
+          "tone": "iris"
+        },
+        {
+          "text": "— Zatim stvorite više persona za druge timove, svaki sa svojim",
+          "tone": "muted"
+        },
+        {
+          "text": "Granice politike i pristupa",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — raspoređivanje",
+      "heading": "Upoznajte banku u kojoj se posao već događa.",
+      "body": "Započnite s ugrađenim iskustvom ili povežite NORA izravno na operativni stog banke.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "ugrađeni razgovor",
+          "body": "Postavite Noru unutar portala i radnih prostora koje bankari već koriste."
+        },
+        {
+          "code": "SDK",
+          "title": "iskustvo u vlasništvu banke",
+          "body": "Koristite SDK za oblikovanje Nore u vlastito sučelje i tijek rada banke."
+        },
+        {
+          "code": "API",
+          "title": "persona kao usluga",
+          "body": "Nazovite Noru iz proizvoda, operativnih alata, mobilnih aplikacija ili tokova vođenih događajima."
+        },
+        {
+          "code": "ORCH",
+          "title": "orkestren",
+          "body": "Povežite Noru kao upravljanog agenta unutar postojećeg bankinog snopa za automatizaciju."
+        }
+      ],
+      "personaLabel": "Nora · Banking AI Persona",
+      "platformLabel": "Izgrađen + upravljan s Gabrielovim operaterom",
+      "boundaryItems": [
+        "znanje banke",
+        "opsežni alati",
+        "fiksni koš",
+        "Imenovana odobrenja"
+      ],
+      "note": "Jedna banka može implementirati mnoge persone u domeni – NORA za KYC, NORA za kredit, NORA za operacije – dok je podatke, alate i ovlasti svake osobe izričito ograničeno."
+    },
+    "useCases": {
+      "kicker": "04 — Slučajevi korištenja",
+      "heading": "One Persona Model 8 mjesta za početak.",
+      "subheading": "Odaberite jednu domenu za prvu implementaciju Nore; Proširite samo kada se dokaže operativni model.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC i onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "Od dokumenata do odobrenog CBS zapisa.",
+          "summary": "Nora čita ID-ove i obrasce, provjerava CKYC i CBS, objašnjava neusklađenosti, a zatim priprema točan zapis kupaca za odobrenje maker/checker.",
+          "inputSummary": "Prijave · CKYC · Osobni dokumenti · CBS · KYC politika",
+          "outputSummary": "CKYC Match · Nedostaju polja · Pregled stvaranja CBS-a · Paket dokaza",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Prijave, CKYC, osobni dokumenti, CBS i KYC politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vizija + razgovor",
+              "description": "Čita dokaze o identitetu, rješava neusklađenosti i objašnjava predloženi zapis."
+            }
+          ],
+          "outputs": [
+            "CKYC utakmica",
+            "Nedostaju polja",
+            "Pregled stvaranja CBS-a",
+            "vječička oznaka"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Službenik učitava aplikaciju i osobne iskaznice ili traži od Nore da ukrca kupca."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Izdvojite polja identiteta, usporedite CKYC i CBS i model koji nedostaju podaci ili nepodudarnosti."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Izgradite predloženi CBS zapis i ponovite kompletnost i duplicirane provjere."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Pokažite dokaze i točan zapis za odobrenje službenika i proizvođača /checker."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Izradite ili ažurirajte samo odobrena polja CBS-a i pohranite paket dokaza."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Pratite završetak, odbijanja, iznimke i ispravke službenika za sljedeću vožnju."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Ispravak službenika poboljšava OCR, ime/address normalizacija i nejasno podudaranje.",
+            "neverChanges": "Politika KYC-a, obvezna polja i ovlasti za odobravanje ostaju regulirani."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Zajmovi i krediti",
+          "mode": "VISION + VOICE",
+          "outcome": "Kompletna kreditna datoteka, spremna za tijelo.",
+          "summary": "Nora sastavlja ured, primjenu i financijski kontekst u dosje za zajmoprimca, dopis o odstupanju i nacrt sankcija – bez preuzimanja kreditnih ovlasti.",
+          "inputSummary": "Primjena · Biro · Financije · Politika odstupanja · LOS / DMS",
+          "outputSummary": "Dosje zajmoprimca · Dopis o odstupanju · Nacrt sankcija · Pregled isplate",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Primjena, ured, financije, politika odstupanja, LOS i DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vizija + Glas",
+              "description": "Čita kreditnu datoteku i podržava pregled službenika na prirodnom jeziku."
+            }
+          ],
+          "outputs": [
+            "zajmoprimac",
+            "bilješka u odstupanju",
+            "sankcionirati",
+            "isplata"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Zabilježite aplikaciju, financijske dokumente, podatke ureda i zahtjeve službenika."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Normalizirajte brojke, sažmite povijest ureda i modelirajte svako odstupanje politike."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "sastaviti dosje, nacrt sankcija i pregled isplate; Ponovno pokrenite provjere politike."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Predstavite uvjete, odstupanja i dokaze imenovanom kreditnom tijelu."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Napišite odobreno stanje sankcije ili isplate i predajte paket u DMS."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Status pjesme, zaokret, iznimke nizvodno i uređivanje ovlaštenja."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Uređivanja kreditnih službenika poboljšavaju sažetke, provjere dokumenata i određivanje prioriteta.",
+            "neverChanges": "Ocjenjivanje bodova, LTV/DTI, ovlasti za određivanje cijena i sankcija ne mogu se samopromijeniti."
+          }
+        },
+        {
+          "number": "03",
+          "label": "usklađenost, AML i izvješćivanje",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Svaka prijava počinje s priloženim dokazima.",
+          "summary": "Nora sastavlja transakcije, KYC, popise za praćenje i pravila u trijažu upozorenja prvog prolaza, skice povrata i preglede podnošenja radi pregleda usklađenosti.",
+          "inputSummary": "Transakcije · klijent KYC · upozorenja · popisi za praćenje · regulatorna pravila",
+          "outputSummary": "Trijaža upozorenja · Povratni nacrt · Narativ · CKYC Batch · Paket dokaza",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transakcije, KYC za korisnike, upozorenja, popisi za praćenje i regulatorna pravila."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + sustav",
+              "description": "Kombinira razgovor s reguliranim pristupom sustavima usklađenosti."
+            }
+          ],
+          "outputs": [
+            "trijaža",
+            "Return draft",
+            "Pripovijest",
+            "CKYC serija",
+            "vrsta dokaza"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Snimite zahtjev za podnošenje ili upozorenje s kontekstom korisnika, transakcija i popisa za praćenje."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Primijenite fiksna pravila usklađenosti i modelirajte seriju Alert, Return ili CKYC."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "sastaviti narativ i paket dokaza; Kompletnost i dosljednost testa."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Pokažite svakom predloženom području i neriješenu nesigurnost službeniku za usklađenost."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Postavite ili dostavite samo povratničku, narativnu ili CKYC seriju koju je odobrio službenik."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Pratite potvrde, odbijenice, status prijave i kompletan revizijski trag."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Dispozicije analitičara poboljšavaju pronalaženje dokaza, rangiranje i nacrt narativa.",
+            "neverChanges": "Scenariji AML-a, popisi sankcija, pragovi i pravila arhiviranja ostaju fiksni."
+          }
+        },
+        {
+          "number": "04",
+          "label": "pomirenje i financije",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Noćno podudaranje to objašnjava svaku pauzu.",
+          "summary": "Nora odgovara Switch, CBS, Settlement i GL zapisima, rangira ostatke i točno objašnjava zašto stavka ostaje nepomirena.",
+          "inputSummary": "Promjena transakcija · CBS knjiga · GL · Izjave · Datoteke namire",
+          "outputSummary": "Podudarni set · red iznimki · GL dokaz · pregled časopisa · sažetak",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Prebacite transakcije, CBS knjigu, GL, izjave i datoteke namirenja."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Sustav + razgovor",
+              "description": "Usklađuje zapise sustava i objašnjava svaki ostatak financiranja."
+            }
+          ],
+          "outputs": [
+            "odgovarajući set",
+            "red izuzetaka",
+            "GL Proof",
+            "pregled časopisa",
+            "Sažetak"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Započnite na Nightly Trigger and Ingest Switch, CBS, GL i Settlement Records."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Pokreni točno, pravilo i podudaranje odnosa; Vrijeme i referentne razlike modela."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Testirajte prijedloge za preostale podudaranje i pripremite pregled dnevnika ili podešavanja."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Objasnite svaku dvosmislenu stavku i pokažite predloženu objavu u financiranju."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Očistite ili objavite samo prilagodbu koju je odobrilo tijelo za financije."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Pauze za praćenje, starenje, ponavljanje sljedećeg dana i prihvaćeni ili odbijeni prijedlozi."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Prihvaćeni prijedlozi poboljšavaju podudaranje referenci i rangiranje iznimki.",
+            "neverChanges": "Računovodstvena politika, materijalnost i kontrole knjiženja ostaju regulirani."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Služba za korisnike i zbirke",
+          "mode": "VOICE + CHAT",
+          "outcome": "Riješite razgovor s računom koji se vidi.",
+          "summary": "Nora razumije prirodni razgovor, dohvaća kontekst kupaca i priprema odgovore, obećanja za plaćanje i nagodbe s primopredajem s pragom.",
+          "inputSummary": "Kupac 360 · Računi · Povijest slučajeva · Politika · Delinkvencija · PTP",
+          "outputSummary": "Sažetak slučaja · Odgovor na status · PTP nacrt · Pismo o nagodbi · Usmjeravanje",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Kupac 360, Računi, povijest slučajeva, politika, delinkvencija i PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Glas + Chat",
+              "description": "Razumije razgovor korisnika s kontekstom računa."
+            }
+          ],
+          "outputs": [
+            "sažetak",
+            "statusni odgovor",
+            "PTP GARA",
+            "nagodba",
+            "usmjeravanje"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Snimite poziv, chat, dokument ili slučaj slučaja i identificirajte namjeru korisnika."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Riješite identitet i dohvatite račun, slučaj, delinkvenciju i kontekst politike."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Izradite odgovor, PTP ili put nagodbe i testirajte ga u odnosu na pravila utjecaja na kupca."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Prikažite predloženi odgovor ili radnju na račun agentu na pravom pragu."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Pošaljite, ažurirajte ili zabilježite samo odobrenu komunikaciju ili radnju računa."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Pratite rješavanje, obećanja koja se održavaju ili krše, ponovno otvaranje i eskalacije."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Uređivanje i ishodi agenta poboljšavaju namjeru, usmjeravanje i sljedeću najbolju akciju.",
+            "neverChanges": "Pristanak, ponašanje naplate i nagodba ostaju na snazi."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR i interne operacije",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Svaki stolar spreman. Svaki napuštanje potpuno zatvoren.",
+          "summary": "Nora priprema HRMS, e-poštu, promjene identiteta i pristupa, a zatim prikazuje točnu razliku računa i dopuštenja prije odobrenja upravitelja, HR-a i IT-a.",
+          "inputSummary": "Zaposlenik · HRMS · Identity/access · Imenik · ITSM · HR politika",
+          "outputSummary": "Joiner/leaver kontrolni popis · Diff · slova · iznimke",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Zaposlenici, HRMS, identitet i pristup, imenik, ITSM i HR politika."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + sustav",
+              "description": "Koordinira promjene sustava kroz konverzacijski tijek rada koji se može pregledati."
+            }
+          ],
+          "outputs": [
+            "Joiner/leaver kontrolna lista",
+            "razlika",
+            "Književnost",
+            "odstupanje"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Snimite kontekstni ili interni zahtjev za zaposlenike i menadžera."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Model je zahtijevao promjene HRMS-a, imenika, e-pošte, identiteta i pristupa."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Ponovo saslušajte razliku računa i dopuštenja s pravilima o pravima i potpunosti."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Pokažite točnu razliku za odobrenje menadžera, HR i IT."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "osiguravanje ili opoziv samo odobrenih računa, uloga i resursa."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Praćenje završetka, neuspjeli zadaci, dugotrajni pristup i ispravci upravitelja."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Ispravci poboljšavaju pakete uloga, kontrolne liste i usmjeravanje iznimki.",
+            "neverChanges": "Privilegirane uloge, odvajanje dužnosti i hijerarhija odobrenja ostaju fiksni."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Ope riznice i trgovine",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Manje prekida između dogovora, potvrde i nagodbe.",
+          "summary": "Nora uspoređuje trgovinske uvjete, prati potvrde i priprema stope, blotter i nostro radnje iza imenovanog ili dvostrukog odobrenja riznice.",
+          "inputSummary": "Poslovi · Potvrde · Cijene · Blotter · Nostro · Ograničenja · Trgovinski dokumenti",
+          "outputSummary": "Tracker za potvrdu · neslaganja · pregled stope · nostro dokaz",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Poslovi, potvrde, cijene, upijanje, nostro, limiti i trgovinski dokumenti."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "glas + sustav",
+              "description": "Uspoređuje trgovinske podatke i podržava odobrene stolne upute."
+            }
+          ],
+          "outputs": [
+            "potvrda oluje",
+            "odstupanja",
+            "ocijeniti",
+            "neprobojan"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Zabilježite dogovor, potvrdu ili stolnu instrukciju s kontekstom druge ugovorne strane."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Izdvojite i usporedite uvjete između poslova, potvrda, cijena, upijanja i nostra."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Pripremite ograničenja djelovanja i ispitivanja, iznose, granične vrijednosti i trenutno stanje sustava."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Predstavite točne upute imenovanom ili dvojnom riznici."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Pošaljite samo odobrenu tarifnu uputu, blotter, potvrdu ili nostro upute."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Potvrda staze, namirenje, prekidi, granične vrijednosti i ispravci druge ugovorne strane."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Riješena odstupanja poboljšavaju ekstrakciju, usklađivanje i granični prioritet.",
+            "neverChanges": "Ograničenja poslovanja, valuta, rizika, plaćanja i sankcija ne mogu se sama promijeniti."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikrobankarstvo i EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Podaci na terenu postaju čista, odobrena serija.",
+          "summary": "Nora čita listove i obrasce za sastanke, razumije diktirane podatke lokalnog jezika i rješava nesigurnosti prije stvaranja višesustavnih serija.",
+          "inputSummary": "Podaci o sastancima · grupni zajmovi · naplate · KYC · obrasci sheme · potraživanja",
+          "outputSummary": "Serija sastanaka · Prijenos zbirki · Paket sheme · Red čekanja za odbijeni red",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Podaci o sastancima, grupni zajmovi, zbirke, KYC, obrasci sheme i potraživanja."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "kamera + glas",
+              "description": "Čita terenske dokumente i razumije diktirane podatke lokalnog jezika."
+            }
+          ],
+          "outputs": [
+            "serijal",
+            "Prijenos zbirki",
+            "paket",
+            "red čekanja"
+          ],
+          "workflow": [
+            {
+              "stage": "Start",
+              "description": "Terenski službenik učitava listove za sastanke ili diktira podatke o prikupljanju na lokalnom jeziku."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Transkribirajte i izdvojite obrasce, zatim uparite članove, račune i kontekst sheme."
+            },
+            {
+              "stage": "Trčanje",
+              "description": "Izgradite anomalije serije i testove više sustava, očekivane vrijednosti i podatke koji nedostaju."
+            },
+            {
+              "stage": "Pregled",
+              "description": "Pokažite svaki red i predloženo pisanje za odobrenje terenskog ili podružnice."
+            },
+            {
+              "stage": "Izvršiti",
+              "description": "Objavite samo odobreni grupni zajam, naplatu ili shemu."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Pratite odbijene retke, potvrde, ispravke i završetak."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Ispravci poboljšavaju rukopis, mapiranje lokalnog jezika i provjere podataka.",
+            "neverChanges": "Ovlaštenje za ispunjavanje uvjeta, kredita, sheme i naplate i dalje se upravlja."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Multimodalna persona",
+      "heading": "Nora se susreće s radom u svakom obliku.",
+      "body": "Razgovarajte, tipirajte, pokažite ili povežite – ista osoba i model kontrole ostaju na mjestu.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "vizija koja čita datoteku",
+          "body": "Osobni dokumenti, izjave, potpisani obrasci, rukopis i snimci zaslona postaju strukturirani dokazi."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Glas za operativni trenutak",
+          "body": "Službenici mogu objasniti iznimku, diktirati terenske podatke ili tražiti status bez napuštanja posla."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Sustavi koji ostaju vidljivi",
+          "body": "Nora čita odobreni kontekst i priprema upise s opsegom sa svim vidljivim poljem prije izvršenja."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "autoritet koji ostaje ljudski",
+          "body": "Imenovana odobrenja, dvostruka kontrola i fiksna vrata politike dio su pokretanja - a ne napomena pored toga."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — povjerenje",
+      "heading": "Pokažite trčanje, a ne uvjeravanje.",
+      "body": "Dokazi koje će tražiti vaši timovi za rizik, sigurnost i reviziju.",
+      "statusLabel": "revanštura",
+      "statusValue": "Vidljiv",
+      "statusDetail": "Svi kontrolni slojevi operativni",
+      "controls": [
+        {
+          "title": "dvotočka",
+          "body": "Imenovani tvorac/provjera posljedičnih radnji"
+        },
+        {
+          "title": "bravasko vozila",
+          "body": "AI ne može prepisati bankarsku ili regulatornu politiku"
+        },
+        {
+          "title": "revizija dnevnika",
+          "body": "Nepromjenjivi unos, obrazloženje, odobravanje i akcijski trag"
+        },
+        {
+          "title": "pristupni pristup",
+          "body": "Dozvole za čitanje i pisanje na razini alata i polja"
+        },
+        {
+          "title": "davati u žiž",
+          "body": "rasporediti na odobrenu granicu banke"
+        },
+        {
+          "title": "šifriranje",
+          "body": "zaštićen u tranzitu i u mirovanju"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Razmjenjiva bankarska AI persona izgrađena s Gabrielovim operaterom.",
+      "exploreLabel": "Istražiti",
+      "useCasesLabel": "slučajevi korištenja",
+      "getStartedLabel": "započeti",
+      "useCaseLinks": [
+        "Kyc",
+        "Kreditne",
+        "Usklađenost",
+        "Borbena djejstva"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Sljedeća vožnja",
+      "heading": "Postavite Noru u jednu bankarsku domenu.",
+      "body": "Odaberite tijek rada, sučelje i granicu ovlasti. Stavite prvu vođenu vožnju ispred svog operativnog tima.",
+      "ctaLabel": "Razgovaraj s Norom"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

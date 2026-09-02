@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "ca",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Capacitats",
+          "target": "capabilities"
+        },
+        {
+          "label": "Casos d'ús",
+          "target": "use-cases"
+        },
+        {
+          "label": "Confiança",
+          "target": "trust"
+        },
+        {
+          "label": "Sobre",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Coneix la Nora"
+    },
+    "badge": "OPERACIONS D'IA BANCÀRIA",
+    "headline": "Feu que el banc sigui nadiu d'IA",
+    "subheadline": "Nora és una persona d'IA bancària construïda amb Gabriel Operator, lliurada a través de xat integrat, SDK, API o la capa d'orquestració del banc.",
+    "ctaLabel": "Parla amb la Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hola. Pregunteu-me com podria recolzar un flux de treball bancari o encaixar al vostre stack operatiu."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "VISUALITZACIÓ DEL PERSONATGE",
+      "inputPlaceholder": "Pregunteu a la Nora sobre un flux de treball...",
+      "suggestedPrompts": [
+        "Flux de treball KYC",
+        "Integració"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — UN CAMÍ CONTROLAT cap a l'acció",
+      "heading": "Agents que actuen.\nEls banquers mantenen el control.",
+      "headingAccent": "Els banquers mantenen el control.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Captura",
+          "body": "La Nora recull la sol·licitud, els documents font, la política i el context."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simulació",
+          "body": "Primer prepara una versió segura i revisable del flux de treball."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Verificació",
+          "body": "Les regles, les evidències i les exceptions es revisen abans que res es mogui."
+        },
+        {
+          "icon": "check",
+          "title": "Aprova",
+          "body": "El banquer adequat veu exactament què passarà i per què."
+        },
+        {
+          "icon": "star",
+          "title": "Executa",
+          "body": "Només s'executen accions aprovades, amb un rastre llest per a l'auditoria."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — QUÈ ÉS LA NORA?",
+      "segments": [
+        {
+          "text": "Nora és una persona d'IA construïda amb Gabriel Operator",
+          "tone": "strong"
+        },
+        {
+          "text": " per a operacions bancàries governades. Desplegueu-la a ",
+          "tone": "muted"
+        },
+        {
+          "text": "un domini amb coneixement definit, eines i autoritat",
+          "tone": "iris"
+        },
+        {
+          "text": "—llavors creeu més persones per a altres equips, cadascuna amb la seva ",
+          "tone": "muted"
+        },
+        {
+          "text": "política i límit d'accés",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — DESPLEGAMENT",
+      "heading": "Conegueu el banc on el treball ja passa.",
+      "body": "Comenceu amb una experiència integrada o connecteu la Nora directament a la pila d'operacions del banc.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Xat integrat",
+          "body": "Col·loqueu la Nora dins dels portals i espais de treball que els banquers ja fan servir."
+        },
+        {
+          "code": "SDK",
+          "title": "Experiència del banc",
+          "body": "Feu servir l'SDK per adaptar la Nora a la interfície i el flux de treball del banc."
+        },
+        {
+          "code": "API",
+          "title": "Persona com a servei",
+          "body": "Truqueu la Nora des de productes, eines d'operacions, apps mòbils o fluxos guiats per esdeveniments."
+        },
+        {
+          "code": "ORCH",
+          "title": "Capa d'orquestració",
+          "body": "Connecteu la Nora com un agent governat dins de la pila d'automatització existent del banc."
+        }
+      ],
+      "personaLabel": "NORA · PERSONA D'IA BANCÀRIA",
+      "platformLabel": "CONSTRUÏT + GOVERNAT AMB GABRIEL OPERATOR",
+      "boundaryItems": [
+        "CONEIXEMENT APROVAT PEL BANC",
+        "EINES AMB ÀMBIT",
+        "POLÍTICA FIXA",
+        "APROVACIONS NOMINADES"
+      ],
+      "note": "Un banc pot desplegar moltes persones de domini—Nora per a KYC, Nora per a crèdit, Nora per a operacions—mantenint les dades, eines i autoritat de cada persona explícitament limitades."
+    },
+    "useCases": {
+      "kicker": "04 — CASOS D'ÚS",
+      "heading": "Un model de persona\n8 llocs per començar.",
+      "subheading": "Trieu un domini per al primer desplegament de la Nora; amplieu només quan el model operatiu estigui demostrat.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC i incorporació",
+          "mode": "VISION + CHAT",
+          "outcome": "Des dels documents a un registre CBS aprovat.",
+          "summary": "La Nora llegeix DNI i formularis, comprova CKYC i CBS, explica disparitats, i llavors prepara el registre exacte del client per a l'aprovació del maker/checker.",
+          "inputSummary": "Sol·licituds · CKYC · Documents d'identitat · CBS · Política KYC",
+          "outputSummary": "Coincidència CKYC · camps que falten · vista prèvia de creació de CBS · paquet d'evidències",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Sol·licituds, CKYC, documents d'identitat, CBS i política KYC."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "VISIÓ + XAT",
+              "description": "Llegeix evidències d'identitat, resol disparitats i explica el registre proposat."
+            }
+          ],
+          "outputs": [
+            "Coincidència CKYC",
+            "Camps que falten",
+            "Vista prèvia de creació de CBS",
+            "Paquet d'evidències"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "L'oficial puja la sol·licitud i DNI, o demana a la Nora que incorpori el client."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Extraieu camps d'identitat, compareu CKYC i CBS, i modeleu dades que falten o disparitats."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Construïu el registre CBS proposat i reproduïu comprovacions de completesa i duplicats."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Mostreu les evidències i el registre exacte per a l'aprovació de l'oficial i el maker/checker."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Creeu o actualitzeu només els camps CBS aprovats i archiveu el paquet d'evidències."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de la completesa, els rebutjos, les exceptions i les correccions de l'oficial per a la propera execució."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les correccions de l'oficial milloren l'OCR, la normalització de nom/adreça i la coincidència difusa.",
+            "neverChanges": "La política KYC, els camps obligatoris i l'autoritat d'aprovació romanen governats."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Préstecs i operacions de crèdit",
+          "mode": "VISION + VOICE",
+          "outcome": "Un expedient de crèdit complet, llest per a l'autoritat.",
+          "summary": "La Nora assembla el dossier del prestatari, la nota de desviació i l'esborrany de sanció, sense suposar autoritat de crèdit.",
+          "inputSummary": "Sol·licitud · buró · finances · política de desviació · LOS / DMS",
+          "outputSummary": "Dossier del prestatari · nota de desviació · esborrany de sanció · vista prèvia del desemborsament",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Sol·licitud, buró, finances, política de desviació, LOS i DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "VISIÓ + VEU",
+              "description": "Llegeix l'expedient de crèdit i recolza una revisió de l'oficial en llenguatge natural."
+            }
+          ],
+          "outputs": [
+            "Dossier del prestatari",
+            "Nota de desviació",
+            "Esborrany de sanció",
+            "Vista prèvia del desemborsament"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "Captureu la sol·licitud, els documents financers, les dades del buró i la petició de l'oficial."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Normalitzeu les xifres, resumiu l'historial del buró i modeleu cada desviació de la política."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Assembleu el dossier, l'esborrany de sanció i la vista prèvia del desemborsament; torneu a executar les comprovacions de política."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Presenteu termes, desviacions i evidències a l'autoritat de crèdit nomenada."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Escriviu l'estat de sanció o desemborsament aprovat i archiveu el paquet a DMS."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de l'estat, el temps de processament, les exceptions posteriors i les modificacions de l'autoritat."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les correccions del responsable de crèdit milloren els resums, les comprovacions de documents i la priorització.",
+            "neverChanges": "Els llindars de puntuació, LTV/DTI, preus i poders de sanció no poden canviar-se sols."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Compliment, AML i informes",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Cada arxiu comença amb les seves evidències adjuntes.",
+          "summary": "La Nora assembla transaccions, KYC, llistes de vigilància i regles en la tria d'alertes de primer pas, esborranys de devolució i vistes prèvies d'enviament per a revisió de compliment.",
+          "inputSummary": "Transaccions · KYC del client · alertes · llistes de vigilància · regles normatives",
+          "outputSummary": "Tria d'alertes · esborrany de devolució · narratiu · lot CKYC · paquet d'evidències",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transaccions, KYC del client, alertes, llistes de vigilància i regles normatives."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "XAT + SISTEMA",
+              "description": "Combina la conversa amb accés governat als sistemes de compliment."
+            }
+          ],
+          "outputs": [
+            "Tria d'alertes",
+            "Esborrany de devolució",
+            "Narratiu",
+            "Lot CKYC",
+            "Paquet d'evidències"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "Captureu una sol·licitud d'arxiu o alertes amb context de client, transacció i llista de vigilància."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Apliqueu regles fixes de compliment i modeleu alertes, devolucions o lots CKYC."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Assembleu el narratiu i el paquet d'evidències; proveu la completesa i consistència."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Mostreu cada camp proposat i cada incertesa no resolta a l'oficial de compliment."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Poseu o envieu només el retorn, el narratiu o el lot CKYC aprovats per l'oficial."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment dels reconeixements, rebutjos, estat de l'arxiu i la traça completa d'auditoria."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les disposicions de l'analista milloren la recuperació d'evidències, la classificació i els narratius dels esborranys.",
+            "neverChanges": "Els escenaris AML, les llistes de sancions, els llindars i les regles d'arxiu romanen fixes."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Conciliació i finances",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Conciliació nocturna que explica cada trencament.",
+          "summary": "La Nora concilia registres de switch, CBS, liquidació i GL, classifica els residuals i explica exactament per què un element roman inconciliat.",
+          "inputSummary": "Transaccions de switch · llibre major de CBS · GL · extractes · fitxers de liquidació",
+          "outputSummary": "Conjunt concil·liat · cua d'excepcions · prova GL · vista prèvia del diari · resum",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transaccions de switch, llibre major de CBS, GL, extractes i fitxers de liquidació."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "SISTEMA + XAT",
+              "description": "Concilia registres del sistema i explica cada residual a finances."
+            }
+          ],
+          "outputs": [
+            "Conjunt concil·liat",
+            "Cua d'excepcions",
+            "Prova GL",
+            "Vista prèvia del diari",
+            "Resum"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "Comenceu amb el disparador nocturn i ingereu registres de switch, CBS, GL i liquidació."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Executeu coincidència exacta, per regles i per relació; modeleu diferències de temps i referència."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Proveu les suggeriments de coincidència residual i prepareu una vista prèvia del diari o ajust."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Expliqueu cada element ambiguous i mostreu la proposició de registre a finances."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Líquideu o registreu només l'ajust aprovat per l'autoritat financera."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de trencaments, envelliment, recurrència de l'endemà i suggeriments acceptats o rebutjats."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Els suggeriments acceptats milloren la coincidència de referència i la classificació d'excepcions.",
+            "neverChanges": "La política comptable, la materialitat i els controls de registre romanen governats."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Atenció al client i cobraments",
+          "mode": "VOICE + CHAT",
+          "outcome": "Resoleu la conversa amb el compte visible.",
+          "summary": "Nora entén la conversa natural, recupera el context del client i prepara respostes, promeses de pagament i acords amb transferència per llindars.",
+          "inputSummary": "Client 360 · comptes · historial de casos · política · mora · PTP",
+          "outputSummary": "Resum del cas · resposta d'estat · esborrany de PTP · carta de liquidació · enrutament",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Client 360, comptes, historial de casos, política, mora i PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "VEU + XAT",
+              "description": "Enten la conversa del client amb el context del compte visible."
+            }
+          ],
+          "outputs": [
+            "Resum del cas",
+            "Resposta d'estat",
+            "Esborrany de PTP",
+            "Carta de liquidació",
+            "Enrutament"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "Captureu la trucada, el xat, el document o l'esdeveniment del cas i identifiqueu la intenció del client."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Verifiqueu la identitat i recupereu el context del compte, cas, mora i política."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Redacteu la resposta, el camí PTP o liquidació i proveu-lo contra les regles d'impacte al client."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Mostreu la resposta proposada o l'acció del compte a l'agent en el llindar correcte."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Envieu, actualitzeu o registreu Només la comunicació o acció del compte aprovada."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de la resolució, les promeses complertes o trencades, les represes i les escalades."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les edicions i els resultats de l'agent milloren la intenció, l'enrutament i la propera millor acció.",
+            "neverChanges": "El consentiment, la conducta de cobrament i l'autoritat de liquidació segueixen vigents."
+          }
+        },
+        {
+          "number": "06",
+          "label": "RH i Operacions internes",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Cada nouvingut a punt. Cada sortint plenament tancat.",
+          "summary": "Nora prepara el HRMS, el correu, la identitat i els canvis d'accés, i després mostra la diferència exacta del compte i els permisos abans de l'aprovació del gestor, RRHH i TI.",
+          "inputSummary": "Empleat · HRMS · identitat/accés · directori · ITSM · política de RH",
+          "outputSummary": "Llista de nouvingut/sortint · diferència de permisos · cartes · exceptions",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Empleat, HRMS, identitat i accés, directori, ITSM i política de RH."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "XAT + SISTEMA",
+              "description": "Coordina els canvis del sistema a través d'un flux de treball conversacional inspeccionable."
+            }
+          ],
+          "outputs": [
+            "Llista de nouvingut/sortint",
+            "Diferència de permisos",
+            "Cartes",
+            "Exceptions"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "Captureu la sol·licitud del nouvingut, sortint o intern amb el context de l'empleat i el gestor."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Modeleu els canvis de RRHH, directori, correu, identitat i accés necessaris."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Proveu la diferència del compte i els permisos contra les regles de drets i completesa."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Mostreu la diferència exacta per a l'aprovació del gestor, RRHH i TI."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Proporcioneu o revoqueu Només els comptes, rols i recursos aprovats."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de la finalització, les tasques fallides, l'accés persistent i les correccions del gestor."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les correccions milloren els bundles de rols, les llistes i l'enrutament d'excepcions.",
+            "neverChanges": "Els rols privilegiats, la separació de deures i la jerarquia d'aprovació romanen fixes."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Tresoreria i Operacions de comerç",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Menys interrupcions entre l'operació, la confirmació i la liquidació.",
+          "summary": "Nora compara els termes de l'operació, fa seguiment de les confirmacions i prepara accions de tipus, registre i nostro darrere l'aprovació del tresorer nomenat o dual.",
+          "inputSummary": "Operacions · confirmacions · tipus · registre · nostro · límit · docs de comerç",
+          "outputSummary": "Rastrejador de confirmacions · discrepàncies · vista prèvia del tipus · prova nostro",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Operacions, confirmacions, tipus, registre, nostro, límit i documents de comerç."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "VEU + SISTEMA",
+              "description": "Compara les dades comercials i recolza una instrucció d'escriptori aprovada."
+            }
+          ],
+          "outputs": [
+            "Rastrejador de confirmacions",
+            "Discrepàncies",
+            "Vista prèvia del tipus",
+            "Prova nostro"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "Captureu l'operació, la confirmació o la instrucció de l'escriptori amb el context de la contrapart."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Extraieu i compareu els termes entre operacions, confirmacions, tipus, registre i nostro."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Prepareu l'acció i proveu límit, imports, terminis i estat actual del sistema."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Presenteu la instrucció exacta a l'autoritat del tresorer nomenada o dual."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Envieu Només la instrucció aprovada de tipus, registre, confirmació o nostro."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de la confirmació, la liquidació, les interrupcions, els terminis i les correccions de la contrapart."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les discrepàncies resoltes milloren l'extracció, la coincidència i la prioritat del termini.",
+            "neverChanges": "Els límit d'operació, FX, risc, pagament i sancions no es poden canviar sols."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbanca i EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Les dades de camp esdevenen un lot net i aprovat.",
+          "summary": "Nora llegeix els fulls i formularis de la reunió, entén les dades dictades en llengua local i resol les incògnites abans de crear lots multissistema.",
+          "inputSummary": "Dades de reunió · préstamos grupals · cobraments · KYC · formularis d'esquema · reclamacions",
+          "outputSummary": "Lot de reunió · càrrega de cobraments · paquet d'esquema · cua de files rebutjades",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Dades de reunió, préstamo grupals, cobraments, KYC, formularis d'esquema i reclamacions."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "CÀMERA + VE",
+              "description": "Llegeix documents de camp i entén dades dictades en llengua local."
+            }
+          ],
+          "outputs": [
+            "Lot de reunió",
+            "Càrrega de cobraments",
+            "Paquet d'esquema",
+            "Cua de files rebutjades"
+          ],
+          "workflow": [
+            {
+              "stage": "INICI",
+              "description": "L'oficial de camp penja els fulls de reunió o dicta dades de cobrament en llengua local."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Transcriviu i extraieu formularis, tot seguit coincidenceu membres, comptes i context d'esquema."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Construïu el lot multissistema i proveu anomalies, valors esperats i dades mancants."
+            },
+            {
+              "stage": "REVISIÓ",
+              "description": "Mostreu cada fila i escriptura proposada per a l'aprovació de l'oficial o oficina de camp."
+            },
+            {
+              "stage": "EXECUCIÓ",
+              "description": "Envieu Només el lot de préstamo grupal, cobrament o esquema aprovat."
+            },
+            {
+              "stage": "MONITORITZACIÓ",
+              "description": "Feu seguiment de les files rebutjades, els reconeixements, les correccions i la finalització."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les correccions milloren l'escriptura a mà, el mapeig de llengua local i les verificacions de dades.",
+            "neverChanges": "L'elegibilitat, el crèdit, l'esquema i l'autoritat de cobrament segueixen governats."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — PERSONA MULTIMODAL",
+      "heading": "Nora es troba amb la feina en cada forma.",
+      "body": "Parleu, escriviu, mostrau o connecteu — el mateix persona i model de control es mantenen al lloc.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Visió que llegeix el fitxer",
+          "body": "Documents d'identitat, extractes, formularis signats, escriptura a mà i captures de pantalla esdevenen evidència estructurada."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Veu per al moment operatiu",
+          "body": "Els oficials poden explicar una excepció, dictar dades de camp o demanar un estat sense deixar la feina."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Sistemes que romanen observables",
+          "body": "Nora llegeix el context aprovat i prepara escriptures amb abast on cada camp és visible abans de l'execució."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "Autoritat que roman humana",
+          "body": "Les aprobacions nomenades, el control dual i les portes de política fixes formen part de l'execució — no una nota al costat."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — CONFIANÇA",
+      "heading": "Mostreu l'execució, no una tranquil·litat.",
+      "body": "L'evidència que demanaran els vostres equips de risc, seguretat i auditoria.",
+      "statusLabel": "Estat de governança",
+      "statusValue": "VISIBLE",
+      "statusDetail": "Totes les capes de control operatives",
+      "controls": [
+        {
+          "title": "CONTROL DUAL",
+          "body": "Creador/verificador nomenat en accions consequencials"
+        },
+        {
+          "title": "PANYS DE POLÍTICA",
+          "body": "La IA no pot reescriure la política bancària o regulatòria"
+        },
+        {
+          "title": "REGISTRE D'AUDIÈNCIA",
+          "body": "Traç immutable d'entrada, raonament, aprovació i acció"
+        },
+        {
+          "title": "ACCÉS AMB ÀMBIT",
+          "body": "Permisos de lectura i escriptura a nivell d'eina i camp"
+        },
+        {
+          "title": "RESIDÈNCIA DE DADES",
+          "body": "Desplegueu al límit aprovat del banc"
+        },
+        {
+          "title": "XIFRATGE",
+          "body": "Protegit en trànsit i en repòs"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Una persona d'IA bancària desplegable construïda amb Gabriel Operator.",
+      "exploreLabel": "Exploreu",
+      "useCasesLabel": "Casos d'ús",
+      "getStartedLabel": "Comenceu",
+      "useCaseLinks": [
+        "KYC",
+        "Crèdit",
+        "Compliment",
+        "Operacions"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "EL SEGÜENT RUN",
+      "heading": "Desplegueu Nora en un domini bancari.",
+      "body": "Trieu el flux de treball, la interfície i el límit d'autoritat. Poseu la primera execució governada davant del vostre equip d'operacions.",
+      "ctaLabel": "Parla amb la Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

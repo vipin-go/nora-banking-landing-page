@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "sk",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "inteligencia",
+          "target": "capabilities"
+        },
+        {
+          "label": "prípady použitia",
+          "target": "use-cases"
+        },
+        {
+          "label": "dôvera",
+          "target": "trust"
+        },
+        {
+          "label": "o",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Zoznámte sa s Norou"
+    },
+    "badge": "Operácie bankovej AI",
+    "headline": "Urobte banku AI-native",
+    "subheadline": "Nora je banková AI osoba postavená s operátorom Gabriel – dodávaná prostredníctvom vstavaného chatu, SDK, API alebo orchestračnej vrstvy banky.",
+    "ctaLabel": "Porozprávajte sa s Norou",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Ahoj. Opýtajte sa ma, ako by som mohol podporiť bankový pracovný postup alebo zaradiť do vášho operačného zásobníka."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Persona Preview",
+      "inputPlaceholder": "Opýtajte sa Nory na pracovný postup…",
+      "suggestedPrompts": [
+        "Pracovný postup KYC",
+        "integrácia"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — kontrolovaná cesta k akcii",
+      "heading": "agenti, ktorí konajú. Bankári zostávajú pod kontrolou.",
+      "headingAccent": "Bankári zostávajú pod kontrolou.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "chytiť",
+          "body": "Nora zhromažďuje požiadavku, zdrojové dokumenty, politiku a kontext."
+        },
+        {
+          "icon": "sparkles",
+          "title": "simuť",
+          "body": "Najprv pripraví bezpečnú, recenzovateľnú verziu pracovného postupu."
+        },
+        {
+          "icon": "shield-check",
+          "title": "overiť si",
+          "body": "Pravidlá, dôkazy a výnimky sa skontrolujú skôr, ako sa niečo pohne."
+        },
+        {
+          "icon": "check",
+          "title": "schváliť",
+          "body": "Správny bankár presne vidí, čo sa stane a prečo."
+        },
+        {
+          "icon": "star",
+          "title": "vykonať",
+          "body": "Spustia sa iba schválené akcie so stopou pripravenou na audit."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Čo je Nora?",
+      "segments": [
+        {
+          "text": "Nora je jedna osoba AI postavená s operátorom Gabriel",
+          "tone": "strong"
+        },
+        {
+          "text": "Pre riadené bankové operácie. nasadiť ju do",
+          "tone": "muted"
+        },
+        {
+          "text": "Jedna doména s definovanými znalosťami, nástrojmi a autoritou",
+          "tone": "iris"
+        },
+        {
+          "text": "— potom vytvorte viac osôb pre iné tímy, z ktorých každý má svoje vlastné",
+          "tone": "muted"
+        },
+        {
+          "text": "Politika a prístupové hranice",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Nasadenie",
+      "heading": "Zoznámte sa s bankou, kde už práca prebieha.",
+      "body": "Začnite s vstavaným zážitkom alebo pripojte Noru priamo k prevádzkovému zásobníku banky.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Vložený chat",
+          "body": "Umiestnite Noru do portálov a pracovných priestorov, ktoré už bankári používajú."
+        },
+        {
+          "code": "SDK",
+          "title": "Skúsenosti vo vlastníctve banky",
+          "body": "Použite súpravu SDK na tvarovanie Nory do vlastného rozhrania a pracovného postupu banky."
+        },
+        {
+          "code": "API",
+          "title": "Persona ako služba",
+          "body": "Zavolajte Nora z produktov, operačných nástrojov, mobilných aplikácií alebo tokov riadených udalosťami."
+        },
+        {
+          "code": "ORCH",
+          "title": "orchestrácia",
+          "body": "Pripojte Noru ako riadeného agenta do existujúceho automatizačného zásobníka banky."
+        }
+      ],
+      "personaLabel": "Nora · Osoba bankovej AI",
+      "platformLabel": "Postavené + riadené operátorom Gabriel",
+      "boundaryItems": [
+        "Vedomosti schválené bankou",
+        "Nástroje s rozsahom",
+        "Pevná politika",
+        "Pomenované schválenia"
+      ],
+      "note": "Jedna banka môže nasadiť mnoho doménových osobností – Nora pre KYC, Nora pre úver, NORA pre operácie – a zároveň ponechať údaje, nástroje a autoritu každej osoby výslovne ohraničené."
+    },
+    "useCases": {
+      "kicker": "04 — Prípady použitia",
+      "heading": "Jedna osoba Model 8 miest na začiatok.",
+      "subheading": "Vyberte jednu doménu pre prvé nasadenie Nory; Rozbaľte iba vtedy, keď je preukázaný prevádzkový model.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC a onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "Od dokumentov k schválenému záznamu CBS.",
+          "summary": "Nora číta ID a formuláre, kontroluje CKYC a CBS, vysvetľuje nezhody a potom pripraví presný záznam zákazníka pre schválenie Maker/checker.",
+          "inputSummary": "Aplikácie · CKYC · Dokumenty totožnosti · CBS · Politika KYC",
+          "outputSummary": "CKYC Match · Chýbajúce polia · CBS Creation Preview · Evidence Pack",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "aplikácie, CKYC, doklady totožnosti, CBS a politika KYC."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "vízia + chat",
+              "description": "Číta dôkazy identity, rieši nezhody a vysvetľuje navrhovaný záznam."
+            }
+          ],
+          "outputs": [
+            "CKYC zápas",
+            "Chýbajúce polia",
+            "ukážka tvorby CBS",
+            "Balíček dôkazov"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Dôstojník nahrá aplikáciu a preukazy totožnosti alebo požiada Noru, aby zaradila zákazníka."
+            },
+            {
+              "stage": "bežať",
+              "description": "Extrahujte polia identity, porovnajte CKYC a CBS a modelujte chýbajúce údaje alebo nezhody."
+            },
+            {
+              "stage": "bežať",
+              "description": "Vytvorte navrhovaný záznam CBS a prehrajte úplnosť a duplicitné kontroly."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Ukážte dôkazy a presné záznamy o schválení dôstojníkom a výrobcom /checker."
+            },
+            {
+              "stage": "vykonať",
+              "description": "Vytvorte alebo aktualizujte iba schválené polia CBS a zadajte balík dôkazov."
+            },
+            {
+              "stage": "monitor",
+              "description": "Dokončenie trate, odmietnutia, výnimky a opravy dôstojníkov pre ďalšiu jazdu."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Opravy dôstojníkov zlepšujú OCR, názov /address normalizáciu a fuzzy párovanie.",
+            "neverChanges": "Politika KYC, povinné polia a schvaľovací orgán zostávajú riadené."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Pôžičky a úverové operácie",
+          "mode": "VISION + VOICE",
+          "outcome": "Kompletný úverový súbor, pripravený pre úrad.",
+          "summary": "NORA zhromažďuje úrad, aplikáciu a finančný kontext do dokumentácie dlžníka, memoranda o odchýlke a návrhu sankcií – bez prevzatia úverového oprávnenia.",
+          "inputSummary": "Aplikácia · Úrad · Financie · Politika odchýlok · LOS / DMS",
+          "outputSummary": "Dokumentácia dlžníka · Oznámenie o odchýlke · Návrh sankcie · Náhľad vyplácania",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Aplikácia, úrad, financie, politika odchýlok, LOS a DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "vízia + hlas",
+              "description": "Prečíta si úverový súbor a podporuje kontrolu dôstojníka v prírodnom jazyku."
+            }
+          ],
+          "outputs": [
+            "dlžník",
+            "poznámka o odchýlke",
+            "sankčný návrh",
+            "ukážka výplaty"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Zachyťte aplikáciu, finančné dokumenty, údaje úradu a žiadosť úradníka."
+            },
+            {
+              "stage": "bežať",
+              "description": "Normalizujte čísla, zhrňte históriu úradu a modelujte každú odchýlku politiky."
+            },
+            {
+              "stage": "bežať",
+              "description": "zostaviť dokumentáciu, návrh sankcie a ukážku vyplácania; Znova spustite kontroly politiky."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Predložte podmienky, odchýlky a dôkazy menovanému úverovému úradu."
+            },
+            {
+              "stage": "vykonať",
+              "description": "Napíšte schválený sankčný alebo výplatný štát a zadajte balík v DMS."
+            },
+            {
+              "stage": "monitor",
+              "description": "Sledovať stav, obrat, výnimky a autority."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Úpravy Credit-Officer zlepšujú súhrny, kontroly dokumentov a prioritu.",
+            "neverChanges": "Skóre, LTV/DTI, cenové a sankčné právomoci sa nemôžu samy zmeniť."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Súlad, AML a podávanie správ",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Každé podanie začína priloženým dôkazom.",
+          "summary": "NORA zostavuje transakcie, KYC, zoznamy sledovaných a pravidiel do triedenia výstrah prvého prechodu, vrátenia konceptov a ukážok odoslania na kontrolu súladu.",
+          "inputSummary": "Transakcie · Zákazník KYC · Upozornenia · Zoznamy sledovaných · Regulačné pravidlá",
+          "outputSummary": "Upozornenie Tried · Return Draft · Narrative · CKYC Batch · Evidence Bundle",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "transakcie, KYC zákazníkov, upozornenia, zoznamy sledovaných a regulačné pravidlá."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + systém",
+              "description": "Spája konverzáciu s riadeným prístupom k systémom dodržiavania predpisov."
+            }
+          ],
+          "outputs": [
+            "výstražné triedenie",
+            "Návratový návrh",
+            "rozprávanie",
+            "CKYC dávka",
+            "Dôkazný balík"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Zachyťte žiadosť o podanie alebo upozornenie na kontext zákazníka, transakcie a zoznamu sledovaných."
+            },
+            {
+              "stage": "bežať",
+              "description": "Aplikujte pevné pravidlá zhody a modelujte dávku Alert, Return alebo CKYC."
+            },
+            {
+              "stage": "bežať",
+              "description": "Zostavte balík rozprávania a dôkazov; Otestujte úplnosť a konzistenciu."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "ukázať každú navrhovanú oblasť a nevyriešenú neistotu úradníkovi pre dodržiavanie predpisov."
+            },
+            {
+              "stage": "vykonať",
+              "description": "fáza alebo predložiť iba dôstojnícky schválený návrat, naratív alebo CKYC dávku."
+            },
+            {
+              "stage": "monitor",
+              "description": "Sledujte potvrdenia, odmietnutia, stav podania a úplný audit trail."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Dispozície analytikov zlepšujú vyhľadávanie dôkazov, hodnotenie a návrhy príbehov.",
+            "neverChanges": "Scenáre AML, zoznamy sankcií, prahové hodnoty a pravidlá podávania zostávajú pevné."
+          }
+        },
+        {
+          "number": "04",
+          "label": "zmierenie a financie",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Nočné párovanie, ktoré vysvetľuje každú prestávku.",
+          "summary": "Nora Matchs Switch, CBS, Settlement a GL Records, hodnotí zvyšky a presne vysvetľuje, prečo položka zostáva nevyrovnaná.",
+          "inputSummary": "Prepnúť transakcie · CBS Ledger · GL · Výpisy · Súbory vysporiadania",
+          "outputSummary": "Zhodná sada · front výnimiek · GL Proof · Ukážka žurnálu · Súhrn",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Prepnite transakcie, CBS Ledger, GL, výpisy a zúčtovacie súbory."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "systém + chat",
+              "description": "Priraďuje systémové záznamy a vysvetľuje každý zvyšok financiám."
+            }
+          ],
+          "outputs": [
+            "Zhodná sada",
+            "front výnimiek",
+            "GL dôkaz",
+            "ukážka denníka",
+            "zhrnutie"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Začnite na nočnom spínači a záznamoch prepínača, CBS, GL a zúčtovania."
+            },
+            {
+              "stage": "bežať",
+              "description": "Spustite presné, pravidlá a vzťahové párovanie; Načasovanie modelu a referenčné rozdiely."
+            },
+            {
+              "stage": "bežať",
+              "description": "Otestujte návrhy zvyškovej zhody a pripravte si náhľad denníka alebo úpravy."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Vysvetlite každú nejednoznačnú položku a ukážte navrhované zaúčtovanie financiám."
+            },
+            {
+              "stage": "vykonať",
+              "description": "vymazať alebo zaúčtovať len úpravu schválenú finančným úradom."
+            },
+            {
+              "stage": "monitor",
+              "description": "Prestávky na trati, starnutie, recidívy na druhý deň a prijaté alebo zamietnuté návrhy."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Prijaté návrhy zlepšujú porovnávanie referencií a hodnotenie výnimiek.",
+            "neverChanges": "Účtovná politika, kontrola významnosti a zaúčtovanie zostávajú riadené."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Zákaznícky servis a zbierky",
+          "mode": "VOICE + CHAT",
+          "outcome": "Vyriešte konverzáciu s účtom v zobrazení.",
+          "summary": "Nora rozumie prirodzenej konverzácii, získava kontext zákazníka a pripravuje odpovede, sľuby na zaplatenie a vyrovnania s prahovým odovzdaním.",
+          "inputSummary": "Zákazník 360 · Účty · História prípadov · Zásady · Delikvencia · PTP",
+          "outputSummary": "Súhrn prípadu · Stavová odpoveď · Návrh PTP · List o vysporiadaní · Smerovanie",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Zákazník 360, účty, anamnéza, politika, delikvencia a PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "hlas + chat",
+              "description": "Rozumie konverzácii so zákazníkmi s kontextom účtu."
+            }
+          ],
+          "outputs": [
+            "zhrnutie",
+            "Stavová odpoveď",
+            "návrh PTP",
+            "zhoda",
+            "trasa"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Zachyťte hovor, chat, dokument alebo udalosť a identifikujte zámer zákazníka."
+            },
+            {
+              "stage": "bežať",
+              "description": "Vyriešte identitu a získajte účet, prípad, delikvencia a kontext politiky."
+            },
+            {
+              "stage": "bežať",
+              "description": "Navrhnite odpoveď, PTP alebo cestu vyrovnania a otestujte ju podľa pravidiel vplyvu zákazníka."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Ukážte navrhovanú odpoveď alebo akciu účtu agentovi na správnom prahu."
+            },
+            {
+              "stage": "vykonať",
+              "description": "Odoslať, aktualizovať alebo prihlásiť iba schválenú komunikáciu alebo akciu účtu."
+            },
+            {
+              "stage": "monitor",
+              "description": "Rozlíšenie trate, dodržané alebo porušené sľuby, opätovné otvorenie a eskalácie."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Úpravy agentov a výsledky zlepšujú zámer, smerovanie a ďalšiu najlepšiu akciu.",
+            "neverChanges": "Súhlas, inkasné správanie a osídľovací orgán zostávajú vynútené."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR a interné operácie",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Každý stolár pripravený. Každý list úplne uzavretý.",
+          "summary": "NORA pripraví HRMS, e-mail, identitu a zmeny prístupu, potom ukáže presný rozdiel medzi účtom a povolením pred schválením manažéra, HR a IT.",
+          "inputSummary": "Zamestnanec · HRMS · Identity/access · adresár · ITSM · HR politika",
+          "outputSummary": "joiner/leaver kontrolný zoznam · rozdiel povolení · písmená · výnimky",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Zamestnanec, HRMS, identita a prístup, adresár, ITSM a politika ľudských zdrojov."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + systém",
+              "description": "Koordinuje zmeny systému prostredníctvom kontrolovateľného konverzačného pracovného postupu."
+            }
+          ],
+          "outputs": [
+            "joiner/leaver kontrolný zoznam",
+            "rozdiel povolení",
+            "spisy",
+            "výnimky"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Zachyťte stolára, odchádzajúcu alebo internú požiadavku s kontextom zamestnanca a manažéra."
+            },
+            {
+              "stage": "bežať",
+              "description": "Požadovaný model HRMS, adresár, e-mail, identita a zmeny prístupu."
+            },
+            {
+              "stage": "bežať",
+              "description": "Nacvičte si rozdiel účtu a povolenia proti pravidlám oprávnenia a úplnosti."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Ukážte presný rozdiel pre schválenie manažérom, HR a IT."
+            },
+            {
+              "stage": "vykonať",
+              "description": "poskytovanie alebo zrušenie iba schválených účtov, rolí a zdrojov."
+            },
+            {
+              "stage": "monitor",
+              "description": "Dokončenie sledovania, neúspešné úlohy, pretrvávajúci prístup a opravy manažérov."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Opravy zlepšujú balíky rolí, kontrolné zoznamy a smerovanie výnimiek.",
+            "neverChanges": "Privilegované úlohy, segregácia povinností a hierarchia schvaľovania zostávajú pevné."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Treasury & Trade Ops",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Menej prestávok medzi obchodom, potvrdením a vyrovnaním.",
+          "summary": "NORA porovnáva obchodné podmienky, sleduje potvrdenia a pripravuje sadzby, škvrny a nostro za pomenované alebo duálne schválenie štátnej pokladnice.",
+          "inputSummary": "Ponuky · Potvrdenia · Sadzby · Blotter · Nostro · Limity · Obchodné dokumenty",
+          "outputSummary": "Potvrdzovací sledovač · Nezrovnalosti · Ukážka rýchlosti · Nostro proof",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Ponuky, potvrdenia, sadzby, blotter, nostro, limity a obchodné dokumenty."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "hlas + systém",
+              "description": "Porovnáva obchodné údaje a podporuje schválenú stolovú inštrukciu."
+            }
+          ],
+          "outputs": [
+            "potvrdzovací sledovač",
+            "nezhody",
+            "Ukážka ohodnotenia",
+            "nostro dôkaz"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Zachyťte dohodu, potvrdenie alebo stolové pokyny s kontextom protistrany."
+            },
+            {
+              "stage": "bežať",
+              "description": "Extrahujte a porovnávajte podmienky na základe obchodov, potvrdení, sadzieb, Blotter a Nostro."
+            },
+            {
+              "stage": "bežať",
+              "description": "Pripravte akčné a testovacie limity, sumy, hraničné hodnoty a aktuálny stav systému."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Predložte presnú inštrukciu menovanej alebo dvojitej pokladničnej autorite."
+            },
+            {
+              "stage": "vykonať",
+              "description": "Posielajte iba schválenú sadzbu, pijavicu, potvrdenie alebo inštrukciu Nostro."
+            },
+            {
+              "stage": "monitor",
+              "description": "Sledovanie potvrdenia, vyrovnania, prestávok, prerušení a opráv protistrany."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Vyriešené nezrovnalosti zlepšujú prioritu extrakcie, zhody a hraničnej hodnoty.",
+            "neverChanges": "Obchodné, devízové, rizikové, platobné a sankčné limity sa nemôžu samy zmeniť."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikrobankovanie a EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Údaje z terénu sa stávajú čistou, schválenou dávkou.",
+          "summary": "NORA číta hárky a formuláre stretnutí, rozumie diktovaným údajom v lokálnom jazyku a rieši neistoty pred vytvorením multisystémových dávok.",
+          "inputSummary": "údaje o splnení · skupinové pôžičky · zbierky · KYC · formuláre schém · nároky",
+          "outputSummary": "Dávka schôdze · Nahrávanie zbierok · Balík schém · Odmietnutý riadok frontu",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Údaje o stretnutiach, skupinové pôžičky, zbierky, KYC, formuláre schém a nároky."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Fotoaparát + hlas",
+              "description": "Číta terénne dokumenty a rozumie diktovaným údajom v lokálnom jazyku."
+            }
+          ],
+          "outputs": [
+            "stretnutie",
+            "Nahrávanie zbierok",
+            "Schéma",
+            "front odmietnutých riadkov"
+          ],
+          "workflow": [
+            {
+              "stage": "spustiť",
+              "description": "Poľný dôstojník nahráva hárky stretnutí alebo diktuje údaje o zbere v miestnom jazyku."
+            },
+            {
+              "stage": "bežať",
+              "description": "Prepíšte a extrahujte formuláre, potom spojte členov, účty a kontext schémy."
+            },
+            {
+              "stage": "bežať",
+              "description": "Zostavte viacsystémové dávky a testovacie anomálie, očakávané hodnoty a chýbajúce údaje."
+            },
+            {
+              "stage": "Preskúmanie",
+              "description": "Show every row and proposed write for field or branch officer approval."
+            },
+            {
+              "stage": "vykonať",
+              "description": "Uverejnite iba schválenú dávku skupinovej pôžičky, zbierky alebo schémy."
+            },
+            {
+              "stage": "monitor",
+              "description": "Sledujte odmietnuté riadky, potvrdenia, opravy a dokončenie."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Opravy zlepšujú rukopis, mapovanie v lokálnom jazyku a kontroly údajov.",
+            "neverChanges": "Oprávnenosť, úver, schéma a inkasný oprávnenie zostávajú riadené."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Multimodálna osobnosť",
+      "heading": "Nora sa stretáva s prácou v každej podobe.",
+      "body": "Hovorte, píšte, ukážte alebo sa pripojte – rovnaká osobnosť a model ovládania zostanú na svojom mieste.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "vízia, ktorá číta súbor",
+          "body": "Identifikačné dokumenty, výpisy, podpísané formuláre, rukopis a snímky obrazovky sa stávajú štruktúrovaným dôkazom."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "hlas pre prevádzkový moment",
+          "body": "Policajti môžu vysvetliť výnimku, diktovať údaje z terénu alebo požiadať o stav bez toho, aby opustili prácu."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "systémy, ktoré zostávajú pozorovateľné",
+          "body": "Nora číta schválený kontext a pripravuje rozsahové zápisy s každým poľom viditeľným pred vykonaním."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "autorita, ktorá zostáva človekom",
+          "body": "Súčasťou behu sú pomenované schválenia, duálne ovládanie a pevné brány politiky – nie poznámka vedľa nej."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Dôvera",
+      "heading": "Ukážte beh, nie uistenie.",
+      "body": "Dôkazy, ktoré budú vaše rizikové, bezpečnostné a audítorské tímy požadovať.",
+      "statusLabel": "Stav riadenia",
+      "statusValue": "viditeľný",
+      "statusDetail": "Všetky ovládacie vrstvy fungujú",
+      "controls": [
+        {
+          "title": "dvojité ovládanie",
+          "body": "Pomenovaný výrobca / kontrola následných akcií"
+        },
+        {
+          "title": "Zámky politiky",
+          "body": "AI nemôže prepísať bankovú alebo regulačnú politiku"
+        },
+        {
+          "title": "audit",
+          "body": "nemenný vstup, zdôvodnenie, schválenie a akčná stopa"
+        },
+        {
+          "title": "Rozsahový prístup",
+          "body": "Povolenia na čítanie a zápis na úrovni nástroja a poľa"
+        },
+        {
+          "title": "usadlosť",
+          "body": "Nasadenie na schválenú hranicu banky"
+        },
+        {
+          "title": "zašifrovanie",
+          "body": "chránené v tranzite a v pokoji"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Nasaditeľná banková AI osoba postavená s operátorom Gabriel.",
+      "exploreLabel": "preskúmať",
+      "useCasesLabel": "prípady použitia",
+      "getStartedLabel": "Začať",
+      "useCaseLinks": [
+        "KYC",
+        "úver",
+        "súlad",
+        "úbor"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "Ďalší beh",
+      "heading": "Nasadiť Noru v jednej bankovej doméne.",
+      "body": "Vyberte pracovný postup, rozhranie a hranicu autority. Postavte prvý riadený chod pred svoj operačný tím.",
+      "ctaLabel": "Porozprávajte sa s Norou"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

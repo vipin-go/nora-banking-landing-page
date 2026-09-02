@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "Kyvyt",
+          "target": "capabilities"
+        },
+        {
+          "label": "Käyttötapaukset",
+          "target": "use-cases"
+        },
+        {
+          "label": "Luottamus",
+          "target": "trust"
+        },
+        {
+          "label": "Noin",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Tapaa Nora"
+    },
+    "badge": "Pankkitoiminta tekoälyn toiminnot",
+    "headline": "Tee pankista Ai-natiivi",
+    "subheadline": "NORA on pankki- ja AI-persoona, joka on rakennettu Gabriel-operaattorin kanssa – joka toimitetaan sulautetun chatin, SDK:n, API:n tai pankin orkestrointikerroksen kautta.",
+    "ctaLabel": "Puhu Noralle",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "hei. Kysy minulta, kuinka voisin tukea pankkityönkulkua tai mahtua toimintapinoon."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "esikuva",
+      "inputPlaceholder": "Kysy Noralta työnkulusta…",
+      "suggestedPrompts": [
+        "KYC työnkulku",
+        "Integraatio"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — Hallittu tie toimintaan",
+      "heading": "agentit, jotka toimivat. pankkiirit pysyvät hallinnassa.",
+      "headingAccent": "pankkiirit pysyvät hallinnassa.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Kaapata",
+          "body": "Nora kerää pyynnön, lähdeasiakirjat, käytännöt ja kontekstin."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simuloida",
+          "body": "Hän valmistelee ensin turvallisen, arvioitavan version työnkulusta."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Tarkistaa",
+          "body": "Säännöt, todisteet ja poikkeukset tarkistetaan ennen kuin mikään muuttuu."
+        },
+        {
+          "icon": "check",
+          "title": "Hyväksyä",
+          "body": "Oikea pankkiiri näkee tarkalleen, mitä tapahtuu ja miksi."
+        },
+        {
+          "icon": "star",
+          "title": "Suorittaa",
+          "body": "Vain hyväksytyt toiminnot suoritetaan, ja jälki on valmis auditointia varten."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 - Mikä on Nora?",
+      "segments": [
+        {
+          "text": "Nora on yksi Gabriel-operaattorin kanssa rakennettu tekoälypersoona",
+          "tone": "strong"
+        },
+        {
+          "text": "hallituille pankkitoiminnalle. Lähetä hänet sisään",
+          "tone": "muted"
+        },
+        {
+          "text": "yksi toimialue, jolla on määritelty tieto, työkalut ja auktoriteetti",
+          "tone": "iris"
+        },
+        {
+          "text": "– Luo sitten lisää persoonaa muille tiimeille, jokaisella on omansa",
+          "tone": "muted"
+        },
+        {
+          "text": "Käytäntöjen ja käyttöoikeuksien raja",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Käyttöönotto",
+      "heading": "tavata pankki, jossa työ jo tapahtuu.",
+      "body": "Aloita sulautetulla kokemuksella tai yhdistä Nora suoraan pankin toimintapinoon.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "upotettu chat",
+          "body": "Sijoita Nora pankkiirien jo käyttämien portaalien ja työtilojen sisään."
+        },
+        {
+          "code": "SDK",
+          "title": "Pankkiomisteinen kokemus",
+          "body": "Käytä SDK:ta muokataksesi Noraa pankin omaksi käyttöliittymäksi ja työnkuluksi."
+        },
+        {
+          "code": "API",
+          "title": "Persoona palveluna",
+          "body": "Soita Noralle tuotteista, toimintatyökaluista, mobiilisovelluksista tai tapahtumalähtöisistä virroista."
+        },
+        {
+          "code": "ORCH",
+          "title": "orkesterikerros",
+          "body": "Yhdistä Nora hallituksi agentiksi pankin nykyiseen automaatiopinoon."
+        }
+      ],
+      "personaLabel": "Nora · Banking Ai Persona",
+      "platformLabel": "Rakennettu + Hallittu Gabriel-operaattorilla",
+      "boundaryItems": [
+        "Pankkien hyväksymä tieto",
+        "katkonaisia työkaluja",
+        "kiinteä vakuutus",
+        "nimetyt hyväksynnät"
+      ],
+      "note": "Yksi pankki voi ottaa käyttöön monia verkkotunnuksen henkilöitä – Nora for KYC, Nora for Credit, Nora for Operations – pitäen samalla jokaisen henkilön tiedot, työkalut ja valtuudet nimenomaisesti rajoitettuina."
+    },
+    "useCases": {
+      "kicker": "04 — Käyttötapaukset",
+      "heading": "Yksi Persona Model 8 -kohdasta aloittaa.",
+      "subheading": "Valitse yksi verkkotunnus Noran ensimmäistä käyttöönottoa varten; Laajenna vain, kun toimintamalli on todistettu.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC & Onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "asiakirjoista hyväksyttyyn CBS-tietueeseen.",
+          "summary": "Nora lukee tunnuksia ja lomakkeita, tarkistaa CKYC:n ja CBS:n, selittää yhteensopimattomuudet ja valmistelee sitten tarkan asiakastietueen valmistajan/tarkistuksen hyväksyntää varten.",
+          "inputSummary": "Hakemukset · CKYC · Henkilöasiakirjat · CBS · KYC-käytäntö",
+          "outputSummary": "CKYC-ottelu · Puuttuvat kentät · CBS:n luomisen esikatselu · Todistuspaketti",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "sovellukset, CKYC, henkilöllisyysasiakirjat, CBS ja KYC käytäntö."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "visio + chat",
+              "description": "Lukee henkilöllisyystodisteita, ratkaisee epäsuhta ja selittää ehdotetun tietueen."
+            }
+          ],
+          "outputs": [
+            "CKYC-ottelu",
+            "Missing fields",
+            "CBS:n luomisen esikatselu",
+            "todisteet"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Virkailija lataa hakemuksen ja henkilötodistukset tai pyytää Noraa ottamaan asiakkaan mukaan."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Poimi identiteettikentät, vertaa CKYC:tä ja CBS:ää ja mallinna puuttuvia tietoja tai yhteensopimattomuutta."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Rakenna ehdotettu CBS-tietue ja toiston täydellisyys ja päällekkäiset tarkistukset."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Näytä todisteet ja tarkat tiedot upseerin ja valmistajan/tarkistajan hyväksynnästä."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Luo tai päivitä vain hyväksytyt CBS-kentät ja arkistoi todisteet."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Seuranta, hylkäykset, poikkeukset ja upseerin korjaukset seuraavaa ajoa varten."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Upseerin korjaukset parantavat OCR:ää, nimen/osoitteen normalisointia ja sumeaa vastaavuutta.",
+            "neverChanges": "KYC-käytäntö, pakolliset kentät ja hyväksyntäviranomainen ovat edelleen hallittuja."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Lainat ja luottotiedot",
+          "mode": "VISION + VOICE",
+          "outcome": "Täydellinen luottotiedosto, valmiina viranomaiselle.",
+          "summary": "Nora kokoaa toimiston, hakemuksen ja taloudellisen kontekstin lainanottajan aineistoksi, poikkeamamuistioksi ja sanktioluonnoksiksi – ilman luottovaltuutusta.",
+          "inputSummary": "Hakemus · Toimisto · Taloustiedot · Poikkeamapolitiikka · LOS / DMS",
+          "outputSummary": "Lainaajan asiakirjat · Poikkeamamuistio · Sanktioluonnos · Maksujen esikatselu",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Hakemus, toimisto, talous, poikkeamapolitiikka, LOS ja DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Visio + ääni",
+              "description": "lukee luottotiedoston ja tukee luonnollisen kielen virkailijan tarkistusta."
+            }
+          ],
+          "outputs": [
+            "lainaajakirjoittaja",
+            "poikkeama muistio",
+            "Sanction draft",
+            "maksun esikatselu"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Tallenna hakemus, talousasiakirjat, toimiston tiedot ja toimihenkilöpyyntö."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Normalisoi luvut, tee yhteenveto toimiston historiasta ja mallinna jokainen politiikan poikkeama."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "koota asiakirja, seuraamusluonnos ja maksujen esikatselu; Suorita käytäntöjen tarkistukset uudelleen."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Esitä ehdot, poikkeamat ja todisteet nimetylle luottoviranomaiselle."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Kirjoita hyväksytty seuraamus tai maksutila ja arkistoi paketti DMS:ään."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Seuraa tilaa, käännöstä, alavirran poikkeukset ja valtuuksien muokkaukset."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Luottovirkailijan muokkaukset parantavat tiivistelmiä, asiakirjojen tarkistuksia ja priorisointia.",
+            "neverChanges": "Pisteiden rajat, LTV/DTI, hinnoittelu- ja sanktiovaltuudet eivät voi muuttua itsestään."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Vaatimustenmukaisuus, AML ja raportointi",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Jokainen arkistointi alkaa todisteillaan.",
+          "summary": "NORA kokoaa tapahtumat, KYC:t, tarkkailulistat ja säännöt ensikierron hälytysluokitukseen, palauttaa luonnokset ja lähetysten esikatselut vaatimustenmukaisuuden tarkistusta varten.",
+          "inputSummary": "Tapahtumat · Asiakas KYC · Hälytykset · Tarkkailulistat · Sääntelysäännöt",
+          "outputSummary": "Varoitustriage · Palautusluonnos · Kertomus · CKYC-erä · Todistuspaketti",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Tapahtumat, asiakas KYC, hälytykset, tarkkailulistat ja sääntelysäännöt."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + järjestelmä",
+              "description": "yhdistää keskustelun hallitun pääsyn vaatimustenmukaisuusjärjestelmiin."
+            }
+          ],
+          "outputs": [
+            "hälytystriage",
+            "palautuskuva",
+            "Kerronta-",
+            "CKYC erä",
+            "todisteet"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Tallenna arkistointipyyntö tai hälytys asiakkaan, tapahtuman ja tarkkailulistan kontekstilla."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Käytä kiinteitä vaatimustenmukaisuussääntöjä ja mallinna hälytys, palautus tai CKYC-erä."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "koota kertomus ja todisteet nippu; Testaa täydellisyyttä ja johdonmukaisuutta."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Näytä jokainen ehdotettu ala ja ratkaisematon epävarmuus valvontaviranomaiselle."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Lavaa tai lähetä vain virkailijan hyväksymä palautus, kertomus tai CKYC-erä."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Seuraa kuittaukset, hylkäykset, arkistointitila ja täydellinen kirjausketju."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Analyytikot parantavat todisteiden hakua, sijoitusta ja luonnoskertomuksia.",
+            "neverChanges": "AML-skenaariot, pakoteluettelot, kynnysarvot ja arkistointisäännöt pysyvät ennallaan."
+          }
+        },
+        {
+          "number": "04",
+          "label": "täsmäytys ja rahoitus",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "iltainen sovitus, joka selittää jokaisen tauon.",
+          "summary": "Nora vastaa kytkin-, CBS-, Settlement- ja GL-tietueita, luokittelee jäännökset ja selittää tarkalleen, miksi esine pysyy yhteensopimattomana.",
+          "inputSummary": "Vaihda tapahtumia · CBS Ledger · GL · Lausunnot · Selvitystiedostot",
+          "outputSummary": "Matched Set · Poikkeusjono · GL Proof · Lehden esikatselu · Yhteenveto",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Switch Transactions, CBS Ledger, GL, Statements ja Settlement Files."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "järjestelmä + chat",
+              "description": "Vastaa järjestelmän tietueita ja selittää jokaisen rahoituksen jäännöksen."
+            }
+          ],
+          "outputs": [
+            "sovitettu setti",
+            "poikkeusjono",
+            "GL Proof",
+            "päiväkirja",
+            "Yhteenveto"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Aloita Nightly Trigger ja Inest Switch, CBS, GL ja Settlement Records."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Suorita tarkka, sääntö ja suhdesovitus; mallin ajoitus ja vertailuerot."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Testaa jäännösvastaavuusehdotuksia ja valmistele päiväkirjan tai säädön esikatselu."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Selitä jokainen epäselvä kohta ja näytä ehdotettu julkaisu Financelle."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Selvitä tai lähetä vain rahoituksen hyväksymä oikaisu."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Seuraa taukoja, ikääntymistä, seuraavan päivän toistumista ja hyväksyttyjä tai hylättyjä ehdotuksia."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Hyväksytyt ehdotukset Paranna viitteiden täsmäämistä ja poikkeussijoitusta.",
+            "neverChanges": "Laskentapolitiikka, olennaisuus ja kirjausvalvonta ovat edelleen hallittuja."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Asiakaspalvelu ja kokoelmat",
+          "mode": "VOICE + CHAT",
+          "outcome": "Ratkaise keskustelu näkyvän tilin kanssa.",
+          "summary": "Nora ymmärtää luonnollisen keskustelun, hakee asiakaskontekstin ja valmistelee vastauksia, lupauksia maksuun ja sovintoratkaisuja kynnysarvoisella vaihdolla.",
+          "inputSummary": "Asiakas 360 · Tilit · Tapaushistoria · Käytäntö · Rikollisuus · PTP",
+          "outputSummary": "Tapauksen yhteenveto · Tilavastaus · PTP-luonnos · Sovittelukirje · Reititys",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Asiakas 360, tilit, tapaushistoria, politiikka, rikollisuus ja PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "ääni + chat",
+              "description": "Ymmärtää asiakaskeskustelun tilikontekstissa."
+            }
+          ],
+          "outputs": [
+            "tapaus yhteenveto",
+            "tilavastaus",
+            "PTP-luonnos",
+            "selvityskirje",
+            "reititys"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Tallenna puhelu, chat, asiakirja tai tapaustapahtuma ja tunnista asiakkaan tarkoitus."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Ratkaise identiteetti ja hae tili, tapaus, rikollisuus ja käytäntökonteksti."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Laadi vastaus, PTP tai selvityspolku ja testaa sitä asiakkaan vaikutussääntöjen mukaisesti."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Näytä ehdotettu vastaus tai tilitoiminto agentille oikealla kynnyksellä."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Lähetä, päivitä tai kirjaa vain hyväksytty viestintä tai tilitoiminto."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Radan resoluutio, lupaukset säilyneet tai rikki, uudelleen avaaminen ja eskalaatiot."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Agentin muokkaukset ja tulokset parantavat aikomusta, reititystä ja seuraavaksi parasta toimintaa.",
+            "neverChanges": "Suostumus, perintäkäyttäytyminen ja selvitysviranomainen lykkäävät."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR & sisäiset operaatiot",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Jokainen puuseppä valmiina. Jokainen jättäjä täysin kiinni.",
+          "summary": "NORA valmistelee HRMS-, sähköposti-, identiteetti- ja käyttöoikeusmuutoksia ja näyttää sitten tarkan tili- ja käyttöoikeuseron ennen Managerin, HR:n ja IT:n hyväksyntää.",
+          "inputSummary": "Työntekijä · HRMS · Identiteetti/pääsy · Hakemisto · ITSM · HR-politiikka",
+          "outputSummary": "Joiner/Leaver-tarkistuslista · käyttöoikeusero · Letters · Poikkeukset",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Työntekijä, HRMS, Identity and Access, Hakemisto, ITSM ja HR-politiikka."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "chat + järjestelmä",
+              "description": "Koordinoi järjestelmän muutoksia tarkastettavan keskustelun työnkulun kautta."
+            }
+          ],
+          "outputs": [
+            "Joiner/Leaver -tarkistuslista",
+            "käyttöoikeusero",
+            "Kaunokirjallisuus",
+            "poikkeus"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Tallenna liitin, lähtevä tai sisäinen pyyntö työntekijän ja esimiehen kontekstilla."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Malli vaati HRMS:n, hakemiston, sähköpostin, identiteetin ja käyttöoikeuden muutoksia."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Harjoittele tili- ja lupaero oikeuksia ja täydellisyyttä koskevien sääntöjen vastaisesti."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Näytä tarkka ero johtajalle, HR:lle ja IT-hyväksynnälle."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "varata tai peruuttaa vain hyväksytyt tilit, roolit ja resurssit."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Raidan suorittaminen, epäonnistuneet tehtävät, viipyvät käyttöoikeudet ja johtajan korjaukset."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Korjaukset parantavat roolipaketteja, tarkistuslistoja ja poikkeusreititystä.",
+            "neverChanges": "Etuoikeutetut roolit, tehtävien erottelu ja hyväksymishierarkia pysyvät ennallaan."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Treasury & Trade Ops",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Vähemmän taukoja sopimuksen, vahvistuksen ja sovinnon välillä.",
+          "summary": "Nora vertaa kauppaehtoja, seuraa vahvistuksia ja valmistelee hinta-, blotter- ja nostro-toimia nimetyn tai kaksoiskassan hyväksynnän takana.",
+          "inputSummary": "tarjoukset · vahvistukset · hinnat · blotter · nostro · rajat · kauppaasiakirjat",
+          "outputSummary": "Vahvistusseuranta · Erot · Rate Preview · Nostro Proof",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Tarjoukset, vahvistukset, hinnat, blotter, nostro, limiitit ja kauppaasiakirjat."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "ääni + järjestelmä",
+              "description": "Vertaa kauppatietoja ja tukee hyväksyttyä pöytäohjetta."
+            }
+          ],
+          "outputs": [
+            "vahvistusseuranta",
+            "poikkeavuus",
+            "hinnan esikatselu",
+            "NOSTROOFS"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Tallenna sopimus, vahvistus tai pöytäohjeet vastapuolen kontekstissa."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Poimi ja vertaa termejä tarjousten, vahvistusten, hintojen, blotterin ja nostron välillä."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Valmistele toiminto- ja testirajat, määrät, rajat ja nykyinen järjestelmän tila."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Esitä tarkat ohjeet nimetylle tai kaksoiskassalle."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Lähetä vain hyväksytty hinta, blotter, vahvistus tai nostro-ohje."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Seuran vahvistus, selvitys, tauot, rajat ja vastapuolen korjaukset."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Ratkaistut erot parantavat poiminta-, sovitus- ja katkaisuprioriteettia.",
+            "neverChanges": "Kauppa-, valuutta-, riski-, maksu- ja sanktiorajat eivät voi muuttua itsestään."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Mikropankki ja EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Kenttätiedoista tulee puhdas, hyväksytty erä.",
+          "summary": "Nora lukee kokousarkkeja ja -lomakkeita, ymmärtää sanelemat paikalliskieliset tiedot ja ratkaisee epävarmuustekijät ennen usean järjestelmän erien luomista.",
+          "inputSummary": "Kokoustiedot · Ryhmälainat · Kokoelmat · KYC · Järjestelmälomakkeet · Vaatimukset",
+          "outputSummary": "Kokouserä · Kokoelmien lataus · Scheme Pack · Hylätty-rivin jono",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Kokoustiedot, ryhmälainat, kokoelmat, KYC, järjestelmälomakkeet ja vaateet."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "kamera + ääni",
+              "description": "Lukee kenttäasiakirjoja ja ymmärtää sanelettuja paikalliskielisiä tietoja."
+            }
+          ],
+          "outputs": [
+            "kokous",
+            "Kokoelmien lataus",
+            "systeemi",
+            "hylätty jono"
+          ],
+          "workflow": [
+            {
+              "stage": "Aloittaa",
+              "description": "Kenttävirkailija lataa kokousarkkeja tai sanelee keräystiedot paikallisella kielellä."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Literoi ja poimi lomakkeita ja yhdistä sitten jäsenet, tilit ja järjestelmän konteksti."
+            },
+            {
+              "stage": "Ajaa",
+              "description": "Rakenna usean järjestelmän erä ja testaa poikkeavuuksia, odotettuja arvoja ja puuttuvia tietoja."
+            },
+            {
+              "stage": "Arvostelu",
+              "description": "Näytä jokainen rivi ja ehdotettu kirjoitus kenttä- tai haaratoimiston hyväksyntää varten."
+            },
+            {
+              "stage": "Suorittaa",
+              "description": "Lähetä vain hyväksytty ryhmälaina, keräys tai järjestelmäerä."
+            },
+            {
+              "stage": "Seurata",
+              "description": "Seuraa hylättyjä rivejä, kuittauksia, korjauksia ja täydennyksiä."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Korjaukset parantavat käsinkirjoitusta, paikalliskielistä kartoitusta ja tietojen tarkistuksia.",
+            "neverChanges": "Kelpoisuus-, luotto-, järjestelmä- ja perintävaltuudet ovat edelleen hallittuja."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 - Multimodaalinen persoona",
+      "heading": "Nora kohtaa teoksen kaikissa muodoissa.",
+      "body": "Puhu, kirjoita, näytä tai yhdistä – sama persoona ja ohjausmalli pysyvät paikoillaan.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "visio, joka lukee tiedoston",
+          "body": "Henkilöasiakirjat, lausunnot, allekirjoitetut lomakkeet, käsiala ja kuvakaappaukset ovat strukturoituja todisteita."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "ääni operatiiviseen hetkeen",
+          "body": "Virkamiehet voivat selittää poikkeuksen, sanella kenttätietoja tai pyytää tilaa poistumatta työstä."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "järjestelmät, jotka pysyvät havaittavissa",
+          "body": "Nora lukee hyväksyttyä kontekstia ja valmistelee laajoja kirjoituksia siten, että jokainen kenttä on näkyvissä ennen suorittamista."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "auktoriteetti, joka pysyy ihmisenä",
+          "body": "Nimetyt hyväksynnät, kaksoisohjaus ja kiinteät käytäntöportit ovat osa ajoa – ei huomautus sen vieressä."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 - Luottamus",
+      "heading": "Näytä juoksu, ei vakuutus.",
+      "body": "Todisteet, joita riski-, turvallisuus- ja tarkastusryhmäsi pyytävät.",
+      "statusLabel": "hallintoasema",
+      "statusValue": "Näkyvä",
+      "statusDetail": "Kaikki ohjauskerrokset toimivat",
+      "controls": [
+        {
+          "title": "kaksoisohjain",
+          "body": "Nimetty maker / checker seurannaistoimista"
+        },
+        {
+          "title": "vakuutuslukot",
+          "body": "Tekoäly ei voi kirjoittaa uudelleen pankki- tai sääntelypolitiikkaa"
+        },
+        {
+          "title": "loki",
+          "body": "Muuttumaton panos, päättely, hyväksyntä ja toimintapolku"
+        },
+        {
+          "title": "ulottuvuus",
+          "body": "Luku- ja kirjoitusoikeudet työkalun ja kentän tasolla"
+        },
+        {
+          "title": "data-residenssi",
+          "body": "ottaa käyttöön pankin hyväksytylle rajalle"
+        },
+        {
+          "title": "salaus",
+          "body": "suojattu kuljetuksessa ja levossa"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Gabriel-operaattorin kanssa rakennettu pankkitoiminta-AI-persoona.",
+      "exploreLabel": "Tutkia",
+      "useCasesLabel": "Käyttötapaukset",
+      "getStartedLabel": "Aloittaa",
+      "useCaseLinks": [
+        "Kyc",
+        "Luotto",
+        "Noudattaminen",
+        "toiminta"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "seuraava juoksu",
+      "heading": "Ota Nora käyttöön yhdessä pankkialueella.",
+      "body": "Valitse työnkulku, käyttöliittymä ja viranomaisen raja. Aseta ensimmäinen hallittu juoksu operaatiotiimisi eteen.",
+      "ctaLabel": "Puhu Noralle"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

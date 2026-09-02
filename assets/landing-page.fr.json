@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "fr",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "capacités",
+          "target": "capabilities"
+        },
+        {
+          "label": "cas d'utilisation",
+          "target": "use-cases"
+        },
+        {
+          "label": "Confiance",
+          "target": "trust"
+        },
+        {
+          "label": "Environ",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Rencontrez Nora"
+    },
+    "badge": "Opérations d'IA bancaire",
+    "headline": "Rendre la banque AI-native",
+    "subheadline": "Nora est un personnage d'IA bancaire construit avec Gabriel Operator, livré par chat intégré, SDK, API ou la couche d'orchestration de la banque.",
+    "ctaLabel": "Parlez à Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Bonjour. Demandez-moi comment je pourrais prendre en charge un flux de travail bancaire ou s'intégrer dans votre pile d'exploitation."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Aperçu des personnages",
+      "inputPlaceholder": "Renseignez-vous sur un flux de travail…",
+      "suggestedPrompts": [
+        "Flux de travail KYC",
+        "Intégration"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — Un chemin contrôlé vers l'action",
+      "heading": "agents qui agissent. Les banquiers gardent le contrôle.",
+      "headingAccent": "Les banquiers gardent le contrôle.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Capture",
+          "body": "NORA rassemble la demande, les documents sources, la politique et le contexte."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simuler",
+          "body": "Elle prépare d'abord une version sûre et révisable du flux de travail."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Vérifier",
+          "body": "Les règles, les preuves et les exceptions sont vérifiées avant que quoi que ce soit ne bouge."
+        },
+        {
+          "icon": "check",
+          "title": "Approuver",
+          "body": "Le banquier de droite voit exactement ce qui va se passer et pourquoi."
+        },
+        {
+          "icon": "star",
+          "title": "Exécuter",
+          "body": "Seules les actions approuvées s'exécutent, avec une trace prête pour l'audit."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Qu'est-ce que nora ?",
+      "segments": [
+        {
+          "text": "Nora est un personnage d'IA construit avec Gabriel Operator",
+          "tone": "strong"
+        },
+        {
+          "text": "pour les opérations bancaires régies. Déployez-la dans",
+          "tone": "muted"
+        },
+        {
+          "text": "Un domaine avec des connaissances, des outils et une autorité définis",
+          "tone": "iris"
+        },
+        {
+          "text": "—Créez ensuite plus de personas pour d'autres équipes, chacune avec ses propres",
+          "tone": "muted"
+        },
+        {
+          "text": "Politique et accès aux limites",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Déploiement",
+      "heading": "Rencontrez la banque où le travail a déjà lieu.",
+      "body": "Commencez par une expérience intégrée ou connectez nora directement à la pile d'exploitation de la banque.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Chat intégré",
+          "body": "Placez nora à l'intérieur des portails et des espaces de travail que les banquiers utilisent déjà."
+        },
+        {
+          "code": "SDK",
+          "title": "Expérience appartenant à la banque",
+          "body": "Utilisez le SDK pour façonner nora dans l'interface et le flux de travail de la banque."
+        },
+        {
+          "code": "API",
+          "title": "Persona en tant que service",
+          "body": "Appelez nora à partir de produits, d'outils d'exploitation, d'applications mobiles ou de flux axés sur les événements."
+        },
+        {
+          "code": "ORCH",
+          "title": "couche d'orchestration",
+          "body": "Connectez nora en tant qu'agent gouverné à l'intérieur de la pile d'automatisation existante de la banque."
+        }
+      ],
+      "personaLabel": "nora · Persona bancaire",
+      "platformLabel": "Construit + gouverné avec l'opérateur Gabriel",
+      "boundaryItems": [
+        "Connaissances approuvées par la banque",
+        "Outils de portée",
+        "politique fixe",
+        "Approbations nommées"
+      ],
+      "note": "Une banque peut déployer de nombreux noms de domaine (NORA pour KYC, NORA pour le crédit, NORA pour les opérations) tout en conservant explicitement les données, les outils et l'autorité de chaque personnage."
+    },
+    "useCases": {
+      "kicker": "04 — Cas d'utilisation",
+      "heading": "Un modèle Persona modèle 8 pour commencer.",
+      "subheading": "Choisissez un domaine pour le premier déploiement de nora ; Développez uniquement lorsque le modèle d'exploitation est prouvé.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC et intégration",
+          "mode": "VISION + CHAT",
+          "outcome": "Des documents à un enregistrement CBS approuvé.",
+          "summary": "Nora lit les ID et les formulaires, vérifie CKYC et CBS, explique les incompatibilités, puis prépare le dossier exact du client pour l'approbation du fabricant/vérificateur.",
+          "inputSummary": "Demandes · CKYC · Documents d'identité · CBS · Politique KYC",
+          "outputSummary": "CKYC Match · Champs manquants · Aperçu de la création de CBS · Pack de preuves",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Applications, CKYC, documents d'identité, CBS et politique KYC."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + chat",
+              "description": "Lit les preuves d'identité, résout les inadéquations et explique l'enregistrement proposé."
+            }
+          ],
+          "outputs": [
+            "match CKYC",
+            "Champs manquants",
+            "Aperçu de création de CBS",
+            "dossier de preuves"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "L'agent télécharge l'application et les identifiants, ou demande à nora d'intégrer le client."
+            },
+            {
+              "stage": "Cours",
+              "description": "Extrayez les champs d'identité, comparez CKYC et CBS, et modélisez les données ou les incompatibilités."
+            },
+            {
+              "stage": "Cours",
+              "description": "Construisez le dossier CBS proposé et rejouez l'exhaustivité et les vérifications en double."
+            },
+            {
+              "stage": "Revue",
+              "description": "Montrez les preuves et l'enregistrement exact de l'approbation de l'officier et du fabricant/disteur."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Créez ou mettez à jour uniquement les champs CBS approuvés et classez le pack de preuves."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivre l'achèvement, les rejets, les exceptions et les corrections des agents pour la prochaine exécution."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les corrections des agents améliorent l'OCR, la normalisation des noms/adresses et l'appariement flou.",
+            "neverChanges": "La politique KYC, les champs obligatoires et l'autorité d'approbation restent régis."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Prêts et crédits",
+          "mode": "VISION + VOICE",
+          "outcome": "Un dossier de crédit complet, prêt pour l'autorité.",
+          "summary": "Nora réunit le bureau, l'application et le contexte financier dans un dossier de l'emprunteur, une note d'écart et un projet de sanction, sans supposer une autorité de crédit.",
+          "inputSummary": "Application · Bureau · Finances · Politique d'écart · LOS / DMS",
+          "outputSummary": "Dossier de l'emprunteur · Mémo d'écart · Projet de sanction · Aperçu des décaissements",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Application, bureau, finances, politique d'écart, LOS et DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Vision + voix",
+              "description": "Lit le dossier de crédit et prend en charge un examen des officiers de langue naturelle."
+            }
+          ],
+          "outputs": [
+            "Dossier de l'emprunteur",
+            "Mémo de déviation",
+            "Projet de sanction",
+            "Aperçu du décaissement"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "Saisir la demande, les documents financiers, les données du bureau et la demande d'agent."
+            },
+            {
+              "stage": "Cours",
+              "description": "Normaliser les chiffres, résumer l'historique du bureau et modéliser chaque écart de politique."
+            },
+            {
+              "stage": "Cours",
+              "description": "Assemblez le dossier, le brouillon de sanction et l'aperçu des décaissements ; Réexécutez les vérifications de stratégie."
+            },
+            {
+              "stage": "Revue",
+              "description": "Présenter les conditions, les écarts et les preuves à l'autorité de crédit désignée."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Écrivez l'état de sanction ou de versement approuvé et classez le package dans DMS."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivre l'état, le redressement, les exceptions en aval et les modifications d'autorité."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les modifications apportées aux agents de crédit améliorent les résumés, les vérifications de documents et la priorisation.",
+            "neverChanges": "Les seuils de score, LTV/DTI, les pouvoirs de tarification et de sanction ne peuvent pas s'auto-changer."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Conformité, LAM et rapports",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Chaque dossier commence avec ses preuves jointes.",
+          "summary": "Nora rassemble les transactions, KYC, les listes de surveillance et les règles dans le triage des alertes de premier passage, les brouillons de retour et les aperçus de soumission pour examen de la conformité.",
+          "inputSummary": "Transactions · Client KYC · Alertes · Listes de surveillance · Règlements réglementaires",
+          "outputSummary": "Triage d'alertes · Retour d'eau · Récit · Récit · Lot de CKYC · Lot de preuves",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transactions, KYC client, alertes, listes de surveillance et règles réglementaires."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + système",
+              "description": "Combine la conversation avec l'accès régi aux systèmes de conformité."
+            }
+          ],
+          "outputs": [
+            "Triage des alertes",
+            "Retour d'air",
+            "Récit",
+            "Lot CKYC",
+            "Ensemble de preuves"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "Capturez une demande de dépôt ou une alerte avec le contexte du client, de la transaction et de la liste de surveillance."
+            },
+            {
+              "stage": "Cours",
+              "description": "Appliquez des règles de conformité fixes et modélisez l'alerte, le retour ou le lot CKYC."
+            },
+            {
+              "stage": "Cours",
+              "description": "Assemblez le récit et la narration ; Testez la complétude et la cohérence."
+            },
+            {
+              "stage": "Revue",
+              "description": "Montrez chaque champ proposé et l'incertitude non résolue au responsable de la conformité."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Mettre en scène ou soumettre uniquement la déclaration, le récit ou le lot CKYC approuvé par les agents."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivre les accusés de réception, les rejets, l'état du dossier et la piste d'audit complète."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les dispositions des analystes améliorent la récupération, le classement et les projets de récits.",
+            "neverChanges": "Les scénarios de LAM, les listes de sanctions, les seuils et les règles de dépôt restent fixes."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Réconciliation & Finance",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Correspondance nocturne qui explique chaque pause.",
+          "summary": "Nora Matches Switch, CBS, Settlement et GL enregistrent les résidus et explique exactement pourquoi un élément reste non réconcilié.",
+          "inputSummary": "Changer les transactions · CBS Ledger · GL · Déclarations · Fichiers de règlement",
+          "outputSummary": "Jeu d'exceptions · File d'attente d'exception · Preuve GL · Aperçu du journal · Résumé",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Changez les transactions, le grand livre CBS, le GL, les relevés et les fichiers de règlement."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Système + chat",
+              "description": "Correspond à des enregistrements système et explique chaque résidu au financement."
+            }
+          ],
+          "outputs": [
+            "Ensemble assorti",
+            "file d'attente",
+            "Preuve GL",
+            "aperçu du journal",
+            "Résumé"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "Commencez sur les enregistrements de déclenchement et d'ingestion nocturnes, CBS, GL et règlements."
+            },
+            {
+              "stage": "Cours",
+              "description": "Exécutez l'appariement exact, de règles et de relations ; Délais de temporisation et de référence."
+            },
+            {
+              "stage": "Cours",
+              "description": "Testez les suggestions de correspondance résiduelle et préparez le journal ou l'aperçu de l'ajustement."
+            },
+            {
+              "stage": "Revue",
+              "description": "Expliquez chaque élément ambigu et montrez la publication proposée au financement."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Effacer ou afficher uniquement l'ajustement approuvé par l'autorité financière."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Pauses de suivi, vieillissement, récurrence du lendemain et suggestions acceptées ou rejetées."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Accepted suggestions improve reference matching and exception ranking.",
+            "neverChanges": "Les politiques comptables, les contrôles de matérialité et de comptabilisation restent régis."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Service à la clientèle et collections",
+          "mode": "VOICE + CHAT",
+          "outcome": "Résolvez la conversation avec le compte en vue.",
+          "summary": "Nora comprend la conversation naturelle, récupère le contexte du client et prépare les réponses, les promesses de paiement et les règlements avec un transfert de seuil.",
+          "inputSummary": "Client 360 · Comptes · Historique des cas · Politique · Délinquance · PTP",
+          "outputSummary": "Résumé de cas · Réponse de statut · Projet de PTP · Lettre de règlement · Routage",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Client 360, Comptes, Historique de cas, Politique, Délinquance et PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Voix + chat",
+              "description": "Comprend la conversation client avec le contexte du compte en vue."
+            }
+          ],
+          "outputs": [
+            "Résumé du cas",
+            "Réponse de statut",
+            "Projet PTP",
+            "lettre de règlement",
+            "acheminement"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "Capturez l'appel, le chat, le document ou l'événement de cas et identifiez l'intention du client."
+            },
+            {
+              "stage": "Cours",
+              "description": "Résoudre l'identité et récupérer le contexte de compte, de requête, de délinquance et de stratégie."
+            },
+            {
+              "stage": "Cours",
+              "description": "Rédigez la réponse, le PTP ou le chemin de règlement et testez-la par rapport aux règles d'impact du client."
+            },
+            {
+              "stage": "Revue",
+              "description": "Afficher la réponse ou l'action de compte proposée à l'agent au seuil droit."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Envoyez, mettez à jour ou enregistrez uniquement la communication ou l'action de compte approuvée."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivre la résolution, les promesses tenues ou brisées, les réouvertures et les escalades."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les modifications et les résultats des agents améliorent l'intention, le routage et la meilleure action suivante.",
+            "neverChanges": "Le consentement, la conduite de la collecte et l'autorité de règlement restent appliqués."
+          }
+        },
+        {
+          "number": "06",
+          "label": "RH & Opérations internes",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Chaque menuisier est prêt. Chaque sorcier est complètement fermé.",
+          "summary": "Nora prépare le SGRH, le courrier électronique, les modifications d'identité et d'accès, puis affiche le compte exact et le diff d'autorisation avant l'approbation du responsable, des ressources humaines et informatiques.",
+          "inputSummary": "Employé · SGRH · Identité/access · Annuaire · ITSM · Politique RH",
+          "outputSummary": "Joiner/leaver Liste de contrôle · Diff d'autorisation · Lettres · Exceptions",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Employé, HRMS, identité et accès, annuaire, ITSM et politique RH."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + système",
+              "description": "Coordonne les modifications du système grâce à un flux de travail inspectable."
+            }
+          ],
+          "outputs": [
+            "Liste de vérifications de menuiserie/leaver",
+            "Diff d'autorisation",
+            "Les lettres",
+            "Exceptions"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "Capturez le menuisier, le sortant ou la demande interne avec le contexte des employés et des gestionnaires."
+            },
+            {
+              "stage": "Cours",
+              "description": "Modèle requis HRMS, annuaire, e-mail, identité et modifications d'accès."
+            },
+            {
+              "stage": "Cours",
+              "description": "Répétez le compte et la permission d'autorisation par rapport aux règles de droit et d'exhaustivité."
+            },
+            {
+              "stage": "Revue",
+              "description": "Montrez le différentiel exact pour le gestionnaire, les ressources humaines et l'approbation informatique."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Provisionner ou révoquer uniquement les comptes, rôles et ressources approuvés."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivi de l'achèvement, des tâches ayant échoué, de l'accès persistant et des corrections du gestionnaire."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les corrections améliorent les groupes de rôles, les listes de contrôle et le routage des exceptions.",
+            "neverChanges": "Les rôles privilégiés, la séparation des tâches et la hiérarchie des approbations restent fixes."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Trésorerie et opérations commerciales",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Moins de ruptures entre l'accord, la confirmation et le règlement.",
+          "summary": "nora compare les termes commerciaux, suit les confirmations et prépare les actions de taux, de buvard et de nostro derrière l'approbation nommée ou dual.",
+          "inputSummary": "Offres · Confirmations · Tarifs · Buvard · Nostro · Limites · Documents commerciaux",
+          "outputSummary": "Traqueur de confirmation · Divergences · Aperçu du taux · Propreté nostro",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Offres, confirmations, tarifs, buvard, nostro, limites et documents commerciaux."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Voix + système",
+              "description": "Compare les données commerciales et prend en charge une instruction de bureau approuvée."
+            }
+          ],
+          "outputs": [
+            "Suivi de confirmation",
+            "différences",
+            "Rate preview",
+            "preuve nostalgique"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "Capturez l'accord, la confirmation ou les instructions de bureau avec le contexte de contrepartie."
+            },
+            {
+              "stage": "Cours",
+              "description": "Extrayez et comparez les termes entre les offres, les confirmations, les tarifs, les buvards et les nostro."
+            },
+            {
+              "stage": "Cours",
+              "description": "Préparez les limites d'action et de test, les montants, les seuils et l'état actuel du système."
+            },
+            {
+              "stage": "Revue",
+              "description": "Présentez l'instruction exacte à l'autorité nommée ou au double trésorerie."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Envoyez uniquement le tarif approuvé, le buvard, la confirmation ou les instructions Nostro."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivre la confirmation, le règlement, les pauses, les seuils et les corrections de contrepartie."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les divergences résolues améliorent l'extraction, l'appariement et la priorité de coupure.",
+            "neverChanges": "Les limites de transactions, de changes, de risques, de paiement et de sanctions ne peuvent pas se modifier."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbancaire & BEE",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Les données de terrain deviennent un lot propre et approuvé.",
+          "summary": "nora lit les feuilles de réunion et les formulaires, comprend les données de langues locales dictées et résout les incertitudes avant de créer des lots multi-systèmes.",
+          "inputSummary": "Données de réunion · Prêts collectifs · Recettes · KYC · Formes de régime · Réclamations",
+          "outputSummary": "Réunion Lot · Collectes Upload · Schéma Pack · File d'attente de lignes rejetées",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Données de réunion, prêts de groupe, collections, KYC, formulaires de régime et réclamations."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Appareil photo + voix",
+              "description": "Lit les documents de terrain et comprend les données de langue locale dictées."
+            }
+          ],
+          "outputs": [
+            "Lot de réunions",
+            "Téléchargement des collections",
+            "pack",
+            "File d'attente de lignes rejetées"
+          ],
+          "workflow": [
+            {
+              "stage": "Début",
+              "description": "L'agent de terrain télécharge les feuilles de réunion ou dicte les données de collecte dans la langue locale."
+            },
+            {
+              "stage": "Cours",
+              "description": "Transcrire et extraire des formulaires, puis faire correspondre les membres, les comptes et le contexte du schéma."
+            },
+            {
+              "stage": "Cours",
+              "description": "Créez les anomalies de lot et de test multi-systèmes, les valeurs attendues et les données manquantes."
+            },
+            {
+              "stage": "Revue",
+              "description": "Afficher chaque ligne et écrire pour l'approbation du champ ou de la branche."
+            },
+            {
+              "stage": "Exécuter",
+              "description": "Publiez uniquement le lot de prêt de groupe, de collecte ou de schéma approuvé."
+            },
+            {
+              "stage": "Moniteur",
+              "description": "Suivre les lignes rejetées, les accusés de réception, les corrections et l'achèvement."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Les corrections améliorent l'écriture manuscrite, la cartographie en langue locale et les vérifications des données.",
+            "neverChanges": "L'admissibilité, le crédit, le régime et l'autorité de recouvrement restent régis."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Personnage multimodal",
+      "heading": "Nora rencontre le travail sous toutes ses formes.",
+      "body": "Parlez, tapez, montrez ou connectez-vous - le même modèle de personnalité et de contrôle reste en place.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Vision qui lit le fichier",
+          "body": "Les documents d'identité, les déclarations, les formulaires signés, l'écriture manuscrite et les captures d'écran deviennent des preuves structurées."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Voix pour le moment opérationnel",
+          "body": "Les agents peuvent expliquer une exception, dicter des données de terrain ou demander un statut sans quitter le travail."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Des systèmes qui restent observables",
+          "body": "Nora lit le contexte approuvé et prépare les écritures étendues avec chaque champ visible avant l'exécution."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "autorité qui reste humaine",
+          "body": "Les approbations nommées, les doubles contrôles et les politiques fixes font partie de l'exécution, et non une note à côté."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Confiance",
+      "heading": "Montrez la course, pas une assurance.",
+      "body": "Les preuves que vos équipes de risques, de sécurité et d'audit vous demanderont.",
+      "statusLabel": "Statut de gouvernance",
+      "statusValue": "Visible",
+      "statusDetail": "Toutes les couches de contrôle sont opérationnelles",
+      "controls": [
+        {
+          "title": "contrôle double",
+          "body": "Créateur nommé / vérificateur sur les actions consécutives"
+        },
+        {
+          "title": "Verrouillage des politiques",
+          "body": "L'IA ne peut pas réécrire la politique bancaire ou réglementaire"
+        },
+        {
+          "title": "journal de vérification",
+          "body": "Saisie immuable, raisonnement, approbation et piste d'action"
+        },
+        {
+          "title": "Accès étendu",
+          "body": "Lire et écrire des autorisations au niveau de l'outil et du champ"
+        },
+        {
+          "title": "résidence sur les données",
+          "body": "Déployer à la limite approuvée de la Banque"
+        },
+        {
+          "title": "cryptage",
+          "body": "Protégé en transit et au repos"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Un personnage d'IA bancaire déployable construit avec Gabriel Operator.",
+      "exploreLabel": "Explorer",
+      "useCasesLabel": "cas d'utilisation",
+      "getStartedLabel": "Démarrer",
+      "useCaseLinks": [
+        "KYC",
+        "Crédit",
+        "Conformité",
+        "opérations"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "la prochaine course",
+      "heading": "Déployez nora dans un domaine bancaire.",
+      "body": "Choisissez le workflow, l'interface et la limite d'autorité. Mettez la première course gouvernée devant votre équipe opérationnelle.",
+      "ctaLabel": "Parlez à Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

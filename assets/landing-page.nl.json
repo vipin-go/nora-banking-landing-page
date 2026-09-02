@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "nl",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "capaciteiten",
+          "target": "capabilities"
+        },
+        {
+          "label": "gebruiksgevallen",
+          "target": "use-cases"
+        },
+        {
+          "label": "Vertrouwen",
+          "target": "trust"
+        },
+        {
+          "label": "Over",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Ontmoet Nora"
+    },
+    "badge": "Bank-AI-operaties",
+    "headline": "Maak de bank AI-native",
+    "subheadline": "Nora is een bank-AI-persona die is gebouwd met Gabriel-operator - geleverd via ingesloten chat, SDK, API of de orkestratielaag van de bank.",
+    "ctaLabel": "Praat met Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hallo. Vraag me hoe ik een bankwerkstroom kan ondersteunen of in uw operationele stack kan passen."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Persona preview",
+      "inputPlaceholder": "Vraag Nora naar een workflow...",
+      "suggestedPrompts": [
+        "KYC-workflow",
+        "het groter maken"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — Een gecontroleerd pad naar actie",
+      "heading": "agenten die handelen. Bankiers blijven de touwtjes in handen.",
+      "headingAccent": "Bankiers blijven de touwtjes in handen.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Vangen",
+          "body": "Nora verzamelt het verzoek, de brondocumenten, het beleid en de context."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Simuleren",
+          "body": "Ze bereidt eerst een veilige, beoordelingsbare versie van de workflow voor."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Verifiëren",
+          "body": "Regels, bewijs en uitzonderingen worden gecontroleerd voordat iets beweegt."
+        },
+        {
+          "icon": "check",
+          "title": "Goedkeuren",
+          "body": "De rechterbankier ziet precies wat er gaat gebeuren en waarom."
+        },
+        {
+          "icon": "star",
+          "title": "Uitvoeren",
+          "body": "Alleen goedgekeurde acties worden uitgevoerd, met een trace klaar voor audit."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Wat is Nora?",
+      "segments": [
+        {
+          "text": "Nora is een AI-personage gebouwd met Gabriel-operator",
+          "tone": "strong"
+        },
+        {
+          "text": "voor bestuurde bankactiviteiten. zet haar in",
+          "tone": "muted"
+        },
+        {
+          "text": "Eén domein met gedefinieerde kennis, tools en autoriteit",
+          "tone": "iris"
+        },
+        {
+          "text": "—Maak dan meer persona's voor andere teams, elk met zijn eigen",
+          "tone": "muted"
+        },
+        {
+          "text": "Beleid en toegangsgrenzen",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Implementatie",
+      "heading": "Maak kennis met de bank waar het werk al plaatsvindt.",
+      "body": "Begin met een embedded ervaring of verbind NORA rechtstreeks met de operationele stack van de bank.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "Ingesloten chat",
+          "body": "Plaats Nora in de portals en werkruimten die bankiers al gebruiken."
+        },
+        {
+          "code": "SDK",
+          "title": "Ervaring in eigendom van banken",
+          "body": "Gebruik de SDK om Nora in de eigen interface en workflow van de bank te vormen."
+        },
+        {
+          "code": "API",
+          "title": "Persona als dienst",
+          "body": "Bel Nora vanuit producten, operationele tools, mobiele apps of gebeurtenisgestuurde stromen."
+        },
+        {
+          "code": "ORCH",
+          "title": "orkestratie laag",
+          "body": "Verbind Nora als een bestuurde agent binnen de bestaande automatiseringsstack van de bank."
+        }
+      ],
+      "personaLabel": "nora · bankieren ai-personage",
+      "platformLabel": "Gebouwd + bestuurd met Gabriel-operator",
+      "boundaryItems": [
+        "Door de bank goedgekeurde kennis",
+        "Scope-tools",
+        "vast beleid",
+        "Benoemde goedkeuringen"
+      ],
+      "note": "Eén bank kan veel domeinpersonages inzetten - Nora voor KYC, NORA voor krediet, NORA voor operaties - terwijl de gegevens, tools en autoriteit van elke persona expliciet worden begrensd."
+    },
+    "useCases": {
+      "kicker": "04 — Use-cases",
+      "heading": "One Persona Model 8 plaatsen om te beginnen.",
+      "subheading": "Kies één domein voor de eerste implementatie van NORA; Uitbreiden alleen wanneer het bedrijfsmodel is bewezen.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC & Onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "Van documenten naar een goedgekeurd CBS-record.",
+          "summary": "Nora leest ID's en formulieren, controleert CKYC en CBS, legt mismatches uit en bereidt vervolgens het exacte klantrecord voor voor Maker/Checker-goedkeuring.",
+          "inputSummary": "Toepassingen · CKYC · Identiteitsdocumenten · CBS · KYC-beleid",
+          "outputSummary": "CKYC Match · Ontbrekende velden · CBS Creation Preview · Evidence Pack",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "toepassingen, CKYC, identiteitsdocumenten, CBS en KYC-beleid."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Visie + chat",
+              "description": "Leest identiteitsbewijs, lost mismatches op en legt het voorgestelde record uit."
+            }
+          ],
+          "outputs": [
+            "CKYC-wedstrijd",
+            "Ontbrekende velden",
+            "Preview van CBS-creatie",
+            "bewijspakket"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Officer uploadt de applicatie en ID's, of vraagt Nora om de klant aan boord te krijgen."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Extraheer identiteitsvelden, vergelijk CKYC en CBS en modelleer ontbrekende gegevens of mismatches."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Bouw de voorgestelde CBS-record en speel de volledigheid en dubbele controles op."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Toon het bewijs en exacte record voor officier en maker/checker goedkeuring."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "Maak of update alleen de goedgekeurde CBS-velden en dien het bewijspakket in."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg de voltooiing, afwijzingen, uitzonderingen en officierscorrecties voor de volgende run."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Officiercorrecties verbeteren OCR, naam/adres normalisatie en fuzzy matching.",
+            "neverChanges": "KYC-beleid, verplichte velden en goedkeuringsautoriteit blijven geregeerd."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Leningen & krediet ops",
+          "mode": "VISION + VOICE",
+          "outcome": "Een volledig kredietdossier, klaar voor de autoriteit.",
+          "summary": "NORA stelt bureau, aanvraag en financiële context samen in een dossier van de kredietnemer, memo van afwijkingen en sanctieontwerp - zonder kredietautoriteit uit te gaan.",
+          "inputSummary": "Toepassing · Bureau · Financiëlen · Afwijkingsbeleid · LOS / DMS",
+          "outputSummary": "Lenersdossier · Afwijkingsmemo · Sanctieontwerp · Uitbetalingsvoorbeeld",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Toepassing, Bureau, Financials, afwijkingsbeleid, LOS en DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Visie + stem",
+              "description": "Leest het kredietdossier en ondersteunt een beoordeling van een natuurlijke taalfunctionaris."
+            }
+          ],
+          "outputs": [
+            "lenerdossier",
+            "afwijkingsmemo",
+            "sanctie ontwerp",
+            "Uitbetalingsvoorbeeld"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Leg de aanvraag, financiële documenten, bureaugegevens en officiersverzoeken vast."
+            },
+            {
+              "stage": "Rennen",
+              "description": "normaliseer cijfers, vat de geschiedenis van het bureau samen en modelleer elke beleidsafwijking."
+            },
+            {
+              "stage": "Rennen",
+              "description": "samenstellen van het dossier, sanctieontwerp en uitbetalingsvoorbeeld; Voer beleidscontroles opnieuw uit."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Huidige voorwaarden, afwijkingen en bewijs aan de genoemde kredietautoriteit."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "Schrijf de goedgekeurde sanctie- of uitbetalingsstatus en dien het pakket in in DMS."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Track status, turnaround, downstream-uitzonderingen en autoriteitsbewerkingen."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Credit-officer bewerkingen verbeteren samenvattingen, documentcontroles en prioritering.",
+            "neverChanges": "Score-cut-offs, LTV/DTI, prijsstelling en sanctiebevoegdheden kunnen niet zelf veranderen."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Compliance, AML en rapportage",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Elke indiening begint met het bewijs bijgevoegd.",
+          "summary": "Nora assembleert transacties, KYC, Watchlists en regels in first-pass alert triage, retourconcepten en inzendingsvoorbeelden voor nalevingsbeoordeling.",
+          "inputSummary": "Transacties · Klant KYC · Waarschuwingen · Watchlists · Regelgevingsregels",
+          "outputSummary": "Alert Triage · Retourconcept · Verhalend · CKYC-batch · Bewijsbundel",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Transacties, KYC-klanten, waarschuwingen, volglijsten en regelgevende regels."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + systeem",
+              "description": "Combineert gesprekken met beheerste toegang tot compliance systemen."
+            }
+          ],
+          "outputs": [
+            "Alert-triage",
+            "retourconcept",
+            "Verhaal",
+            "CKYC-batch",
+            "Bewijs bundel"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Leg een indieningsverzoek of waarschuwing vast met de context van de klant, transactie en watchlist."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Pas vaste nalevingsregels toe en modelleer de Alert-, Return- of CKYC-batch."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Stel de verhalende en bewijsbundel samen; Test volledigheid en consistentie."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Toon elk voorgesteld veld en onopgeloste onzekerheid aan de Compliance Officer."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "fase of dien alleen de door de officier goedgekeurde terugkeer, verhalende of CKYC-batch in."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg dankbetuigingen, afwijzingen, indieningsstatus en het volledige auditspoor."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Disposities van analisten verbeteren het ophalen, rangschikken en conceptverhalen van het bewijs.",
+            "neverChanges": "AML-scenario's, sanctielijsten, drempels en archiveringsregels blijven vast."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Verzoening & Financiën",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Nachtelijke matching die elke pauze verklaart.",
+          "summary": "Nora matcht Switch, CBS, Settlement en GL Records, rangschikt residuen en legt precies uit waarom een item niet verzoend blijft.",
+          "inputSummary": "Wissel van transacties · CBS Ledger · GL · Verklaringen · Afwikkelingsbestanden",
+          "outputSummary": "Matched Set · Exception Queue · GL Proof · Journal Preview · Samenvatting",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Wissel transacties, CBS-grootboek-, GL-, verklaringen- en afwikkelingsbestanden."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Systeem + Chat",
+              "description": "Komt overeen met systeemrecords en legt elk restant uit om te financieren."
+            }
+          ],
+          "outputs": [
+            "Matched set",
+            "Uitzonderingswachtrij",
+            "GL-bewijs",
+            "Voorbeeld van een dagboek",
+            "Samenvatting"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Begin met de nachtelijke trigger- en Inest Switch-, CBS-, GL- en afwikkelingsrecords."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Run exact, regel en relatiematching; Modeltiming en referentieverschillen."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Test suggesties voor residuele overeenkomsten en bereid het voorbeeld van het journaal of de aanpassing voor."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Leg elk dubbelzinnig item uit en toon de voorgestelde boeking aan financiering."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "Wis of plaats alleen de door de financiële instantie goedgekeurde aanpassing."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg pauzes, veroudering, herhaling van de volgende dag en geaccepteerde of afgewezen suggesties."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Geaccepteerde suggesties verbeteren de rangschikking van referenties en uitzonderingen.",
+            "neverChanges": "Boekhoudkundig beleid, materialiteit en boekingscontroles blijven geregeerd."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Klantenservice en collecties",
+          "mode": "VOICE + CHAT",
+          "outcome": "Los het gesprek op met het account in beeld.",
+          "summary": "Nora begrijpt natuurlijke conversatie, haalt de klantcontext op en bereidt reacties, beloften-om-te-pay en schikkingen voor met een drempelwaarde.",
+          "inputSummary": "Klant 360 · Accounts · Case historie · Beleid · Invaliditeit · PTP",
+          "outputSummary": "Casusoverzicht · Statusantwoord · PTP-concept · Afwikkelingsbrief · Routing",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Klant 360, accounts, casegeschiedenis, beleid, delinquentie en PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Stem + chat",
+              "description": "Begrijpt het klantgesprek met accountcontext in zicht."
+            }
+          ],
+          "outputs": [
+            "Casusoverzicht",
+            "Statusantwoord",
+            "PTP-concept",
+            "afwikkelingsbrief",
+            "gerouteerd"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Leg de oproep, chat, document of casegebeurtenis vast en identificeer de intentie van de klant."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Identiteit oplossen en account-, casus-, delinquentie- en beleidscontext ophalen."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Stel het antwoord-, PTP- of afwikkelingspad op en test het aan de hand van regels voor klantimpact."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Toon de voorgestelde reactie of accountactie aan de agent op de juiste drempel."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "alleen de goedgekeurde communicatie of accountactie verzenden, bijwerken of loggen."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg de resolutie, beloften bijgehouden of verbroken, heropeningen en escalaties."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Agentbewerkingen en resultaten verbeteren de intentie, routering en de volgende beste actie.",
+            "neverChanges": "Toestemming, inzamelingsgedrag en schikkingsautoriteit blijven gehandhaafd."
+          }
+        },
+        {
+          "number": "06",
+          "label": "HR & Interne OPS",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Elke schrijnwerker klaar. Elke Leaver volledig gesloten.",
+          "summary": "Nora bereidt HRMS, e-mail, identiteit en toegangswijzigingen voor en toont vervolgens het exacte account en toestemmingsdiff vóór manager, HR en IT-goedkeuring.",
+          "inputSummary": "Werknemer · HRMS · Identiteit/access · Directory · ITSM · HR-beleid",
+          "outputSummary": "Joiner/leaver Checklist · Toestemmingsverschil · Letters · Uitzonderingen",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "medewerker, HRMS, identiteit en toegang, directory, ITSM en HR-beleid."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Chat + systeem",
+              "description": "Coördineert systeemwijzigingen via een inspecteerbare gespreksworkflow."
+            }
+          ],
+          "outputs": [
+            "Schrijnwerkers/leaver Checklist",
+            "toestemming diff",
+            "Letteren",
+            "uitzonderingen"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Leg de Joiner, Leaver of Intern Request vast met de context van de werknemer en de manager."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Model vereist HRMS, directory, e-mail, identiteit en toegangswijzigingen."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Oefen het account- en toestemmingsverschil tegen regels voor rechten en volledigheid."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Toon het exacte verschil voor manager, HR en IT-goedkeuring."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "alleen de goedgekeurde rekeningen, rollen en middelen inleveren of intrekken."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg de voltooiing, mislukte taken, aanhoudende toegang en managercorrecties."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Correcties verbeteren rolbundels, checklists en uitzonderingsroutering.",
+            "neverChanges": "Bevoorrechte rollen, scheiding van taken en goedkeuringshiërarchie blijven gefixeerd."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Schatkist & Handel Ops",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Minder pauzes tussen deal, bevestiging en afwikkeling.",
+          "summary": "Nora vergelijkt handelsvoorwaarden, houdt bevestigingen bij en bereidt tarief-, blotter- en nostro-acties voor achter benoemde of dubbele treasury-goedkeuring.",
+          "inputSummary": "Aanbiedingen · Bevestigingen · Tarieven · Blotter · Nostro · Grenzen · Handelsdocumenten",
+          "outputSummary": "Confirmation Tracker · Discrepanties · Tarievoorbeeld · Nostro Proof",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Deals, bevestigingen, tarieven, blotter, nostro, limieten en handelsdocumenten."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Spraak + systeem",
+              "description": "Vergelijkt handelsgegevens en ondersteunt een goedgekeurde bureauinstructie."
+            }
+          ],
+          "outputs": [
+            "Bevestigingstracker",
+            "discrepanties",
+            "Tarievoorbeeld",
+            "nostrobewijs"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Leg de deal, bevestiging of bureauinstructie vast met de tegenpartijcontext."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Extraheer en vergelijk voorwaarden voor deals, bevestigingen, tarieven, blotter en nostro."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Bereid de actie- en testlimieten, bedragen, afsnijdingen en de huidige systeemstatus voor."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Presenteer de exacte instructie aan de benoemde of dubbele treasury autoriteit."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "Verstuur alleen het goedgekeurde tarief, blotter, bevestiging of nostro-instructie."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg de bevestiging, afwikkeling, pauzes, afsluitingen en tegenpartijcorrecties."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Opgeloste discrepanties verbeteren de extractie, matching en cut-off prioriteit.",
+            "neverChanges": "Handel, FX, risico, betaling en sanctielimieten kunnen niet zelf veranderen."
+          }
+        },
+        {
+          "number": "08",
+          "label": "Microbankieren & EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Veldgegevens worden een schone, goedgekeurde batch.",
+          "summary": "Nora leest vergaderbladen en -formulieren, begrijpt gedicteerde lokale taalgegevens en lost onzekerheden op voordat batches voor meerdere systemen worden gemaakt.",
+          "inputSummary": "Vergadergegevens · Groepsleningen · Collecties · KYC · Schemaformulieren · Claims",
+          "outputSummary": "Batchvergadering · Collecties uploaden · Schemapakket · Afgewezen rijenwachtrij",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Vergadergegevens, groepsleningen, collecties, KYC, schemaformulieren en claims."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Camera + stem",
+              "description": "Leest velddocumenten en begrijpt gedicteerde lokale taalgegevens."
+            }
+          ],
+          "outputs": [
+            "Vergaderbatch",
+            "Collecties Uploaden",
+            "Schemapakket",
+            "Wachtrij met afgewezen rij"
+          ],
+          "workflow": [
+            {
+              "stage": "Begin",
+              "description": "Field Officer uploadt vergaderbladen of dicteert verzamelingsgegevens in de lokale taal."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Transcribeer en extraheer formulieren en koppel vervolgens leden, accounts en schemacontext."
+            },
+            {
+              "stage": "Rennen",
+              "description": "Bouw de batch- en testafwijkingen, verwachte waarden en ontbrekende gegevens van het multisysteem."
+            },
+            {
+              "stage": "Recensie",
+              "description": "Toon elke rij en voorgesteld schrijven voor goedkeuring van veld- of filiaalmedewerkers."
+            },
+            {
+              "stage": "Uitvoeren",
+              "description": "Plaats alleen de goedgekeurde groepslening, verzameling of schema-batch."
+            },
+            {
+              "stage": "Monitor",
+              "description": "Volg afgewezen rijen, erkenningen, correcties en voltooiing."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Correcties verbeteren het handschrift, het in kaart brengen van de lokale taal en het controleren van gegevens.",
+            "neverChanges": "In aanmerking te komen voor de in aanmerking te komen, krediet-, regelings- en incassoautoriteiten blijven."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Multimodale persona",
+      "heading": "Nora voldoet aan het werk in elke vorm.",
+      "body": "Praat, typ, toon of maak verbinding - Hetzelfde persona en controlemodel blijven op hun plaats.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Visie die het bestand leest",
+          "body": "Identiteitsdocumenten, verklaringen, ondertekende formulieren, handschrift en screenshots worden gestructureerd bewijs."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "stem voor het operationele moment",
+          "body": "Officieren kunnen een uitzondering uitleggen, veldgegevens dicteren of om een status vragen zonder het werk te verlaten."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Systemen die waarneembaar blijven",
+          "body": "Nora leest goedgekeurde context en bereidt Scoped Writes voor met elk veld dat zichtbaar is voor de uitvoering."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "gezag dat menselijk blijft",
+          "body": "Genoemde goedkeuringen, dual control en vaste beleidspoorten maken deel uit van de run - geen notitie ernaast."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Vertrouwen",
+      "heading": "Toon de run, geen geruststelling.",
+      "body": "Het bewijs dat uw risico-, beveiligings- en auditteams zullen vragen.",
+      "statusLabel": "Bestuursstatus",
+      "statusValue": "Zichtbaar",
+      "statusDetail": "Alle controlelagen operationeel",
+      "controls": [
+        {
+          "title": "Dual Control",
+          "body": "Named Maker / Checker op consequente acties"
+        },
+        {
+          "title": "Beleidssloten",
+          "body": "AI kan het bank- of regelgevend beleid niet herschrijven"
+        },
+        {
+          "title": "Auditlogboek",
+          "body": "Onveranderlijke input, redenering, goedkeuring en actiespoor"
+        },
+        {
+          "title": "Scoped-toegang",
+          "body": "Lees- en schrijfmachtigingen op tool- en veldniveau"
+        },
+        {
+          "title": "Gegevensverblijf",
+          "body": "Implementeren op de goedgekeurde grens van de bank"
+        },
+        {
+          "title": "versleuteling",
+          "body": "beschermd tijdens het transport en in rust"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Een inzetbare bank-AI-personage in het bankwezen gebouwd met Gabriel-operator.",
+      "exploreLabel": "Onderzoeken",
+      "useCasesLabel": "gebruiksgevallen",
+      "getStartedLabel": "Begin",
+      "useCaseLinks": [
+        "KYC",
+        "Credit",
+        "Naleving",
+        "Verrichtingen"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "De volgende run",
+      "heading": "NORA in één bankdomein implementeren.",
+      "body": "Kies de workflow, de interface en de autoriteitsgrens. Zet de eerste geregeerde run voor uw operationele team.",
+      "ctaLabel": "Praat met Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}

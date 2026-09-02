@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "language": "id",
+  "regionKey": null,
+  "sourceRevision": "55472888b0e35d83f5d08968ef40ded09f73b47a4880eb191e06bd9cee1ae275",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "initial",
+      "navItems": [
+        {
+          "label": "kemampuan",
+          "target": "capabilities"
+        },
+        {
+          "label": "kasus penggunaan",
+          "target": "use-cases"
+        },
+        {
+          "label": "Kepercayaan",
+          "target": "trust"
+        },
+        {
+          "label": "Tentang",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "Temui Nora"
+    },
+    "badge": "Operasi AI Perbankan",
+    "headline": "Jadikan bank ai-asli",
+    "subheadline": "Nora adalah persona AI perbankan yang dibangun dengan Gabriel Operator—dikirimkan melalui Chatting, SDK, API, atau lapisan orkestrasi bank.",
+    "ctaLabel": "berbicara dengan Nora",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Halo. Tanyakan kepada saya bagaimana saya dapat mendukung alur kerja perbankan atau masuk ke dalam tumpukan operasi Anda."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Pratinjau Persona",
+      "inputPlaceholder": "Tanyakan pada Nora tentang alur kerja…",
+      "suggestedPrompts": [
+        "Alur Kerja KYC",
+        "Integrasi"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — jalan terkontrol menuju tindakan",
+      "heading": "agen yang bertindak. Bankir tetap memegang kendali.",
+      "headingAccent": "Bankir tetap memegang kendali.",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "Menangkap",
+          "body": "Nora mengumpulkan permintaan, dokumen sumber, kebijakan, dan konteksnya."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Pura-pura",
+          "body": "Dia menyiapkan versi alur kerja yang aman dan dapat ditinjau terlebih dahulu."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Memeriksa",
+          "body": "Aturan, bukti, dan pengecualian diperiksa sebelum sesuatu bergerak."
+        },
+        {
+          "icon": "check",
+          "title": "Menyetujui",
+          "body": "Bankir yang tepat melihat dengan tepat apa yang akan terjadi dan mengapa."
+        },
+        {
+          "icon": "star",
+          "title": "Menjalankan",
+          "body": "Hanya tindakan yang disetujui yang dijalankan, dengan jejak siap untuk diaudit."
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — Apa itu Nora?",
+      "segments": [
+        {
+          "text": "Nora adalah salah satu persona AI yang dibangun dengan operator Gabriel",
+          "tone": "strong"
+        },
+        {
+          "text": "untuk operasi perbankan yang diatur. menyebarkannya ke",
+          "tone": "muted"
+        },
+        {
+          "text": "satu domain dengan pengetahuan, alat, dan otoritas yang ditentukan",
+          "tone": "iris"
+        },
+        {
+          "text": "—lalu buat lebih banyak persona untuk tim lain, masing-masing dengan sendiri",
+          "tone": "muted"
+        },
+        {
+          "text": "Batas Kebijakan dan Akses",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — Penerapan",
+      "heading": "Temui bank tempat pekerjaan sudah terjadi.",
+      "body": "Mulailah dengan pengalaman tertanam atau hubungkan Nora langsung ke tumpukan operasi bank.",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "obrolan tertanam",
+          "body": "Tempatkan Nora di dalam portal dan ruang kerja yang sudah digunakan bankir."
+        },
+        {
+          "code": "SDK",
+          "title": "Pengalaman yang dimiliki bank",
+          "body": "Gunakan SDK untuk membentuk Nora menjadi antarmuka dan alur kerja bank sendiri."
+        },
+        {
+          "code": "API",
+          "title": "Persona sebagai layanan",
+          "body": "Hubungi Nora dari produk, alat operasi, aplikasi seluler, atau aliran berbasis peristiwa."
+        },
+        {
+          "code": "ORCH",
+          "title": "lapisan orkestrasi",
+          "body": "Hubungkan Nora sebagai agen yang diatur di dalam tumpukan otomatisasi bank yang ada."
+        }
+      ],
+      "personaLabel": "Nora · Persona AI Perbankan",
+      "platformLabel": "Dibangun + diatur dengan operator Gabriel",
+      "boundaryItems": [
+        "Pengetahuan yang disetujui bank",
+        "Alat yang dicakup",
+        "Kebijakan tetap",
+        "Persetujuan bernama"
+      ],
+      "note": "Satu bank dapat menerapkan banyak persona domain—Nora untuk KYC, Nora untuk kredit, Nora untuk operasi—sambil menjaga data, alat, dan otoritas setiap persona dibatasi secara eksplisit."
+    },
+    "useCases": {
+      "kicker": "04 — Kasus Penggunaan",
+      "heading": "Satu Persona Model 8 tempat untuk memulai.",
+      "subheading": "Pilih satu domain untuk penerapan pertama Nora; Perluas hanya jika model operasi terbukti.",
+      "items": [
+        {
+          "number": "01",
+          "label": "KYC & Onboarding",
+          "mode": "VISION + CHAT",
+          "outcome": "Dari dokumen ke catatan CBS yang disetujui.",
+          "summary": "Nora membaca ID dan formulir, memeriksa CKYC dan CBS, menjelaskan ketidakcocokan, kemudian menyiapkan catatan pelanggan yang tepat untuk pembuat /checker.",
+          "inputSummary": "Aplikasi · CKYC · Dokumen Identitas · CBS · Kebijakan KYC",
+          "outputSummary": "Pertandingan CKYC · Bidang yang Hilang · Pratinjau Pembuatan CBS · Paket Bukti",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Aplikasi, CKYC, Dokumen Identitas, CBS, dan Kebijakan KYC."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Visi + obrolan",
+              "description": "Membaca bukti identitas, menyelesaikan ketidakcocokan, dan menjelaskan catatan yang diusulkan."
+            }
+          ],
+          "outputs": [
+            "Pertandingan CKYC",
+            "Bidang yang hilang",
+            "Pratinjau pembuatan CBS",
+            "paket bukti"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Petugas mengunggah aplikasi dan ID, atau meminta Nora untuk bergabung dengan pelanggan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Ekstrak bidang identitas, bandingkan CKYC dan CBS, dan modelkan data yang hilang atau ketidakcocokan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Buat catatan CBS yang diusulkan dan kelengkapan ulang dan pemeriksaan duplikat."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Tunjukkan bukti dan catatan pasti untuk persetujuan petugas dan pembuat/checker."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Buat atau perbarui hanya bidang CBS yang disetujui dan ajukan paket bukti."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak penyelesaian, penolakan, pengecualian, dan koreksi petugas untuk lari berikutnya."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Koreksi petugas meningkatkan OCR, nama/address normalisasi dan pencocokan fuzzy.",
+            "neverChanges": "Kebijakan KYC, bidang wajib dan otoritas persetujuan tetap diatur."
+          }
+        },
+        {
+          "number": "02",
+          "label": "Pinjaman & Operasi Kredit",
+          "mode": "VISION + VOICE",
+          "outcome": "file kredit lengkap, siap untuk otoritas.",
+          "summary": "Nora mengumpulkan Biro, Aplikasi dan Konteks Keuangan ke dalam berkas peminjam, memo penyimpangan dan draf sanksi—tanpa mengambil otoritas kredit.",
+          "inputSummary": "Aplikasi · Biro · Keuangan · Kebijakan Penyimpangan · LOS / DMS",
+          "outputSummary": "Berkas Peminjam · Memo Penyimpangan · Draf Sanksi · Pratinjau Pencairan",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Aplikasi, Biro, Keuangan, Kebijakan Penyimpangan, LOS, dan DMS."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Penglihatan + Suara",
+              "description": "membaca file kredit dan mendukung tinjauan petugas bahasa alami."
+            }
+          ],
+          "outputs": [
+            "berkas peminjam",
+            "memo penyimpangan",
+            "Draf Sanksi",
+            "Pratinjau Pencairan"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Tangkap aplikasi, dokumen keuangan, data biro dan permintaan petugas."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Normalisasi angka, rangkum sejarah biro dan modelkan setiap penyimpangan kebijakan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Merakit pratinjau berkas, draf sanksi, dan pencairan; Jalankan kembali pemeriksaan kebijakan."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Syarat, penyimpangan, dan bukti yang ada pada otoritas kredit yang disebutkan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Tulis sanksi atau pencairan yang disetujui dan ajukan paket dalam DMS."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak status, perputaran, pengecualian hilir, dan pengeditan otoritas."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Pengeditan kredit-petugas meningkatkan ringkasan, pemeriksaan dokumen, dan prioritas.",
+            "neverChanges": "Skor batas, LTV/DTI, harga dan kekuatan sanksi tidak dapat berubah sendiri."
+          }
+        },
+        {
+          "number": "03",
+          "label": "Kepatuhan, AML & Pelaporan",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Setiap pengajuan dimulai dengan bukti terlampir.",
+          "summary": "Nora mengumpulkan transaksi, KYC, daftar pantauan, dan aturan menjadi triase peringatan pertama, draf pengembalian, dan pratinjau pengiriman untuk peninjauan kepatuhan.",
+          "inputSummary": "Transaksi · KYC Pelanggan · Peringatan · Daftar Pantauan · Peraturan Peraturan",
+          "outputSummary": "Triase peringatan · Kembali draf · Narasi · Batch CKYC · Bundel bukti",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "transaksi, KYC pelanggan, peringatan, daftar pantauan, dan aturan peraturan."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "obrolan + sistem",
+              "description": "Menggabungkan percakapan dengan akses yang diatur ke sistem kepatuhan."
+            }
+          ],
+          "outputs": [
+            "triase peringatan",
+            "DRAFT KEMBALI",
+            "Cerita",
+            "Batch CKYC",
+            "Bundel bukti"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Tangkap permintaan pengarsipan atau peringatan dengan konteks pelanggan, transaksi, dan daftar pantauan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Menerapkan aturan kepatuhan tetap dan memodelkan kumpulan peringatan, pengembalian, atau CKYC."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Kumpulkan bundel narasi dan bukti; Kelengkapan dan konsistensi tes."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Tunjukkan setiap bidang yang diusulkan dan ketidakpastian yang belum terselesaikan kepada Petugas Kepatuhan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "panggung atau kirimkan hanya kelompok pengembalian, narasi, atau CKYC yang disetujui petugas."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak pengakuan, penolakan, status pengarsipan, dan jejak audit lengkap."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Disposisi analis meningkatkan pengambilan bukti, peringkat dan draft narasi.",
+            "neverChanges": "Skenario AML, daftar sanksi, ambang batas, dan aturan pengarsipan tetap ditetapkan."
+          }
+        },
+        {
+          "number": "04",
+          "label": "Rekonsiliasi & Keuangan",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "Pencocokan malam yang menjelaskan setiap istirahat.",
+          "summary": "Nora mencocokkan Switch, CBS, Settlement, dan catatan GL, memberi peringkat residu dan menjelaskan dengan tepat mengapa suatu item tetap tidak berdamai.",
+          "inputSummary": "Beralih Transaksi · Buku Besar CBS · GL · Pernyataan · File Penyelesaian",
+          "outputSummary": "Set yang cocok · Antrian Pengecualian · Bukti GL · Pratinjau Jurnal · Ringkasan",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Beralih transaksi, buku besar CBS, GL, pernyataan, dan file penyelesaian."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Sistem + obrolan",
+              "description": "Mencocokkan catatan sistem dan menjelaskan setiap residual ke keuangan."
+            }
+          ],
+          "outputs": [
+            "Set yang cocok",
+            "Antrian Pengecualian",
+            "Bukti GL",
+            "Pratinjau jurnal",
+            "Ringkasan"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Mulai pada pemicu malam dan saklar Ingest, CBS, GL, dan catatan penyelesaian."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Jalankan pencocokan tepat, aturan dan hubungan; Model waktu dan perbedaan referensi."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Uji saran kecocokan residual dan siapkan jurnal atau pratinjau penyesuaian."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Jelaskan setiap item yang ambigu dan tunjukkan postingan yang diusulkan untuk membiayai."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "jelas atau posting hanya penyesuaian yang disetujui oleh Otoritas Keuangan."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak jeda, penuaan, pengulangan hari berikutnya dan saran yang diterima atau ditolak."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Saran yang diterima meningkatkan pencocokan referensi dan peringkat pengecualian.",
+            "neverChanges": "Kebijakan akuntansi, materialitas dan kontrol posting tetap diatur."
+          }
+        },
+        {
+          "number": "05",
+          "label": "Layanan & Koleksi Pelanggan",
+          "mode": "VOICE + CHAT",
+          "outcome": "Selesaikan percakapan dengan akun yang terlihat.",
+          "summary": "Nora memahami percakapan alami, mengambil konteks pelanggan dan menyiapkan tanggapan, janji untuk membayar, dan penyelesaian dengan serah terima ambang batas.",
+          "inputSummary": "Nasabah 360 · Akun · Riwayat Kasus · Kebijakan · Kenakalan · PTP",
+          "outputSummary": "Ringkasan Kasus · Jawaban Status · Draf PTP · Surat Penyelesaian · Perutean",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Pelanggan 360, Akun, Riwayat Kasus, Kebijakan, Kenakalan, dan PTP."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Suara + obrolan",
+              "description": "Memahami percakapan pelanggan dengan konteks akun dalam pandangan."
+            }
+          ],
+          "outputs": [
+            "Ringkasan kasus",
+            "jawaban status",
+            "Draf PTP",
+            "surat penyelesaian",
+            "Rute"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Menangkap panggilan, obrolan, dokumen atau peristiwa kasus dan mengidentifikasi maksud pelanggan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Selesaikan identitas dan ambil akun, kasus, kenakalan, dan konteks kebijakan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Draf jawaban, PTP atau jalur penyelesaian dan uji terhadap aturan dampak pelanggan."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Tunjukkan tanggapan atau tindakan akun yang diusulkan kepada agen di ambang batas kanan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Kirim, perbarui, atau log hanya tindakan komunikasi atau akun yang disetujui."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak resolusi, janji ditepati atau dilanggar, pembukaan kembali dan eskalasi."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Pengeditan dan hasil agen meningkatkan niat, perutean, dan tindakan terbaik berikutnya.",
+            "neverChanges": "Persetujuan, perilaku penagihan dan otoritas penyelesaian tetap ditegakkan."
+          }
+        },
+        {
+          "number": "06",
+          "label": "SDM & Operasi Internal",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "Setiap joiner siap. Setiap cuti sepenuhnya tertutup.",
+          "summary": "Nora menyiapkan HRMS, email, identitas, dan perubahan akses, kemudian menunjukkan akun yang tepat dan perbedaan izin sebelum persetujuan Manajer, SDM, dan TI.",
+          "inputSummary": "Karyawan · HRMS · Identitas/Akses · Direktori · ITSM · Kebijakan SDM",
+          "outputSummary": "Daftar Periksa Joiner/Leaver · Izin Diff · Surat · Pengecualian",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Karyawan, HRMS, Identitas dan Akses, Direktori, ITSM, dan Kebijakan SDM."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "obrolan + sistem",
+              "description": "Mengkoordinasikan perubahan sistem melalui alur kerja percakapan yang dapat diperiksa."
+            }
+          ],
+          "outputs": [
+            "Daftar Periksa Joiner/Leaver",
+            "perbedaan izin",
+            "Kesusasteraan",
+            "Pengecualian"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Tangkap joiner, leaver atau permintaan internal dengan konteks karyawan dan manajer."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Model yang diperlukan HRMS, direktori, email, identitas, dan perubahan akses."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Latih akun dan perbedaan izin terhadap aturan hak dan kelengkapan."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Tunjukkan perbedaan yang tepat untuk persetujuan Manajer, SDM dan TI."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "menyediakan atau mencabut hanya akun, peran, dan sumber daya yang disetujui."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak penyelesaian, tugas yang gagal, akses yang tersisa, dan koreksi manajer."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Koreksi meningkatkan bundel peran, daftar periksa, dan perutean pengecualian.",
+            "neverChanges": "Peran istimewa, pemisahan tugas dan hierarki persetujuan tetap."
+          }
+        },
+        {
+          "number": "07",
+          "label": "Operasi Treasury & Perdagangan",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "Lebih sedikit jeda antara kesepakatan, konfirmasi dan penyelesaian.",
+          "summary": "Nora membandingkan persyaratan perdagangan, melacak konfirmasi dan menyiapkan tingkat, blotter, dan tindakan nostro di balik persetujuan perbendaharaan yang disebutkan atau ganda.",
+          "inputSummary": "Penawaran · Konfirmasi · Tarif · Blotter · Nostro · Batas · Trade Documents",
+          "outputSummary": "Pelacak Konfirmasi · Ketidaksesuaian · Tingkat Pratinjau · Bukti Nostro",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Kesepakatan, konfirmasi, tarif, blotter, nostro, batas, dan dokumen perdagangan."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Suara + Sistem",
+              "description": "Membandingkan data perdagangan dan mendukung instruksi meja yang disetujui."
+            }
+          ],
+          "outputs": [
+            "Pelacak Konfirmasi",
+            "Perbedaan",
+            "Pratinjau Nilai",
+            "Bukti Nostro"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Tangkap kesepakatan, konfirmasi, atau instruksi meja dengan konteks rekanan."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Ekstrak dan bandingkan persyaratan di seluruh penawaran, konfirmasi, tarif, blotter, dan nostro."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Siapkan batas tindakan dan uji, jumlah, cut-off, dan status sistem saat ini."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "menyajikan instruksi yang tepat kepada otoritas perbendaharaan yang disebutkan atau ganda."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Kirim hanya tarif yang disetujui, blotter, konfirmasi atau instruksi nostro."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak konfirmasi, penyelesaian, istirahat, cut-off, dan koreksi rekanan."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Perbedaan yang diselesaikan meningkatkan ekstraksi, pencocokan, dan prioritas cut-off.",
+            "neverChanges": "Dealing, FX, risiko, pembayaran, dan batasan sanksi tidak dapat diubah sendiri."
+          }
+        },
+        {
+          "number": "08",
+          "label": "microbanking & EEB",
+          "mode": "CAMERA + VOICE",
+          "outcome": "Data lapangan menjadi batch yang bersih dan disetujui.",
+          "summary": "Nora membaca lembar dan formulir pertemuan, memahami data bahasa lokal yang ditentukan dan menyelesaikan ketidakpastian sebelum membuat batch multi-sistem.",
+          "inputSummary": "Data Rapat · Pinjaman Grup · Koleksi · KYC · Formulir Skema · Klaim",
+          "outputSummary": "Batch Rapat · Unggah Koleksi · Paket Skema · Antrian baris ditolak",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "Data pertemuan, pinjaman grup, koleksi, KYC, formulir skema, dan klaim."
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "Kamera + suara",
+              "description": "Membaca dokumen lapangan dan memahami data bahasa lokal yang ditentukan."
+            }
+          ],
+          "outputs": [
+            "batch pertemuan",
+            "Unggah Koleksi",
+            "Paket Skema",
+            "Antrian baris ditolak"
+          ],
+          "workflow": [
+            {
+              "stage": "Mulai",
+              "description": "Petugas lapangan mengunggah lembar pertemuan atau mendiktekan pengumpulan data dalam bahasa lokal."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Transkripsi dan ekstrak formulir, lalu cocokkan anggota, akun, dan konteks skema."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Bangun batch multi-sistem dan uji anomali, nilai yang diharapkan, dan data yang hilang."
+            },
+            {
+              "stage": "Ulasan",
+              "description": "Tampilkan setiap baris dan usulkan menulis untuk persetujuan petugas lapangan atau cabang."
+            },
+            {
+              "stage": "Menjalankan",
+              "description": "Posting hanya kelompok-pinjaman, pengumpulan atau skema yang disetujui."
+            },
+            {
+              "stage": "Mengamat-amati",
+              "description": "Lacak baris, pengakuan, koreksi, dan penyelesaian yang ditolak."
+            }
+          ],
+          "selfLearning": {
+            "learns": "Koreksi meningkatkan tulisan tangan, pemetaan bahasa lokal, dan pemeriksaan data.",
+            "neverChanges": "Kelayakan, kredit, skema dan otoritas penagihan tetap diatur."
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — Persona Multimodal",
+      "heading": "Nora memenuhi pekerjaan dalam segala bentuk.",
+      "body": "Bicara, ketik, tunjukkan, atau hubungkan—model persona dan kontrol yang sama tetap di tempatnya.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "Visi yang membaca file",
+          "body": "Dokumen identitas, pernyataan, formulir yang ditandatangani, tulisan tangan, dan tangkapan layar menjadi bukti terstruktur."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "Suara untuk saat operasional",
+          "body": "Petugas dapat menjelaskan pengecualian, mendikte data lapangan atau meminta status tanpa meninggalkan pekerjaan."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "Sistem yang dapat diamati",
+          "body": "Nora membaca konteks yang disetujui dan menyiapkan penulisan tercakup dengan setiap bidang yang terlihat sebelum eksekusi."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "otoritas yang tetap manusia",
+          "body": "Persetujuan bernama, kontrol ganda, dan gerbang kebijakan tetap adalah bagian dari jalankan—bukan catatan di sampingnya."
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — Kepercayaan",
+      "heading": "Tunjukkan larinya, bukan kepastian.",
+      "body": "Bukti yang akan diminta oleh tim risiko, keamanan, dan audit Anda.",
+      "statusLabel": "Status pemerintahan",
+      "statusValue": "Terlihat",
+      "statusDetail": "Semua lapisan kontrol operasional",
+      "controls": [
+        {
+          "title": "Kontrol Ganda",
+          "body": "Dinamakan pembuat / pemeriksa pada tindakan konsekuensial"
+        },
+        {
+          "title": "Kunci Kebijakan",
+          "body": "AI tidak dapat menulis ulang kebijakan perbankan atau peraturan"
+        },
+        {
+          "title": "Log Audit",
+          "body": "Input, penalaran, persetujuan, dan jejak tindakan yang tidak dapat diubah"
+        },
+        {
+          "title": "Akses tercakup",
+          "body": "Membaca dan menulis izin di tingkat alat dan bidang"
+        },
+        {
+          "title": "Residensi Data",
+          "body": "Diteruskan ke batas yang disetujui Bank"
+        },
+        {
+          "title": "Enkripsi",
+          "body": "dilindungi dalam perjalanan dan saat istirahat"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Persona AI perbankan yang dapat digunakan dibangun dengan operator Gabriel.",
+      "exploreLabel": "Menjelajah",
+      "useCasesLabel": "kasus penggunaan",
+      "getStartedLabel": "Mulai",
+      "useCaseLinks": [
+        "KYC",
+        "Kredit",
+        "Pemenuhan",
+        "Operasi"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "lari berikutnya",
+      "heading": "Menyebarkan Nora dalam satu domain perbankan.",
+      "body": "Pilih alur kerja, antarmuka, dan batas otoritas. Letakkan lari pertama yang diatur di depan tim operasi Anda.",
+      "ctaLabel": "berbicara dengan Nora"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png"
+  },
+  "generatedAt": "2026-09-01T15:39:42.249Z"
+}
