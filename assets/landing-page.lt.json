@@ -188,7 +188,7 @@
       "note": "Vienas bankas gali diegti daug domeno asmenybių – „Nora for KYC“, „Nora for Credit“, „Nora“ – operacijoms – ir kiekvieno asmens duomenys, įrankiai ir įgaliojimai yra aiškiai apriboti."
     },
     "useCases": {
-      "kicker": "04 — Naudojimo atvejai",
+      "kicker": "04 Naudojimo atvejai",
       "heading": "„One Persona Model 8“ vietos pradėti.",
       "subheading": "Pasirinkite vieną domeną pirmajam Noros diegimui; Išplėsti tik tada, kai veiklos modelis yra įrodytas.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodalinė asmenybė",
+      "kicker": "05 Multimodalinė asmenybė",
       "heading": "Nora sutinka darbą visomis formomis.",
       "body": "Kalbėkite, įveskite, rodykite arba prisijunkite – ta pati asmenybė ir valdymo modelis lieka vietoje.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Pasitikėjimas",
+      "kicker": "06 Pasitikėjimas",
       "heading": "Parodykite bėgimą, o ne patikinimą.",
       "body": "Įrodymai, kurių paprašys jūsų rizikos, saugumo ir audito komandos.",
       "statusLabel": "Valdymo statusas",

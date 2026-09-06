@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Een gecontroleerd pad naar actie",
+      "kicker": "01 Een gecontroleerd pad naar actie",
       "heading": "agenten die handelen. Bankiers blijven de touwtjes in handen.",
       "headingAccent": "Bankiers blijven de touwtjes in handen.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Wat is Nora?",
+      "kicker": "02 Wat is Nora?",
       "segments": [
         {
           "text": "Nora is een AI-personage gebouwd met Gabriel-operator",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Maak dan meer persona's voor andere teams, elk met zijn eigen",
+          "text": ": Maak dan meer persona's voor andere teams, elk met zijn eigen",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Implementatie",
+      "kicker": "03 Implementatie",
       "heading": "Maak kennis met de bank waar het werk al plaatsvindt.",
       "body": "Begin met een embedded ervaring of verbind NORA rechtstreeks met de operationele stack van de bank.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Eén bank kan veel domeinpersonages inzetten - Nora voor KYC, NORA voor krediet, NORA voor operaties - terwijl de gegevens, tools en autoriteit van elke persona expliciet worden begrensd."
     },
     "useCases": {
-      "kicker": "04 — Use-cases",
+      "kicker": "04 Use-cases",
       "heading": "One Persona Model 8 plaatsen om te beginnen.",
       "subheading": "Kies één domein voor de eerste implementatie van NORA; Uitbreiden alleen wanneer het bedrijfsmodel is bewezen.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodale persona",
+      "kicker": "05 Multimodale persona",
       "heading": "Nora voldoet aan het werk in elke vorm.",
       "body": "Praat, typ, toon of maak verbinding - Hetzelfde persona en controlemodel blijven op hun plaats.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Vertrouwen",
+      "kicker": "06 Vertrouwen",
       "heading": "Toon de run, geen geruststelling.",
       "body": "Het bewijs dat uw risico-, beveiligings- en auditteams zullen vragen.",
       "statusLabel": "Bestuursstatus",

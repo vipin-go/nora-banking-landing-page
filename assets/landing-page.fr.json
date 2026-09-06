@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Un chemin contrôlé vers l'action",
+      "kicker": "01 Un chemin contrôlé vers l'action",
       "heading": "agents qui agissent. Les banquiers gardent le contrôle.",
       "headingAccent": "Les banquiers gardent le contrôle.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Qu'est-ce que nora ?",
+      "kicker": "02 Qu'est-ce que nora ?",
       "segments": [
         {
           "text": "Nora est un personnage d'IA construit avec Gabriel Operator",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Créez ensuite plus de personas pour d'autres équipes, chacune avec ses propres",
+          "text": ". Créez ensuite plus de personas pour d'autres équipes, chacune avec ses propres",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Déploiement",
+      "kicker": "03 Déploiement",
       "heading": "Rencontrez la banque où le travail a déjà lieu.",
       "body": "Commencez par une expérience intégrée ou connectez nora directement à la pile d'exploitation de la banque.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Une banque peut déployer de nombreux noms de domaine (NORA pour KYC, NORA pour le crédit, NORA pour les opérations) tout en conservant explicitement les données, les outils et l'autorité de chaque personnage."
     },
     "useCases": {
-      "kicker": "04 — Cas d'utilisation",
+      "kicker": "04 Cas d'utilisation",
       "heading": "Un modèle Persona modèle 8 pour commencer.",
       "subheading": "Choisissez un domaine pour le premier déploiement de nora ; Développez uniquement lorsque le modèle d'exploitation est prouvé.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Personnage multimodal",
+      "kicker": "05 Personnage multimodal",
       "heading": "Nora rencontre le travail sous toutes ses formes.",
       "body": "Parlez, tapez, montrez ou connectez-vous - le même modèle de personnalité et de contrôle reste en place.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Confiance",
+      "kicker": "06 Confiance",
       "heading": "Montrez la course, pas une assurance.",
       "body": "Les preuves que vos équipes de risques, de sécurité et d'audit vous demanderont.",
       "statusLabel": "Statut de gouvernance",

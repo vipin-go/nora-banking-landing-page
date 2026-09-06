@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Un percorso controllato verso l'azione",
+      "kicker": "01 Un percorso controllato verso l'azione",
       "heading": "agenti che agiscono. I banchieri mantengono il controllo.",
       "headingAccent": "I banchieri mantengono il controllo.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Cos'è Nora?",
+      "kicker": "02 Cos'è Nora?",
       "segments": [
         {
           "text": "Nora è una persona AI costruita con Gabriel Operator",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— Quindi crea più personaggi per altre squadre, ognuna con le proprie",
+          "text": ": Quindi crea più personaggi per altre squadre, ognuna con le proprie",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Distribuzione",
+      "kicker": "03 Distribuzione",
       "heading": "Incontra la banca dove già si svolge il lavoro.",
       "body": "Inizia con un'esperienza incorporata o collega Nora direttamente allo stack operativo della banca.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Una banca può distribuire molte persone di dominio, Nora per KYC, Nora per il credito, Nora per le operazioni, mantenendo esplicitamente delimitati i dati, gli strumenti e l'autorità di ogni persona."
     },
     "useCases": {
-      "kicker": "04 — Casi d'uso",
+      "kicker": "04 Casi d'uso",
       "heading": "Una persona Model 8 punti per iniziare.",
       "subheading": "Scegli un dominio per la prima distribuzione di Nora; Espandi solo quando il modello operativo è dimostrato.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Persona multimodale",
+      "kicker": "05 Persona multimodale",
       "heading": "Nora incontra il lavoro in ogni forma.",
       "body": "Parla, digita, mostra o connetti: la stessa persona e il modello di controllo rimangono al loro posto.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Fiducia",
+      "kicker": "06 Fiducia",
       "heading": "Mostra la corsa, non una rassicurazione.",
       "body": "Le prove che i tuoi team di rischio, sicurezza e audit richiederanno.",
       "statusLabel": "Stato di governance",

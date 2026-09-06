@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — O cale controlată către acțiune",
+      "kicker": "01 O cale controlată către acțiune",
       "heading": "agenții care acționează. Bancherii păstrează controlul.",
       "headingAccent": "Bancherii păstrează controlul.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Ce este Nora?",
+      "kicker": "02 Ce este Nora?",
       "segments": [
         {
           "text": "NORA este o persoană AI construită cu operatorul Gabriel",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— Apoi creați mai multe persoane pentru alte echipe, fiecare cu propriile sale",
+          "text": ". Apoi creați mai multe persoane pentru alte echipe, fiecare cu propriile sale",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Desfășurare",
+      "kicker": "03 Desfășurare",
       "heading": "Faceți cunoștință cu banca unde se întâmplă deja munca.",
       "body": "Începeți cu o experiență încorporată sau conectați Nora direct la stiva operațională a băncii.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "O bancă poate implementa multe persoane de domeniu - NORA pentru KYC, NORA pentru credit, NORA pentru operațiuni - păstrând în același timp datele, instrumentele și autoritatea fiecărei persoane limitate în mod explicit."
     },
     "useCases": {
-      "kicker": "04 — Cazuri de utilizare",
+      "kicker": "04 Cazuri de utilizare",
       "heading": "O persoană model 8 locuri de început.",
       "subheading": "Alegeți un domeniu pentru prima implementare a NORA; Extindeți numai atunci când modelul de operare este dovedit.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Persona multimodală",
+      "kicker": "05 Persona multimodală",
       "heading": "Nora întâlnește lucrarea sub toate formele.",
       "body": "Vorbește, tastați, afișați sau conectați - aceeași persoană și modelul de control rămân pe loc.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Încredere",
+      "kicker": "06 Încredere",
       "heading": "Arată alergarea, nu o asigurare.",
       "body": "Dovezile pe care le vor solicita echipele dvs. de risc, securitate și audit.",
       "statusLabel": "Statutul de guvernare",

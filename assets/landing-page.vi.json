@@ -74,7 +74,7 @@
     },
     "badge": "Hoạt động AI của Ngân hàng",
     "headline": "Làm cho ngân hàng AI-Native",
-    "subheadline": "Nora là một nhân vật AI trong ngân hàng được xây dựng với nhà điều hành Gabriel — được cung cấp thông qua trò chuyện nhúng, SDK, API hoặc lớp điều phối của ngân hàng.",
+    "subheadline": "Nora là một nhân vật AI trong ngân hàng được xây dựng với nhà điều hành Gabriel, được cung cấp thông qua trò chuyện nhúng, SDK, API hoặc lớp điều phối của ngân hàng.",
     "ctaLabel": "Nói chuyện với Nora",
     "demoConversation": [
       {
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Sau đó tạo ra nhiều cá tính hơn cho các đội khác, mỗi nhóm có",
+          "text": ": Sau đó tạo ra nhiều cá tính hơn cho các đội khác, mỗi nhóm có",
           "tone": "muted"
         },
         {
@@ -185,7 +185,7 @@
         "Chính sách cố định",
         "phê duyệt được đặt tên"
       ],
-      "note": "Một ngân hàng có thể triển khai nhiều cá nhân miền — Nora cho KYC, Nora cho tín dụng, Nora cho các hoạt động — đồng thời giữ cho dữ liệu, công cụ và thẩm quyền của mỗi người được ràng buộc một cách rõ ràng."
+      "note": "Một ngân hàng có thể triển khai nhiều cá nhân miền, such as Nora cho KYC, Nora cho tín dụng, Nora cho các hoạt động. Đồng thời giữ cho dữ liệu, công cụ và thẩm quyền của mỗi người được ràng buộc một cách rõ ràng."
     },
     "useCases": {
       "kicker": "04 - Các trường hợp sử dụng",
@@ -254,7 +254,7 @@
           "label": "Các khoản vay & tín dụng",
           "mode": "VISION + VOICE",
           "outcome": "Một hồ sơ tín dụng hoàn chỉnh, sẵn sàng cho cơ quan có thẩm quyền.",
-          "summary": "Nora tập hợp văn phòng, ứng dụng và bối cảnh tài chính thành hồ sơ của người vay, bản ghi nhớ sai lệch và dự thảo xử phạt — mà không cần phải có cơ quan tín dụng.",
+          "summary": "Nora tập hợp văn phòng, ứng dụng và bối cảnh tài chính thành hồ sơ của người vay, bản ghi nhớ sai lệch và dự thảo xử phạt, mà không cần phải có cơ quan tín dụng.",
           "inputSummary": "Ứng dụng · Cục · Tài chính · Chính sách sai lệch · LOS / DMS",
           "outputSummary": "Hồ sơ người vay · Bản ghi nhớ sai lệch · Dự thảo xử phạt · Xem trước giải ngân",
           "inputs": [
@@ -656,7 +656,7 @@
     "platform": {
       "kicker": "05 - Tính cách đa phương thức",
       "heading": "Nora đáp ứng công việc dưới mọi hình thức.",
-      "body": "Nói chuyện, gõ, hiển thị hoặc kết nối — cùng một tính cách và mô hình điều khiển giữ nguyên vị trí.",
+      "body": "Nói chuyện, gõ, hiển thị hoặc kết nối: cùng một tính cách và mô hình điều khiển giữ nguyên vị trí.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -680,7 +680,7 @@
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
           "alt": "",
           "title": "thẩm quyền vẫn là con người",
-          "body": "Các phê duyệt được đặt tên, kiểm soát kép và các cổng chính sách cố định là một phần của quá trình chạy — không phải là một lưu ý bên cạnh nó."
+          "body": "Các phê duyệt được đặt tên, kiểm soát kép và các cổng chính sách cố định là một phần của quá trình chạy, không phải là một lưu ý bên cạnh nó."
         }
       ]
     },

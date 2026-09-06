@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — En kontrolleret vej til handling",
+      "kicker": "01 En kontrolleret vej til handling",
       "heading": "agenter, der handler. Bankfolk bevarer kontrollen.",
       "headingAccent": "Bankfolk bevarer kontrollen.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Hvad er Nora?",
+      "kicker": "02 Hvad er Nora?",
       "segments": [
         {
           "text": "Nora er en AI-persona bygget med Gabriel-operatøren",
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Indsættelse",
+      "kicker": "03 Indsættelse",
       "heading": "Mød den bank, hvor arbejdet allerede foregår.",
       "body": "Start med en indlejret oplevelse eller tilslut NORA direkte til bankens driftsstak.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Én bank kan implementere mange domænepersonas – NORA for KYC, NORA for Credit, NORA til operationer – mens de holder hver personas data, værktøjer og autoritet eksplicit afgrænset."
     },
     "useCases": {
-      "kicker": "04 — Use Cases",
+      "kicker": "04 Use Cases",
       "heading": "One Persona Model 8 steder at begynde.",
       "subheading": "Vælg ét domæne til Noras første implementering; Udvid kun, når driftsmodellen er bevist.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodal persona",
+      "kicker": "05 Multimodal persona",
       "heading": "Nora møder arbejdet i enhver form.",
       "body": "tale, skrive, vise eller forbinde - den samme persona og kontrolmodel forbliver på plads.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Tillid",
+      "kicker": "06 Tillid",
       "heading": "Vis løbeturen, ikke en tryghed.",
       "body": "De beviser, din risiko, sikkerhed og revisionsteam vil bede om.",
       "statusLabel": "Styringsstatus",

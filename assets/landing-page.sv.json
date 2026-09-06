@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — En kontrollerad väg till handling",
+      "kicker": "01 En kontrollerad väg till handling",
       "heading": "agenter som agerar. Bankirer behåller kontrollen.",
       "headingAccent": "Bankirer behåller kontrollen.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Vad är Nora?",
+      "kicker": "02 Vad är Nora?",
       "segments": [
         {
           "text": "Nora är en AI-persona byggd med Gabriel-operatör",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— Skapa sedan fler personas för andra lag, var och en med sina egna",
+          "text": ": Skapa sedan fler personas för andra lag, var och en med sina egna",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Utplacering",
+      "kicker": "03 Utplacering",
       "heading": "Möt banken där arbetet redan sker.",
       "body": "Börja med en inbäddad upplevelse eller koppla Nora direkt till bankens driftstack.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "En bank kan distribuera många domänpersonas – NORA för KYC, Nora for Credit, Nora for Operations – samtidigt som den behåller varje personas data, verktyg och auktoritet uttryckligen avgränsade."
     },
     "useCases": {
-      "kicker": "04 — Användningsfall",
+      "kicker": "04 Användningsfall",
       "heading": "One Persona Model 8 platser att börja.",
       "subheading": "Välj en domän för Noras första distribution; expandera först när driftmodellen är bevisad.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodal persona",
+      "kicker": "05 Multimodal persona",
       "heading": "Nora möter arbetet i alla former.",
       "body": "Prata, skriv, visa eller anslut – samma persona och kontrollmodell stannar på plats.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Förtroende",
+      "kicker": "06 Förtroende",
       "heading": "Visa löpningen, inte en försäkran.",
       "body": "Bevisen som dina risk-, säkerhets- och revisionsteam kommer att be om.",
       "statusLabel": "styrningsstatus",

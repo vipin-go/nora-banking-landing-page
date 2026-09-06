@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Hallittu tie toimintaan",
+      "kicker": "01 Hallittu tie toimintaan",
       "heading": "agentit, jotka toimivat. pankkiirit pysyvät hallinnassa.",
       "headingAccent": "pankkiirit pysyvät hallinnassa.",
       "steps": [
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Käyttöönotto",
+      "kicker": "03 Käyttöönotto",
       "heading": "tavata pankki, jossa työ jo tapahtuu.",
       "body": "Aloita sulautetulla kokemuksella tai yhdistä Nora suoraan pankin toimintapinoon.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Yksi pankki voi ottaa käyttöön monia verkkotunnuksen henkilöitä – Nora for KYC, Nora for Credit, Nora for Operations – pitäen samalla jokaisen henkilön tiedot, työkalut ja valtuudet nimenomaisesti rajoitettuina."
     },
     "useCases": {
-      "kicker": "04 — Käyttötapaukset",
+      "kicker": "04 Käyttötapaukset",
       "heading": "Yksi Persona Model 8 -kohdasta aloittaa.",
       "subheading": "Valitse yksi verkkotunnus Noran ensimmäistä käyttöönottoa varten; Laajenna vain, kun toimintamalli on todistettu.",
       "items": [

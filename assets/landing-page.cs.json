@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Řízená cesta k akci",
+      "kicker": "01 Řízená cesta k akci",
       "heading": "agenti, kteří jednají. Bankéři zůstávají pod kontrolou.",
       "headingAccent": "Bankéři zůstávají pod kontrolou.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Co je Nora?",
+      "kicker": "02 Co je Nora?",
       "segments": [
         {
           "text": "Nora je jedna persona AI postavená s operátorem Gabriel",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— pak vytvořte více osob pro jiné týmy, z nichž každý má svůj vlastní",
+          "text": ": pak vytvořte více osob pro jiné týmy, z nichž každý má svůj vlastní",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Nasazení",
+      "kicker": "03 Nasazení",
       "heading": "Seznamte se s bankou, kde již práce probíhá.",
       "body": "Začněte s vestavěným zážitkem nebo připojte NORA přímo k operačnímu zásobníku banky.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Jedna banka může nasadit mnoho doménových osobností – Nora pro KYC, Nora pro úvěr, Nora pro operace – a zároveň ponechat data, nástroje a autoritu každé osoby výslovně ohraničené."
     },
     "useCases": {
-      "kicker": "04 — Případy použití",
+      "kicker": "04 Případy použití",
       "heading": "One Persona Model 8 míst, kde začít.",
       "subheading": "Vyberte jednu doménu pro první nasazení Nory; Rozbalte pouze tehdy, když je osvědčený provozní model.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodální persona",
+      "kicker": "05 Multimodální persona",
       "heading": "Nora se s dílem setkává v každé podobě.",
       "body": "Mluvte, pište, ukažte nebo spojte se – stejná persona a model ovládání zůstávají na místě.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Důvěra",
+      "kicker": "06 Důvěra",
       "heading": "Ukažte běh, ne ujištění.",
       "body": "Důkazy, které budou vaše týmy pro rizika, zabezpečení a audit požadovat.",
       "statusLabel": "Stav správy věcí veřejných",

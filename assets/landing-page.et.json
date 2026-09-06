@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — KONTROLLITUD TEE TEGEVUSELE",
+      "kicker": "01 KONTROLLITUD TEE TEGEVUSELE",
       "heading": " agendid, kes tegutsevad.\nPangandus spetsialistid hoiavad kontrolli.",
       "headingAccent": "Pangandus spetsialistid hoiavad kontrolli.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — KES ON NORA?",
+      "kicker": "02 KES ON NORA?",
       "segments": [
         {
           "text": "Nora on üks AI isiksus, mis on ehitatud Gabriel Operatoriga",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—seejärel looge rohkem isikuid teistele meeskondadele, kõigil oma ",
+          "text": ": seejärel looge rohkem isikuid teistele meeskondadele, kõigil oma ",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — JUURUTAMINE",
+      "kicker": "03 JUURUTAMINE",
       "heading": " Tutvuge pangaga, kus töö juba toimub.",
       "body": "Alustage sisseehitatud kogemusega või ühendage Nora otse panga operatsioonide virna.",
       "items": [
@@ -185,10 +185,10 @@
         "KINNITATUD POLIITIKA",
         "NIMETATUD HEASKIIDUD"
       ],
-      "note": "Üks pank saab juurutada mitu domeeni isikut—Nora KYC jaoks, Nora krediidi jaoks, Nora operatsioonide jaoks—hoides iga isiku andmeid, tööriistu ja volitusi selgesõnaliselt piiratuna."
+      "note": "Üks pank saab juurutada mitu domeeni isikut, such as Nora KYC jaoks, Nora krediidi jaoks, Nora operatsioonide jaoks. Hoides iga isiku andmeid, tööriistu ja volitusi selgesõnaliselt piiratuna."
     },
     "useCases": {
-      "kicker": "04 — KASUTUSJUHUD",
+      "kicker": "04 KASUTUSJUHUD",
       "heading": "Üks isiku mudel\n8 kohta, kust alustada.",
       "subheading": "Valige üks domeen Norri esimeseks juurutamiseks; laienege ainult siis, kui operatsioonimudel on tõestatud.",
       "items": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — MITMEMOODALNE ISIK",
+      "kicker": "05 MITMEMOODALNE ISIK",
       "heading": "Nora kohtub tööga igas vormis.",
-      "body": "Rääkige, tippige, näidake või ühendage — sama isik ja juhtmudel jäävad paigale.",
+      "body": "Rääkige, tippige, näidake või ühendage: sama isik ja juhtmudel jäävad paigale.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -680,12 +680,12 @@
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
           "alt": "",
           "title": "Volitus, mis jääb inimlikuks",
-          "body": "Nimetatud kinnitused, topeltkontroll ja fikseeritud poliitika väravad on osa käivitamisest — mitte märkus kõrval."
+          "body": "Nimetatud kinnitused, topeltkontroll ja fikseeritud poliitika väravad on osa käivitamisest, mitte märkus kõrval."
         }
       ]
     },
     "trust": {
-      "kicker": "06 — USALDUS",
+      "kicker": "06 USALDUS",
       "heading": "Näidake käivitamist, mitte veendumust.",
       "body": "Tõendid, mida teie riski-, turvalisus- ja auditi meeskonnad küsivad.",
       "statusLabel": "Juhtimise staatus",

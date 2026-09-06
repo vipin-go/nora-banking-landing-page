@@ -74,7 +74,7 @@
     },
     "badge": "БАНКАРСКО АИ ПОСЛОВАЊЕ",
     "headline": "Учините банку АИ-нативном",
-    "subheadline": "Нора је банкарска АИ особа изграђена са Габриел Оператором—испоручена кроз уграђени ћаскање, СДК, АПИ или оркестрациони слој банке.",
+    "subheadline": "Нора је банкарска АИ особа изграђена са Габриел Оператором, испоручена кроз уграђени ћаскање, СДК, АПИ или оркестрациони слој банке.",
     "ctaLabel": "Причајте са Нором",
     "demoConversation": [
       {
@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — КОНТРОЛИСАН ПУТ ДО РАДЊЕ",
+      "kicker": "01 КОНТРОЛИСАН ПУТ ДО РАДЊЕ",
       "heading": "Агенти који делују.\nБанкари задржавају контролу.",
       "headingAccent": "Банкари задржавају контролу.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — ШТА ЈЕ НОРА?",
+      "kicker": "02 ШТА ЈЕ НОРА?",
       "segments": [
         {
           "text": "Нора је једна АИ особа изграђена са Габриел Оператором",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—онда креирајте више особа за друге тимове, свака са својом ",
+          "text": ": онда креирајте више особа за друге тимове, свака са својом ",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — РАЗМЕШТАВАЊЕ",
+      "kicker": "03 РАЗМЕШТАВАЊЕ",
       "heading": "Упознајте банку тамо где посао већ одвија.",
       "body": "Почните са уграђеним искуством или повежите Нору директно на оперативни систем банке.",
       "items": [
@@ -185,10 +185,10 @@
         "ФИКСНА ПОЛИТИКА",
         "ИМЕНОВАНА ОДОБРЕЊА"
       ],
-      "note": "Једна банка може распоредити много доменских особа—Нора за КИЦ, Нора за кредит, Нора за пословање—док чува податке, алате и овлашћења сваке особе експлицитно ограниченим."
+      "note": "Једна банка може распоредити много доменских особа, such as Нора за КИЦ, Нора за кредит, Нора за пословање. Док чува податке, алате и овлашћења сваке особе експлицитно ограниченим."
     },
     "useCases": {
-      "kicker": "04 — СЛУЧАЈЕВИ УПОТРЕБЕ",
+      "kicker": "04 СЛУЧАЈЕВИ УПОТРЕБЕ",
       "heading": "Један модел особе\n8 места за почетак.",
       "subheading": "Изаберите један домен за Норин први размештај; ширите се само када је оперативни модел доказан.",
       "items": [
@@ -254,7 +254,7 @@
           "label": "Кредити и кредитне операције",
           "mode": "VISION + VOICE",
           "outcome": "Комплетан кредитни фаjl, spreman за овлашћење.",
-          "summary": "Нора саставља фаjl дужника, белешку о одступању и нацрт одобрења—без претпостављања кредитног овлашћења.",
+          "summary": "Нора саставља фаjl дужника, белешку о одступању и нацрт одобрења, без претпостављања кредитног овлашћења.",
           "inputSummary": "Пријава · биро · финансије · политика одступања · ЛОС / ДМС",
           "outputSummary": "Досије дужника · белешка о одступању · нацрт одобрења · преглед исплате",
           "inputs": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — VIŠEMODALNA OSOBA",
+      "kicker": "05 VIŠEMODALNA OSOBA",
       "heading": "Nora se susreće sa radom u svakom obliku.",
-      "body": "Pričajte, kucajte, pokažite ili povežite — ista osoba i kontrolni model ostaju na mestu.",
+      "body": "Pričajte, kucajte, pokažite ili povežite: ista osoba i kontrolni model ostaju na mestu.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -680,12 +680,12 @@
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
           "alt": "",
           "title": "Autoritet koji ostaje ljudski",
-          "body": "Imenovana odobrenja, dualna kontrola i fiksne kapije politike su deo izvršenja — ne napomena pored."
+          "body": "Imenovana odobrenja, dualna kontrola i fiksne kapije politike su deo izvršenja, ne napomena pored."
         }
       ]
     },
     "trust": {
-      "kicker": "06 — POVERENJE",
+      "kicker": "06 POVERENJE",
       "heading": "Pokažite izvršenje, ne uveravanje.",
       "body": "Dokazi koje će tražiti vaši timovi za rizik, bezbednost i reviziju.",
       "statusLabel": "Status upravljanja",

@@ -74,7 +74,7 @@
     },
     "badge": "Operasi AI Perbankan",
     "headline": "Jadikan bank ai-asli",
-    "subheadline": "Nora adalah persona AI perbankan yang dibangun dengan Gabriel Operator—dikirimkan melalui Chatting, SDK, API, atau lapisan orkestrasi bank.",
+    "subheadline": "Nora adalah persona AI perbankan yang dibangun dengan Gabriel Operator, dikirimkan melalui Chatting, SDK, API, atau lapisan orkestrasi bank.",
     "ctaLabel": "berbicara dengan Nora",
     "demoConversation": [
       {
@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — jalan terkontrol menuju tindakan",
+      "kicker": "01 jalan terkontrol menuju tindakan",
       "heading": "agen yang bertindak. Bankir tetap memegang kendali.",
       "headingAccent": "Bankir tetap memegang kendali.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Apa itu Nora?",
+      "kicker": "02 Apa itu Nora?",
       "segments": [
         {
           "text": "Nora adalah salah satu persona AI yang dibangun dengan operator Gabriel",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—lalu buat lebih banyak persona untuk tim lain, masing-masing dengan sendiri",
+          "text": ", lalu buat lebih banyak persona untuk tim lain, masing-masing dengan sendiri",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Penerapan",
+      "kicker": "03 Penerapan",
       "heading": "Temui bank tempat pekerjaan sudah terjadi.",
       "body": "Mulailah dengan pengalaman tertanam atau hubungkan Nora langsung ke tumpukan operasi bank.",
       "items": [
@@ -185,10 +185,10 @@
         "Kebijakan tetap",
         "Persetujuan bernama"
       ],
-      "note": "Satu bank dapat menerapkan banyak persona domain—Nora untuk KYC, Nora untuk kredit, Nora untuk operasi—sambil menjaga data, alat, dan otoritas setiap persona dibatasi secara eksplisit."
+      "note": "Satu bank dapat menerapkan banyak persona domain, such as Nora untuk KYC, Nora untuk kredit, Nora untuk operasi. Sambil menjaga data, alat, dan otoritas setiap persona dibatasi secara eksplisit."
     },
     "useCases": {
-      "kicker": "04 — Kasus Penggunaan",
+      "kicker": "04 Kasus Penggunaan",
       "heading": "Satu Persona Model 8 tempat untuk memulai.",
       "subheading": "Pilih satu domain untuk penerapan pertama Nora; Perluas hanya jika model operasi terbukti.",
       "items": [
@@ -254,7 +254,7 @@
           "label": "Pinjaman & Operasi Kredit",
           "mode": "VISION + VOICE",
           "outcome": "file kredit lengkap, siap untuk otoritas.",
-          "summary": "Nora mengumpulkan Biro, Aplikasi dan Konteks Keuangan ke dalam berkas peminjam, memo penyimpangan dan draf sanksi—tanpa mengambil otoritas kredit.",
+          "summary": "Nora mengumpulkan Biro, Aplikasi dan Konteks Keuangan ke dalam berkas peminjam, memo penyimpangan dan draf sanksi, tanpa mengambil otoritas kredit.",
           "inputSummary": "Aplikasi · Biro · Keuangan · Kebijakan Penyimpangan · LOS / DMS",
           "outputSummary": "Berkas Peminjam · Memo Penyimpangan · Draf Sanksi · Pratinjau Pencairan",
           "inputs": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Persona Multimodal",
+      "kicker": "05 Persona Multimodal",
       "heading": "Nora memenuhi pekerjaan dalam segala bentuk.",
-      "body": "Bicara, ketik, tunjukkan, atau hubungkan—model persona dan kontrol yang sama tetap di tempatnya.",
+      "body": "Bicara, ketik, tunjukkan, atau hubungkan: model persona dan kontrol yang sama tetap di tempatnya.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -680,12 +680,12 @@
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
           "alt": "",
           "title": "otoritas yang tetap manusia",
-          "body": "Persetujuan bernama, kontrol ganda, dan gerbang kebijakan tetap adalah bagian dari jalankan—bukan catatan di sampingnya."
+          "body": "Persetujuan bernama, kontrol ganda, dan gerbang kebijakan tetap adalah bagian dari jalankan, bukan catatan di sampingnya."
         }
       ]
     },
     "trust": {
-      "kicker": "06 — Kepercayaan",
+      "kicker": "06 Kepercayaan",
       "heading": "Tunjukkan larinya, bukan kepastian.",
       "body": "Bukti yang akan diminta oleh tim risiko, keamanan, dan audit Anda.",
       "statusLabel": "Status pemerintahan",

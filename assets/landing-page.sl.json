@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Nadzorovana pot do ukrepanja",
+      "kicker": "01 Nadzorovana pot do ukrepanja",
       "heading": "agenti, ki delujejo. Bankirji ostanejo pod nadzorom.",
       "headingAccent": "Bankirji ostanejo pod nadzorom.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Kaj je Nora?",
+      "kicker": "02 Kaj je Nora?",
       "segments": [
         {
           "text": "Nora je ena oseba AI, zgrajena z operaterjem Gabriel",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— Nato ustvarite več osebnosti za druge ekipe, od katerih ima vsaka svojo",
+          "text": ": Nato ustvarite več osebnosti za druge ekipe, od katerih ima vsaka svojo",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Razporeditev",
+      "kicker": "03 Razporeditev",
       "heading": "Spoznajte banko, kjer delo že poteka.",
       "body": "Začnite z vgrajeno izkušnjo ali povežite NORA neposredno z operativnim skladom banke.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Ena banka lahko namesti številne osebe domene – Nora za KYC, Nora za kredit, Nora za operacije –, hkrati pa ohranja podatke, orodja in avtoriteto vsake osebe izrecno omejena."
     },
     "useCases": {
-      "kicker": "04 — Primeri uporabe",
+      "kicker": "04 Primeri uporabe",
       "heading": "One Persona Model 8 mest za začetek.",
       "subheading": "Izberite eno domeno za prvo uvajanje Nore; Razširite šele, ko je operativni model preverjen.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodalna oseba",
+      "kicker": "05 Multimodalna oseba",
       "heading": "Nora se z delom sreča v vseh oblikah.",
       "body": "Pogovorite se, vnesite, pokažite ali povežite – ista oseba in model nadzora ostaneta na mestu.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Zaupanje",
+      "kicker": "06 Zaupanje",
       "heading": "Pokažite tek, ne pomiritev.",
       "body": "Dokazi, ki jih bodo zahtevale vaše ekipe za tveganja, varnost in revizijo.",
       "statusLabel": "Status upravljanja",

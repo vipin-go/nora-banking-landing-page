@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Daha sonra her biri kendi başına olan diğer ekipler için daha fazla kişi yaratın",
+          "text": ". Daha sonra her biri kendi başına olan diğer ekipler için daha fazla kişi yaratın",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Dağıtım",
+      "kicker": "03 Dağıtım",
       "heading": "işin zaten gerçekleştiği bankayla tanışın.",
       "body": "Gömülü bir deneyimle başlayın veya Nora'yı doğrudan bankanın çalışma yığınına bağlayın.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Bir banka, her bir kişinin verilerini, araçlarını ve yetkisini açıkça sınırlandırılmış halde tutarken, KYC için Nora, kredi için Nora, operasyonlar için birçok etki alanı kişisi kullanabilir."
     },
     "useCases": {
-      "kicker": "04 — Kullanım Vakaları",
+      "kicker": "04 Kullanım Vakaları",
       "heading": "Bir Persona Model 8 başlangıç için yer.",
       "subheading": "Nora'nın ilk dağıtımı için bir etki alanı seçin; Yalnızca işletim modeli kanıtlandığında genişletin.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Çok Modlu Kişilik",
+      "kicker": "05 Çok Modlu Kişilik",
       "heading": "Nora her biçimde işi karşılar.",
       "body": "Konuş, yazın, göster veya bağlan - aynı kişi ve kontrol modeli yerinde kalır.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Güven",
+      "kicker": "06 Güven",
       "heading": "Bir güvence değil, koşuyu göster.",
       "body": "Risk, güvenlik ve denetim ekiplerinizin isteyeceği kanıtlar.",
       "statusLabel": "yönetim durumu",

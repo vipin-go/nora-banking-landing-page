@@ -188,7 +188,7 @@
       "note": "Egy bank számos domain személyt telepíthet – Nora a KYC-re, Nora a hitelre, Nora a műveletekre –, miközben minden egyes személy adatait, eszközeit és jogosultságát kifejezetten korlátozva tartja."
     },
     "useCases": {
-      "kicker": "04 — Felhasználási esetek",
+      "kicker": "04 Felhasználási esetek",
       "heading": "One Persona Model 8 kezdésnek.",
       "subheading": "Válasszon egy tartományt Nora első telepítéséhez; csak akkor bővítse ki, ha a működési modell bevált.",
       "items": [

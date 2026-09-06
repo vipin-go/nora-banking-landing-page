@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — UN CAMÍ CONTROLAT cap a l'acció",
+      "kicker": "01 UN CAMÍ CONTROLAT cap a l'acció",
       "heading": "Agents que actuen.\nEls banquers mantenen el control.",
       "headingAccent": "Els banquers mantenen el control.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — QUÈ ÉS LA NORA?",
+      "kicker": "02 QUÈ ÉS LA NORA?",
       "segments": [
         {
           "text": "Nora és una persona d'IA construïda amb Gabriel Operator",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—llavors creeu més persones per a altres equips, cadascuna amb la seva ",
+          "text": ": llavors creeu més persones per a altres equips, cadascuna amb la seva ",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — DESPLEGAMENT",
+      "kicker": "03 DESPLEGAMENT",
       "heading": "Conegueu el banc on el treball ja passa.",
       "body": "Comenceu amb una experiència integrada o connecteu la Nora directament a la pila d'operacions del banc.",
       "items": [
@@ -185,10 +185,10 @@
         "POLÍTICA FIXA",
         "APROVACIONS NOMINADES"
       ],
-      "note": "Un banc pot desplegar moltes persones de domini—Nora per a KYC, Nora per a crèdit, Nora per a operacions—mantenint les dades, eines i autoritat de cada persona explícitament limitades."
+      "note": "Un banc pot desplegar moltes persones de domini, such as Nora per a KYC, Nora per a crèdit, Nora per a operacions. Mantenint les dades, eines i autoritat de cada persona explícitament limitades."
     },
     "useCases": {
-      "kicker": "04 — CASOS D'ÚS",
+      "kicker": "04 CASOS D'ÚS",
       "heading": "Un model de persona\n8 llocs per començar.",
       "subheading": "Trieu un domini per al primer desplegament de la Nora; amplieu només quan el model operatiu estigui demostrat.",
       "items": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — PERSONA MULTIMODAL",
+      "kicker": "05 PERSONA MULTIMODAL",
       "heading": "Nora es troba amb la feina en cada forma.",
-      "body": "Parleu, escriviu, mostrau o connecteu — el mateix persona i model de control es mantenen al lloc.",
+      "body": "Parleu, escriviu, mostrau o connecteu: el mateix persona i model de control es mantenen al lloc.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -680,12 +680,12 @@
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
           "alt": "",
           "title": "Autoritat que roman humana",
-          "body": "Les aprobacions nomenades, el control dual i les portes de política fixes formen part de l'execució — no una nota al costat."
+          "body": "Les aprobacions nomenades, el control dual i les portes de política fixes formen part de l'execució, no una nota al costat."
         }
       ]
     },
     "trust": {
-      "kicker": "06 — CONFIANÇA",
+      "kicker": "06 CONFIANÇA",
       "heading": "Mostreu l'execució, no una tranquil·litat.",
       "body": "L'evidència que demanaran els vostres equips de risc, seguretat i auditoria.",
       "statusLabel": "Estat de governança",

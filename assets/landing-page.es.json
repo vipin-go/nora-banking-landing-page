@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Un camino controlado hacia la acción",
+      "kicker": "01 Un camino controlado hacia la acción",
       "heading": "agentes que actúan. Los banqueros mantienen el control.",
       "headingAccent": "Los banqueros mantienen el control.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — ¿Qué es Nora?",
+      "kicker": "02 ¿Qué es Nora?",
       "segments": [
         {
           "text": "Nora es una AI Persona construida con Gabriel Operador",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Luego crea más personas para otros equipos, cada una con su propia",
+          "text": ": Luego crea más personas para otros equipos, cada una con su propia",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Despliegue",
+      "kicker": "03 Despliegue",
       "heading": "Conoce al banco donde ya ocurre el trabajo.",
       "body": "Comience con una experiencia integrada o conecte a Nora directamente a la pila operativa del banco.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Un banco puede desplegar muchas personas de dominio (Nora para KYC, Nora para crédito, Nora para operaciones) mientras mantiene los datos, las herramientas y la autoridad explícitamente limitados de cada persona."
     },
     "useCases": {
-      "kicker": "04 — Casos de uso",
+      "kicker": "04 Casos de uso",
       "heading": "Una persona modelo 8 lugares para comenzar.",
       "subheading": "Elija un dominio para la primera implementación de Nora; Expanda solo cuando se demuestre el modelo operativo.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Persona multimodal",
+      "kicker": "05 Persona multimodal",
       "heading": "Nora se encuentra con el trabajo en todas las formas.",
       "body": "Hable, escriba, muestre o conecte: la misma persona y el modelo de control permanecen en su lugar.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Confianza",
+      "kicker": "06 Confianza",
       "heading": "Muestre la carrera, no una tranquilidad.",
       "body": "La evidencia que sus equipos de riesgo, seguridad y auditoría le pedirán.",
       "statusLabel": "Estado de gobierno",

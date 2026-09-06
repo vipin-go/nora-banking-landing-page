@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — kontrolovaná cesta k akcii",
+      "kicker": "01 kontrolovaná cesta k akcii",
       "heading": "agenti, ktorí konajú. Bankári zostávajú pod kontrolou.",
       "headingAccent": "Bankári zostávajú pod kontrolou.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Čo je Nora?",
+      "kicker": "02 Čo je Nora?",
       "segments": [
         {
           "text": "Nora je jedna osoba AI postavená s operátorom Gabriel",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— potom vytvorte viac osôb pre iné tímy, z ktorých každý má svoje vlastné",
+          "text": ": potom vytvorte viac osôb pre iné tímy, z ktorých každý má svoje vlastné",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Nasadenie",
+      "kicker": "03 Nasadenie",
       "heading": "Zoznámte sa s bankou, kde už práca prebieha.",
       "body": "Začnite s vstavaným zážitkom alebo pripojte Noru priamo k prevádzkovému zásobníku banky.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Jedna banka môže nasadiť mnoho doménových osobností – Nora pre KYC, Nora pre úver, NORA pre operácie – a zároveň ponechať údaje, nástroje a autoritu každej osoby výslovne ohraničené."
     },
     "useCases": {
-      "kicker": "04 — Prípady použitia",
+      "kicker": "04 Prípady použitia",
       "heading": "Jedna osoba Model 8 miest na začiatok.",
       "subheading": "Vyberte jednu doménu pre prvé nasadenie Nory; Rozbaľte iba vtedy, keď je preukázaný prevádzkový model.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodálna osobnosť",
+      "kicker": "05 Multimodálna osobnosť",
       "heading": "Nora sa stretáva s prácou v každej podobe.",
       "body": "Hovorte, píšte, ukážte alebo sa pripojte – rovnaká osobnosť a model ovládania zostanú na svojom mieste.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Dôvera",
+      "kicker": "06 Dôvera",
       "heading": "Ukážte beh, nie uistenie.",
       "body": "Dôkazy, ktoré budú vaše rizikové, bezpečnostné a audítorské tímy požadovať.",
       "statusLabel": "Stav riadenia",

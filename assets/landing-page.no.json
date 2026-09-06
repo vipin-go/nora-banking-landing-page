@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — En kontrollert vei til handling",
+      "kicker": "01 En kontrollert vei til handling",
       "heading": "agenter som handler. Bankfolk har kontroll.",
       "headingAccent": "Bankfolk har kontroll.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Hva er Nora?",
+      "kicker": "02 Hva er Nora?",
       "segments": [
         {
           "text": "Nora er en AI-persona bygget med Gabriel-operatør",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— så skap flere personas for andre lag, hver med sine egne",
+          "text": ": så skap flere personas for andre lag, hver med sine egne",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Utplassering",
+      "kicker": "03 Utplassering",
       "heading": "Møt banken der arbeidet allerede skjer.",
       "body": "Start med en innebygd opplevelse eller koble Nora direkte til bankens driftsstabel.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Én bank kan distribuere mange domenepersonas – NORA for KYC, NORA for kreditt, NORA for operasjoner – samtidig som hver personas data, verktøy og autoritet holdes eksplisitt avgrenset."
     },
     "useCases": {
-      "kicker": "04 — Brukstilfeller",
+      "kicker": "04 Brukstilfeller",
       "heading": "Én Persona Model 8 steder å begynne.",
       "subheading": "Velg ett domene for Noras første distribusjon; Utvid kun når driftsmodellen er bevist.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Tillit",
+      "kicker": "06 Tillit",
       "heading": "Vis løpeturen, ikke en forsikring.",
       "body": "Bevisene dine risiko-, sikkerhets- og revisjonsteam vil be om.",
       "statusLabel": "Styringsstatus",

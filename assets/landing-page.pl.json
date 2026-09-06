@@ -74,7 +74,7 @@
     },
     "badge": "Operacje bankowe AI",
     "headline": "Spraw, aby bank był natywny",
-    "subheadline": "Nora to bankowa persona AI zbudowana z Gabriel Operator — dostarczana za pośrednictwem wbudowanego czatu, SDK, API lub warstwy orkiestracji banku.",
+    "subheadline": "Nora to bankowa persona AI zbudowana z Gabriel Operator, dostarczana za pośrednictwem wbudowanego czatu, SDK, API lub warstwy orkiestracji banku.",
     "ctaLabel": "Porozmawiaj z Norą",
     "demoConversation": [
       {
@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Kontrolowana ścieżka do działania",
+      "kicker": "01 Kontrolowana ścieżka do działania",
       "heading": "Agenci, którzy działają. Bankierzy pozostają pod kontrolą.",
       "headingAccent": "Bankierzy pozostają pod kontrolą.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Czym jest Nora?",
+      "kicker": "02 Czym jest Nora?",
       "segments": [
         {
           "text": "Nora to jedna persona AI zbudowana z Gabriel Operator",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Następnie stwórz więcej person dla innych zespołów, każda z własnymi",
+          "text": ": Następnie stwórz więcej person dla innych zespołów, każda z własnymi",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Wdrożenie",
+      "kicker": "03 Wdrożenie",
       "heading": "Poznaj bank, w którym praca już się dzieje.",
       "body": "Zacznij od wbudowanego doświadczenia lub połącz Norę bezpośrednio ze stosem operacyjnym banku.",
       "items": [
@@ -185,10 +185,10 @@
         "Naprawiono politykę",
         "nazwane zatwierdzenia"
       ],
-      "note": "Jeden bank może wdrożyć wiele person domen — NORA dla KYC, NORA dla kredytu, Nora dla operacji — przy jednoczesnym zachowaniu wyraźnie ograniczonych danych, narzędzi i autorytetów każdej osoby."
+      "note": "Jeden bank może wdrożyć wiele person domen, such as NORA dla KYC, NORA dla kredytu, Nora dla operacji. Przy jednoczesnym zachowaniu wyraźnie ograniczonych danych, narzędzi i autorytetów każdej osoby."
     },
     "useCases": {
-      "kicker": "04 — Przypadki użycia",
+      "kicker": "04 Przypadki użycia",
       "heading": "Jedna persona Model 8 miejsc na początek.",
       "subheading": "Wybierz jedną domenę do pierwszego wdrożenia Nory; Rozwiń tylko wtedy, gdy model operacyjny jest sprawdzony.",
       "items": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Persona multimodalna",
+      "kicker": "05 Persona multimodalna",
       "heading": "Nora spotyka pracę w każdej formie.",
-      "body": "Rozmawiaj, pisz, pokaż lub połącz — ta sama postać i model sterowania pozostają na swoim miejscu.",
+      "body": "Rozmawiaj, pisz, pokaż lub połącz: ta sama postać i model sterowania pozostają na swoim miejscu.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Zaufaj",
+      "kicker": "06 Zaufaj",
       "heading": "Pokaż bieg, a nie zapewnienie.",
       "body": "Dowody, o które będą prosić zespoły ds. ryzyka, bezpieczeństwa i audytu.",
       "statusLabel": "Status zarządzania",

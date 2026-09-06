@@ -74,7 +74,7 @@
     },
     "badge": "银行人工智能运营",
     "headline": "使银行原生",
-    "subheadline": "Nora 是一个由 Gabriel Operator 构建的银行 AI 角色——通过嵌入式聊天、SDK、API 或银行的编排层提供。",
+    "subheadline": "Nora 是一个由 Gabriel Operator 构建的银行 AI 角色，通过嵌入式聊天、SDK、API 或银行的编排层提供。",
     "ctaLabel": "和诺拉谈谈",
     "demoConversation": [
       {
@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — 受控的行动路径",
+      "kicker": "01 受控的行动路径",
       "heading": "行动的代理人。 银行家保持控制。",
       "headingAccent": "银行家保持控制。",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — 什么是诺拉？",
+      "kicker": "02 什么是诺拉？",
       "segments": [
         {
           "text": "Nora是与Gabriel Operator打造的一种AI角色",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "——然后为其他团队创建更多角色，每个团队都有自己的",
+          "text": "，然后为其他团队创建更多角色，每个团队都有自己的",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — 部署",
+      "kicker": "03 部署",
       "heading": "会见已经完成工作的银行。",
       "body": "从嵌入式体验开始，或将 Nora 直接连接到银行的运营堆栈。",
       "items": [
@@ -185,10 +185,10 @@
         "固定政策",
         "命名批准"
       ],
-      "note": "一家银行可以部署许多领域角色——NORA 代表 KYC、NORA 信用、NORA 运营——同时明确限制每个角色的数据、工具和权威。"
+      "note": "一家银行可以部署许多领域角色，NORA 代表 KYC、NORA 信用、NORA 运营，同时明确限制每个角色的数据、工具和权威。"
     },
     "useCases": {
-      "kicker": "04 — 用例",
+      "kicker": "04 用例",
       "heading": "1 Persona Model 8 个地方开始。",
       "subheading": "选择一个域进行 Nora 的第一次部署； 仅在验证运行模式时展开。",
       "items": [
@@ -254,7 +254,7 @@
           "label": "贷款和信贷运营",
           "mode": "VISION + VOICE",
           "outcome": "完整的信用档案，准备就绪。",
-          "summary": "NORA 将局、应用程序和财务背景汇编为借款人档案、偏差备忘录和制裁草案——而不承担信贷授权。",
+          "summary": "NORA 将局、应用程序和财务背景汇编为借款人档案、偏差备忘录和制裁草案，而不承担信贷授权。",
           "inputSummary": "应用 · 局 · 财务 · 偏差政策 · LOS / DMS",
           "outputSummary": "借款人档案 · 偏差备忘录 · 制裁草案 · 支付预览",
           "inputs": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — 多模式角色",
+      "kicker": "05 多模式角色",
       "heading": "诺拉以各种形式满足工作。",
-      "body": "谈话、打字、显示或连接——同一个角色和控制模型保持原位。",
+      "body": "谈话、打字、显示或连接，同一个角色和控制模型保持原位。",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — 信任",
+      "kicker": "06 信任",
       "heading": "显示跑步，而不是安慰。",
       "body": "您的风险、安全和审计团队将要求提供的证据。",
       "statusLabel": "治理状态",

@@ -74,7 +74,7 @@
     },
     "badge": "Bankarska AI",
     "headline": "Učinite banku AI-Native",
-    "subheadline": "Nora je bankarska umjetna inteligencija izgrađena s Gabrielovim operaterom—isporučuje se putem ugrađenog chata, SDK-a, API-ja ili sloja orkestracije banke.",
+    "subheadline": "Nora je bankarska umjetna inteligencija izgrađena s Gabrielovim operaterom, isporučuje se putem ugrađenog chata, SDK-a, API-ja ili sloja orkestracije banke.",
     "ctaLabel": "Razgovaraj s Norom",
     "demoConversation": [
       {
@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — Kontrolirani put do akcije",
+      "kicker": "01 Kontrolirani put do akcije",
       "heading": "agenti koji djeluju. Bankari ostaju pod kontrolom.",
       "headingAccent": "Bankari ostaju pod kontrolom.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — Što je Nora?",
+      "kicker": "02 Što je Nora?",
       "segments": [
         {
           "text": "Nora je jedna AI persona izgrađena s Gabrielovim operaterom",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "— Zatim stvorite više persona za druge timove, svaki sa svojim",
+          "text": ": Zatim stvorite više persona za druge timove, svaki sa svojim",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — raspoređivanje",
+      "kicker": "03 raspoređivanje",
       "heading": "Upoznajte banku u kojoj se posao već događa.",
       "body": "Započnite s ugrađenim iskustvom ili povežite NORA izravno na operativni stog banke.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Jedna banka može implementirati mnoge persone u domeni – NORA za KYC, NORA za kredit, NORA za operacije – dok je podatke, alate i ovlasti svake osobe izričito ograničeno."
     },
     "useCases": {
-      "kicker": "04 — Slučajevi korištenja",
+      "kicker": "04 Slučajevi korištenja",
       "heading": "One Persona Model 8 mjesta za početak.",
       "subheading": "Odaberite jednu domenu za prvu implementaciju Nore; Proširite samo kada se dokaže operativni model.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — Multimodalna persona",
+      "kicker": "05 Multimodalna persona",
       "heading": "Nora se susreće s radom u svakom obliku.",
       "body": "Razgovarajte, tipirajte, pokažite ili povežite – ista osoba i model kontrole ostaju na mjestu.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — povjerenje",
+      "kicker": "06 povjerenje",
       "heading": "Pokažite trčanje, a ne uvjeravanje.",
       "body": "Dokazi koje će tražiti vaši timovi za rizik, sigurnost i reviziju.",
       "statusLabel": "revanštura",

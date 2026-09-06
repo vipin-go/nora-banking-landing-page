@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — um caminho controlado para a ação",
+      "kicker": "01 um caminho controlado para a ação",
       "heading": "Agentes que atuam. Os banqueiros permanecem no controle.",
       "headingAccent": "Os banqueiros permanecem no controle.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — O que é Nora?",
+      "kicker": "02 O que é Nora?",
       "segments": [
         {
           "text": "Nora é uma persona de IA construída com a operadora Gabriel",
@@ -138,7 +138,7 @@
           "tone": "iris"
         },
         {
-          "text": "—Em seguida, crie mais personas para outras equipes, cada uma com suas próprias",
+          "text": ". Em seguida, crie mais personas para outras equipes, cada uma com suas próprias",
           "tone": "muted"
         },
         {
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — Implantação",
+      "kicker": "03 Implantação",
       "heading": "Conheça o banco onde o trabalho já acontece.",
       "body": "Comece com uma experiência incorporada ou conecte o NORA diretamente à pilha operacional do banco.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "Um banco pode implantar muitas personas de domínio – NORA para KYC, NORA para crédito, NORA para operações – mantendo explicitamente os dados, ferramentas e autoridade de cada pessoa."
     },
     "useCases": {
-      "kicker": "04 — Casos de uso",
+      "kicker": "04 Casos de uso",
       "heading": "Um modelo de persona 8 lugares para começar.",
       "subheading": "Escolha um domínio para a primeira implantação de Nora; Expanda somente quando o modelo operacional for comprovado.",
       "items": [
@@ -654,9 +654,9 @@
       ]
     },
     "platform": {
-      "kicker": "05 — persona multimodal",
+      "kicker": "05 persona multimodal",
       "heading": "Nora encontra o trabalho em todas as formas.",
-      "body": "Fale, digite, mostre ou conecte-se — a mesma persona e o modelo de controle permanecem no lugar.",
+      "body": "Fale, digite, mostre ou conecte-se: a mesma persona e o modelo de controle permanecem no lugar.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — Confiança",
+      "kicker": "06 Confiança",
       "heading": "Mostre a corrida, não uma garantia.",
       "body": "As evidências que suas equipes de risco, segurança e auditoria pedirão.",
       "statusLabel": "Status de governança",

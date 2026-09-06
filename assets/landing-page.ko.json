@@ -91,7 +91,7 @@
       ]
     },
     "howItWorks": {
-      "kicker": "01 — 통제된 행동 경로",
+      "kicker": "01 통제된 행동 경로",
       "heading": "행동하는 에이전트. 은행가는 통제력을 유지합니다.",
       "headingAccent": "은행가는 통제력을 유지합니다.",
       "steps": [
@@ -123,7 +123,7 @@
       ]
     },
     "statement": {
-      "kicker": "02 — 노라는 무엇입니까?",
+      "kicker": "02 노라는 무엇입니까?",
       "segments": [
         {
           "text": "Nora는 Gabriel Operator로 구축된 AI 페르소나 중 하나입니다",
@@ -152,7 +152,7 @@
       ]
     },
     "deployment": {
-      "kicker": "03 — 배포",
+      "kicker": "03 배포",
       "heading": "작업이 이미 발생하는 은행을 만나십시오.",
       "body": "임베디드 경험으로 시작하거나 NORA를 은행의 운영 스택에 직접 연결하십시오.",
       "items": [
@@ -188,7 +188,7 @@
       "note": "하나의 은행은 KYC의 경우 Nora, 신용을 위한 Nora, 운영을 위한 Nora와 같은 많은 도메인 페르소나를 배포할 수 있습니다."
     },
     "useCases": {
-      "kicker": "04 — 사용 사례",
+      "kicker": "04 사용 사례",
       "heading": "One Persona Model 8 시작 장소.",
       "subheading": "Nora의 첫 번째 배포를 위해 하나의 도메인을 선택하십시오. 운영 모델이 입증된 경우에만 확장합니다.",
       "items": [
@@ -654,7 +654,7 @@
       ]
     },
     "platform": {
-      "kicker": "05 — 다중 모드 페르소나",
+      "kicker": "05 다중 모드 페르소나",
       "heading": "Nora는 모든 형태의 작업을 만납니다.",
       "body": "대화, 입력, 표시 또는 연결 - 동일한 페르소나 및 제어 모델이 제자리에 유지됩니다.",
       "items": [
@@ -685,7 +685,7 @@
       ]
     },
     "trust": {
-      "kicker": "06 — 신뢰",
+      "kicker": "06 신뢰",
       "heading": "안심이 아닌 달리기를 보여주세요.",
       "body": "귀하의 위험, 보안 및 감사 팀이 요구할 증거.",
       "statusLabel": "거버넌스 상태",
