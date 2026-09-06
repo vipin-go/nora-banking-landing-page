@@ -738,7 +738,7 @@
       "body": "Choose the workflow, the interface and the authority boundary. Put the first governed run in front of your operations team.",
       "ctaLabel": "Talk to Nora"
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-winged-figure.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-no-wings.png",
     "localization": {
       "translation": {
         "enabled": true,
