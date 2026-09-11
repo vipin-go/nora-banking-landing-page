@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "hu",
   "regionKey": null,
-  "sourceRevision": "a2257106302ed8098a95a722806ad5a828b9da399afcdb9fa89527494c3b8af0",
+  "sourceRevision": "f8d254d68bf84163874374554d1c3b4ff3c90e66e9eba2bed27c5be875d46785",
   "landingPage": {
     "design": {
       "variant": "banking",
@@ -743,12 +743,12 @@
       "body": "Válassza ki a munkafolyamatot, az interfészt és a jogosultsági határt. Helyezze az első szabályozott futtatást az operatív csapata elé.",
       "ctaLabel": "Beszéljen Norával"
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-no-wings.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-no-wings-transparent.png",
     "roiCalculator": {
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
+      "heading": "ROI-kalkulátor",
       "subheading": "A typical case desk: 80 case-ready packs with evidence. Analysts still decide.",
       "disclaimer": "A scenario built from typical case-preparation usage, not a compliance result. Loss reduction is an uncertain modeled assumption, not a guarantee.",
       "currency": "EUR",
@@ -757,7 +757,7 @@
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "A pénznem konverziója nem helyi költség elemzés. Add meg saját helyi költségeidet és hozzájárulás feltételeket. A nyelv változtatása nem módosítja a megadott összösszegeket."
       },
       "costCopy": {
         "breakdown": "How the all-in AI cost is built",
@@ -814,7 +814,7 @@
           "monthlyTokens": "Monthly tokens",
           "tokenCost": "Token usage",
           "packageLabel": "Usage package",
-          "packageBase": "Base",
+          "packageBase": "Alap",
           "packageMedium": "Medium",
           "packageCustom": "Custom",
           "reviewMode": "Who handles the review?",
@@ -832,7 +832,7 @@
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
-          "economicValue": "Modeled economic value",
+          "economicValue": "Modellezett gazdasági érték",
           "netBenefit": "Net modeled benefit",
           "multiple": "Economic return multiple",
           "notApplicable": "Not applicable",
@@ -1112,7 +1112,7 @@
       "cta": {
         "primaryLabel": "Talk with Nora",
         "primaryTarget": "meet",
-        "secondaryLabel": "See how it works",
+        "secondaryLabel": "Hogyan működik",
         "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
         "secondaryTarget": "how-it-works"
       }
@@ -6198,54 +6198,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "6d65ed5c750019a199c61a33ea9202fb727c05e257560f38f014e6b1520e50ed"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        3
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -6261,54 +6213,6 @@
         "intro"
       ],
       "sourceHash": "2b0e94dc538545c85616346b9a0f87674be1f983c36b98894cccece67e41ad3c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
     },
     {
       "path": [
@@ -6360,5 +6264,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:25:07.979Z"
+  "generatedAt": "2026-09-11T09:11:11.795Z"
 }
