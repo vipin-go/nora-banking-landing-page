@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "f8d254d68bf84163874374554d1c3b4ff3c90e66e9eba2bed27c5be875d46785",
+  "sourceRevision": "584902f1a16b2f31d13bff79787c7903c17666c30e214fe614cdae3e47606e59",
   "landingPage": {
     "design": {
       "variant": "banking",
@@ -54,7 +54,7 @@
       "brandMark": "initial",
       "navItems": [
         {
-          "label": "기능",
+          "label": "능력",
           "target": "capabilities"
         },
         {
@@ -724,9 +724,9 @@
     },
     "footer": {
       "tagline": "Gabriel Operator로 구축된 배포 가능한 뱅킹 AI 페르소나.",
-      "exploreLabel": "탐색",
+      "exploreLabel": "탐구",
       "useCasesLabel": "사용 사례",
-      "getStartedLabel": "시작하기",
+      "getStartedLabel": "시작하다",
       "useCaseLinks": [
         "KYC",
         "신용",
@@ -748,24 +748,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI 계산기",
-      "subheading": "A typical case desk: 80 case-ready packs with evidence. Analysts still decide.",
-      "disclaimer": "A scenario built from typical case-preparation usage, not a compliance result. Loss reduction is an uncertain modeled assumption, not a guarantee.",
+      "heading": "요금 및 ROI",
+      "subheading": "직접 입력하고 예상 수익을 확인하세요.",
+      "disclaimer": "계획 추정치는 측정된 ROI와 별개예요. 승인된 결과와 비교 가능한 기록 비용만 측정 수익의 근거가 돼요.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "환율 변환은 지역 비용 조사가 아닙니다. 자신의 지역 비용과 기여 가정을 입력하십시오. 언어 변경은 금액을 변경하지 않습니다."
+        "basis": "통화 변환은 현지 비용 조사가 아닙니다. 현지 비용과 기여 가정을 입력하세요. 언어를 변경해도 금액은 변경되지 않습니다."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "올인 AI 비용은 어떻게 구성되나요?",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "이것이 귀하의 총 예산입니다. 항목별로 분류하려면 비용 분석으로 전환하세요. 분할이 가정되지 않았습니다.",
+        "benefitNotice": "요금이 아닌 모델링된 혜택입니다. 줄이 그어진 금액은 AI 청구서에 대한 할인이 아니라 피할 것으로 예상되는 지출입니다.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "반환된 시간은 자동 절약이 아닌 용량입니다. 실제 지출 절감이나 추가 기여에 할당한 부분만 금전적 가치를 받습니다."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -785,7 +785,8 @@
           "contribution_rate": 110,
           "probability_before": 8,
           "probability_after": 5,
-          "loss": 10000
+          "loss": 10000,
+          "customer_price": 149
         },
         "copy": {
           "navLabel": "가격",
@@ -793,9 +794,9 @@
           "costStep": "Token usage",
           "valueStep": "Analyst capacity",
           "workloadIntro": "Model case preparation and analyst capacity—not guaranteed compliance.",
-          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
-          "sampleNotice": "Typical usage · not observed results",
+          "costIntro": "일반적인 토큰 소비 및 플랫폼 수수료는 일반 사용자를 위해 미리 채워져 있습니다. 사용법이 다른 경우 수정하세요.",
+          "valueIntro": "이는 일반적인 사용량에 대해 모델링된 출력 및 용량입니다. 작업과 일치하지 않는 경우 가정을 편집하십시오.",
+          "sampleNotice": "일반적인 사용법 · 관찰되지 않은 결과",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -814,17 +815,17 @@
           "monthlyTokens": "Monthly tokens",
           "tokenCost": "Token usage",
           "packageLabel": "Usage package",
-          "packageBase": "기본",
+          "packageBase": "Base",
           "packageMedium": "Medium",
           "packageCustom": "Custom",
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "기존 팀 검토에서는 반환된 용량을 사용합니다. 추가 유료 리뷰는 운영 비용에 포함되며 팀 용량에서 다시 공제되지 않습니다.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "예산에는 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰가 포함되어야 합니다. 변경되지 않은 급여를 새로운 지출로 포함하지 마십시오.",
+          "itemizedNote": "토큰 사용량은 출력당 볼륨 × 토큰으로 계산됩니다. 추가 미디어, 도구 및 인프라는 적용되지 않는 한 0으로 유지됩니다. 추가 유료 리뷰는 리뷰 시간과 요율로 계산됩니다.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -832,34 +833,34 @@
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
-          "economicValue": "모델링된 경제적 가치",
+          "economicValue": "Modeled economic value",
           "netBenefit": "Net modeled benefit",
           "multiple": "Economic return multiple",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "성장이나 복리 없이 동일한 월별 가정. 채용 비용 절감은 입력한 기간 동안만 지속됩니다.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "운영 부담이 제거되어(음의 생산성) 용량을 반환합니다. 더 높은 가치의 작업(잠재적 긍정적 생산성)은 해당 용량이 사용되는 경우에만 경제적 가치를 창출합니다. 시간만으로는 현금을 절약할 수 없습니다. 토큰 비용은 공급자 견적이 아닌 모델링된 입력/출력 혼합을 사용합니다.",
+          "formulaLabel": "경제적 가치 ¼ 운영 비용 = 경제적 수익 배수. 순 이익에서 운영 비용을 한 번 뺍니다.",
+          "allocationNote": "각 시간은 한 번씩 할당될 수 있습니다. 할당되지 않은 시간은 금전적 가치 없이 용량으로 유지됩니다.",
+          "overlapLabel": "이러한 이점은 뚜렷합니다. 다른 곳에서 이미 계산된 비용과 손실은 제외했습니다.",
+          "overlapNote": "오류 및 위험 추정치는 인건비 절감을 제외하며 동일한 사고가 두 범주 모두에 나타나서는 안 됩니다. 기여금에는 별도로 공제되는 AI 비용이 제외됩니다.",
+          "hiringLabel": "이번 고용은 진정으로 계획된 것이며 할당된 역량으로 작업을 감당할 수 있습니다.",
+          "reviewedLabel": "나는 내 결과를 검토했습니다. 선택되지 않은 결과는 이 추정치에 금전적 가치가 없습니다.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "용량 및 수요에 따라 지원되는 추가 작업",
+          "assumptionsIncomplete": "재정적 가치를 계산하려면 선택한 가정을 완료하세요.",
+          "allocationError": "할당된 시간이 사용 가능한 순 용량을 초과합니다. 할당을 줄입니다.",
+          "reviewError": "검토 작업은 줄어든 작업보다 시간이 더 걸립니다. 이러한 가정에서는 양의 용량을 사용할 수 없습니다.",
+          "cashError": "회피된 지출은 현재 지출을 초과할 수 없으며 할당된 시간이 없을 때 양수 값을 가질 수 없습니다.",
+          "hiringError": "할당된 용량은 계획된 고용 시간을 포함해야 합니다. 계획된 고용과 기간을 확인합니다.",
+          "riskError": "이후 확률은 손실 감소 추정에 대한 이전 확률을 초과할 수 없습니다.",
+          "overlapError": "재무 결과에 포함하기 전에 혜택이 중복되지 않는지 확인하세요.",
+          "boundsError": "표시된 한계 내의 값을 사용하십시오.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "언어는 통화나 가정이 아니라 형식을 변경합니다.",
           "currentPreparation": "현재 준비 시간",
           "reviewHours": "휴먼 리뷰 시간",
           "reworkHours": "재작업 시간을 피하거나 추가했습니다",
@@ -899,39 +900,39 @@
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "토큰 사용, 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰를 포함합니다."
           },
           "model_cost": {
             "label": "Extra models and media",
-            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+            "help": "이미지, 비디오 또는 기타 생성에 대해서만 토큰 사용과 별도로 요금이 부과됩니다. 없으면 0을 입력하세요."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "브라우저 세션, 커넥터 및 기타 측정 서비스. 없으면 0을 입력하세요."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "이 워크로드를 위한 증분 호스팅, 스토리지 및 컴퓨팅. 없으면 0을 입력하세요."
           },
           "platform_cost": {
             "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "help": "이 사용량 패키지에 대한 일반적인 월별 액세스입니다. 이는 가격 견적이 아닌 모델링된 가정입니다."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "시간당 추가 유료 리뷰",
+            "help": "변경되지 않은 직원의 급여가 아닌 실제 추가 검토자 지출입니다."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "유급 작업을 제거하는 시간",
+            "help": "초과 근무, 계약자 또는 처리 비용이 실제로 중단되는 작업만 할당하십시오."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "해당 작업에 대한 현재 월별 지출",
+            "help": "감소가 발생하는 현금 예산입니다."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "월간 지출을 중단할 수 있습니다.",
+            "help": "시간에 급여를 곱한 것이 아니라 하나의 명시적인 금액입니다. 별도로 입력된 계획된 고용 절감액은 제외됩니다."
           },
           "higher_value_hours": {
             "label": "Hours kept for complex cases",
@@ -942,64 +943,64 @@
             "help": "Your estimate of an analyst hour, not a payroll reduction."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "추가 볼륨에 사용된 시간",
+            "help": "이 할당은 자문 작업이나 지출 절감에도 사용할 수 없습니다."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "추가 단위당 팀 시간",
+            "help": "검토를 포함한 남은 인간의 노력은 하나의 단위를 더 제공하는 데 필요했습니다."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "수요가 예상되는 추가 유닛",
+            "help": "용량만으로는 수요가 없습니다. 수행할 것으로 예상되는 추가 월별 작업을 입력하세요."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "배송 비용을 제외한 추가 수익; AI 운영 비용은 별도로 공제됩니다."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "계획된 고용 시간",
+            "help": "일반적인 정규직 추정이 아닌 특정 계획 작업에 용량을 할당합니다."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "계획된 고용에 포함되는 월별 시간",
+            "help": "할당된 용량은 이 전체 워크로드를 포괄해야 합니다."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "실제로 월 임대료가 연기되었습니다.",
+            "help": "이미 고용된 사람의 급여가 아닌 실제로 계획된 고용 비용을 사용하십시오."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "고용이 연기되는 달",
+            "help": "1~12개월; 이 기간 이후에는 연간 추정치에서 절감액 계산이 중단됩니다."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "월별 예상 방지 오류",
+            "help": "기준선과 예상 감소량을 사용하세요. 사고도 위험 감소로 간주하여 제외합니다."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "다른 곳에 이미 포함된 인건비, 환불 또는 기타 손실은 제외하세요."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "보장된 위험 평가가 아닌 귀하의 추정치입니다."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "동일한 이벤트 및 월별 기간을 기준으로 사용합니다."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "해당 이벤트에 대한 손실 노출",
+            "help": "이미 계산된 오류 사고 및 지출을 제외합니다. 이는 저장된 현금이 아닌 불확실한 기대 가치입니다."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "이전 주기 시간(일)",
+            "help": "직접 작업한 작업과 별개로 시작부터 완료까지 경과된 시간입니다."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "이후 주기 시간(일)",
+            "help": "가정된 금전적 가치 없이 운영 변경으로만 표시됩니다."
           }
         },
         "burden": [
@@ -1010,41 +1011,6 @@
           "Additional analyst review capacity",
           "Time for complex cases and exceptions"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 40,
-            "tokensPerOutput": 25000,
-            "platform_cost": 990,
-            "minutes": 108,
-            "automation": 45,
-            "review": 12,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 24.4,
-            "contribution_rate": 110,
-            "probability_before": 8,
-            "probability_after": 5,
-            "loss": 5000
-          },
-          "medium": {
-            "volume": 80,
-            "tokensPerOutput": 25000,
-            "platform_cost": 1500,
-            "minutes": 108,
-            "automation": 45,
-            "review": 12,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 48.8,
-            "contribution_rate": 110,
-            "probability_before": 8,
-            "probability_after": 5,
-            "loss": 10000
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1112,9 +1078,100 @@
       "cta": {
         "primaryLabel": "Talk with Nora",
         "primaryTarget": "meet",
-        "secondaryLabel": "작동 방식을 참조하십시오",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "secondaryLabel": "See how it works",
+        "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "analyst",
+        "copy": {
+          "navLabel": "가격",
+          "heading": "요금 및 ROI",
+          "intro": "직접 입력하고 예상 수익을 확인하세요.",
+          "monthly": "월",
+          "weekly": "주",
+          "daily": "일",
+          "cost": "지불 금액",
+          "benefit": "예상 수익",
+          "net": "순이익",
+          "roi": "예상 ROI",
+          "timeBenefit": "예상 시간 가치",
+          "timeRoi": "시간 가치 ROI",
+          "timeBack": "확보된 시간",
+          "missing": "값 입력",
+          "noRatio": "Not applicable",
+          "method": "계산 방법",
+          "reset": "초기화",
+          "audience": "대상",
+          "includedVat": "VAT 포함",
+          "excludedVat": "VAT 별도",
+          "perMonth": "월 기준",
+          "equivalents": "매월 청구돼요. 일·주 단위 수치는 평균이며, 일·주 단위 요금이나 보장 수익이 아니에요.",
+          "timeNote": "시간 가치는 선택적으로 입력하는 추정치이며, 실제 수입이나 인건비 절감액이 아니에요. 순시간에는 확인·승인 시간도 반영돼요.",
+          "estimateNote": "계획 추정치는 측정된 ROI와 별개예요. 승인된 결과와 비교 가능한 기록 비용만 측정 수익의 근거가 돼요.",
+          "limitNote": "추가 사용이나 별도 견적 작업은 문의하세요. 이 추정치는 포함된 요금제에만 적용돼요.",
+          "timeFormula": "시간 가치 = 단위 수 × 순절약 시간(분) ÷ 60 × 시간당 가치.",
+          "profitFormula": "공헌이익 = 적격 추천 세션 수 × 전환율 증가분 ÷ 100 × 추가 주문당 이익.",
+          "proceedsFormula": "추가 수익 = 물량 또는 수거 건수 × (이후 순수익 − 이전 순수익).",
+          "roiFormula": "순편익 = 편익 − 앱 구독 비용. ROI = 순편익 ÷ 앱 구독 비용 × 100. 무료 요금제에는 ROI 비율이 없어요."
+        },
+        "profiles": [
+          {
+            "id": "analyst",
+            "label": "분석가",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "월간 사례 자료 묶음 수",
+                "help": "포함된 한도 내에서 한 달 동안 검토할 것으로 예상하는 작업량이에요.",
+                "defaultValue": 50,
+                "min": 0,
+                "max": 50,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "절약 시간(분)",
+                "help": "확인, 승인, 재작업을 반영한 추정치예요. 음수는 추가 노력을 뜻해요.",
+                "defaultValue": 36.6,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "시간당 가치",
+                "help": "직접 입력하는 선택적 평가액이에요. 현금 절약이나 급여 절감의 약속이 아니에요.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 149,
+              "basis": "fixed",
+              "unit": "분석가",
+              "vatIncluded": false,
+              "includedUnits": 50,
+              "allowance": "50묶음 / 150쪽",
+              "extras": "은행 전용 구축과 전문적 판단 서비스는 별도 견적입니다."
+            },
+            "assumptions": [
+              "기본 순절약 시간 36.6분은 준비 시간에 대한 예시 추정치이며, 실측 결과가 아닙니다.",
+              "순시간에는 고객 검토도 반영돼요. 시간의 금전적 가치는 직접 입력하며 실제 수입이 아니에요."
+            ],
+            "loop": "신규 사례나 누락 문서 신호 → 증빙 자료 묶음 구성 → 분석가 검토 → 검토된 자료 묶음과 대응 준비 작업량 기록",
+            "ctaLabel": "데모 체험",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -4415,7 +4472,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -4423,7 +4480,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "2ca79f2e2b4ba0736bf33ec5216a7c062d03730801b9d36c9088cddd7afac07e"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -4431,7 +4488,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "6443b22e7d8acc03d073321b279a4f062aaf156aab72d92abc973972e0543a99"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -6074,47 +6131,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        1
-      ],
-      "sourceHash": "2c6ef0f0d0e4cc6e9c15d05e0480151d4e3d0b8baa0423e660330d47f56e1a66"
     },
     {
       "path": [
@@ -6262,7 +6281,468 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "80b1357de3f6c4a140a09f47eb1728324725381ddfa8e873441a670ff9054030"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "fb9068ab5c86b3650a8c11eb63b2cc107faf4c0218fcca52f8c0928e9038c12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "80b1357de3f6c4a140a09f47eb1728324725381ddfa8e873441a670ff9054030"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "4f6102a73742ee154ba4dc65379a803175fe47e8c926fc0f97ac7a0b2987a6a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "54e7385b219cf4a852ce180ecb8693ebba1b519694ef619ff13765de5de28855"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "b0ec7292ab6600ee1d96746b140d0fd0ded1a296ebe996a84b7ddd1decfc3aae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "2d5eff163a3a533323af24c3ef3d816fb1992872f75ded20eb6f021122ad754c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-09-11T09:11:11.795Z"
+  "generatedAt": "2026-10-13T14:19:34.850Z"
 }
