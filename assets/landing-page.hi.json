@@ -1,0 +1,4474 @@
+{
+  "schemaVersion": 2,
+  "language": "hi",
+  "regionKey": null,
+  "sourceRevision": "0fd5c76126cc64de4f31ea74d32ac7ed70a8cd16f5e7a05678af367ad8e3408e",
+  "landingPage": {
+    "design": {
+      "variant": "banking",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "indigo",
+        "accentColor": "teal",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f8f6",
+            "surface": "#ffffff",
+            "sidebar": "#06251f",
+            "text": "#0b1820",
+            "accent": "#087f64",
+            "userBubble": "#087f64"
+          },
+          "dark": {
+            "canvas": "#01010e",
+            "surface": "#0d0d20",
+            "sidebar": "#020716",
+            "text": "#ededf8",
+            "accent": "#5cffcb",
+            "userBubble": "#208f71"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Inter"
+          },
+          "display": {
+            "source": "google",
+            "family": "TASA Orbiter"
+          },
+          "label": {
+            "source": "google",
+            "family": "Martian Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://gabrieloperator.com/assets/gabriel-twins/brand-marks/nora.webp",
+      "navItems": [
+        {
+          "label": "क्षमताएं",
+          "target": "capabilities"
+        },
+        {
+          "label": "उपयोग के मामले",
+          "target": "use-cases"
+        },
+        {
+          "label": "विश्वास",
+          "target": "roi-calculator"
+        },
+        {
+          "label": "विश्वास",
+          "target": "trust"
+        },
+        {
+          "label": "बारे में",
+          "target": "about"
+        }
+      ],
+      "ctaLabel": "नोरा से मिलें"
+    },
+    "badge": "बैंकिंग एआई ऑपरेशंस",
+    "headline": "बैंक को AI-नेटिव बनाएं",
+    "subheadline": "नोरा एक बैंकिंग एआई पर्सोना है जिसे गैब्रियल ऑपरेटर के साथ बनाया गया है—एम्बेडेड चैट, एसडीके, एपीआई या बैंक की ऑर्केस्ट्रेशन लेयर के माध्यम से डिलीवर किया गया है।",
+    "ctaLabel": "नोरा से बात करें",
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "नमस्ते। मुझसे पूछें कि मैं बैंकिंग वर्कफ़्लो का समर्थन कैसे कर सकती हूँ या आपके ऑपरेटिंग स्टैक में कैसे फिट हो सकती हूँ।"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "पर्सोना प्रीव्यू",
+      "inputPlaceholder": "नोरा से वर्कफ़्लो के बारे में पूछें...",
+      "suggestedPrompts": [
+        "केवाईसी वर्कफ़्लो",
+        "एकीकरण"
+      ]
+    },
+    "howItWorks": {
+      "kicker": "01 — कार्रवाई का एक नियंत्रित मार्ग",
+      "heading": "एजेंट जो कार्य करते हैं।\nबैंकर नियंत्रण में रहते हैं।",
+      "headingAccent": "बैंकर नियंत्रण में रहते हैं।",
+      "steps": [
+        {
+          "icon": "envelope",
+          "title": "कैप्चर",
+          "body": "नोरा अनुरोध, स्रोत दस्तावेज़, नीति और संदर्भ एकत्र करती है।"
+        },
+        {
+          "icon": "sparkles",
+          "title": "सिमुलेट",
+          "body": "वह पहले वर्कफ़्लो का एक सुरक्षित, समीक्षा योग्य संस्करण तैयार करती है।"
+        },
+        {
+          "icon": "shield-check",
+          "title": "सत्यापित करें",
+          "body": "कुछ भी आगे बढ़ने से पहले नियमों, साक्ष्यों और अपवादों की जाँच की जाती है।"
+        },
+        {
+          "icon": "check",
+          "title": "अनुमोदन",
+          "body": "सही बैंकर देखता है कि क्या होने वाला है और क्यों।"
+        },
+        {
+          "icon": "star",
+          "title": "निष्पादित करें",
+          "body": "केवल स्वीकृत कार्य ही चलते हैं, ऑडिट के लिए एक ट्रेस तैयार रहता है।"
+        }
+      ]
+    },
+    "statement": {
+      "kicker": "02 — नोरा क्या है?",
+      "segments": [
+        {
+          "text": "नोरा गैब्रियल ऑपरेटर के साथ बनाया गया एक एआई पर्सोना है",
+          "tone": "strong"
+        },
+        {
+          "text": " शासित बैंकिंग संचालन के लिए। उसे एक डोमेन में तैनात करें",
+          "tone": "muted"
+        },
+        {
+          "text": "परिभाषित ज्ञान, उपकरणों और अधिकार के साथ",
+          "tone": "iris"
+        },
+        {
+          "text": "—फिर अन्य टीमों के लिए अधिक पर्सोना बनाएं, प्रत्येक अपने स्वयं के साथ",
+          "tone": "muted"
+        },
+        {
+          "text": "नीति और पहुंच की सीमाएं",
+          "tone": "accent"
+        },
+        {
+          "text": ".",
+          "tone": "muted"
+        }
+      ]
+    },
+    "deployment": {
+      "kicker": "03 — परिनियोजन",
+      "heading": "उस बैंक से मिलें जहाँ काम पहले से ही होता है।",
+      "body": "एक एम्बेडेड अनुभव के साथ शुरू करें या नोरा को सीधे बैंक के ऑपरेटिंग स्टैक से कनेक्ट करें।",
+      "items": [
+        {
+          "code": "CHAT",
+          "title": "एम्बेडेड चैट",
+          "body": "नोरा को उन पोर्टलों और कार्यस्थानों में रखें जिनका बैंकर पहले से उपयोग करते हैं।"
+        },
+        {
+          "code": "SDK",
+          "title": "बैंक के स्वामित्व वाला अनुभव",
+          "body": "नोरा को बैंक के अपने इंटरफ़ेस और वर्कफ़्लो में आकार देने के लिए एसडीके का उपयोग करें।"
+        },
+        {
+          "code": "API",
+          "title": "सेवा के रूप में पर्सोना",
+          "body": "उत्पादों, संचालन उपकरणों, मोबाइल ऐप या ईवेंट-संचालित प्रवाह से नोरा को कॉल करें।"
+        },
+        {
+          "code": "ORCH",
+          "title": "ऑर्केस्ट्रेशन लेयर",
+          "body": "नोरा को बैंक के मौजूदा ऑटोमेशन स्टैक के अंदर एक शासित एजेंट के रूप में कनेक्ट करें।"
+        }
+      ],
+      "personaLabel": "नोरा · बैंकिंग एआई पर्सोना",
+      "platformLabel": "गैब्रियल ऑपरेटर के साथ निर्मित + शासित",
+      "boundaryItems": [
+        "बैंक-अनुमोदित ज्ञान",
+        "स्कोप किए गए उपकरण",
+        "निश्चित नीति",
+        "नामित अनुमोदन"
+      ],
+      "note": "एक बैंक कई डोमेन पर्सोना तैनात कर सकता है—केवाईसी के लिए नोरा, क्रेडिट के लिए नोरा, संचालन के लिए नोरा—प्रत्येक पर्सोना के डेटा, उपकरणों और अधिकार को स्पष्ट रूप से सीमित रखते हुए।"
+    },
+    "useCases": {
+      "kicker": "04 — उपयोग के मामले",
+      "heading": "एक पर्सोना मॉडल\nशुरू करने के लिए 8 स्थान।",
+      "subheading": "नोरा की पहली तैनाती के लिए एक डोमेन चुनें; केवल तब विस्तार करें जब ऑपरेटिंग मॉडल सिद्ध हो जाए।",
+      "items": [
+        {
+          "number": "01",
+          "label": "केवाईसी और ऑनबोर्डिंग",
+          "mode": "VISION + CHAT",
+          "outcome": "दस्तावेजों से स्वीकृत सीबीएस रिकॉर्ड तक।",
+          "summary": "नोरा आईडी और फॉर्म पढ़ती है, सीकेवाईसी और सीबीएस की जांच करती है, विसंगतियों की व्याख्या करती है, फिर मेकर/चेकर अनुमोदन के लिए सटीक ग्राहक रिकॉर्ड तैयार करती है।",
+          "inputSummary": "आवेदन · सीकेवाईसी · पहचान दस्तावेज़ · सीबीएस · केवाईसी नीति",
+          "outputSummary": "सीकेवाईसी मिलान · लापता फ़ील्ड · सीबीएस निर्माण पूर्वावलोकन · साक्ष्य पैक",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "आवेदन, सीकेवाईसी, पहचान दस्तावेज़, सीबीएस और केवाईसी नीति।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "विजन + चैट",
+              "description": "पहचान साक्ष्य पढ़ता है, विसंगतियों को हल करता है, और प्रस्तावित रिकॉर्ड की व्याख्या करता है।"
+            }
+          ],
+          "outputs": [
+            "सीकेवाईसी मिलान",
+            "लापता फ़ील्ड",
+            "सीबीएस निर्माण पूर्वावलोकन",
+            "साक्ष्य पैक"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "अधिकारी आवेदन और आईडी अपलोड करता है, या नोरा से ग्राहक को ऑनबोर्ड करने के लिए कहता है।"
+            },
+            {
+              "stage": "रन",
+              "description": "पहचान फ़ील्ड निकालें, सीकेवाईसी और सीबीएस की तुलना करें, और लापता डेटा या विसंगतियों को मॉडल करें।"
+            },
+            {
+              "stage": "रन",
+              "description": "प्रस्तावित सीबीएस रिकॉर्ड बनाएं और पूर्णता और डुप्लिकेट जांच को रीप्ले करें।"
+            },
+            {
+              "stage": "समीक्षा",
+              "description": "अधिकारी और मेकर/चेकर अनुमोदन के लिए साक्ष्य और सटीक रिकॉर्ड दिखाएं।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल स्वीकृत सीबीएस फ़ील्ड बनाएं या अपडेट करें और साक्ष्य पैक फ़ाइल करें।"
+            },
+            {
+              "stage": "निगरानी",
+              "description": "अगले रन के लिए पूर्णता, अस्वीकृतियाँ, अपवाद और अधिकारी सुधारों को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "अधिकारी सुधार ओसीआर, नाम/पता सामान्यीकरण और फ़ज़ी मिलान में सुधार करते हैं।",
+            "neverChanges": "केवाईसी नीति, अनिवार्य फ़ील्ड और अनुमोदन प्राधिकरण शासित बने रहते हैं।"
+          }
+        },
+        {
+          "number": "02",
+          "label": "ऋण और क्रेडिट संचालन",
+          "mode": "VISION + VOICE",
+          "outcome": "एक पूर्ण क्रेडिट फ़ाइल, प्राधिकरण के लिए तैयार।",
+          "summary": "नोरा ब्यूरो, आवेदन और वित्तीय संदर्भ को उधारकर्ता डोजियर, विचलन ज्ञापन और मंजूरी मसौदे में एकत्रित करती है—क्रेडिट प्राधिकरण मानने के बिना।",
+          "inputSummary": "आवेदन · ब्यूरो · वित्तीय · विचलन नीति · एलओएस / डीएमएस",
+          "outputSummary": "उधारकर्ता डोजियर · विचलन ज्ञापन · मंजूरी मसौदा · संवितरण पूर्वावलोकन",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "आवेदन, ब्यूरो, वित्तीय, विचलन नीति, एलओएस और डीएमएस।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "दृष्टि + आवाज़",
+              "description": "क्रेडिट फ़ाइल पढ़ता है और प्राकृतिक-भाषा अधिकारी समीक्षा का समर्थन करता है।"
+            }
+          ],
+          "outputs": [
+            "उधारकर्ता डोजियर",
+            "विचलन ज्ञापन",
+            "मंजूरी मसौदा",
+            "संवितरण पूर्वावलोकन"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "आवेदन, वित्तीय दस्तावेज़, ब्यूरो डेटा और अधिकारी अनुरोध कैप्चर करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "आंकड़ों को सामान्य करें, ब्यूरो इतिहास का सारांश दें और हर नीति विचलन का मॉडल बनाएं।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "डोजियर, मंजूरी मसौदा और संवितरण पूर्वावलोकन को असेंबल करें; नीति जांच फिर से चलाएं।"
+            },
+            {
+              "stage": "समीक्षा",
+              "description": "नियम, विचलन और साक्ष्य नामित क्रेडिट प्राधिकरण को प्रस्तुत करें।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "स्वीकृत मंजूरी या संवितरण स्थिति लिखें और पैकेज को डीएमएस में फ़ाइल करें।"
+            },
+            {
+              "stage": "निगरानी",
+              "description": "स्थिति, टर्नअराउंड, डाउनस्ट्रीम अपवाद और प्राधिकरण संपादन को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "क्रेडिट-अधिकारी संपादन सारांश, दस्तावेज़ जांच और प्राथमिकता में सुधार करते हैं।",
+            "neverChanges": "स्कोर कट-ऑफ, एलटीवी/डीटीआई, मूल्य निर्धारण और मंजूरी शक्तियां स्वयं नहीं बदल सकतीं।"
+          }
+        },
+        {
+          "number": "03",
+          "label": "अनुपालन, एएमएल और रिपोर्टिंग",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "हर फाइलिंग उसके संलग्न साक्ष्य के साथ शुरू होती है।",
+          "summary": "नोरा लेनदेन, केवाईसी, वॉचलिस्ट और नियमों को अनुपालन समीक्षा के लिए प्रथम-पास अलर्ट ट्राइएज, रिटर्न ड्राफ्ट और सबमिशन पूर्वावलोकन में एकत्रित करती है।",
+          "inputSummary": "लेनदेन · ग्राहक केवाईसी · अलर्ट · वॉचलिस्ट · नियामक नियम",
+          "outputSummary": "अलर्ट ट्राइएज · रिटर्न ड्राफ्ट · नैरेटिव · सीकेवाईसी बैच · साक्ष्य बंडल",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "लेनदेन, ग्राहक केवाईसी, अलर्ट, वॉचलिस्ट और नियामक नियम।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "चैट + सिस्टम",
+              "description": "बातचीत को अनुपालन प्रणालियों तक नियंत्रित पहुंच के साथ जोड़ता है।"
+            }
+          ],
+          "outputs": [
+            "अलर्ट ट्राइएज",
+            "रिटर्न ड्राफ्ट",
+            "नैरेटिव",
+            "सीकेवाईसी बैच",
+            "साक्ष्य बंडल"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "ग्राहक, लेनदेन और वॉचलिस्ट संदर्भ के साथ एक फाइलिंग अनुरोध या अलर्ट कैप्चर करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "निश्चित अनुपालन नियमों को लागू करें और अलर्ट, रिटर्न या सीकेवाईसी बैच का मॉडल बनाएं।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "नैरेटिव और साक्ष्य बंडल को असेंबल करें; पूर्णता और स्थिरता का परीक्षण करें।"
+            },
+            {
+              "stage": "समीक्षा",
+              "description": "प्रस्तावित प्रत्येक फ़ील्ड और अनसुलझे अनिश्चितता को अनुपालन अधिकारी को प्रस्तुत करें।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल अधिकारी-अनुमोदित रिटर्न, नैरेटिव या सीकेवाईसी बैच को स्टेज या सबमिट करें।"
+            },
+            {
+              "stage": "निगरानी",
+              "description": "पावती, अस्वीकृतियाँ, फाइलिंग स्थिति और पूर्ण ऑडिट ट्रेल को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "विश्लेषक व्यवस्थाएं साक्ष्य पुनर्प्राप्ति, रैंकिंग और ड्राफ्ट नैरेटिव में सुधार करती हैं।",
+            "neverChanges": "एएमएल परिदृश्य, प्रतिबंध सूची, सीमाएं और फाइलिंग नियम स्थिर रहते हैं।"
+          }
+        },
+        {
+          "number": "04",
+          "label": "मिलान और वित्त",
+          "mode": "SYSTEM + CHAT",
+          "outcome": "रात का मिलान जो हर ब्रेक की व्याख्या करता है।",
+          "summary": "नोरा स्विच, सीबीएस, निपटान और जीएल रिकॉर्ड का मिलान करती है, अवशिष्टों को रैंक करती है और ठीक से बताती है कि कोई आइटम बिना मिलान के क्यों रहता है।",
+          "inputSummary": "स्विच लेनदेन · सीबीएस लेजर · जीएल · विवरण · निपटान फ़ाइलें",
+          "outputSummary": "मिलान सेट · अपवाद कतार · जीएल प्रमाण · जर्नल पूर्वावलोकन · सारांश",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "स्विच लेनदेन, सीबीएस लेजर, जीएल, विवरण और निपटान फ़ाइलें।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "सिस्टम + चैट",
+              "description": "सिस्टम रिकॉर्ड का मिलान करता है और वित्त के लिए हर अवशिष्ट की व्याख्या करता है।"
+            }
+          ],
+          "outputs": [
+            "मिलान सेट",
+            "अपवाद कतार",
+            "जीएल प्रमाण",
+            "जर्नल पूर्वावलोकन",
+            "सारांश"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "रात की ट्रिगर पर शुरू करें और स्विच, सीबीएस, जीएल और निपटान रिकॉर्ड को इनजेस्ट करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "सटीक, नियम और संबंध मिलान चलाएं; समय और संदर्भ अंतरों को मॉडल करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "अवशिष्ट मिलान सुझावों का परीक्षण करें और जर्नल या समायोजन पूर्वावलोकन तैयार करें।"
+            },
+            {
+              "stage": "समीक्षा",
+              "description": "हर अस्पष्ट आइटम की व्याख्या करें और वित्त को प्रस्तावित पोस्टिंग दिखाएं।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल वित्त प्राधिकरण द्वारा अनुमोदित समायोजन को साफ़ या पोस्ट करें।"
+            },
+            {
+              "stage": "निगरानी",
+              "description": "ब्रेक, एजिंग, अगले दिन की पुनरावृत्ति और स्वीकृत या अस्वीकृत सुझावों को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "स्वीकृत सुझाव संदर्भ मिलान और अपवाद रैंकिंग में सुधार करते हैं।",
+            "neverChanges": "लेखांकन नीति, महत्व और पोस्टिंग नियंत्रण शासित रहते हैं।"
+          }
+        },
+        {
+          "number": "05",
+          "label": "ग्राहक सेवा और संग्रह",
+          "mode": "VOICE + CHAT",
+          "outcome": "खाते को देखते हुए बातचीत को हल करें।",
+          "summary": "नोरा प्राकृतिक बातचीत को समझती है, ग्राहक संदर्भ प्राप्त करती है और थ्रेशोल्ड हैंडऑफ़ के साथ प्रतिक्रियाएं, भुगतान के वादे और निपटान तैयार करती है।",
+          "inputSummary": "ग्राहक 360 · खाते · केस इतिहास · नीति · बकाया · पीटीपी",
+          "outputSummary": "केस सारांश · स्थिति उत्तर · पीटीपी ड्राफ्ट · निपटान पत्र · रूटिंग",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "ग्राहक 360, खाते, केस इतिहास, नीति, बकाया और पीटीपी।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "आवाज़ + चैट",
+              "description": "खाता संदर्भ को ध्यान में रखते हुए ग्राहक की बातचीत को समझता है।"
+            }
+          ],
+          "outputs": [
+            "केस सारांश",
+            "स्थिति उत्तर",
+            "पीटीपी ड्राफ्ट",
+            "निपटान पत्र",
+            "रूटिंग"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "कॉल, चैट, दस्तावेज़ या केस ईवेंट कैप्चर करें और ग्राहक के इरादे की पहचान करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "पहचान हल करें और खाता, केस, बकाया और नीति संदर्भ प्राप्त करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "उत्तर, पीटीपी या निपटान पथ का मसौदा तैयार करें और इसे ग्राहक-प्रभाव नियमों के विरुद्ध परीक्षण करें।"
+            },
+            {
+              "stage": "समीक्षा",
+              "description": "एजेंट को सही सीमा पर प्रस्तावित प्रतिक्रिया या खाता कार्रवाई दिखाएं।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल अनुमोदित संचार या खाता कार्रवाई भेजें, अपडेट करें या लॉग करें।"
+            },
+            {
+              "stage": "निगरानी",
+              "description": "समाधान, रखे गए या टूटे हुए वादे, पुनः खोलना और एस्केलेशन ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "एजेंट संपादन और परिणाम इरादे, रूटिंग और अगले-सर्वोत्तम कार्रवाई में सुधार करते हैं।",
+            "neverChanges": "सहमति, संग्रह आचरण और निपटान प्राधिकरण लागू रहते हैं।"
+          }
+        },
+        {
+          "number": "06",
+          "label": "मानव संसाधन और आंतरिक संचालन",
+          "mode": "CHAT + SYSTEM",
+          "outcome": "हर आने वाला तैयार। हर जाने वाला पूरी तरह से बंद।",
+          "summary": "नोरा एचआरएमएस, ईमेल, पहचान और एक्सेस परिवर्तन तैयार करती है, फिर प्रबंधक, मानव संसाधन और आईटी अनुमोदन से पहले सटीक खाता और अनुमति अंतर दिखाती है।",
+          "inputSummary": "कर्मचारी · एचआरएमएस · पहचान/पहुंच · निर्देशिका · आईटीएसएम · मानव संसाधन नीति",
+          "outputSummary": "जॉइनर/लीवर चेकलिस्ट · अनुमति अंतर · पत्र · अपवाद",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "कर्मचारी, एचआरएमएस, पहचान और पहुंच, निर्देशिका, आईटीएसएम और मानव संसाधन नीति।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "चैट + सिस्टम",
+              "description": "एक निरीक्षण योग्य संवादी वर्कफ़्लो के माध्यम से सिस्टम परिवर्तनों का समन्वय करता है।"
+            }
+          ],
+          "outputs": [
+            "जॉइनर/लीवर चेकलिस्ट",
+            "अनुमति अंतर",
+            "पत्र",
+            "अपवाद"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "कर्मचारी और प्रबंधक संदर्भ के साथ जॉइनर, लीवर या आंतरिक अनुरोध को कैप्चर करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "आवश्यक एचआरएमएस, निर्देशिका, ईमेल, पहचान और एक्सेस परिवर्तनों को मॉडल करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "एंटाइटलमेंट और पूर्णता नियमों के विरुद्ध खाता और अनुमति अंतर का पूर्वाभ्यास करें।"
+            },
+            {
+              "stage": "समीक्षा",
+              "description": "प्रबंधक, मानव संसाधन और आईटी अनुमोदन के लिए सटीक अंतर दिखाएं।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल अनुमोदित खातों, भूमिकाओं और संसाधनों को प्रावधान या निरस्त करें।"
+            },
+            {
+              "stage": "निगरानी",
+              "description": "पूर्णता, विफल कार्य, अवशिष्ट पहुंच और प्रबंधक सुधारों को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "सुधार भूमिका बंडलों, चेकलिस्ट और अपवाद रूटिंग में सुधार करते हैं।",
+            "neverChanges": "विशेषाधिकार प्राप्त भूमिकाएं, कर्तव्यों का पृथक्करण और अनुमोदन पदानुक्रम निश्चित रहते हैं।"
+          }
+        },
+        {
+          "number": "07",
+          "label": "ट्रेजरी और ट्रेड ऑप्स",
+          "mode": "VOICE + SYSTEM",
+          "outcome": "डील, पुष्टिकरण और निपटान के बीच कम ब्रेक।",
+          "summary": "नोरा व्यापार शर्तों की तुलना करती है, पुष्टिकरणों को ट्रैक करती है और नामित या दोहरे ट्रेजरी अनुमोदन के पीछे दर, ब्लॉटर और नोस्ट्रो क्रियाएं तैयार करती है।",
+          "inputSummary": "डील · पुष्टिकरण · दरें · ब्लॉटर · नोस्ट्रो · सीमाएं · व्यापार डॉक्स",
+          "outputSummary": "पुष्टिकरण ट्रैकर · विसंगतियां · दर पूर्वावलोकन · नोस्ट्रो प्रमाण",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "डील, पुष्टिकरण, दरें, ब्लॉटर, नोस्ट्रो, सीमाएं और व्यापार दस्तावेज।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "आवाज़ + सिस्टम",
+              "description": "व्यापार डेटा की तुलना करता है और एक अनुमोदित डेस्क निर्देश का समर्थन करता है।"
+            }
+          ],
+          "outputs": [
+            "पुष्टिकरण ट्रैकर",
+            "विसंगतियां",
+            "दर पूर्वावलोकन",
+            "नोस्ट्रो प्रूफ"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "काउंटरपार्टी संदर्भ के साथ डील, कन्फर्मेशन या डेस्क निर्देश कैप्चर करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "डील्स, कन्फर्मेशन, रेट्स, ब्लॉटर और नोस्ट्रो में शर्तों को निकालें और तुलना करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "एक्शन तैयार करें और लिमिट्स, अमाउंट्स, कट-ऑफ्स और वर्तमान सिस्टम स्थिति का परीक्षण करें।"
+            },
+            {
+              "stage": "समीक्षा करें",
+              "description": "नामित या दोहरे ट्रेजरी प्राधिकरण को सटीक निर्देश प्रस्तुत करें।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल स्वीकृत रेट, ब्लॉटर, कन्फर्मेशन या नोस्ट्रो निर्देश भेजें।"
+            },
+            {
+              "stage": "निगरानी करें",
+              "description": "कन्फर्मेशन, सेटलमेंट, ब्रेक, कट-ऑफ्स और काउंटरपार्टी सुधारों को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "हल किए गए विसंगतियों से एक्सट्रैक्शन, मैचिंग और कट-ऑफ प्राथमिकता में सुधार होता है।",
+            "neverChanges": "डीलिंग, एफएक्स, रिस्क, पेमेंट और सैंक्शन लिमिट्स स्वयं नहीं बदल सकते।"
+          }
+        },
+        {
+          "number": "08",
+          "label": "माइक्रोबैंकिंग और ईईबी",
+          "mode": "CAMERA + VOICE",
+          "outcome": "फील्ड डेटा एक साफ, स्वीकृत बैच बन जाता है।",
+          "summary": "नोरा मीटिंग शीट्स और फॉर्म पढ़ती है, बोली-लगाई गई स्थानीय-भाषा डेटा को समझती है और मल्टी-सिस्टम बैच बनाने से पहले अनिश्चितताओं को हल करती है।",
+          "inputSummary": "मीटिंग डेटा · ग्रुप लोन · कलेक्शन · केवाई सी · स्कीम फॉर्म · क्लेम",
+          "outputSummary": "मीटिंग बैच · कलेक्शन अपलोड · स्कीम पैक · रिजेक्टेड-रो क्यू",
+          "inputs": [
+            {
+              "code": "SOURCE CONTEXT",
+              "description": "मीटिंग डेटा, ग्रुप लोन, कलेक्शन, केवाई सी, स्कीम फॉर्म और क्लेम।"
+            }
+          ],
+          "capabilities": [
+            {
+              "modality": "कैमरा + आवाज़",
+              "description": "फील्ड दस्तावेज़ पढ़ता है और बोली-लगाई गई स्थानीय-भाषा डेटा को समझता है।"
+            }
+          ],
+          "outputs": [
+            "मीटिंग बैच",
+            "कलेक्शन अपलोड",
+            "स्कीम पैक",
+            "रिजेक्टेड-रो क्यू"
+          ],
+          "workflow": [
+            {
+              "stage": "शुरू करें",
+              "description": "फील्ड ऑफिसर मीटिंग शीट्स अपलोड करता है या स्थानीय भाषा में कलेक्शन डेटा बताता है।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "फॉर्म को ट्रांसक्राइब और एक्सट्रैक्ट करें, फिर सदस्यों, खातों और स्कीम संदर्भ का मिलान करें।"
+            },
+            {
+              "stage": "चलाएं",
+              "description": "मल्टी-सिस्टम बैच बनाएं और विसंगतियों, अपेक्षित मानों और गुम डेटा का परीक्षण करें।"
+            },
+            {
+              "stage": "समीक्षा करें",
+              "description": "फील्ड या ब्रांच ऑफिसर की मंजूरी के लिए हर रो और प्रस्तावित राइट दिखाएं।"
+            },
+            {
+              "stage": "निष्पादित करें",
+              "description": "केवल स्वीकृत ग्रुप-लोन, कलेक्शन या स्कीम बैच पोस्ट करें।"
+            },
+            {
+              "stage": "निगरानी करें",
+              "description": "रिजेक्टेड रो, पावती, सुधार और पूर्णता को ट्रैक करें।"
+            }
+          ],
+          "selfLearning": {
+            "learns": "सुधार लिखावट, स्थानीय-भाषा मैपिंग और डेटा जांच में सुधार करते हैं।",
+            "neverChanges": "पात्रता, क्रेडिट, स्कीम और कलेक्शन प्राधिकरण शासित रहते हैं।"
+          }
+        }
+      ]
+    },
+    "platform": {
+      "kicker": "05 — मल्टीमॉडल पर्सोना",
+      "heading": "नोरा हर रूप में काम से मिलती है।",
+      "body": "बोलें, टाइप करें, दिखाएं या कनेक्ट करें—वही पर्सोना और कंट्रोल मॉडल जगह पर बने रहते हैं।",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
+          "alt": "",
+          "title": "दृष्टि जो फ़ाइल पढ़ती है",
+          "body": "पहचान दस्तावेज़, स्टेटमेंट, हस्ताक्षरित फॉर्म, लिखावट और स्क्रीनशॉट संरचित साक्ष्य बन जाते हैं।"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
+          "alt": "",
+          "title": "ऑपरेशनल क्षण के लिए आवाज़",
+          "body": "अधिकारी काम छोड़े बिना किसी अपवाद की व्याख्या कर सकते हैं, फील्ड डेटा बता सकते हैं या स्थिति के लिए पूछ सकते हैं।"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
+          "alt": "",
+          "title": "सिस्टम जो अवलोकन योग्य रहते हैं",
+          "body": "नोरा स्वीकृत संदर्भ पढ़ती है और निष्पादन से पहले हर फ़ील्ड को दृश्यमान बनाकर स्कोप्ड राइट्स तैयार करती है।"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
+          "alt": "",
+          "title": "प्राधिकरण जो मानवीय रहता है",
+          "body": "नामित अनुमोदन, दोहरे नियंत्रण और निश्चित नीति गेट्स रन का हिस्सा हैं—उसके बगल में एक नोट नहीं।"
+        }
+      ]
+    },
+    "trust": {
+      "kicker": "06 — विश्वास",
+      "heading": "आश्वासन नहीं, रन दिखाएं।",
+      "body": "वह साक्ष्य जो आपकी रिस्क, सुरक्षा और ऑडिट टीमें मांगेंगी।",
+      "statusLabel": "शासन स्थिति",
+      "statusValue": "दृश्यमान",
+      "statusDetail": "सभी नियंत्रण परतें ऑपरेशनल",
+      "controls": [
+        {
+          "title": "दोहरा नियंत्रण",
+          "body": "परिणामी कार्यों पर नामित मेकर / चेकर"
+        },
+        {
+          "title": "नीति लॉक",
+          "body": "एआई बैंकिंग या नियामक नीति को फिर से नहीं लिख सकता"
+        },
+        {
+          "title": "ऑडिट लॉग",
+          "body": "अपरिवर्तनीय इनपुट, तर्क, अनुमोदन और एक्शन ट्रेल"
+        },
+        {
+          "title": "स्कोप्ड एक्सेस",
+          "body": "टूल और फ़ील्ड स्तर पर अनुमतियां पढ़ें और लिखें"
+        },
+        {
+          "title": "डेटा रेजीडेंसी",
+          "body": "बैंक की स्वीकृत सीमा पर डिप्लॉय करें"
+        },
+        {
+          "title": "एन्क्रिप्शन",
+          "body": "ट्रांज़िट और रेस्ट में सुरक्षित"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "गैब्रियल ऑपरेटर के साथ निर्मित एक डिप्लॉयबल बैंकिंग एआई पर्सोना।",
+      "exploreLabel": "अन्वेषण करें",
+      "useCasesLabel": "उपयोग के मामले",
+      "getStartedLabel": "शुरू हो जाओ",
+      "useCaseLinks": [
+        "केवाई सी",
+        "क्रेडिट",
+        "अनुपालन",
+        "संचालन"
+      ]
+    },
+    "contact": {
+      "email": "hello@nora.ai"
+    },
+    "closing": {
+      "kicker": "अगली रन",
+      "heading": "एक बैंकिंग डोमेन में नोरा को डिप्लॉय करें।",
+      "body": "वर्कफ़्लो, इंटरफ़ेस और प्राधिकरण सीमा चुनें। अपनी संचालन टीम के सामने पहली गवर्न की गई रन रखें।",
+      "ctaLabel": "नोरा से बात करें"
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-no-wings-transparent.png",
+    "roiCalculator": {
+      "methodologyVersion": 2,
+      "enabled": true,
+      "kicker": "Business impact",
+      "heading": "Pricing & ROI",
+      "subheading": "Choose a plan. See your forecast.",
+      "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+      "currency": "EUR",
+      "currencyCopy": {
+        "native": "Amounts in {currency}.",
+        "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
+        "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
+        "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
+        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+      },
+      "costCopy": {
+        "breakdown": "How the all-in AI cost is built",
+        "perUnit": "{amount} per work unit (average)",
+        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
+        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "remainder": "Other included operating costs",
+        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+      },
+      "locale": "en-GB",
+      "inputs": [],
+      "metrics": [],
+      "businessImpact": {
+        "defaults": {
+          "volume": 80,
+          "minutes": 108,
+          "automation": 45,
+          "review": 12,
+          "tokens_per_output": 25000,
+          "model_cost": 0,
+          "tools_cost": 0,
+          "infrastructure_cost": 0,
+          "platform_cost": 1500,
+          "higher_value_hours": 48.8,
+          "contribution_rate": 110,
+          "probability_before": 8,
+          "probability_after": 5,
+          "loss": 10000,
+          "customer_price": 149
+        },
+        "copy": {
+          "navLabel": "Pricing",
+          "workloadStep": "Cases",
+          "costStep": "Token usage",
+          "valueStep": "Analyst capacity",
+          "workloadIntro": "Model case preparation and analyst capacity—not guaranteed compliance.",
+          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
+          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+          "sampleNotice": "Typical usage · not observed results",
+          "monthly": "Monthly",
+          "yearly": "Yearly",
+          "next": "Continue",
+          "back": "Back",
+          "reset": "Reset assumptions",
+          "summary": "Your modeled impact",
+          "volume": "Cases modeled",
+          "grossHours": "Repetitive work reduced",
+          "capacity": "Analyst hours returned",
+          "retained": "Capacity kept available",
+          "hours": "hours",
+          "days": "days",
+          "percent": "%",
+          "minutes": "minutes",
+          "tokens": "tokens",
+          "monthlyTokens": "Monthly tokens",
+          "tokenCost": "Token usage",
+          "packageLabel": "Usage package",
+          "packageBase": "Base",
+          "packageMedium": "Medium",
+          "packageCustom": "Custom",
+          "reviewMode": "Who handles the review?",
+          "teamReview": "Existing team",
+          "paidReview": "Additional paid reviewer",
+          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "totalMode": "Monthly budget",
+          "itemizedMode": "Cost breakdown",
+          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
+          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "paidReviewCost": "Additional paid review cost",
+          "allInCost": "Operating cost",
+          "missing": "Add your assumptions",
+          "cashValue": "Cash spending avoided",
+          "contribution": "Expected contribution",
+          "expectedLoss": "Expected loss reduction",
+          "riskValue": "Uncertain risk value included",
+          "economicValue": "Modeled economic value",
+          "netBenefit": "Net modeled benefit",
+          "multiple": "Economic return multiple",
+          "notApplicable": "Not applicable",
+          "annual": "Annual view",
+          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "method": "How this is calculated",
+          "burdenHeading": "Repetitive work reduced",
+          "opportunityHeading": "Capacity for higher-value work",
+          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
+          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
+          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
+          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
+          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
+          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "cycleResult": "Cycle-time improvement",
+          "throughputResult": "Additional work supported by capacity and demand",
+          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
+          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
+          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
+          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
+          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
+          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
+          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
+          "boundsError": "Use values within the displayed limits.",
+          "rangeLabel": "Adjust value",
+          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "currentPreparation": "Current preparation hours",
+          "reviewHours": "Human review hours",
+          "reworkHours": "Avoided or added rework hours",
+          "capacityValue": "Modeled capacity value",
+          "acceptedUnits": "Accepted units",
+          "attendedUnits": "Attended units",
+          "costPerAttended": "Cost per attended unit",
+          "benefitCost": "Benefit-cost multiple",
+          "firstYearCost": "First-year cost",
+          "firstYearRoi": "First-year ROI",
+          "paybackOutsideTerm": "Not recovered within the modeled term",
+          "months": "months",
+          "customerBenefit": "Modeled customer benefit",
+          "customerRoi": "Customer ROI",
+          "payback": "Setup-fee payback"
+        },
+        "fields": {
+          "volume": {
+            "label": "Cases prepared each month",
+            "help": "Count packs your analysts actually review, not every inbound inquiry."
+          },
+          "minutes": {
+            "label": "Minutes to assemble one case today",
+            "help": "Hands-on document checks and reconciliation, not elapsed calendar time."
+          },
+          "automation": {
+            "label": "Share of that assembly Nora handles",
+            "help": "Illustrative share of preparation, not an automated credit decision."
+          },
+          "review": {
+            "label": "Minutes an analyst spends confirming each pack",
+            "help": "Human review still required. Nora does not decide the case."
+          },
+          "tokens_per_output": {
+            "label": "Tokens to assemble one case pack",
+            "help": "Modeled tokens to gather, check and evidence one pack."
+          },
+          "budget": {
+            "label": "Estimated monthly operating budget",
+            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+          },
+          "model_cost": {
+            "label": "Extra models and media",
+            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+          },
+          "tools_cost": {
+            "label": "Tools and integrations",
+            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+          },
+          "infrastructure_cost": {
+            "label": "Infrastructure",
+            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+          },
+          "platform_cost": {
+            "label": "Gabriel platform fee",
+            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+          },
+          "review_rate": {
+            "label": "Additional paid review per hour",
+            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+          },
+          "cash_hours": {
+            "label": "Hours that remove paid work",
+            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+          },
+          "cash_baseline": {
+            "label": "Current monthly spending on that work",
+            "help": "The cash budget from which the reduction will come."
+          },
+          "cash_avoided": {
+            "label": "Monthly spending you would stop",
+            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+          },
+          "higher_value_hours": {
+            "label": "Hours kept for complex cases",
+            "help": "Analyst time redirected from assembly to judgment."
+          },
+          "contribution_rate": {
+            "label": "Shadow price of analyst capacity / hr",
+            "help": "Your estimate of an analyst hour, not a payroll reduction."
+          },
+          "throughput_hours": {
+            "label": "Hours used for additional volume",
+            "help": "This allocation cannot also be used for advisory work or spending reductions."
+          },
+          "extra_minutes": {
+            "label": "Team minutes per additional unit",
+            "help": "The remaining human effort, including review, needed to deliver one more unit."
+          },
+          "demand": {
+            "label": "Additional units with expected demand",
+            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+          },
+          "unit_margin": {
+            "label": "Contribution per additional unit",
+            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+          },
+          "hiring_hours": {
+            "label": "Hours covering the planned hire",
+            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+          },
+          "planned_hours": {
+            "label": "Monthly hours the planned hire would cover",
+            "help": "The allocated capacity must cover this entire workload."
+          },
+          "hire_cost": {
+            "label": "Monthly hire cost actually deferred",
+            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+          },
+          "hire_months": {
+            "label": "Months that hire is deferred",
+            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+          },
+          "incidents": {
+            "label": "Expected avoided errors per month",
+            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+          },
+          "incident_cost": {
+            "label": "Incremental cost per error",
+            "help": "Exclude labor, refunds or other losses already included elsewhere."
+          },
+          "probability_before": {
+            "label": "Monthly loss probability before",
+            "help": "Your estimate, not a guaranteed risk assessment."
+          },
+          "probability_after": {
+            "label": "Monthly loss probability after",
+            "help": "Use the same event and monthly time horizon as the baseline."
+          },
+          "loss": {
+            "label": "Loss exposure for that event",
+            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+          },
+          "days_before": {
+            "label": "Cycle time before, in days",
+            "help": "Elapsed time from start to completion, separate from hands-on effort."
+          },
+          "days_after": {
+            "label": "Cycle time after, in days",
+            "help": "Shown as an operational change only, without an assumed monetary value."
+          }
+        },
+        "burden": [
+          "Case preparation and document checks",
+          "Repeated reconciliation before analyst review"
+        ],
+        "opportunity": [
+          "Additional analyst review capacity",
+          "Time for complex cases and exceptions"
+        ],
+        "costMode": "itemized",
+        "reviewMode": "team",
+        "selected": [
+          "higher_value",
+          "risk"
+        ],
+        "confirmations": {
+          "overlap": true,
+          "hiring": true,
+          "outcomes": true,
+          "hide": true
+        },
+        "hero": {
+          "kind": "volume",
+          "label": "Case-ready packs"
+        },
+        "outcomes": [
+          {
+            "id": "higher_value",
+            "label": "Keep analysts on complex cases",
+            "help": "Use returned capacity on the cases that still need judgment."
+          },
+          {
+            "id": "risk",
+            "label": "Reduce expected loss",
+            "help": "An uncertain estimate of a change in monthly loss probability. Not a guaranteed control."
+          }
+        ],
+        "tabs": [
+          {
+            "id": "cases",
+            "label": "Cases",
+            "intro": "How many KYC, credit or onboarding packs a typical team prepares, and the analyst review that still happens.",
+            "fields": [
+              "volume",
+              "minutes",
+              "automation",
+              "review"
+            ],
+            "showPackage": true,
+            "showReview": true
+          },
+          {
+            "id": "tokens",
+            "label": "Token usage",
+            "intro": "Tokens to assemble one case pack, plus the Gabriel fee for this package.",
+            "fields": [
+              "tokens_per_output",
+              "platform_cost",
+              "tools_cost",
+              "infrastructure_cost"
+            ],
+            "showPackage": true
+          },
+          {
+            "id": "analyst",
+            "label": "Analyst capacity",
+            "intro": "Hours returned to analysts, with a modest uncertain risk line. This is not a compliance promise.",
+            "fields": [],
+            "showPackage": true,
+            "showOutcomes": true
+          }
+        ]
+      },
+      "cta": {
+        "primaryLabel": "Talk with Nora",
+        "primaryTarget": "meet",
+        "secondaryLabel": "See how it works",
+        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "analyst",
+        "copy": {
+          "navLabel": "Pricing",
+          "heading": "Pricing & ROI",
+          "intro": "Choose a plan. See your forecast.",
+          "monthly": "Month",
+          "weekly": "Week",
+          "daily": "Day",
+          "cost": "You pay",
+          "benefit": "Estimated return",
+          "net": "Net gain",
+          "roi": "Estimated ROI",
+          "timeBenefit": "Estimated time value",
+          "timeRoi": "Time-value ROI",
+          "timeBack": "Hours returned",
+          "missing": "Forecast unavailable",
+          "noRatio": "Not applicable",
+          "method": "How it’s calculated",
+          "reset": "Reset",
+          "audience": "Audience",
+          "includedVat": "Including VAT",
+          "excludedVat": "Excluding VAT",
+          "perMonth": "per month",
+          "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
+          "timeNote": "Forecast time value is returned capacity, not cash received or a payroll reduction. Net minutes include checking and approval.",
+          "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+          "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
+          "timeFormula": "Forecast time value = included work × fixed net minutes returned ÷ 60 × reference hourly value.",
+          "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
+          "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
+          "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
+        },
+        "profiles": [
+          {
+            "id": "analyst",
+            "label": "Analyst",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Case packs per month",
+                "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
+                "defaultValue": 50,
+                "min": 0,
+                "max": 50,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minutes saved",
+                "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Hourly value",
+                "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                "defaultValue": 34.9,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 149,
+              "basis": "fixed",
+              "unit": "Analyst",
+              "vatIncluded": false,
+              "includedUnits": 50,
+              "allowance": "50 packs / 150 pages",
+              "extras": "Dedicated bank deployments and professional decisions are separately quoted.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Free · 1 case pack / 3 pages"
+              },
+              "trialDays": 7,
+              "trialLabel": "7-day trial · monthly price afterward"
+            },
+            "assumptions": [
+              "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+              "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+              "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+              "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
+            ],
+            "loop": "New case or missing-document signal → assemble an evidence pack → analyst reviews → record reviewed pack and paired preparation effort.",
+            "ctaLabel": "Try the demo",
+            "ctaTarget": "meet"
+          }
+        ]
+      }
+    }
+  },
+  "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "9460f16ac9b5171e7f3d3f2336ec66b547231be8996ea9a0ad25079f84641be4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "ff27a991e8559d6a53024fb888d0b9f062f31154593bf4db2c6431ace2d7d05a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        3,
+        "label"
+      ],
+      "sourceHash": "ade9248e0132b4112c81e94cce392e1068029bac214f23c79d10693e781a16f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        4,
+        "label"
+      ],
+      "sourceHash": "4efca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "ctaLabel"
+      ],
+      "sourceHash": "8ab90c2e32a0cbc885caaaa779ab785cf2ae3d46cf5c311c4287a31df08f6709"
+    },
+    {
+      "path": [
+        "landingPage",
+        "badge"
+      ],
+      "sourceHash": "24f6c223555a483f6b8ad33a2e0bf49101c27cd0a62c2fc8a3e0597aab99f84d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headline"
+      ],
+      "sourceHash": "f040cf734ac14b4142a0059f0e931c896f6e4f91318b3fd3e1ddf98e924ca035"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "79bb779029626c0cdd5a38826d4ece625e2e8eda4c6dd9d1dfc772aaddfd1fa1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "01d8b5f44bb8bfe6442add82475352c6ef057456594b7b04a4249d77344b1f48"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        0,
+        "text"
+      ],
+      "sourceHash": "891a16a5cde7b573e4335bce037ef94464de837acde780bb76692065d1739f87"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "e5464918c2df09749706c20031d83dc2c46fe26e4f44b99e57451a698db735cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "c175dd04442817fc70aa0ee6c982067f4c2f3552e6c16b977ed93498c5b8964c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "838911438808be86353aa0dbb46850fe151289eb7c0830e2062eeb668e6f13cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "9a42d40a3f319da59ce05d08f77f348f7a4ae965ff3e8251334adf67432b011d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "kicker"
+      ],
+      "sourceHash": "eedaeab7dcf13cb7584b71404cae72a0e395fc8235708be6611bcc2cbb40a808"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "heading"
+      ],
+      "sourceHash": "c3c6b88768d6d67bc58f01dc1688db4cadbbd25e07b2a2512fc37d6f7d9dfa85"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "headingAccent"
+      ],
+      "sourceHash": "4b30abf66bfab5da0c1e78ee217f5b3c4bfb1173bad8349b19acb8a4b5919773"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "1900b478a5860384597f32d4b22c4bfb537daf25016106d3657d44442b183f2b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "278bb558adc77efec1d2b86d7ec2debe86d70f7e7bd22480f95b131367ac8619"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "66154a084145e46916b6f1a3bbdfd73665c9235b74e184a672fee1caaaa34d56"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "9e75ed78f8dfd989fb799b48e1f818eba8fe34a4af827fb088e4de9e6fa08e77"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "eea2745e2867a6772adc3e813211e6ce7b6ebd312d7e84a7c1b1aa2f8c75fd4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "88e171d75b257b2f0b6b106e0a257c48b68f86eb294aa23f69175fcf664c3819"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "6007acbe30b2cd98703e83350ea665c06009fcd51f26dd73b309294235f45f21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "4d2bad466f3d46175d57ac182828e7d208e6301aa6e7d820a02bc9bca80fd221"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        4,
+        "title"
+      ],
+      "sourceHash": "e3a67d9540e9a204f7dc4aa9d44a0ec652856cfa932a21196bf9df23aa0e4cd1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        4,
+        "body"
+      ],
+      "sourceHash": "4ec440e45bb90816424bed76adade634af42617720f066c9e85b129a0c53f506"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "kicker"
+      ],
+      "sourceHash": "cca83c2dd651823dffdbe0ebc0d4d19d0fd73abbf608213bb3e4b7bbd592ccfb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "segments",
+        0,
+        "text"
+      ],
+      "sourceHash": "5f6bdd25b71a394269058df80aaca9fe4a8a6121f4f9bcb05a0930714cd1acce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "segments",
+        1,
+        "text"
+      ],
+      "sourceHash": "8a9e63d37bc6ee35b4d8978371a0d2aa9c0385750f833947afebc9cffbfdac06"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "segments",
+        2,
+        "text"
+      ],
+      "sourceHash": "99f557dfbb302e84fef59c371c1cb3287c795a79ffa356163532b7c8cee17127"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "segments",
+        3,
+        "text"
+      ],
+      "sourceHash": "d3839a616eed98f50eb98fe60559ae94158ead7120e341a87d24fc5f9834bf17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "segments",
+        4,
+        "text"
+      ],
+      "sourceHash": "4fd9c6099249c84f3f202a155f04ea10e9abc766b429b7349097feb91403abc8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "statement",
+        "segments",
+        5,
+        "text"
+      ],
+      "sourceHash": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "kicker"
+      ],
+      "sourceHash": "503ccf59b1fc84f3cfc7634418c32e5795ac3da7579326652c9626c87b44dee6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "heading"
+      ],
+      "sourceHash": "2fe5cb2fa3fe0cfab6449e01de697d32c44fffd72e36e9ddb8da6421c995c0cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "body"
+      ],
+      "sourceHash": "ae6801cecfd3a34930af89fcfc1eb9086fbcfeb9d0f950eb102ea8bf41324f83"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "dfd25c74bcfa556510fd5610c8c1b3a555bc51f36c66a93418170fb943d48bb4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "fd17958594111cda27d890a7c44aabc34a183208bf5b043684b98f7993d4092c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "0cb5bdce858ea7887296013278623fa094926aa9593316038738a8f2c7ca2de1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "70293e28e3e77f3fb6e13781f42edea5f31039869ebcbe2c83250a7b368a8115"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "d670a61f4de2ea28bca79238b28ad0589a328fac2191d73539f5ddfda37b1688"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "a3ca8ad3cadd3c2d6cfc9ddf263fc9335ca1454d154cce53bca7b09a80cf4669"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "bc6d1b85a217128bf6d21bbd2ae9ec68ba71bce95d34a3a598bd755a034fd7be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "9190efecbc8dd8497a29bc5dbce8debe8ef2ec5ad3e4467f09c38df0fbe2c634"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "personaLabel"
+      ],
+      "sourceHash": "848b216ca593a634912ea05cad010f85b2c01b5696b25c89ed2ee8736c866b3e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "platformLabel"
+      ],
+      "sourceHash": "9589d6e4d2d869c72a2eb1185614631a07df7707ebe86c9df90c367843dfb480"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "boundaryItems",
+        0
+      ],
+      "sourceHash": "ca92582bea9ba954a331d7673ddd59439c96cec7fac17cbbf059e09f59c2a1c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "boundaryItems",
+        1
+      ],
+      "sourceHash": "8dd8ca30f070d501baa5abe238da03d8cd28fdfcbbf4df573653d4c53ce6004f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "boundaryItems",
+        2
+      ],
+      "sourceHash": "a02ffd526f67454dc666348063c3dfef835ca620a560d40660ad30cabb4bc726"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "boundaryItems",
+        3
+      ],
+      "sourceHash": "db3d296a0d4ead723f84f24558fb074fb505285a7a0fec3f00746f823eb7e82a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "deployment",
+        "note"
+      ],
+      "sourceHash": "50da2c6a96d87c4dd8c5bbbf3cd24d6112bcdf3c2b82928ea308f2cc1e53ed07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "kicker"
+      ],
+      "sourceHash": "e27072987a9d30dc16c5f5f746cbc2635a6dc0ae7a0c0291b9f911418c2d7e76"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "heading"
+      ],
+      "sourceHash": "39b30691c36944405c07e9f4a842b69c45dfbba81a4c51bb2f9b2bf321d74a85"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "subheading"
+      ],
+      "sourceHash": "23197515f8d049d6282edaf227db7afb3e34fa87cb28beb8832bb9596afe9511"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "label"
+      ],
+      "sourceHash": "222a7f7c0290a6f888d7776707d5f43bcd0f7f98194552fc072e0e96d8354147"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "outcome"
+      ],
+      "sourceHash": "21c6f71c48b7955663211aef7baa4265c05be7a5bff1c997006f73d84ba20fd1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "summary"
+      ],
+      "sourceHash": "dbf42dcd8552f23cb08ae66aad3e46fee4ce2fb0b9df2dbcf2a32a57bdb03340"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "inputSummary"
+      ],
+      "sourceHash": "fe748bbb6a9bffa9906998acef68bdb0c4bda533f922564868bcd20b9bf5ba8e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "outputSummary"
+      ],
+      "sourceHash": "f8f6a6a311a5e83ac2e443eeb942c192aa44068edb94de47947973098fd336e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "93a86dba991caf0a395ec8e01dcaefa6de89f090e2a54375ef5ae4cbc5cb4d25"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "c35608144dcafad89de20a9bde559e54e1e22b7edf2fa0cad89044f6f66346df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "44440ab027d48bd6c2969189fb5d0346c0160fd0921647e97ed5d5213a80cd41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "outputs",
+        0
+      ],
+      "sourceHash": "0be3e89a47058473f38e211a1ecfdc401006a9d28f0ca3f6da4e954006a6a830"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "outputs",
+        1
+      ],
+      "sourceHash": "69121d3f63d5a27ab7ce484854c065ce87e7022dc5fdfee9d778ab02515542fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "outputs",
+        2
+      ],
+      "sourceHash": "17f2362d9312566dfc369334189129b22077fab5e440eb53e2a9157c71258b80"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "outputs",
+        3
+      ],
+      "sourceHash": "13287679bddde5c2aa8ddd6dd1da992713f927661530d87492519f1b69962507"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "e4c0afa7088861bfb6db325ce633cb53a4fd5be35257eed57db780955d17ae6c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "157ba95ea9ae63b2153788805f0268abbd641493807617862208954791405a4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "90a80166cb7a77060435751bca873e73e1ec06bebc9a93d9adf3651e4dac1c8b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "d5e8c19ac4d703f772eb6a42403136b00dc9622fe53ceca0e0fc4d78f26c5b38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "da1990abc1853ae50554cc92090778f54edd917fbc06665486ce0020998cb520"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "82ef8a6e42a38f00fb285cf9b0369ea32ce8e1246fd8fcd3d25564e0c6ec181b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "96fbe0e03f0138e3775853695fcef4dc5a0c72185d958171302a1f7105851ce1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        0,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "66a83dc719bcb4147d49e582b258ffe489fad22be6f7c21f11fa81d8ebe8fcf4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "label"
+      ],
+      "sourceHash": "41bb43979dc3d8b936044306a0ce6c76d314afa66abd93434fcef4dfe7099269"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "outcome"
+      ],
+      "sourceHash": "37045c1e0d7e207010d4170ca064acb6acd7a3a433c16bb14791ad8cdf76c7d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "summary"
+      ],
+      "sourceHash": "198839c045ef58ea7d17c1ac08cd1c3eb5df0a89053022f4393527cdb09a8988"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "inputSummary"
+      ],
+      "sourceHash": "7aa6e9892f7c4745aacb9c669a7c99e423e9a723f9f9851b91d38a115c530870"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "outputSummary"
+      ],
+      "sourceHash": "0873704eb96a186190ccdf344d6fdce1e34a204ec46f21d1aa8f7be7843792b4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "40769a22dc4e6491e32aaa5e45c66715d14d98ba0d7019299c2f92e4622741b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "7ac44501facbe7bcd4ce179761c29565de40b76c0db08232872b6b714260af38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "49b83e2159f53efced0fb8ea4898699a7ec0b2d0f676361a8382d7bd7c947e6e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "outputs",
+        0
+      ],
+      "sourceHash": "42cf592def6bc7f1e2f3a5a4d37a513b6373618e7f6d57941f577d2e0c990f54"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "outputs",
+        1
+      ],
+      "sourceHash": "25524fc8a328ac4d2ff295f062de9744dda7b42dc4c4127c70afc0225387d39d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "outputs",
+        2
+      ],
+      "sourceHash": "3774aab00b9ca2673dd26fe838b827e5d56be6c64ab9d02c014591148bac30be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "outputs",
+        3
+      ],
+      "sourceHash": "b2e7ff08e2f034cb372e5d9afe22271e94e54f97e174479fa2f8f8521cce8928"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "64a9c05ba2a594ae04612ee042934637b7d669dfe99089bb56b7ef5f97eaeee0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "97d36ab50f271288db642eb5535a180297aaacdc810dce4ba9ec8988323bf6a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "4dbdf324f4dc2ef1f214b5ec009e1a72e1e51f4dcc0d77abb267fbc522a6a004"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "0fe7ffc3e5a981b1f438858d25e401f7a9087dcc08bade0e3dd672b8ed22b2d2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "fb801e67d445b36a7bc83f2a422c38e6c2eb4629f714886ff0353b1154d33876"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "45cd9c5b2fae4bc3fb4b66d587b9a543d3c7e6b881b826c62163b784d479ec3b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "c2ef6e06b48225d95dcf8df9f0456041e011dddf3e116f3475f3c5013c40ddb7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        1,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "2d1a5ce13eb4fb3e9477b4a184f98bbc2beada86164665e3b0d98a9b19fe923d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "label"
+      ],
+      "sourceHash": "d9721ab4642e8eaa83770e364bc594d4a504a8aebc178a4d88cfc3495e0f7b3d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outcome"
+      ],
+      "sourceHash": "b3984af8d440d928a3319d4ed2eed61a8f59bdfe489a3f3c96f2d2540320fbf8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "summary"
+      ],
+      "sourceHash": "b55d8dcde257775be2a5d0d1054b1b5c609bb432a9f652a8a9c982d4b1917fc5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "inputSummary"
+      ],
+      "sourceHash": "9efbb932d89ca6845dbffce97b0c4375d5c005f90214357b9e21296fc93b6403"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outputSummary"
+      ],
+      "sourceHash": "a5afdea912919bc24c238828004e8c1608d97e510976fc932752897b6871df1f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "175650fe496701465ae92b64ec900d1b8832b920188e39418c38852a955395cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "a646e82bcaa0bc9f6d6fc00a232ace3a796695539d4f6547b3f278f4d7ff0eba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "716f875079d188fa849cdf8cba3b369c409466cd0d2a8031b87bfbce43d7dc22"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outputs",
+        0
+      ],
+      "sourceHash": "fe03782044fa59e74d71444695ca154ac45b133b008dcfef33d785216f550c01"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outputs",
+        1
+      ],
+      "sourceHash": "2b9ada2e95b14ce568a36205a93664cf748838cb2565cae3e0e9509da5844d33"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outputs",
+        2
+      ],
+      "sourceHash": "ed2e59c337d01185f388a4e9334d6f2e5cb29652f222afe4b692582d2e1c3fce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outputs",
+        3
+      ],
+      "sourceHash": "96d017a92a303233f55c3fa2ba589ac3fc72da4ec4425775b549aa7450d1c2ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "outputs",
+        4
+      ],
+      "sourceHash": "c54d07474b19b7bdb489a6f3a70c5db6f1fc6980fedf6746d75a0327b3ca999a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "f9eb881385138b53a60682b79c11b8f03ffd0728ac6723294d1c11001eb7af07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "e38ec1b8407e413520ecedccf5e397d06c8524c549e19ee5f533398d33279040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "2ce946eb4291ea0662a122eb73567a8c99ac436ac7693383cec5bd17daa13b65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "b0f8838cfe0c9115c68a73f87a1f5130931efdff283fc3ea4a4b1b19939f75cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "638b4ec70664d5487e00a6d96966909b90a20387bcda287d8dd8be5838785ee8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "7b71f8ab28ca74cd2e6ea750c72bbdb2c6aea0dbc8804d200a70abfdb058bd01"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "93e47affdde43d0cbbc7a02ed0037a4b16b77fb9f9ff34f18386c6abb424a952"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        2,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "7b2bd25bcab8125e76ea8f316e0f4c16047450a568bf5839dfc71bde5a3d67c8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "label"
+      ],
+      "sourceHash": "e19af9ee963aeca5521959c3e7b344523557f2ce0de9f66b35e1a6d484475c8b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outcome"
+      ],
+      "sourceHash": "dd0d249dca2ae2cd31fa41712ece93d0602814af84cda6292fc7ae1f7044ca90"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "summary"
+      ],
+      "sourceHash": "24df3423e0c0a8f2154e4d24cd037eee005535ca9348cb0e99ca4bb48ab61c6d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "inputSummary"
+      ],
+      "sourceHash": "9acad990da37e07638208700f36a0c8e65b62cfe52e67a87196f64fdb8d34e6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outputSummary"
+      ],
+      "sourceHash": "6018b573cfd0acaa6f1243c5fdae20c9d9b729c4288e11a5fbd4ec5065eefb0b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "17b8dd7afddd918815605340c3268e22656c05a9b432ccf6500d2dbc52287f89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "6f22c8696324a2e7997c26ed94052558170b3d0f5bb6ad6f6c974e31799c7d64"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "3781934956fa79fa9bf5b1e7e89862d39d0b41e9f3adf41f33c1b81570475390"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outputs",
+        0
+      ],
+      "sourceHash": "c7572eb523990afe9ad55a466614960ee927232255ea9d758c0ee60b8d602f42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outputs",
+        1
+      ],
+      "sourceHash": "c3016a12b8bf812f87203bbfba4ef5a1e1f6afc28338d9a8ee1cd877aab1d1b7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outputs",
+        2
+      ],
+      "sourceHash": "b9514a8b369bf7c7c3d8d3a578374dc8dc4531114cf371dcdd6af29a1a31b1aa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outputs",
+        3
+      ],
+      "sourceHash": "bfbfd92d31606987e803f11bab63ff392d96230f3bd4f2ef4ae8e6cf99ef73dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "outputs",
+        4
+      ],
+      "sourceHash": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "9e5bd2e15b119297408764ab069e3185e3723be1c41c22306fa509f8da8e7d65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "1fbcdb4debaab56103804d4652e542f867342f0a4bed3811dd28aa31e55b1db0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "73a8f36d056ed65b684451737ff473a3aec4118df0f63601fa5eb557b33b7255"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "0ad4e65997f5ea543c956c686ce0f3bafba6e72aede09222cd1083e4e17c2f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "47089b3285bc2caedddbe8fedc14c8e9e0d295b601ecb700da3a06d101a80afb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "77cc6f2afdf1e9ca307fc5b0d4cfe25f6160ef491d2d0393eb87a6e1377294a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "4ef758b0e967b7e34dff3179c54ba5c0d808d5cc648f61a0c55cad90bb1efedf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        3,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "fa7c633a54d2891f875b4339b4f41a7f86f1c079a68e275aaa8af619151cc16f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "label"
+      ],
+      "sourceHash": "d955e2e956cd5e8d266276f635f213a62723a8423b04d8d52a30cc009fdb189d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outcome"
+      ],
+      "sourceHash": "2e1fd040d0d0f7dc1022544afacfd80cf6989e03eb18eb52397a0c598ebccec4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "summary"
+      ],
+      "sourceHash": "b5105980996678c9b5db45ce2d1b57a6dded0e9258815943402d1c0b3fc287c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "inputSummary"
+      ],
+      "sourceHash": "1c18b9e9652871781cce3500413727e097665241370e5df6269ab41bfbb75bbb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outputSummary"
+      ],
+      "sourceHash": "0cfab37d5b1dbfed2eee997020cca3417342310599cd2e7861e5034d113884f9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "bc30e75ca666ef67949257bff2a1737d5a86f9de79a26dd4f1b85944d736a5b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "64cbeb2ffdf90de3a3b16b5bf8df02aa7606438c17e178e874df36bdc18f9aeb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "664760b0a46759e1e072b2d251cfe386243b32a6a13abd1ae5bdbe762dffb922"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outputs",
+        0
+      ],
+      "sourceHash": "8c0199f1bc6ece3f189ea3106effd62fb5d1d3367606b01d978cef3d05ccdbcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outputs",
+        1
+      ],
+      "sourceHash": "3056fc130e3ba88bc8e29cbe688178378a0c842bab5822b169d8e9f1a393af8c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outputs",
+        2
+      ],
+      "sourceHash": "c2cafd2f98a78853b0a1f1e0b13554a8251fc67ce5196ab876d6f16ec19e86d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outputs",
+        3
+      ],
+      "sourceHash": "d08e9fc8ce29a4a2a68b53e850db2893e847cb4020ed54a320156df159089561"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "outputs",
+        4
+      ],
+      "sourceHash": "bcba696f3eb100537ab06942d097dfb259afca3eaa6e37a43327e67215620060"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "ee6fa4389c0eeec9b76905badf99393f1d55a21c85d707e5d3692a0c70b466a2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "af88cd4406d611018e35ef0ea95f33fec1f7278da16fcb15fd2fda41016a1955"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "cecf1902da69efc78f58c1a437c6e6274d8aa688ddbaca7304121ae34d869b29"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "bf0f2f8853fc74c18ae50b42e4e7220823e134b3467fae5154b8f9f2d2488860"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "9784d6350c2bf197cf470642f6b158af55d837d540e39a9d713cbc897fb6f251"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "41475662ebff727ae7901f5ae37a8501ab16c7cdcf3bc6dfacff402100cdee46"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "4a75c0a0b4abaa2535914d44deb956606e3bae6dac1c60a76e8ebad2dfe4de24"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        4,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "ba5378f33a474fb74615ad2ac0e8f25aeb2dcb724ccffeabd47086561bd1dd49"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "label"
+      ],
+      "sourceHash": "8a904593df6d544ef730bf6dcbe27fa01e4e7ae684366d01f38686f0ec43fca4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "outcome"
+      ],
+      "sourceHash": "44304f3b1b489ccaf1dc2b34940dbc84e4836358ecbb987f8828a3c0fafd42a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "summary"
+      ],
+      "sourceHash": "4ce56fb10c4c2746f6f426912232a70dc6c32303ee99bdb6f9a0e41bc589c2ae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "inputSummary"
+      ],
+      "sourceHash": "82a08fee6e835be1f6c1bf1edea3a77886f4823074eada365d4c8807a3870ff5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "outputSummary"
+      ],
+      "sourceHash": "340488003c8c8853768160a810b888456cb8b42d787846f09149a8bb3c947438"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "2cfea23e9360f48af3f2545abd5b6c10cc48a5894696e2c91cf22493858e6a54"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "a646e82bcaa0bc9f6d6fc00a232ace3a796695539d4f6547b3f278f4d7ff0eba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "992c65603e00fb5eab6f6a9bf70122a3d81beed5ca1aea07dd222aba13563bbc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "outputs",
+        0
+      ],
+      "sourceHash": "b42d661a0b97ba40a257bd5c5ef7a7c3292a9ba916122d3e7b317f866ca05f11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "outputs",
+        1
+      ],
+      "sourceHash": "352b8b63e8375788b2b5111688baa8e9fb17b3b07f4c673f68dbd0e80b474c19"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "outputs",
+        2
+      ],
+      "sourceHash": "0b438c8abb4dba922e88702cceb0472050b6a0c5aaa9018be2ebb329cca0b741"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "outputs",
+        3
+      ],
+      "sourceHash": "a0c002f91bf98dbab8b98cd9f84ff233dabcb79d554ad13ec03646eeff357f79"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "d5e2422be21d368d7c818fbfc72bd9ed83a924e8bcd30ce8819cf9d29e3bd14f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "694a4672ca2174f8ebd4d0a9729e481ff4a3b7efb4a86a2273aa8438d8a255c3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "98f9a902594e03ac5013a1c766a1774f120ae9fe9f33532094428dbd3b0dfc46"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "2503a66b5e14a445544a44d3cffbf0215ee4dedf7b1c346a3df18a3fdf7b004e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "2fa81b83fdbe627b45a1ac938612f8795b524562ca80ab8a7b38a59ec63484b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "83e939bfa0bd526b044642c0569bac09eae9f59bf3c7b158889ec2a986347a72"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "651b68c65585633b33f024b38f82dbd12e066a8c66baa614fe26b1453f543ae2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        5,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "cd6a0ee814177e62bc0c0697dae135c62c066a81149f1a49a4b168e87961c6a1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "label"
+      ],
+      "sourceHash": "bcb09491eb6ededaae55f3642ff8a05e2618820c17e016a89da5d591c203ff9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "outcome"
+      ],
+      "sourceHash": "bbc5ae0176e4c8059bf0f7c6ef2f1245f55bc1ddaa8a045e76a88a6feb75b8d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "summary"
+      ],
+      "sourceHash": "35ff0bb0bb99fafb1392d698f01953d798c520e1c3b1053e817d5866af9536bd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "inputSummary"
+      ],
+      "sourceHash": "e89416a64ab80e7d8669b164b571e3e51a365aad859b559261b2ba28a4aed937"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "outputSummary"
+      ],
+      "sourceHash": "f151073efcf12043d12d788ea23d3b0093c5100adefc33e8ac3b26e8b47b2f02"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "1a168e54e23629db236fc3bbc054188b0461a4ebc2656bf7706490dfe7706d5c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "cf536638b27e8c61258809cf14255dee6f6f3beb1322e71130e68ab8e383eb7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "a1ccca5e4085db7c43a0196887f3fda089feafe9b8b25b486372c2addf6fc5c0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "outputs",
+        0
+      ],
+      "sourceHash": "1e1f2cbbde5ed593c9978871ab2f0269e1bd6df58a710cd73c42bb611fa6f4d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "outputs",
+        1
+      ],
+      "sourceHash": "d8b4d46c2824bba7c3ac8a6200e5b5b755317a4ef6987566dafce16aa4fd4e89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "outputs",
+        2
+      ],
+      "sourceHash": "82e957dc7fb80d0d94cf38b84b6b4274ee7d6c8b6aba5344bff14c665e7145ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "outputs",
+        3
+      ],
+      "sourceHash": "1a08e65e80e713f528d2fbbd993c86328d20743b82c7112487ad0f38ff7284ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "26a094b8425125a0863cd8b4324f8964b53c76837204a67bf29b0ae675979aa3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "e09c37d46677821279f97701d4cb0098d9be29e45e43aeb42605cd4b59371218"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "145d18eef50fa2de7b108b6397d1efef12700bcb9fd1644872f45a4f73a9381a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "e75be905e6009744d40ea342a522c4895ca354ef13b14cf684fd5c17763ddcee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "d8809963859ce6cfe835cf8088e4a2686b23c7e872c1c7e6348daf0daa00bde1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "6bcc7b0a3487b708b8ef8b84c3f5c5f1b957f441d33d7c87785e6214b7c91970"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "54e82f51158c8411ccb501dad41b043df65f3b788cfd5ab198776d47e6d6ffed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        6,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "ebced35cb6e483e997ad2167eacc9c730bde155b89ab37165dcd22a1208f89ab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "label"
+      ],
+      "sourceHash": "c8d99ab4bbc2f5154ac193fb164b8c4414f001582bdc6bab59b2c249fa5a2fa9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "outcome"
+      ],
+      "sourceHash": "af831e3f286386de8b414bda08e12fe518140b8fc6c74f59472f1a70f9ec377e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "summary"
+      ],
+      "sourceHash": "714afa2f87ea5a2bc7666ae634e14361713c8233be6d1797f6a368762193adfb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "inputSummary"
+      ],
+      "sourceHash": "bf338ac25b93d05cf9a31842e68b63e3af57788aa193e7c4bada1aac7c254b44"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "outputSummary"
+      ],
+      "sourceHash": "9d97e43b0e46ae1d204e24d1246afb01f21130d74d96abce63bea2ed10f005cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "inputs",
+        0,
+        "description"
+      ],
+      "sourceHash": "131574cb63c8f0f3830766b110c8040cff9cf333288fa8961651c175aa536f85"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "capabilities",
+        0,
+        "modality"
+      ],
+      "sourceHash": "9fbcd9bacea851cc915e112763ce76895f2121cf750a8ea78f09efa1ce867806"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "capabilities",
+        0,
+        "description"
+      ],
+      "sourceHash": "b08ca9a382faf094534e5784cf1b03b59f155b0c8b613698028a0f6c886b3b04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "outputs",
+        0
+      ],
+      "sourceHash": "52143c19e843adc2306847f7da5066b7cc16ac9663b5825b3c4f0cdd1a238897"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "outputs",
+        1
+      ],
+      "sourceHash": "76bb7aabae9433418cc48d4b3d1d822fb9b68be2a7a03162e44c89c4324ec3bc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "outputs",
+        2
+      ],
+      "sourceHash": "ac169255bd08609af05a7db340d98902ce1b39d68196b6e41992584183deef4d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "outputs",
+        3
+      ],
+      "sourceHash": "8ac92541db24b95199a515dade7a525370fe509a708e48e94af8ff61d703e668"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        0,
+        "stage"
+      ],
+      "sourceHash": "39f17ec6ebcf3cec37a06d85dc61882be3898d7573f284b7b41222087b6b6a2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        0,
+        "description"
+      ],
+      "sourceHash": "73a97c40f79df77d9e54c6d9593d01430aeef1aa17f14734b6d3bebdbc594087"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        1,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        1,
+        "description"
+      ],
+      "sourceHash": "bcb60344aca895977bce18b1c25fe11e4b7d96e7fdf39678f970412a2e104c73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        2,
+        "stage"
+      ],
+      "sourceHash": "ddeaded8ad8e44933f39e672a8886d49ba10738d78bde119b2fe7c3c25fdc4d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        2,
+        "description"
+      ],
+      "sourceHash": "827095585b33084479e20700ee1fa2f627b0016909d987137265a8320c0db759"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        3,
+        "stage"
+      ],
+      "sourceHash": "182e499256bea391f0891e85aa5d782074934150b986e530eb4a4170f073312e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        3,
+        "description"
+      ],
+      "sourceHash": "ee6c5fe2be4c1d6ca3f1c866bda3aa7f3935c05fd4790f970e873587cf895494"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        4,
+        "stage"
+      ],
+      "sourceHash": "daea414285e6618492463faf0758c867f67f270c5d8701fac0a68748cf8f9fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        4,
+        "description"
+      ],
+      "sourceHash": "00b21a1f74b56458f61655006030f0d0f26b1c19508cd608222c030378fb7f4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        5,
+        "stage"
+      ],
+      "sourceHash": "90a94cc5f296be2851beddc2e0c8c3924c9c2138ef72b56cb5902db17c7ef439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "workflow",
+        5,
+        "description"
+      ],
+      "sourceHash": "e6265f70cc0e947aba3473545b4bd80c0f307d2b72c9b92663054aa860fd22b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "selfLearning",
+        "learns"
+      ],
+      "sourceHash": "f7deaa159f8205ef3391613772013b06b32383a711db851b82ce255ede6a7a41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "useCases",
+        "items",
+        7,
+        "selfLearning",
+        "neverChanges"
+      ],
+      "sourceHash": "b343522d2cc346ce67f2abb75473dffa56fbd762671b55a1a7d4e44f73abb778"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "kicker"
+      ],
+      "sourceHash": "0009245524d18ac2d77dd68dfa61fdbce404b3cb8fe36608de831378edafc763"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "heading"
+      ],
+      "sourceHash": "0e2d32952e60492997b78691813be34e71fff4b8271f7947641ae6d712442edd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "body"
+      ],
+      "sourceHash": "e82264076ef679f3d6c1ff80fb31f6e518a8d5da0f1be8044d2d942b51f05fd2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "582e731e32adc07f47e88783499768a69857d5b3c9f2b4e1cebd33996b43d2ca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "c4ee889e8e474393ca8474e2473a4086005b6d097856bfce377a7da2d973b895"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "3d5eda9120ff33923412d458d89b0d444c8fa8fc5cc99a118741f64b6bb12505"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "51675eb7de2fe61eda742cddb8c7e36e9ee7aa030238fb85d4db6e163b94d6f7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "589e7d61f60cc8d670f9025ddfaa85a332f26a7239e5780f3ba09d6035f5bad7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "c5c6e5706ae1811d907d533f1d477c03621e5abd9a366d9f8f54ee84fe7b19aa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "d770dcdd23b2fa17f73e7332d1cd30abf1de22f2b4ab901defe9c0b223496d28"
+    },
+    {
+      "path": [
+        "landingPage",
+        "platform",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "5cfa8eead8d54e3f9e845e70a530521ffd035ceadef551baf31ace3cd94fe385"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "kicker"
+      ],
+      "sourceHash": "a19648e45458edabe6c31553ce52544af74e89182ea0b032b8d4c7fad3fe5e04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "heading"
+      ],
+      "sourceHash": "b379083f77af5e8cb755f6de70a852c88e3311211e40f2779fd2ed79e790a6e4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "body"
+      ],
+      "sourceHash": "015701df6a2271ef0fe019b5971c363470e8fc12eb7f4539f27fc3cb64a37533"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "statusLabel"
+      ],
+      "sourceHash": "15a3c834e0a9ca7550aad3b9d270702cd3b32623650845ff3af14e55c98d3eba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "statusValue"
+      ],
+      "sourceHash": "5cea256d1b64c9d2a08922e55e07f51f24045198568979c4ddb7f93699cad078"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "statusDetail"
+      ],
+      "sourceHash": "c41022b2a4231fe7b967295aa546d0ac9cce798285cee68470eb59093c238b4c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        0,
+        "title"
+      ],
+      "sourceHash": "095cc5fe300a7c74a5aff54c322a1bf16bac7886d2f9e142ddff098171f34f40"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        0,
+        "body"
+      ],
+      "sourceHash": "5be5a5a3c0dd4b84a946270f03ee9a5cdabe12a26daee8d58b37e908a6276f6b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        1,
+        "title"
+      ],
+      "sourceHash": "52149f1e493de682b5c4f8dbb12adabcc175a3e1e9102b67e696e589b4e6568a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        1,
+        "body"
+      ],
+      "sourceHash": "2ec887b010b226af48464396b892419143debbb10900ccf62b12b1a9cd9b00f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        2,
+        "title"
+      ],
+      "sourceHash": "0fba2697777ad249972708d4d71e9dec88a0f3ecb2778a58c807de94b53b713f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        2,
+        "body"
+      ],
+      "sourceHash": "b58834a5e567566af06c62822a48b9dbfb1366cbf40d3c9e75385344afb89e44"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        3,
+        "title"
+      ],
+      "sourceHash": "819713c42e56fc9f26ae05d384b941d95fb182dbc5cd3c3e23ed7eaa38cf432e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        3,
+        "body"
+      ],
+      "sourceHash": "f47b04f9afee124a95436aeeec98419dfc411e0facfd85c61999a19a4b7fa4eb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        4,
+        "title"
+      ],
+      "sourceHash": "ab8c275ab9c06e3423f175d267493e6fcefb76f308deee6390af7b45b8e04c9e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        4,
+        "body"
+      ],
+      "sourceHash": "a97c03a969245b14bb912274cdb96028761435d4fc48c7be0167be312f601d92"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        5,
+        "title"
+      ],
+      "sourceHash": "929f38e1dd70e23af0835bb0da0046ce795e8be8a88f9d042ab2258b2a238abd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "trust",
+        "controls",
+        5,
+        "body"
+      ],
+      "sourceHash": "5b5b686c9e5e01ab71804175ca6895330031f5c54f4932a42ee999dde6cf1ed3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "4e48478c5b0403e61981684f73db41e1a3d3bc9cb6623b6e01369bcf48e547ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "exploreLabel"
+      ],
+      "sourceHash": "3b73900b8d29f963dece78edd4bd9529d855e50f2a3fcc39b3d66cd657630905"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "useCasesLabel"
+      ],
+      "sourceHash": "ff27a991e8559d6a53024fb888d0b9f062f31154593bf4db2c6431ace2d7d05a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "getStartedLabel"
+      ],
+      "sourceHash": "61e8d44ad423a4a0951b21b9d11440a1c23a881fe79335c367f63be251c64800"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "useCaseLinks",
+        0
+      ],
+      "sourceHash": "06de0416e5c5bdd5ec957d2b178cd25019821b53932af0ae6445c225ecb0f6b8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "useCaseLinks",
+        1
+      ],
+      "sourceHash": "fb1875d0a5e85f29f239c293e5837e234fa07068b040fd11c2078c28df7d72d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "useCaseLinks",
+        2
+      ],
+      "sourceHash": "4a109cc49467be33772416ac924cc5729dcea700b8b4a0ba12f10bc595e2fa2c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "footer",
+        "useCaseLinks",
+        3
+      ],
+      "sourceHash": "358cc201f87d9dc9defd3eac467a62fae720aa99a76be8b98e0fc9b3893a427d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "kicker"
+      ],
+      "sourceHash": "4846fbb05105631af356a0ce855e42d26ad4febc2a75489425b67e889005bd7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "heading"
+      ],
+      "sourceHash": "28320ade7a36aefc17e48ed24cdffdb297e4b20422f59cda4ad4222f3a04218f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "body"
+      ],
+      "sourceHash": "661342f77211f6dc6d31e3f1ef292cdff2ef21e9cf8736f1cb2a1d2fc096bffc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "ctaLabel"
+      ],
+      "sourceHash": "01d8b5f44bb8bfe6442add82475352c6ef057456594b7b04a4249d77344b1f48"
+    }
+  ],
+  "generatedAt": "2026-10-12T11:51:22.183Z"
+}

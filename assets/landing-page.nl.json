@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "75ae404fd28d3537c44ac574e1d43264db84793575fb650d1231ccaf68f0534c",
+  "sourceRevision": "0fd5c76126cc64de4f31ea74d32ac7ed70a8cd16f5e7a05678af367ad8e3408e",
   "landingPage": {
     "design": {
       "variant": "banking",
@@ -51,14 +51,15 @@
       }
     },
     "header": {
-      "brandMark": "initial",
+      "brandMark": "image",
+      "logoImageUrl": "https://gabrieloperator.com/assets/gabriel-twins/brand-marks/nora.webp",
       "navItems": [
         {
-          "label": "capaciteiten",
+          "label": "Mogelijkheden",
           "target": "capabilities"
         },
         {
-          "label": "Scenario's",
+          "label": "Use cases",
           "target": "use-cases"
         },
         {
@@ -70,15 +71,15 @@
           "target": "trust"
         },
         {
-          "label": "Over",
+          "label": "Over ons",
           "target": "about"
         }
       ],
       "ctaLabel": "Ontmoet Nora"
     },
-    "badge": "BANKING AI OPERATIONS",
+    "badge": "BANKING AI OPERATIES",
     "headline": "Maak de bank AI-native",
-    "subheadline": "Nora is een AI-persona voor banken, gebouwd met Gabriel Operator, geleverd via embedded chat, SDK, API of de orchestratielaag van de bank.",
+    "subheadline": "Nora is een bank-AI-persona, gebouwd met Gabriel Operator, geleverd via ingesloten chat, SDK, API of de orchestratielaag van de bank.",
     "ctaLabel": "Praat met Nora",
     "demoConversation": [
       {
@@ -87,7 +88,7 @@
       }
     ],
     "heroChat": {
-      "statusLabel": "PERSONA VOORBEELD",
+      "statusLabel": "PERSONA PREVIEW",
       "inputPlaceholder": "Vraag Nora naar een workflow…",
       "suggestedPrompts": [
         "KYC-workflow",
@@ -96,13 +97,13 @@
     },
     "howItWorks": {
       "kicker": "01 EEN GECONTROLEERD PAD NAAR ACTIE",
-      "heading": "Agenten die handelen.\nBankiers behouden de controle.",
-      "headingAccent": "Bankiers behouden de controle.",
+      "heading": "Agenten die handelen.\nBankiers blijven de controle houden.",
+      "headingAccent": "Bankiers blijven de controle houden.",
       "steps": [
         {
           "icon": "envelope",
           "title": "Vastleggen",
-          "body": "Nora verzamelt het verzoek, brondocumenten, beleid en context."
+          "body": "Nora verzamelt het verzoek, bronnen, beleid en context."
         },
         {
           "icon": "sparkles",
@@ -112,17 +113,17 @@
         {
           "icon": "shield-check",
           "title": "Verifiëren",
-          "body": "Regels, bewijsmateriaal en uitzonderingen worden gecontroleerd voordat er iets gebeurt."
+          "body": "Regels, bewijs en uitzonderingen worden gecontroleerd voordat iets wordt verplaatst."
         },
         {
           "icon": "check",
           "title": "Goedkeuren",
-          "body": "De juiste bankier ziet precies wat er zal gebeuren en waarom."
+          "body": "De juiste bankier ziet precies wat er gaat gebeuren en waarom."
         },
         {
           "icon": "star",
           "title": "Uitvoeren",
-          "body": "Alleen goedgekeurde acties worden uitgevoerd, met een traceerlogboek klaar voor audit."
+          "body": "Alleen goedgekeurde acties worden uitgevoerd, met een spoor klaar voor audit."
         }
       ]
     },
@@ -130,11 +131,11 @@
       "kicker": "02 WAT IS NORA?",
       "segments": [
         {
-          "text": "Nora is één AI-persona gebouwd met Gabriel Operator",
+          "text": "Nora is één AI-persona, gebouwd met Gabriel Operator",
           "tone": "strong"
         },
         {
-          "text": " voor gecontroleerde bankactiviteiten. Implementeer haar in ",
+          "text": " voor beheerde bankoperaties. Implementeer haar in ",
           "tone": "muted"
         },
         {
@@ -142,11 +143,11 @@
           "tone": "iris"
         },
         {
-          "text": ", en creëer vervolgens meer persona's voor andere teams, elk met zijn eigen ",
+          "text": ", maak vervolgens meer persona's voor andere teams, elk met zijn eigen ",
           "tone": "muted"
         },
         {
-          "text": "beleid en toegangsbeperkingen",
+          "text": "beleid en toegangs grenzen",
           "tone": "accent"
         },
         {
@@ -157,53 +158,53 @@
     },
     "deployment": {
       "kicker": "03 IMPLEMENTATIE",
-      "heading": "Ontmoet de bank waar het werk al plaatsvindt.",
-      "body": "Begin met een ingebedde ervaring of verbind Nora rechtstreeks met de operationele stack van de bank.",
+      "heading": "Ontmoet de bank waar het werk al gebeurt.",
+      "body": "Begin met een ingesloten ervaring of sluit Nora rechtstreeks aan op de operationele stack van de bank.",
       "items": [
         {
           "code": "CHAT",
-          "title": "Ingebedde chat",
-          "body": "Plaats Nora in de portals en werkruimtes die bankiers al gebruiken."
+          "title": "Ingesloten chat",
+          "body": "Plaats Nora in de portalen en werkruimtes die bankiers al gebruiken."
         },
         {
           "code": "SDK",
           "title": "Bank-eigen ervaring",
-          "body": "Gebruik de SDK om Nora te vormen naar de eigen interface en workflow van de bank."
+          "body": "Gebruik de SDK om Nora vorm te geven tot de eigen interface en workflow van de bank."
         },
         {
           "code": "API",
-          "title": "Persona als een service",
-          "body": "Roep Nora aan vanuit producten, operationele tools, mobiele apps of event-driven flows."
+          "title": "Persona als service",
+          "body": "Roep Nora aan vanuit producten, operationele tools, mobiele apps of gebeurtenisgestuurde stromen."
         },
         {
           "code": "ORCH",
           "title": "Orchestratielaag",
-          "body": "Verbind Nora als een gecontroleerde agent binnen de bestaande automatiseringsstack van de bank."
+          "body": "Sluit Nora aan als een beheerde agent binnen de bestaande automatiseringsstack van de bank."
         }
       ],
       "personaLabel": "NORA · BANKING AI PERSONA",
       "platformLabel": "GEBOUWD + BEHEERD MET GABRIEL OPERATOR",
       "boundaryItems": [
-        "DOOR DE BANK GOEDGEKEURDE KENNIS",
+        "BANK-GOEDGEKEURDE KENNIS",
         "AFGEBAKENDE TOOLS",
-        "VAST BELEID",
-        "BENOEMDE GOEDKEURINGEN"
+        "VASTGESTELD BELEID",
+        "GENOEMDE GOEDKEURINGEN"
       ],
-      "note": "Eén bank kan meerdere domeinpersona's implementeren, waaronder Nora voor KYC, Nora voor krediet, Nora voor operaties, terwijl de gegevens, tools en autoriteit van elke persona expliciet afgebakend blijven."
+      "note": "Eén bank kan veel domeinpersona's implementeren, waaronder Nora voor KYC, Nora voor krediet, Nora voor operaties, terwijl de gegevens, tools en autoriteit van elke persona expliciet begrensd blijven."
     },
     "useCases": {
-      "kicker": "04 GEBRUIKSSITUATIES",
+      "kicker": "04 USE CASES",
       "heading": "Eén Persona Model\n8 Startpunten.",
-      "subheading": "Kies één domein voor de eerste implementatie van Nora; breid pas uit als het operationele model bewezen is.",
+      "subheading": "Kies één domein voor Nora's eerste implementatie; breid pas uit als het operationele model bewezen is.",
       "items": [
         {
           "number": "01",
           "label": "KYC & Onboarding",
           "mode": "VISION + CHAT",
           "outcome": "Van documenten naar een goedgekeurd CBS-record.",
-          "summary": "Nora leest ID's en formulieren, controleert CKYC en CBS, legt verschillen uit en bereidt vervolgens het exacte klantrecord voor op maker/checker-goedkeuring.",
+          "summary": "Nora leest ID's en formulieren, controleert CKYC en CBS, verklaart verschillen, en bereidt vervolgens het exacte klantrecord voor goedkeuring door maker/checker voor.",
           "inputSummary": "Aanvragen · CKYC · identiteitsdocumenten · CBS · KYC-beleid",
-          "outputSummary": "CKYC-match · ontbrekende velden · CBS-creatievoorbeeld · bewijspakket",
+          "outputSummary": "CKYC-match · ontbrekende velden · CBS-aanmaakvoorbeeld · bewijspakket",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
@@ -213,76 +214,76 @@
           "capabilities": [
             {
               "modality": "VISIE + CHAT",
-              "description": "Leest identiteitsbewijzen, lost inconsistenties op en legt het voorgestelde dossier uit."
+              "description": "Leest identiteitsbewijs, lost verschillen op en verklaart het voorgestelde record."
             }
           ],
           "outputs": [
             "CKYC-match",
             "Ontbrekende velden",
-            "Voorbeeld CBS-creatie",
+            "CBS-aanmaakvoorbeeld",
             "Bewijspakket"
           ],
           "workflow": [
             {
               "stage": "START",
-              "description": "Medewerker uploadt de aanvraag en ID's, of vraagt Nora om de klant te onboarden."
+              "description": "Ambtenaar uploadt de aanvraag en ID's, of vraagt Nora om de klant te onboarden."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Extraheer identiteitsvelden, vergelijk CKYC en CBS, en model ontbrekende gegevens of inconsistenties."
+              "description": "Extraheer identiteitsvelden, vergelijk CKYC en CBS, en modelleer ontbrekende gegevens of verschillen."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Stel het voorgestelde CBS-dossier samen en herhaal volledigheids- en duplicatiecontroles."
+              "description": "Bouw het voorgestelde CBS-record en voer volledigheids- en dupliciteitscontroles uit."
             },
             {
-              "stage": "BEOORDELEN",
-              "description": "Toon het bewijs en het exacte dossier voor goedkeuring door medewerker en maker/checker."
+              "stage": "CONTROLEREN",
+              "description": "Toon het bewijs en exacte verslag voor goedkeuring door ambtenaar en maker/checker."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Creëer of update alleen de goedgekeurde CBS-velden en archiveer het bewijspakket."
+              "description": "Maak of update alleen de goedgekeurde CBS-velden en dien het bewijspakket in."
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg voltooiing, afwijzingen, uitzonderingen en correcties van medewerkers voor de volgende run."
+              "description": "Volg voltooiing, afwijzingen, uitzonderingen en correcties van ambtenaren voor de volgende run."
             }
           ],
           "selfLearning": {
-            "learns": "Correcties van medewerkers verbeteren OCR, normalisatie van namen/adressen en fuzzy matching.",
-            "neverChanges": "KYC-beleid, verplichte velden en goedkeuringsbevoegdheid blijven gehandhaafd."
+            "learns": "Correcties door ambtenaren verbeteren OCR, normalisatie van namen/adressen en fuzzy matching.",
+            "neverChanges": "KYC-beleid, verplichte velden en goedkeuringsbevoegdheid blijven van kracht."
           }
         },
         {
           "number": "02",
-          "label": "Leningen & Kredietoperaties",
+          "label": "Leningen & Krediet Ops",
           "mode": "VISION + VOICE",
           "outcome": "Een compleet kredietdossier, klaar voor de autoriteit.",
-          "summary": "Nora voegt bureau-, aanvraag- en financiële context samen tot een lenersdossier, afwijkingsmemo en sanctieconcept, zonder kredietbevoegdheid aan te nemen.",
+          "summary": "Nora stelt bureau-, aanvraag- en financiële context samen tot een kredietdossier, afwijkingsmemo en concept-sanctie, zonder kredietautoriteit aan te nemen.",
           "inputSummary": "Aanvraag · bureau · financiën · afwijkingsbeleid · LOS / DMS",
-          "outputSummary": "Lenersdossier · afwijkingsmemo · sanctieconcept · uitbetalingsvoorbeeld",
+          "outputSummary": "Kredietdossier · afwijkingsmemo · concept-sanctie · uitbetalingspreview",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Aanvragen, bureau, financiën, afwijkingsbeleid, LOS en DMS."
+              "description": "Aanvraag, bureau, financiën, afwijkingsbeleid, LOS en DMS."
             }
           ],
           "capabilities": [
             {
               "modality": "VISIE + STEM",
-              "description": "Leest het kredietdossier en ondersteunt een natuurlijke taalbeoordeling door de medewerker."
+              "description": "Leest het kredietdossier en ondersteunt een natuurlijke taalbeoordeling door de ambtenaar."
             }
           ],
           "outputs": [
-            "Lenersdossier",
+            "Kredietdossier",
             "Afwijkingsmemo",
-            "Sanctieconcept",
-            "Uitbetalingsvoorbeeld"
+            "Concept-sanctie",
+            "Uitbetalingspreview"
           ],
           "workflow": [
             {
               "stage": "START",
-              "description": "Leg de aanvraag, financiële documenten, bureaugegevens en het verzoek van de medewerker vast."
+              "description": "Leg de aanvraag, financiële documenten, bureaugegevens en het verzoek van de ambtenaar vast."
             },
             {
               "stage": "UITVOEREN",
@@ -290,11 +291,11 @@
             },
             {
               "stage": "UITVOEREN",
-              "description": "Stel het dossier, het sanctieconcept en het uitbetalingsvoorbeeld samen; herhaal beleidscontroles."
+              "description": "Stel het dossier, de concept-sanctie en de uitbetalingspreview samen; voer beleidscontroles opnieuw uit."
             },
             {
               "stage": "BEOORDELEN",
-              "description": "Presenteer voorwaarden, afwijkingen en bewijs aan de genoemde kredietautoriteit."
+              "description": "Presenteer voorwaarden, afwijkingen en bewijs aan de aangewezen kredietautoriteit."
             },
             {
               "stage": "UITVOEREN",
@@ -302,12 +303,12 @@
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg status, doorlooptijd, downstream uitzonderingen en bewerkingen van de autoriteit."
+              "description": "Volg status, doorlooptijd, downstream-uitzonderingen en autorisatie-edits."
             }
           ],
           "selfLearning": {
-            "learns": "Bewerkingen van kredietmedewerkers verbeteren samenvattingen, documentcontroles en prioritering.",
-            "neverChanges": "Score-grenzen, LTV/DTI, prijzen en sanctiebevoegdheden kunnen niet zelfstandig wijzigen."
+            "learns": "Correcties door kredietambtenaren verbeteren samenvattingen, documentcontroles en prioritering.",
+            "neverChanges": "Scorelimieten, LTV/DTI, prijsstelling en sanctiemachten kunnen niet zelf worden gewijzigd."
           }
         },
         {
@@ -315,115 +316,115 @@
           "label": "Compliance, AML & Rapportage",
           "mode": "CHAT + SYSTEM",
           "outcome": "Elke indiening begint met het bijgevoegde bewijs.",
-          "summary": "Nora voegt transacties, KYC, watchlists en regels samen tot een eerste triage van waarschuwingen, retourconcepten en indieningsvoorbeelden voor compliance-beoordeling.",
-          "inputSummary": "Transacties · klant KYC · waarschuwingen · watchlists · regelgevende regels",
-          "outputSummary": "Waarschuwingstriage · retourconcept · narratief · CKYC-batch · bewijsbundel",
+          "summary": "Nora stelt transacties, KYC, waaklijsten en regels samen tot een eerste triage van waarschuwingen, concepten en indieningsvoorbeelden voor compliance-beoordeling.",
+          "inputSummary": "Transacties · klant KYC · waarschuwingen · waaklijsten · regelgevende regels",
+          "outputSummary": "Waarschuwingstriage · concept-retour · narratief · CKYC-batch · bewijzenbundel",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Transacties, klant KYC, waarschuwingen, watchlists en regelgevende regels."
+              "description": "Transacties, klant KYC, waarschuwingen, waaklijsten en regelgevende regels."
             }
           ],
           "capabilities": [
             {
               "modality": "CHAT + SYSTEEM",
-              "description": "Combineert conversatie met gecontroleerde toegang tot compliancesystemen."
+              "description": "Combineert conversatie met gecontroleerde toegang tot compliance-systemen."
             }
           ],
           "outputs": [
             "Waarschuwingstriage",
-            "Retourconcept",
+            "Concept-retour",
             "Narratief",
             "CKYC-batch",
-            "Bewijsbundel"
+            "Bewijzenbundel"
           ],
           "workflow": [
             {
               "stage": "START",
-              "description": "Leg een indieningsverzoek of waarschuwing vast met klant-, transactie- en watchlist-context."
+              "description": "Leg een indieningsverzoek of waarschuwing vast met klant-, transactie- en waaklijstcontext."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Pas vaste complianceregels toe en modelleer de waarschuwing, retour of CKYC-batch."
+              "description": "Pas vaste compliance-regels toe en modelleer de waarschuwing, retour of CKYC-batch."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Stel het narratief en de bewijsbundel samen; test volledigheid en consistentie."
+              "description": "Stel het narratief en de bewijzenbundel samen; test volledigheid en consistentie."
             },
             {
               "stage": "BEOORDELEN",
-              "description": "Toon elk voorgesteld veld en onopgeloste onzekerheid aan de compliance officer."
+              "description": "Toon elk voorgesteld veld en onopgeloste onzekerheid aan de compliance-functionaris."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Faseer of dien alleen de door de medewerker goedgekeurde retour, narratief of CKYC-batch in."
+              "description": "Stageer of dien alleen de door de functionaris goedgekeurde retour, narratief of CKYC-batch in."
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg bevestigingen, afwijzingen, indieningsstatus en het volledige auditspoor."
+              "description": "Volg ontvangstbevestigingen, afwijzingen, indieningsstatus en het volledige audit trail."
             }
           ],
           "selfLearning": {
-            "learns": "Analistenbeschikkingen verbeteren het ophalen, rangschikken en opstellen van bewijsmateriaal.",
-            "neverChanges": "AML-scenario's, sanctielijsten, drempels en archiveringsregels blijven vaststaan."
+            "learns": "Analistenbeslissingen verbeteren het ophalen van bewijs, de rangschikking en concept-narratieven.",
+            "neverChanges": "AML-scenario's, sanctielijsten, drempels en indieningsregels blijven vast."
           }
         },
         {
           "number": "04",
-          "label": "Afstemming & Financiën",
+          "label": "Reconciliatie & Financiën",
           "mode": "SYSTEM + CHAT",
           "outcome": "Nachtelijke matching die elke afwijking verklaart.",
-          "summary": "Nora matcht switch-, CBS-, settlement- en GL-records, rangschikt restposten en verklaart exact waarom een item onafgestemd blijft.",
-          "inputSummary": "Switchtransacties · CBS-grootboek · GL · afschriften · settlementbestanden",
-          "outputSummary": "Gematchte set · uitzonderingswachtrij · GL-bewijs · journaalvoorbeeld · samenvatting",
+          "summary": "Nora matcht switch-, CBS-, afrekenings- en GL-records, rangschikt residuen en verklaart precies waarom een item niet is verrekend.",
+          "inputSummary": "Switch-transacties · CBS-grootboek · GL · afschriften · afrekeningsbestanden",
+          "outputSummary": "Gematchte set · uitzonderingswachtrij · GL-bewijs · journaalpreview · samenvatting",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Switchtransacties, CBS-grootboek, GL, afschriften en settlementbestanden."
+              "description": "Switch-transacties, CBS-grootboek, GL, afschriften en afrekeningsbestanden."
             }
           ],
           "capabilities": [
             {
               "modality": "SYSTEEM + CHAT",
-              "description": "Matcht systeemrecords en verklaart elke restpost aan financiën."
+              "description": "Matcht systeemrecords en verklaart elk residu aan financiën."
             }
           ],
           "outputs": [
             "Gematchte set",
             "Uitzonderingswachtrij",
             "GL-bewijs",
-            "Journaalvoorbeeld",
+            "Journaalpreview",
             "Samenvatting"
           ],
           "workflow": [
             {
               "stage": "START",
-              "description": "Start met de nachtelijke trigger en verwerk switch-, CBS-, GL- en settlementrecords."
+              "description": "Start op de nachtelijke trigger en neem switch-, CBS-, GL- en afrekeningsrecords op."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Voer exacte, regel- en relatiematching uit; modelleer timing en referentieverschillen."
+              "description": "Voer exacte, regel- en relatieovereenkomsten uit; modelleer timing en referentieverschillen."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Test suggesties voor restpostmatching en bereid het journaal- of aanpassingsvoorbeeld voor."
+              "description": "Test voorgestelde overeenkomsten en bereid het journaal of de aanpassingsvoorvertoning voor."
             },
             {
-              "stage": "BEOORDELEN",
-              "description": "Verklaar elk dubbelzinnig item en toon de voorgestelde boeking aan financiën."
+              "stage": "CONTROLEREN",
+              "description": "Leg elk dubbelzinnig item uit en toon de voorgestelde boeking aan financiën."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Wis of boek alleen de aanpassing die is goedgekeurd door de financiële autoriteit."
+              "description": "Verwerk of boek alleen de aanpassing die is goedgekeurd door de financiële autoriteit."
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg afwijkingen, veroudering, herhaling de volgende dag en geaccepteerde of afgewezen suggesties."
+              "description": "Volg onderbrekingen, veroudering, herhaling de volgende dag en geaccepteerde of afgewezen suggesties."
             }
           ],
           "selfLearning": {
-            "learns": "Geaccepteerde suggesties verbeteren referentiematching en rangschikking van uitzonderingen.",
-            "neverChanges": "Boekhoudbeleid, materialiteit en boekingscontroles blijven gehandhaafd."
+            "learns": "Geaccepteerde suggesties verbeteren referentieovereenkomsten en rangschikking van uitzonderingen.",
+            "neverChanges": "Boekhoudkundig beleid, materialiteit en boekingscontroles blijven van kracht."
           }
         },
         {
@@ -431,13 +432,13 @@
           "label": "Klantenservice & Incasso",
           "mode": "VOICE + CHAT",
           "outcome": "Los het gesprek op met het account in beeld.",
-          "summary": "Nora begrijpt natuurlijke gesprekken, haalt klantcontext op en bereidt antwoorden, betalingsbeloften en schikkingen voor met drempelgestuurde overdracht.",
-          "inputSummary": "Klant 360 · accounts · casusgeschiedenis · beleid · wanbetaling · PTP",
+          "summary": "Nora begrijpt natuurlijke conversatie, haalt klantcontext op en bereidt antwoorden, betalingsafspraken en schikkingen voor met drempeloverdracht.",
+          "inputSummary": "Klant 360 · accounts · casusgeschiedenis · beleid · achterstalligheid · PTP",
           "outputSummary": "Casussamenvatting · statusantwoord · PTP-concept · schikkingsbrief · routering",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Klant 360, accounts, casusgeschiedenis, beleid, wanbetaling en PTP."
+              "description": "Klant 360, accounts, casusgeschiedenis, beleid, achterstalligheid en PTP."
             }
           ],
           "capabilities": [
@@ -456,19 +457,19 @@
           "workflow": [
             {
               "stage": "START",
-              "description": "Leg de oproep, chat, document of casusgebeurtenis vast en identificeer de klantintentie."
+              "description": "Leg het gesprek, de chat, het document of de case-gebeurtenis vast en identificeer de klantintentie."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Los identiteit op en haal account-, casus-, wanbetalings- en beleidscontext op."
+              "description": "Identificeer en haal account-, case-, achterstalligheids- en beleidscontext op."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Stel het antwoord, PTP of schikkingspad op en test het tegen klantimpactregels."
+              "description": "Stel het antwoord, PTP of schikkingspad op en test het tegen regels voor klantimpact."
             },
             {
-              "stage": "BEOORDELEN",
-              "description": "Toon de voorgestelde reactie of accountactie aan de agent bij de juiste drempel."
+              "stage": "CONTROLEREN",
+              "description": "Toon het voorgestelde antwoord of de accountactie aan de agent bij de juiste drempel."
             },
             {
               "stage": "UITVOEREN",
@@ -476,26 +477,26 @@
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg oplossing, nagekomen of verbroken beloften, heropeningen en escalaties."
+              "description": "Volg oplossing, nagekomen of gebroken beloftes, heropeningen en escalaties."
             }
           ],
           "selfLearning": {
-            "learns": "Bewerkingen en resultaten van agenten verbeteren intentie, routering en next-best actie.",
-            "neverChanges": "Toestemming, incassogedrag en schikkingsbevoegdheid blijven gehandhaafd."
+            "learns": "Agentbewerkingen en uitkomsten verbeteren intentie, routering en volgende beste actie.",
+            "neverChanges": "Toestemming, incassogedrag en schikkingsautoriteit blijven gehandhaafd."
           }
         },
         {
           "number": "06",
-          "label": "HR & Interne Operaties",
+          "label": "HR & Interne Bedrijfsvoering",
           "mode": "CHAT + SYSTEM",
-          "outcome": "Elke nieuwe medewerker klaar. Elke vertrekker volledig afgesloten.",
-          "summary": "Nora bereidt HRMS-, e-mail-, identiteits- en toegangswijzigingen voor, en toont vervolgens het exacte account- en permissieverschil vóór goedkeuring door manager, HR en IT.",
-          "inputSummary": "Werknemer · HRMS · identiteit/toegang · directory · ITSM · HR-beleid",
+          "outcome": "Elke nieuwe medewerker klaar. Elke vertrekkende medewerker volledig afgesloten.",
+          "summary": "Nora bereidt HRMS-, e-mail-, identiteits- en toegangsveranderingen voor, toont vervolgens het exacte account- en permissieverschil vóór goedkeuring door manager, HR en IT.",
+          "inputSummary": "Medewerker · HRMS · identiteit/toegang · directory · ITSM · HR-beleid",
           "outputSummary": "Checklist nieuwe/vertrekkende medewerker · permissieverschil · brieven · uitzonderingen",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Werknemer, HRMS, identiteit en toegang, directory, ITSM en HR-beleid."
+              "description": "Medewerker, HRMS, identiteit en toegang, directory, ITSM en HR-beleid."
             }
           ],
           "capabilities": [
@@ -513,23 +514,23 @@
           "workflow": [
             {
               "stage": "START",
-              "description": "Leg de aanvraag van een nieuwe medewerker, vertrekker of interne aanvraag vast met werknemer- en managercontext."
+              "description": "Leg de nieuwe medewerker, vertrekkende medewerker of interne aanvraag vast met context van medewerker en manager."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Modelleer vereiste HRMS-, directory-, e-mail-, identiteits- en toegangswijzigingen."
+              "description": "Modelleer vereiste HRMS-, directory-, e-mail-, identiteits- en toegangsveranderingen."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Oefen het account- en permissieverschil tegen rechten- en volledigheidsregels."
+              "description": "Oefen het account- en permissieverschil tegen regels voor recht en volledigheid."
             },
             {
-              "stage": "BEOORDELEN",
+              "stage": "CONTROLEREN",
               "description": "Toon het exacte verschil voor goedkeuring door manager, HR en IT."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Provisioneer of trek alleen de goedgekeurde accounts, rollen en resources in."
+              "description": "Verleen of herroep alleen de goedgekeurde accounts, rollen en resources."
             },
             {
               "stage": "MONITOREN",
@@ -537,28 +538,28 @@
             }
           ],
           "selfLearning": {
-            "learns": "Correcties verbeteren rolbundels, checklists en uitzonderingsroutering.",
-            "neverChanges": "Geprivilegieerde rollen, functiescheiding en goedkeuringshiërarchie blijven vaststaan."
+            "learns": "Correcties verbeteren rolnabootingen, checklists en uitzonderingsroutering.",
+            "neverChanges": "Geprivilegieerde rollen, functiescheiding en goedkeuringshiërarchie blijven gehandhaafd."
           }
         },
         {
           "number": "07",
           "label": "Treasury & Trade Ops",
           "mode": "VOICE + SYSTEM",
-          "outcome": "Minder onderbrekingen tussen deal, bevestiging en afwikkeling.",
-          "summary": "Nora vergelijkt handelstermen, volgt bevestigingen en bereidt tarief-, blotter- en nostro-acties voor onder benoemde of dubbele treasury-goedkeuring.",
-          "inputSummary": "Deals · bevestigingen · tarieven · blotter · nostro · limieten · handelsdocumenten",
-          "outputSummary": "Bevestigingstracker · discrepanties · tariefvoorbeeld · nostro-bewijs",
+          "outcome": "Minder onderbrekingen tussen transactie, bevestiging en afwikkeling.",
+          "summary": "Nora vergelijkt transactietermen, volgt bevestigingen en bereidt rente-, blotter- en nostro-acties voor achter goedgekeurde of dubbele treasury-goedkeuring.",
+          "inputSummary": "Transacties · bevestigingen · rentes · blotter · nostro · limieten · handelsdocumenten",
+          "outputSummary": "Bevestigingstracker · discrepanties · rentevooruitzichten · nostro-bewijs",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Deals, bevestigingen, tarieven, blotter, nostro, limieten en handelsdocumenten."
+              "description": "Transacties, bevestigingen, rentes, blotter, nostro, limieten en handelsdocumenten."
             }
           ],
           "capabilities": [
             {
               "modality": "STEM + SYSTEEM",
-              "description": "Vergelijkt handelsgegevens en ondersteunt een goedgekeurde deskinstructie."
+              "description": "Vergelijkt transactiegegevens en ondersteunt een goedgekeurde deskinstructie."
             }
           ],
           "outputs": [
@@ -574,28 +575,28 @@
             },
             {
               "stage": "UITVOEREN",
-              "description": "Extraheer en vergelijk voorwaarden voor deals, bevestigingen, tarieven, blotter en nostro."
+              "description": "Extraheer en vergelijk voorwaarden uit deals, bevestigingen, tarieven, blotter en nostro."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Bereid de actie voor en test limieten, bedragen, cut-offs en de huidige systeemstatus."
+              "description": "Bereid de actie voor en test limieten, bedragen, afsluitmomenten en de huidige systeemsituatie."
             },
             {
-              "stage": "BEOORDELEN",
-              "description": "Presenteer de exacte instructie aan de benoemde of dubbele treasury-autoriteit."
+              "stage": "CONTROLEREN",
+              "description": "Presenteer de exacte instructie aan de genoemde of dubbele treasury-autoriteit."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Verzend alleen de goedgekeurde tarief-, blotter-, bevestigings- of nostro-instructie."
+              "description": "Verstuur alleen het goedgekeurde tarief, de blotter, de bevestiging of de nostro-instructie."
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg bevestiging, afwikkeling, onderbrekingen, cut-offs en tegenpartijcorrecties."
+              "description": "Volg bevestigingen, afwikkelingen, breuken, afsluitmomenten en tegenpartijcorrecties."
             }
           ],
           "selfLearning": {
-            "learns": "Opgeloste discrepanties verbeteren extractie, matching en cut-off prioriteit.",
-            "neverChanges": "Dealing-, FX-, risico-, betalings- en sanctielimieten kunnen niet zelfstandig wijzigen."
+            "learns": "Opgeloste discrepanties verbeteren extractie, matching en prioriteit van afsluitmomenten.",
+            "neverChanges": "Limieten voor handel, FX, risico, betaling en sancties kunnen niet zelf worden gewijzigd."
           }
         },
         {
@@ -603,144 +604,144 @@
           "label": "Microbanking & EEB",
           "mode": "CAMERA + VOICE",
           "outcome": "Veldgegevens worden een schone, goedgekeurde batch.",
-          "summary": "Nora leest vergaderingsverslagen en formulieren, begrijpt gedicteerde gegevens in de lokale taal en lost onzekerheden op voordat ze multi-systeem batches creëert.",
-          "inputSummary": "Vergaderingsgegevens · groepsleningen · incasso's · KYC · schemaformulieren · claims",
-          "outputSummary": "Vergaderingsbatch · incasso-upload · schemapakket · wachtrij voor afgewezen rijen",
+          "summary": "Nora leest vergaderbladen en formulieren, begrijpt gedicteerde lokale gegevens en lost onzekerheden op voordat ze multi-systeem batches aanmaakt.",
+          "inputSummary": "Vergadergegevens · groepsleningen · incasso's · KYC · schemaformulieren · claims",
+          "outputSummary": "Vergaderbatch · incasso-upload · schema-pakket · wachtrij met afgewezen rijen",
           "inputs": [
             {
               "code": "SOURCE CONTEXT",
-              "description": "Vergaderingsgegevens, groepsleningen, incasso's, KYC, schemaformulieren en claims."
+              "description": "Vergadergegevens, groepsleningen, incasso's, KYC, schemaformulieren en claims."
             }
           ],
           "capabilities": [
             {
               "modality": "CAMERA + STEM",
-              "description": "Leest velddocumenten en begrijpt gedicteerde gegevens in de lokale taal."
+              "description": "Leest velddocumenten en begrijpt gedicteerde lokale gegevens."
             }
           ],
           "outputs": [
-            "Vergaderingsbatch",
+            "Vergaderbatch",
             "Incasso-upload",
-            "Schemapakket",
-            "Wachtrij voor afgewezen rijen"
+            "Schema-pakket",
+            "Wachtrij met afgewezen rijen"
           ],
           "workflow": [
             {
               "stage": "START",
-              "description": "Veldmedewerker uploadt vergaderingsverslagen of dicteert incassogegevens in de lokale taal."
+              "description": "Veldmedewerker uploadt vergaderbladen of dicteert incassogegevens in lokale taal."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Transcribeer en extraheer formulieren, match vervolgens leden, accounts en schemacontext."
+              "description": "Schrijf formulieren over en extraheer ze, match vervolgens leden, rekeningen en schema-context."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Bouw de multi-systeem batch en test afwijkingen, verwachte waarden en ontbrekende gegevens."
+              "description": "Bouw de multi-systeem batch en test anomalieën, verwachte waarden en ontbrekende gegevens."
             },
             {
-              "stage": "BEOORDELEN",
-              "description": "Toon elke rij en voorgestelde schrijfopdracht ter goedkeuring door veld- of filiaalmedewerker."
+              "stage": "CONTROLEREN",
+              "description": "Toon elke rij en voorgestelde wijziging ter goedkeuring aan de veld- of regiomedewerker."
             },
             {
               "stage": "UITVOEREN",
-              "description": "Boek alleen de goedgekeurde groepslening-, incasso- of schemabatch."
+              "description": "Post alleen de goedgekeurde groepslening-, incasso- of schema-batch."
             },
             {
               "stage": "MONITOREN",
-              "description": "Volg afgewezen rijen, bevestigingen, correcties en voltooiing."
+              "description": "Volg afgewezen rijen, ontvangstbevestigingen, correcties en voltooiing."
             }
           ],
           "selfLearning": {
             "learns": "Correcties verbeteren handschrift, lokale taalmapping en gegevenscontroles.",
-            "neverChanges": "Geschiktheid, krediet, schema en incasso-autoriteit blijven beheerd."
+            "neverChanges": "Geschiktheid, krediet, schema en incasso-autoriteit blijven gereguleerd."
           }
         }
       ]
     },
     "platform": {
-      "kicker": "05 MULTIMODAAL PERSONA",
-      "heading": "Nora voldoet aan het werk in elke vorm.",
-      "body": "Praat, typ, toon of verbind, met behoud van hetzelfde persona- en controlmodel.",
+      "kicker": "05 MULTIMODALE PERSONA",
+      "heading": "Nora ontmoet het werk in elke vorm.",
+      "body": "Praat, typ, toon of verbind, gebruik dezelfde persona en hetzelfde besturingsmodel blijven op hun plaats.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/vision.webp",
           "alt": "",
           "title": "Visie die het bestand leest",
-          "body": "Identiteitsdocumenten, afschriften, ondertekende formulieren, handschrift en screenshots worden gestructureerd bewijs."
+          "body": "Identiteitsdocumenten, verklaringen, ondertekende formulieren, handschrift en screenshots worden gestructureerd bewijs."
         },
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/voice.webp",
           "alt": "",
           "title": "Stem voor het operationele moment",
-          "body": "Medewerkers kunnen een uitzondering uitleggen, veldgegevens dicteren of om een status vragen zonder het werk te verlaten."
+          "body": "Medewerkers kunnen een uitzondering uitleggen, veldgegevens dicteren of een status opvragen zonder het werk te verlaten."
         },
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/systems.webp",
           "alt": "",
           "title": "Systemen die observeerbaar blijven",
-          "body": "Nora leest goedgekeurde context en bereidt afgebakende schrijfbewerkingen voor, waarbij elk veld zichtbaar is vóór uitvoering."
+          "body": "Nora leest goedgekeurde context en bereidt gescoopte schrijfbewerkingen voor met elk zichtbaar veld vóór uitvoering."
         },
         {
           "image": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/authority.webp",
           "alt": "",
           "title": "Autoriteit die menselijk blijft",
-          "body": "Benoemde goedkeuringen, dubbele controle en vaste beleidspoorten maken deel uit van de uitvoering, niet een aantekening ernaast."
+          "body": "Genoemde goedkeuringen, dubbele controle en vaste beleidsgates maken deel uit van de uitvoering, niet een opmerking ernaast."
         }
       ]
     },
     "trust": {
       "kicker": "06 VERTROUWEN",
-      "heading": "Toon de uitvoering, niet een geruststelling.",
-      "body": "Het bewijs waar uw risico-, beveiligings- en auditteams om zullen vragen.",
-      "statusLabel": "Bestuursstatus",
+      "heading": "Toon de uitvoering, geen geruststelling.",
+      "body": "Het bewijs dat uw risico-, beveiligings- en auditteams zullen vragen.",
+      "statusLabel": "Governance-status",
       "statusValue": "ZICHTBAAR",
-      "statusDetail": "Alle controlelagen operationeel",
+      "statusDetail": "Alle operationele controlelagen",
       "controls": [
         {
           "title": "DUBBELE CONTROLE",
-          "body": "Benoemde maker/checker bij belangrijke acties"
+          "body": "Genoemde maker / checker bij gevolgacties"
         },
         {
-          "title": "BELEIDSVERGRENDELINGEN",
-          "body": "AI kan bank- of regelgevingsbeleid niet herschrijven"
+          "title": "BELEIDSSLOTEN",
+          "body": "AI kan geen bank- of regelgevingsbeleid herschrijven"
         },
         {
           "title": "AUDITLOGBOEK",
-          "body": "Onveranderlijke invoer, redenering, goedkeuring en actietraject"
+          "body": "Onveranderlijk spoor van invoer, redenering, goedkeuring en actie"
         },
         {
-          "title": "BEPERKTE TOEGANG",
+          "title": "GESCOOPTE TOEGANG",
           "body": "Lees- en schrijfrechten op tool- en veldniveau"
         },
         {
-          "title": "GEGEVENSRESIDENTIE",
-          "body": "Implementeer binnen de goedgekeurde grens van de bank"
+          "title": "DATARESIDENTIE",
+          "body": "Implementeren binnen de goedgekeurde grens van de bank"
         },
         {
-          "title": "ENCRYPTIE",
-          "body": "Beschermd tijdens overdracht en in rust"
+          "title": "VERSLEUTELING",
+          "body": "Beschermd tijdens transport en in rust"
         }
       ]
     },
     "footer": {
       "tagline": "Een implementeerbare AI-persona voor banken, gebouwd met Gabriel Operator.",
       "exploreLabel": "Ontdekken",
-      "useCasesLabel": "Scenario's",
-      "getStartedLabel": "Begin",
+      "useCasesLabel": "Gebruiksscenario's",
+      "getStartedLabel": "Aan de slag",
       "useCaseLinks": [
         "KYC",
-        "Krediet",
+        "Credit",
         "Compliance",
-        "Operationeel"
+        "Operations"
       ]
     },
     "contact": {
       "email": "hello@nora.ai"
     },
     "closing": {
-      "kicker": "DE VOLGENDE RUN",
+      "kicker": "VOLGENDE RUN",
       "heading": "Implementeer Nora in één\nbankdomein.",
-      "body": "Kies de workflow, de interface en de autoriteitsgrens. Leg de eerste gecontroleerde run voor aan uw operationele team.",
+      "body": "Kies de workflow, de interface en de autoriteitsgrens. Plaats de eerste beheerde run voor uw operationele team.",
       "ctaLabel": "Praat met Nora"
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/nora-banking-landing-page/main/assets/media/nora-no-wings-transparent.png",
@@ -748,24 +749,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Zakelijke impact",
-      "heading": "Prijzen en ROI",
-      "subheading": "Kies een abonnement. Bekijk je prognose.",
-      "disclaimer": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
+      "heading": "Prijzen & ROI",
+      "subheading": "Kies een abonnement. Zie uw prognose.",
+      "disclaimer": "Schattingen voor planning zijn gescheiden van gemeten ROI. Alleen geaccepteerde uitkomsten en vergelijkbare geregistreerde kosten ondersteunen gemeten rendementen.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
+        "basis": "Valutaconversie is geen lokaal kostenonderzoek. Voer uw eigen lokale kosten en bijdrageschattingen in. Taalwijzigingen veranderen de bedragen niet."
       },
       "costCopy": {
         "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
-        "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
+        "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen opsplitsing aangenomen.",
+        "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-factuur.",
         "remainder": "Andere inbegrepen operationele kosten",
-        "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
+        "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldwaarde."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -790,23 +791,23 @@
         },
         "copy": {
           "navLabel": "Prijzen",
-          "workloadStep": "Cases",
+          "workloadStep": "Gevallen",
           "costStep": "Tokengebruik",
-          "valueStep": "Analyst capacity",
-          "workloadIntro": "Model case preparation and analyst capacity—not guaranteed compliance.",
+          "valueStep": "Analistencapaciteit",
+          "workloadIntro": "Voorbereiding van modelgevallen en analistencapaciteit — geen gegarandeerde naleving.",
           "costIntro": "Typisch tokenverbruik en de platformkosten zijn vooraf ingevuld voor een gemiddelde gebruiker. Bewerk ze als uw gebruik afwijkt.",
           "valueIntro": "Dit is de gemodelleerde output en capaciteit voor dat typische gebruik. Bewerk de aannames als ze niet overeenkomen met uw werk.",
-          "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
+          "sampleNotice": "Typisch gebruik · niet waargenomen resultaten",
           "monthly": "Maandelijks",
           "yearly": "Jaarlijks",
           "next": "Doorgaan",
           "back": "Terug",
           "reset": "Aannames resetten",
           "summary": "Uw gemodelleerde impact",
-          "volume": "Cases modeled",
+          "volume": "Gemodelleerde gevallen",
           "grossHours": "Repetitief werk verminderd",
-          "capacity": "Analyst hours returned",
-          "retained": "Beschikbaar gehouden capaciteit",
+          "capacity": "Teruggegeven analistenuren",
+          "retained": "Beschikbare capaciteit behouden",
           "hours": "uren",
           "days": "dagen",
           "percent": "%",
@@ -816,95 +817,95 @@
           "tokenCost": "Tokengebruik",
           "packageLabel": "Gebruikspakket",
           "packageBase": "Basis",
-          "packageMedium": "Medium",
+          "packageMedium": "Gemiddeld",
           "packageCustom": "Aangepast",
           "reviewMode": "Wie handelt de beoordeling af?",
           "teamReview": "Bestaand team",
           "paidReview": "Extra betaalde beoordelaar",
-          "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
+          "reviewNote": "Beoordeling door bestaand team gebruikt teruggegeven capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, niet nogmaals afgetrokken van de teamcapaciteit.",
           "totalMode": "Maandelijks budget",
           "itemizedMode": "Kostenoverzicht",
-          "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
-          "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
+          "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling omvatten. Neem geen ongewijzigd salaris mee als nieuwe uitgave.",
+          "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief ervan.",
           "paidReviewCost": "Kosten voor extra betaalde beoordeling",
           "allInCost": "Operationele kosten",
           "missing": "Voeg uw aannames toe",
           "cashValue": "Vermeden contante uitgaven",
           "contribution": "Verwachte bijdrage",
-          "expectedLoss": "Verwachte vermindering van verlies",
+          "expectedLoss": "Verwachte reductie van verliezen",
           "riskValue": "Onzekere risicowaarde inbegrepen",
           "economicValue": "Gemodelleerde economische waarde",
           "netBenefit": "Netto gemodelleerd voordeel",
-          "multiple": "Economische rendementsmultiple",
+          "multiple": "Economische rendementsfactor",
           "notApplicable": "Niet van toepassing",
           "annual": "Jaarlijks overzicht",
-          "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
+          "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren alleen voor de ingevoerde periode.",
           "method": "Hoe dit wordt berekend",
           "burdenHeading": "Repetitief werk verminderd",
           "opportunityHeading": "Capaciteit voor werk van hogere waarde",
-          "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
-          "formulaLabel": "Economische waarde ÷ operationele kosten = economische rendementsmultiple. Netto voordeel minus operationele kosten eenmalig.",
-          "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
-          "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
+          "methodBody": "Verwijderde operationele last (negatieve productiviteit) levert capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Uren alleen zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen leveranciersofferte.",
+          "formulaLabel": "Economische waarde ÷ operationele kosten = economische rendementsfactor. Netto voordeel trekt operationele kosten één keer af.",
+          "allocationNote": "Elk uur kan één keer worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
+          "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen die al elders zijn geteld, uitgesloten.",
           "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
-          "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
+          "hiringLabel": "Deze aanwerving was gepland en de toegewezen capaciteit kan het werk dekken.",
           "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
-          "cycleResult": "Verbetering van cyclustijd",
+          "cycleResult": "Verbetering cyclustijd",
           "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
           "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
-          "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
+          "allocationError": "Toegewezen uren overschrijden de beschikbare netto capaciteit. Verminder de toewijzingen.",
           "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
-          "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
-          "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
-          "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
+          "cashError": "Voorkomen uitgaven kunnen niet hoger zijn dan de huidige uitgaven of een positieve waarde hebben zonder toegewezen uren.",
+          "hiringError": "Toegewezen capaciteit moet de geplande aanwervingsuren dekken. Bevestig de geplande aanwerving en de duur ervan.",
+          "riskError": "De waarschijnlijkheid achteraf kan niet groter zijn dan de waarschijnlijkheid ervoor voor een schatting van de verliesreductie.",
           "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
           "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
           "rangeLabel": "Waarde aanpassen",
-          "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
+          "noCurrencyChange": "Taal verandert opmaak, niet uw valuta of aannames.",
           "currentPreparation": "Huidige voorbereidingsuren",
           "reviewHours": "Uren menselijke beoordeling",
-          "reworkHours": "Vermeden of toegevoegde rework-uren",
+          "reworkHours": "Vermeden of toegevoegde rework uren",
           "capacityValue": "Gemodelleerde capaciteitswaarde",
           "acceptedUnits": "Geaccepteerde eenheden",
-          "attendedUnits": "Bezochte eenheden",
-          "costPerAttended": "Kosten per bezochte eenheid",
-          "benefitCost": "Voordeel-kosten multiple",
+          "attendedUnits": "Bijgewoonde eenheden",
+          "costPerAttended": "Kosten per bijgewoonde eenheid",
+          "benefitCost": "Voordeel-kosten veelvoud",
           "firstYearCost": "Eerstejaars kosten",
           "firstYearRoi": "Eerstejaars ROI",
           "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
           "months": "months",
           "customerBenefit": "Gemodelleerd klantvoordeel",
           "customerRoi": "Klant ROI",
-          "payback": "Terugverdientijd van setup-kosten"
+          "payback": "Terugverdientijd instelkosten"
         },
         "fields": {
           "volume": {
-            "label": "Cases prepared each month",
-            "help": "Count packs your analysts actually review, not every inbound inquiry."
+            "label": "Voorbereide zaken per maand",
+            "help": "Tel het aantal pakketten dat uw analisten daadwerkelijk beoordelen, niet elke inkomende aanvraag."
           },
           "minutes": {
-            "label": "Minutes to assemble one case today",
-            "help": "Hands-on document checks and reconciliation, not elapsed calendar time."
+            "label": "Minuten om vandaag één pakket samen te stellen",
+            "help": "Handmatige documentcontroles en reconciliatie, geen verstreken kalendertijd."
           },
           "automation": {
-            "label": "Share of that assembly Nora handles",
-            "help": "Illustrative share of preparation, not an automated credit decision."
+            "label": "Aandeel van die assemblage dat Nora afhandelt",
+            "help": "Illustratief aandeel van de voorbereiding, geen geautomatiseerde kredietbeslissing."
           },
           "review": {
-            "label": "Minutes an analyst spends confirming each pack",
-            "help": "Human review still required. Nora does not decide the case."
+            "label": "Minuten die een analist besteedt aan het controleren van elk pakket",
+            "help": "Menselijke beoordeling nog steeds vereist. Nora beslist niet over de zaak."
           },
           "tokens_per_output": {
-            "label": "Tokens to assemble one case pack",
-            "help": "Modeled tokens to gather, check and evidence one pack."
+            "label": "Tokens om één pakket samen te stellen",
+            "help": "Gemodelleerde tokens om één pakket te verzamelen, controleren en bewijzen."
           },
           "budget": {
-            "label": "Geschat maandelijks operationeel budget",
-            "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
+            "label": "Geschatte maandelijkse operationele begroting",
+            "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en aanvullende betaalde beoordeling."
           },
           "model_cost": {
             "label": "Extra modellen en media",
-            "help": "Alleen afbeeldingen, video's of andere generatie die apart van tokengebruik worden gefactureerd. Voer nul in als er geen zijn."
+            "help": "Alleen beeld-, video- of andere generatie die afzonderlijk van tokengebruik wordt gefactureerd. Voer nul in als er geen zijn."
           },
           "tools_cost": {
             "label": "Tools en integraties",
@@ -912,39 +913,39 @@
           },
           "infrastructure_cost": {
             "label": "Infrastructuur",
-            "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
+            "help": "Incrementele hosting, opslag en rekenkracht voor deze werklast. Voer nul in als er geen zijn."
           },
           "platform_cost": {
             "label": "Gabriel platformkosten",
-            "help": "Typisch maandelijks gebruik voor dit gebruikspakket. Dit is een gemodelleerde aanname, geen prijsopgave."
+            "help": "Typische maandelijkse toegang voor dit gebruiksabonnement. Dit is een gemodelleerde aanname, geen prijsopgave."
           },
           "review_rate": {
             "label": "Extra betaalde beoordeling per uur",
-            "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
+            "help": "Werkelijke extra beoordelingsuitgaven, niet het salaris van een ongewijzigde werknemer."
           },
           "cash_hours": {
-            "label": "Uren die betaald werk besparen",
-            "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
+            "label": "Uren die betaald werk vervangen",
+            "help": "Wijs alleen werk toe waarvan de overuren, contractanten of verwerkingskosten daadwerkelijk stoppen."
           },
           "cash_baseline": {
             "label": "Huidige maandelijkse uitgaven aan dat werk",
-            "help": "Het cashbudget waaruit de reductie zal komen."
+            "help": "Het contante budget waaruit de reductie zal komen."
           },
           "cash_avoided": {
             "label": "Maandelijkse uitgaven die u zou stoppen",
-            "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
+            "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen van geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
           },
           "higher_value_hours": {
-            "label": "Hours kept for complex cases",
-            "help": "Analyst time redirected from assembly to judgment."
+            "label": "Uren gereserveerd voor complexe zaken",
+            "help": "Analistentijd omgeleid van assemblage naar beoordeling."
           },
           "contribution_rate": {
-            "label": "Shadow price of analyst capacity / hr",
-            "help": "Your estimate of an analyst hour, not a payroll reduction."
+            "label": "Schaduwprijs van analistencapaciteit / uur",
+            "help": "Uw schatting van een analist-uur, geen salarisvermindering."
           },
           "throughput_hours": {
             "label": "Uren gebruikt voor extra volume",
-            "help": "Deze toewijzing kan niet ook worden gebruikt voor advieswerk of kostenbesparingen."
+            "help": "Deze toewijzing kan ook niet worden gebruikt voor advieswerk of uitgavendalingen."
           },
           "extra_minutes": {
             "label": "Teamminuten per extra eenheid",
@@ -956,7 +957,7 @@
           },
           "unit_margin": {
             "label": "Bijdrage per extra eenheid",
-            "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
+            "help": "Incrementele inkomsten minus leveringskosten; AI-operationele kosten worden afzonderlijk afgetrokken."
           },
           "hiring_hours": {
             "label": "Uren die de geplande aanwerving dekken",
@@ -964,10 +965,10 @@
           },
           "planned_hours": {
             "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
-            "help": "De toegewezen capaciteit moet deze volledige workload dekken."
+            "help": "De toegewezen capaciteit moet dit gehele werk omvatten."
           },
           "hire_cost": {
-            "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
+            "label": "Maandelijkse aanwervingskosten daadwerkelijk uitgesteld",
             "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
           },
           "hire_months": {
@@ -980,36 +981,36 @@
           },
           "incident_cost": {
             "label": "Incrementele kosten per fout",
-            "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
+            "help": "Sluit arbeid, terugbetalingen of andere verliezen uit die al elders zijn opgenomen."
           },
           "probability_before": {
-            "label": "Maandelijkse verlieskans voorheen",
+            "label": "Maandelijkse verlieskans voor",
             "help": "Uw schatting, geen gegarandeerde risicobeoordeling."
           },
           "probability_after": {
-            "label": "Maandelijkse verlieskans hierna",
-            "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
+            "label": "Maandelijkse verlieskans na",
+            "help": "Gebruik dezelfde gebeurtenis en maandelijkse tijdshorizon als de basislijn."
           },
           "loss": {
-            "label": "Verliesblootstelling voor dat evenement",
-            "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
+            "label": "Verliesblootstelling voor die gebeurtenis",
+            "help": "Sluit foutincidenten en uitgaven uit die al zijn meegeteld. Dit is onzekere verwachte waarde, geen bespaard geld."
           },
           "days_before": {
-            "label": "Cyclustijd voorheen, in dagen",
-            "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
+            "label": "Cyclustijd voor, in dagen",
+            "help": "Verstreken tijd van begin tot voltooiing, los van de inspanning."
           },
           "days_after": {
-            "label": "Cyclustijd hierna, in dagen",
-            "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
+            "label": "Cyclustijd na, in dagen",
+            "help": "Getoond als een operationele verandering, zonder een aangenomen geldwaarde."
           }
         },
         "burden": [
-          "Case preparation and document checks",
-          "Repeated reconciliation before analyst review"
+          "Voorbereiding van dossiers en documentcontroles",
+          "Herhaalde afstemming vóór analyse"
         ],
         "opportunity": [
-          "Additional analyst review capacity",
-          "Time for complex cases and exceptions"
+          "Extra capaciteit voor analyse",
+          "Tijd voor complexe gevallen en uitzonderingen"
         ],
         "costMode": "itemized",
         "reviewMode": "team",
@@ -1025,25 +1026,25 @@
         },
         "hero": {
           "kind": "volume",
-          "label": "Case-ready packs"
+          "label": "Klaar voor dossier"
         },
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Keep analysts on complex cases",
-            "help": "Use returned capacity on the cases that still need judgment."
+            "label": "Houd analisten bezig met complexe gevallen",
+            "help": "Gebruik vrijgekomen capaciteit voor de gevallen die nog beoordeling vereisen."
           },
           {
             "id": "risk",
-            "label": "Reduce expected loss",
-            "help": "An uncertain estimate of a change in monthly loss probability. Not a guaranteed control."
+            "label": "Verlaag verwacht verlies",
+            "help": "Een onzekere schatting van een verandering in de maandelijkse verlieskans. Geen gegarandeerde controle."
           }
         ],
         "tabs": [
           {
             "id": "cases",
-            "label": "Cases",
-            "intro": "How many KYC, credit or onboarding packs a typical team prepares, and the analyst review that still happens.",
+            "label": "Gevallen",
+            "intro": "Hoeveel KYC-, krediet- of onboardingpakketten een typisch team voorbereidt, en de analyse die nog steeds plaatsvindt.",
             "fields": [
               "volume",
               "minutes",
@@ -1056,7 +1057,7 @@
           {
             "id": "tokens",
             "label": "Tokengebruik",
-            "intro": "Tokens to assemble one case pack, plus the Gabriel fee for this package.",
+            "intro": "Tokens om één dossierpakket samen te stellen, plus de Gabriel-vergoeding voor dit pakket.",
             "fields": [
               "tokens_per_output",
               "platform_cost",
@@ -1067,8 +1068,8 @@
           },
           {
             "id": "analyst",
-            "label": "Analyst capacity",
-            "intro": "Hours returned to analysts, with a modest uncertain risk line. This is not a compliance promise.",
+            "label": "Analistencapaciteit",
+            "intro": "Uren teruggegeven aan analisten, met een bescheiden onzekere risicolijn. Dit is geen nalevingsbelofte.",
             "fields": [],
             "showPackage": true,
             "showOutcomes": true
@@ -1076,7 +1077,7 @@
         ]
       },
       "cta": {
-        "primaryLabel": "Talk with Nora",
+        "primaryLabel": "Praat met Nora",
         "primaryTarget": "meet",
         "secondaryLabel": "Zie hoe het werkt",
         "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
@@ -1087,34 +1088,34 @@
         "defaultProfileId": "analyst",
         "copy": {
           "navLabel": "Prijzen",
-          "heading": "Prijzen en ROI",
-          "intro": "Kies een abonnement. Bekijk je prognose.",
+          "heading": "Prijzen & ROI",
+          "intro": "Kies een abonnement. Zie uw prognose.",
           "monthly": "Maand",
           "weekly": "Week",
           "daily": "Dag",
           "cost": "U betaalt",
-          "benefit": "Geschat rendement",
+          "benefit": "Geschatte opbrengst",
           "net": "Nettowinst",
-          "roi": "Geschat ROI",
-          "timeBenefit": "Geschatte tijdwaarde",
-          "timeRoi": "Tijdwaarde-ROI",
-          "timeBack": "Hergewonnen uren",
+          "roi": "Geschatte ROI",
+          "timeBenefit": "Geschatte tijdswaarde",
+          "timeRoi": "Tijdswaarde ROI",
+          "timeBack": "Uren teruggegeven",
           "missing": "Prognose niet beschikbaar",
           "noRatio": "Niet van toepassing",
-          "method": "Berekeningswijze",
-          "reset": "Herstel",
+          "method": "Hoe het wordt berekend",
+          "reset": "Reset",
           "audience": "Publiek",
           "includedVat": "Inclusief btw",
           "excludedVat": "Exclusief btw",
           "perMonth": "per maand",
-          "equivalents": "Maandfactuur. Dag- en weekcijfers zijn gemiddelden, geen dag- of weekkosten of gegarandeerd rendement.",
-          "timeNote": "De geraamde tijdwaarde is vrijgekomen capaciteit, geen ontvangen geld of lagere loonkosten. Netto minuten zijn inclusief controle en goedkeuring.",
-          "estimateNote": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
-          "limitNote": "Neem contact op voor meer gebruik of maatwerkoffertes. Deze raming betreft alleen het inbegrepen pakket.",
-          "timeFormula": "Geraamde tijdwaarde = inbegrepen werk × vaste netto vrijgekomen minuten ÷ 60 × referentiewaarde per uur.",
-          "profitFormula": "Dekkingsbijdrage = geldige adviessessies × conversiestijging ÷ 100 × winst per extra bestelling.",
-          "proceedsFormula": "Extra opbrengst = partijen of afhalingen × (netto-opbrengst achteraf − netto-opbrengst vooraf).",
-          "roiFormula": "Netto = voordeel − appabonnementskosten. ROI = netto ÷ appabonnementskosten × 100. Gratis abonnementen: geen ROI-percentage."
+          "equivalents": "Maandelijks gefactureerd. Dag- en weekcijfers zijn gemiddelden, geen dagelijkse of wekelijkse kosten of gegarandeerde opbrengsten.",
+          "timeNote": "Prognose tijdswaarde is vrijgekomen capaciteit, geen ontvangen geld of een salarisvermindering. Netto minuten zijn inclusief controle en goedkeuring.",
+          "estimateNote": "Planningsschattingen zijn gescheiden van gemeten ROI. Alleen geaccepteerde uitkomsten en vergelijkbare geregistreerde kosten ondersteunen gemeten opbrengsten.",
+          "limitNote": "Voor meer gebruik of afzonderlijk aangeboden werk, neem contact met ons op. Deze schatting heeft alleen betrekking op het inbegrepen abonnement.",
+          "timeFormula": "Prognose tijdswaarde = inbegrepen werk × vaste netto minuten teruggegeven ÷ 60 × referentie-uurwaarde.",
+          "profitFormula": "Bijdrage winst = in aanmerking komende aanbevelingssessies × conversie-uplift ÷ 100 × winst per extra bestelling.",
+          "proceedsFormula": "Incrementele opbrengsten = kavels of afhalingen × (netto opbrengsten achteraf − netto opbrengsten vooraf).",
+          "roiFormula": "Netto = voordeel − app-abonnementskosten. ROI = netto ÷ app-abonnementskosten × 100. Gratis abonnementen hebben geen ROI-percentage."
         },
         "profiles": [
           {
@@ -1125,8 +1126,8 @@
             "inputs": [
               {
                 "id": "units",
-                "label": "Zaakdossiers per maand",
-                "help": "De prognose gaat uit van volledig gebruik van het maandtegoed. Hogere voorgestelde niveaus verhogen zowel capaciteit als prijs.",
+                "label": "Dossierpakketten per maand",
+                "help": "Prognose gaat ervan uit dat de inbegrepen maandelijkse toelage wordt gebruikt. Hogere tarieven verhogen de capaciteit en prijs samen.",
                 "defaultValue": 50,
                 "min": 0,
                 "max": 50,
@@ -1135,8 +1136,8 @@
               },
               {
                 "id": "minutes_saved",
-                "label": "Bespaarde min.",
-                "help": "Vaste prognose na voorbereiding, controle, goedkeuring en herwerk; geen gemeten besparing.",
+                "label": "Minuten bespaard",
+                "help": "Vaste prognose na voorbereiding, controle, goedkeuring en herziening; geen gemeten besparing.",
                 "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
@@ -1145,8 +1146,8 @@
               },
               {
                 "id": "hourly_value",
-                "label": "Waarde per uur",
-                "help": "Vaste referentiewaarde van vrijgekomen capaciteit; geen ontvangen geld of salarisverlaging.",
+                "label": "Uurwaarde",
+                "help": "Vaste referentiewaarde van teruggegeven capaciteit; geen ontvangen geld of salarisvermindering.",
                 "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
@@ -1160,30 +1161,33 @@
               "unit": "Analist",
               "vatIncluded": false,
               "includedUnits": 50,
-              "allowance": "50 dossiers / 150 blz.",
-              "extras": "Bankimplementaties op maat en professionele besluiten krijgen een aparte offerte.",
+              "allowance": "50 pakketten / 150 pagina's",
+              "extras": "Toegewijde bankimplementaties en professionele beslissingen worden afzonderlijk aangeboden.",
               "free": {
                 "includedUnits": 1,
                 "allowance": "Gratis · 1 dossierpakket / 3 pagina's"
               },
               "trialDays": 7,
-              "trialLabel": "7 dagen op proef · daarna maandprijs"
+              "trialLabel": "7 dagen gratis · daarna maandprijs"
             },
             "assumptions": [
-              "Prognoseversie 2026-10-13. Volledig gebruik van het tegoed, beschikbaar werk en een lineair capaciteitsscenario van 1×/2×/3×; extra vraag is niet gegarandeerd.",
-              "Opgestelde taakraming: 60 minuten handmatig tegenover 48 minuten menselijk werk met ondersteuning per werkeenheid, inclusief controle, goedkeuring en herwerk. De 12 netto minuten (20%) zijn een scenario, geen waargenomen prestaties van deze persona.",
-              "Het scenario van 20% tijdsbesparing is gebaseerd op onderzoek naar kennistaken met AI-ondersteuning. De resultaten bewijzen geen besparingen voor deze persona of voor elke taak: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
-              "Vrijgekomen bedrijfscapaciteit wordt gewaardeerd op €34.90/uur, de referentie voor arbeidskosten per uur in de gehele EU-economie in 2025. Dit is geen beroepsspecifiek tarief of besparing op loonkosten: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
-              "Alle cijfers zijn prognoses. Opstartwerk, leertijd en aanvullende diensten zijn uitgesloten; het werkelijke nettorendement kan lager of negatief zijn. Verkoop, plaatsing, financiering, leerresultaten en maatschappelijke uitkomsten krijgen geen geldwaarde.",
-              "Gratis toegang wordt maandelijks vernieuwd met het getoonde basistegoed. Premium media, integraties en extra gebruik zijn uitgesloten. Betaalde niveaus hebben een proefperiode van zeven dagen; proefgebruik is beperkt tot één gratis basistegoed, geen extra volledig maandtegoed. Getoonde prijzen zijn terugkerende prijzen na de proefperiode. Dit zijn opgestelde aanbodvoorstellen; de calculator kent geen gebruiksrechten toe en wijzigt de facturering niet."
+              "Voorspelling herziening 2026-10-13. Volledig inbegrepen gebruik, beschikbare werkzaamheden en een lineair 1×/2×/3× capaciteitsscenario; geen extra vraag gegarandeerd.",
+              "Opgestelde taakbudget: 60 handmatige minuten versus 48 geassisteerde menselijke minuten per werkeenheid, inclusief controle, goedkeuring en herziening. De 12 netto minuten (20%) is een scenario, geen waargenomen persona-prestatie.",
+              "Het 20% tijdsreductiescenario is gebaseerd op onderzoek naar AI-ondersteunde kenniswerkzaamheden. De resultaten ervan stellen geen besparingen vast voor dit persona of voor elke taak: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Teruggewonnen bedrijfscapaciteit wordt gewaardeerd op €34,90/uur, de EU-referentie voor de uurlonen in de gehele economie voor 2025. Het is geen beroepsspecifiek tarief of een besparing op salaris: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "Alle cijfers zijn prognoses. Opstartinspanning, leertijd en eventuele aanvullende diensten zijn uitgesloten; werkelijke netto-opbrengsten kunnen lager of negatief zijn. Geen enkele verkoop, plaatsing, financiering, leerresultaat of sociaal resultaat wordt gemonetiseerd.",
+              "Gratis toegang wordt maandelijks verlengd met de getoonde basisvergoeding. Premium media, integraties en extra gebruik zijn uitgesloten. Betaalde niveaus hebben een proefperiode van zeven dagen; proefgebruik is beperkt tot één basis gratis vergoeding, niet een extra volledige maandelijkse vergoeding. Getoonde prijzen zijn terugkerende prijzen na de proefperiode. Dit zijn opgestelde aanbiedingsvoorstellen; de calculator verstrekt geen rechten of wijzigt facturering."
             ],
-            "loop": "Nieuwe zaak of ontbrekend document → bewijsdossier samenstellen → analist toetst → getoetst dossier en gekoppeld voorbereidingswerk vastleggen.",
-            "ctaLabel": "Probeer demo",
+            "loop": "Nieuwe zaak of ontbrekend document signaal → bewijspakket samenstellen → analist beoordeelt → beoordeeld pakket en bijbehorende voorbereidingsinspanning registreren.",
+            "ctaLabel": "Demo proberen",
             "ctaTarget": "meet"
           }
         ]
       }
     }
+  },
+  "uiCopy": {
+    "impactLabel": "Zakelijke Impact"
   },
   "translationIndex": [
     {
@@ -4505,6 +4509,42 @@
         "landingPage",
         "roiCalculator",
         "currencyCopy",
+        "native"
+      ],
+      "sourceHash": "cd2604270cd9656f4abdccbee7bf11038b88a1ae5a8657f9933a807fdcdff8bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
+        "loading"
+      ],
+      "sourceHash": "efc980d9dce429c644a6dce658df91cdacbff328ea38504d8ce80bfe9b76b32d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
+        "unavailable"
+      ],
+      "sourceHash": "b01a152edb76137a0a16fe29cc942fa282d98fbdc4123b830397f9fde7f85095"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
+        "converted"
+      ],
+      "sourceHash": "450c38574200c1402496596e9f8177d31fd0e64cf58d9468c350eb3ba2c60d10"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
         "basis"
       ],
       "sourceHash": "17cc8491fcdfe8ddd4f8dec6a3859229ecacffb562b383e1283f1c0be0019806"
@@ -4517,6 +4557,15 @@
         "breakdown"
       ],
       "sourceHash": "895373aa73d1d5e90f508f353e090c0f393107e6048b39988897eb9bfbbe1bb1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "costCopy",
+        "perUnit"
+      ],
+      "sourceHash": "33a7392ed7a854ce80cfe00cf67970a5e6cf1ee5b928d58568c72903f5def993"
     },
     {
       "path": [
@@ -6827,5 +6876,5 @@
       "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-13T14:19:34.850Z"
+  "generatedAt": "2026-10-22T07:13:27.943Z"
 }

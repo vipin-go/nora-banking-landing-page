@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "es",
   "regionKey": null,
-  "sourceRevision": "75ae404fd28d3537c44ac574e1d43264db84793575fb650d1231ccaf68f0534c",
+  "sourceRevision": "0fd5c76126cc64de4f31ea74d32ac7ed70a8cd16f5e7a05678af367ad8e3408e",
   "landingPage": {
     "design": {
       "variant": "banking",
@@ -51,7 +51,8 @@
       }
     },
     "header": {
-      "brandMark": "initial",
+      "brandMark": "image",
+      "logoImageUrl": "https://gabrieloperator.com/assets/gabriel-twins/brand-marks/nora.webp",
       "navItems": [
         {
           "label": "capacidades",
@@ -4505,6 +4506,42 @@
         "landingPage",
         "roiCalculator",
         "currencyCopy",
+        "native"
+      ],
+      "sourceHash": "cd2604270cd9656f4abdccbee7bf11038b88a1ae5a8657f9933a807fdcdff8bf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
+        "loading"
+      ],
+      "sourceHash": "efc980d9dce429c644a6dce658df91cdacbff328ea38504d8ce80bfe9b76b32d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
+        "unavailable"
+      ],
+      "sourceHash": "b01a152edb76137a0a16fe29cc942fa282d98fbdc4123b830397f9fde7f85095"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
+        "converted"
+      ],
+      "sourceHash": "450c38574200c1402496596e9f8177d31fd0e64cf58d9468c350eb3ba2c60d10"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "currencyCopy",
         "basis"
       ],
       "sourceHash": "17cc8491fcdfe8ddd4f8dec6a3859229ecacffb562b383e1283f1c0be0019806"
@@ -4517,6 +4554,15 @@
         "breakdown"
       ],
       "sourceHash": "895373aa73d1d5e90f508f353e090c0f393107e6048b39988897eb9bfbbe1bb1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "costCopy",
+        "perUnit"
+      ],
+      "sourceHash": "33a7392ed7a854ce80cfe00cf67970a5e6cf1ee5b928d58568c72903f5def993"
     },
     {
       "path": [
